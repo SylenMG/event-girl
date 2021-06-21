@@ -1,0 +1,55 @@
+:: Ending - Accept the Deal
+The following week is nothing, but business meetings and medical check-ups. Having completely abandoned your pod, you´ve now moved up and have what at least somewhat resembles an apartment. Appearantly, Amanda Waller was able to put her team of lawyers to work, and was able to exploit some form of corpo-government loophole. Which in essence, have allowed you to begin serving in the millitary, without actually doing any kind of combat.
+
+This still means that you have to leave... Earth. Just not as far as you might have imagined. Amanda called it a training facility, but with just one minor detail making all the difference. The fact that it´s on the moon.
+<<= setup.speak($characters.drlinus, "So, are you ready $player.femaleName? We´ve done the tests, and you should be ready for your scheduled flight tommorrow.")>><<= setup.speak($player, "More than ready. I will earn that Citizenship and finally turn back.")>><<= setup.speak($characters.drlinus, "Very well then. All you gotta do then is sit tight.")>>
+You shift in the comfortable shrink-like chair as the door opens. Poising her regal stature, Amanda Waller enters the room.
+<<= setup.speak($characters.amanda, "Is everything in order then, Dr. Linus?")>><<= setup.speak($characters.drlinus, "Yes, she is ready to serve the UNC. All should be in order.")>><<= setup.speak($characters.amanda, "And with that, I consider my promise kept. When you´re done up there $player.femaleName, give me a call. I might have some opportunities for you, back at Eventia.")>><<= setup.speak($player, "I´ll keep that in mind.", "smile")>>
+You nod and rise from the chair.
+<<= setup.speak($player, "Well, if that is all. Then I´ll retire and get ready for tommorrow.", "smile")>><<= setup.speak($characters.drlinus, "Don´t forget to read up on Lunar customs and laws, different place and people.")>><<= setup.speak($player, "Sure Linus, see ya around.")>>
+You exit the Psyche Clinic and head towards your new apartment, located just south of the Commercial Strip. You slide your wrist over the hololock, which makes a soft click as it opens the door. Just as you enter, at least a dozen ads and commercials begin to play on the light galleries hanging on the walls.
+<<= setup.speak($player, "I gotta say... I preferred it when we would hang art on the walls...")>>
+A yawn escapes you as you drag yourself towards your bed.
+
+<<= setup.button("Sleep.", "Ending - AD Lift Off")>>
+:: Ending - AD Lift Off
+The next day you woke up to the commanding voice of Sandra that had come to bring you out to the launch site. After having her carry your bags with all of your belongings, you near the holocar supposed to take you there.
+<<= setup.speak($characters.sandra, "So, here we are. The driver will take you to the launch pad. It´s a 15-minute drive. Good luck, soldier.")>><<= setup.speak($player, "Right, so, I just get into this literal flying car. Cool.", "smile")>>
+The cardoor slides open, and you slink in and unto the leather seats.
+<<= setup.speak($player, "So, where´s the driver?")>><<= setup.speak($characters.sandra, "Hmph? Already there. Take care.")>>
+With that the cardoor shuts down and the holocar simply begins to drive on it´s own, ascending into the air.
+<<= setup.speak($player, "Oh-shit-shit! No one told me they were self-driving!", "surprised")>>
+After a grueling 15-minutes, having taking the skyscrapers and dystopian-looking blocks of buildings. You finally seem to exit the massive metropolis and descend upon clear ground. Along the ground several shuttle-looking ships are lined up. All of them the size of a commercial jet. As you land, you get out. This time, there´s no one to receive. The only thing you got is your shuttle- and seat number.
+<<= setup.speak($player, "Hmph... Shuttle number A-5, seat number 12. Right... here!")>>
+You stand before your shuttle, the side marked with clear numbering, and the door open with stairs to walk up on. You grab hold of your luggage and walk up the stairs. Entering the cabin, you see that only half of the seats are taken. Mostly just men, wearing berets, with one other single woman, sitting in the corner. Reading your number, you move downwards towards the back.
+<<= setup.speak($player, "Here it is... Hmmmmm. Not much different from a regular plane honestly.")>>
+You place your luggage above, just as you would on a normal jet and get comfortable.
+
+@@.bold;Please get in your seats, strap in and get comfortable. Today you´re flying with Stellardine Aerosystems.@@
+
+You let out a nervous sigh as your stomach drops. You´re actually going to space. The doors click shut as everyone has taken their seats.
+
+@@.bold;We will now proceed towards the launch pad. Do not rise from your seats until the green light flicks on. Do not leave your items or personal belongings remain unstrapped. Have a nice flight.@@
+
+A blaring yellow light fills the cabin, telling you to remain in your seat.
+
+<<= setup.speak($player, "This is it $player.maleName, we´re gonna do it. This is fucking it.")>>
+
+<span id="choice"><span class='lbb'><<button "Continue.">><<replace "#choice">>@@.bold;<<timed 1s>>5...<</timed>><<timed 2s>>4...<</timed>><<timed 3s>>3...<</timed>><<timed 4s>>2...<</timed>><<timed 5s>>1...<</timed>><<timed 8s>>Lift off.<</timed>>@@<<timed 10s>>
+
+The engines begin to ramp up and the entire shuttle begins to tremble. You take in one last breath as gravity shifts from your ass up along your spine and back, making you sink into your chair. Your ears are filled with pressure as you clutch the chair you sit in.
+
+Not within long, the grey skies outside your window darken even more, until nothing but pitch black replaces them entirely. You look around, watching the woman that sits across you. She seems unnerved and unfazed by the whole thing, which eases the drop in your stomach a little.
+
+Slowly the gravity pulling you into your chair dissipates. Looking around, you see a single pen float around.
+
+The yellow light switches to a strong green.
+
+@@.italics;Thank you for playing Event Girl.
+
+I hope you enjoyed the experience and are looking forward to more content.
+
+If you wish to continue playing the game, simply press continue.@@
+
+<<= setup.button("Continue (Return to pod).", "Pod - Main")>>
+<<= setup.button("Continue (Return to before you accept the deal).", "Storyline - Amanda Interrupt")>><</timed>><</replace>><</button>></span></span>

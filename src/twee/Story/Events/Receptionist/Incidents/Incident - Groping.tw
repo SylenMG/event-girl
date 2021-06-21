@@ -1,0 +1,76 @@
+:: Receptionist Groping - Main
+Right after showing a couple the location of the fashion strip, an old man approaches you.")>>' + 
+
+<<= setup.speak($characters.client3, "Excuse me miss... Can you help an old man in need?", "smile")>>
+
+<<= setup.speak($player, "Of course, what do you need help with?")>>
+
+He moves closer to you and you feel his hand rest on your hip, grabbing you for support.
+
+<<= setup.speak($characters.client3, "It´s been a long day and i´m lost, I need someone to help me towards the gloria hotel entrance.")>>
+
+You feel him grasp your hip.
+
+<<= setup.count("receivedGroping")>>
+
+:: Receptionist Groping - Hostile Approach
+<<= setup.speak($player, "The fuck is wrong with you, old pervert! FUCK OFF!", "angry")>>
+
+You slap his hand away, expecting him to fall, but he easily regroups. At first he looks shocked, but his expression quickly changes.
+
+<<= setup.speak($characters.client3, "What the hell?! No respect for the elderly?! Fucking eventia whores, you lot! Youth today!", "angry")>>
+
+He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.
+
+<<= setup.rating($player, -10)>><<= setup.psyche($player, "Slut", -5, -5)>>
+
+<<= setup.button("Continue.", "Event - Finish")>>
+
+:: Receptionist Groping - Standard Approach
+<<= setup.speak($player, "Right this way! Let me lead you sir.", "smile")>>' + 
+
+You put a hand around his shoulder for support and lead him towards the Gloria elevators. As you´re halfway there, you feel how his hand gently slips down, landing on your ass.
+			
+At least a few other visitors notice his hand resting on your pert ass.
+            
+<<= setup.speak($player, "Alright, this is it, the Gloria elevators. Have a nice evening, and thank you for staying with eVentia!", "smile")>>
+
+<<= setup.speak($characters.client3, "Yes-yes thank you too, sweet thing.", "smile")>>
+
+A shiver runs down your spine as that old man pinches your ass before heading towards the elevators.
+
+<<= setup.psyche($player, "Feminine", 1, 2, 3)>><<= setup.rating($player, 5)>><<= setup.button("Continue.", "Event - Finish")>>
+
+:: Receptionist Groping - Masculine Approach
+
+<<= setup.speak($player, "Hey! Get your hands off! I´m not some kinda miss or lady!", "angry")>>
+
+You slap his hand away, expecting him to fall, but he easily regroups. At first he looks shocked, but his expression quickly changes.
+
+<<= setup.speak($characters.client3, "What the hell?! No respect for the elderly?! Fucking eventia whores, you lot! Youth today!", "angry")>>
+			
+He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.
+
+<<= setup.rating($player, -10)>><<= setup.psyche($player, "Feminine", -5, -5)>><<= setup.button("Continue.", "Event - Finish")>>
+
+:: Receptionist Groping - Bimbo Approach
+<<= setup.speak($player, "Oooh my! You need sucky now? Me very good suck!", "smile")>>
+
+You put out your tongue like a wanton whore begging to suck his cock.
+
+<<= setup.speak($characters.client3, "Uuuh, I uuuh, god damn it... I´m getting too old for this shit.... Alright then, I´ll give you the privilege to suck this old man.")>>
+
+You take him towards a secluded corner in the hall. 
+
+<<= setup.psyche($player, "Slut", 10, 20)>><<= setup.rating($player, 10)>><<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.givingEntity = $player, $sex.receivingEntity = $characters.client3, $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
+
+:: Receptionist Groping - Mind Approach
+<<= setup.speak($player, "Ehehe..*drools*.....", "smile")>>
+			
+You stand there with blank eyes, your mind having overloaded some time ago making you wander off to some faraway happyland.
+
+<<= setup.speak($characters.client3, "You there young one? Hello?... Errh... Youth today....")>>
+
+He takes a closer look at your ass, eyeing you up and down inspecting you before leaving you. You simply stand there mumbling to yourself, not even realizing someone needed your attention.
+
+<<= setup.rating($player, -10)>><<= setup.button("Continue.", "Event - Finish")>>

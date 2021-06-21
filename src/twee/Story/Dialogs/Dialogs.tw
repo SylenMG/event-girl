@@ -1,0 +1,157 @@
+:: Dialogs [widget nobr] {"position":"1100,1400","size":"100,100"}
+<<widget Upcoming Content>>
+<<script>>
+Dialog.setup("Upcoming");
+Dialog.wiki(Story.get("Upcoming").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget E-Pal Menu>>
+<<script>>
+Dialog.setup("E-Pal");
+Dialog.wiki(Story.get("E-Pal - Menu").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget StoryLog>>
+<<script>>
+Dialog.setup("Story Log");
+Dialog.wiki(Story.get("E-Pal - Story Log").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget ELog>>
+<<script>>
+Dialog.setup("Transactions Log");
+Dialog.wiki(Story.get("E-Pal - Transactions Log").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget DebtManagement>>
+<<script>>
+Dialog.setup("Debt Management");
+Dialog.wiki(Story.get("E-Pal - Debt Management").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget Changelog>>
+<<script>>
+Dialog.setup("Changelog");
+Dialog.wiki(Story.get("Changelog").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget Warning>>
+<<script>>
+Dialog.setup("Warning");
+Dialog.wiki(Story.get("Warning").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget Scene>>
+<<set $scene.actor = $args[0]>>
+<<set $scene.group = $args[1]>>
+<<set $scene.type = $args[2]>>
+<<set $scene.background = $args[3]>>
+<<set $scene.variance = $args[4]>>
+<<script>>
+Dialog.setup("");
+Dialog.wiki(Story.get("Scene").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget Map>>
+<<script>>
+Dialog.setup("Map");
+Dialog.wiki(Story.get("Map").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget EventDetails>>
+<<script>>
+Dialog.setup("");
+Dialog.wiki(Story.get("Event - Details").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget CyberDetails>>
+<<script>>
+Dialog.setup("");
+Dialog.wiki(Story.get("Cybermods - Details").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget SetName>>
+<<script>>
+Dialog.setup("Name");
+Dialog.wiki(Story.get("Name").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget Inventory>>
+<<script>>
+Dialog.setup("Inventory");
+Dialog.wiki(Story.get("Inventory").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget DisplayDialog>>
+<<script>>
+Dialog.setup(SugarCube.State.variables.args[0]);
+Dialog.wiki(Story.get(SugarCube.State.variables.args[0]).processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget BodyMorph>>
+<<script>>
+Dialog.setup("Debug - Body Morphing");
+Dialog.wiki(Story.get("Debug - Body Morphing").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget DebugIncidents>>
+<<script>>
+Dialog.setup("Debug - Incidents");
+Dialog.wiki(Story.get("Debug - Incidents").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget PhotoSetting>>
+<span id="photo-setting">Photosensitive Content: 
+<<if $hypnoMode is true>>
+@@.lightgreen;On@@ - 
+<<link "Turn Off">>
+	<<set $hypnoMode to false>>
+	<<replace "#photo-setting">>
+	<<PhotoSetting>>
+	<</replace>>
+<</link>>
+<<else>>
+@@.red;Off@@ -
+<<link "Turn On">>
+	<<set $hypnoMode to true>>
+	<<replace "#photo-setting">>
+	<<PhotoSetting>>
+	<</replace>>
+<</link>>
+<</if>>
+</span>
+<</widget>>
+
+

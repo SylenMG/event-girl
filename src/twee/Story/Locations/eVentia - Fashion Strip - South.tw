@@ -1,0 +1,51 @@
+:: eVentia - Fashion Strip - South [southshops map autosave] {"position":"50,1600","size":"100,100"}
+!eVentia Fashion Strip - South
+-------------------------------------
+You find yourself in the southern section of the eVentia Fashion Strip, a part of the massive eVentia Entertainment Center. You see the northern section from here.
+<<= setup.roaming($player, $characters, "roaming", "eventia")>>
+<span class='lbb'><<button "Northern Section">>
+	<<goto "eVentia - Fashion Strip - North">>
+<</button>></span>
+<span class='lbb'><<button "Commercial Section">>
+	<<goto "eVentia - Commercial Strip">>
+<</button>></span>
+<span class='lbb'><<button "Adult Strip">>
+	<<goto "eVentia - Adult Strip">>
+<</button>></span>
+<span class='lbb'><<button "Return to eVentia Lobby">>
+	<<goto "eVentia - Lobby & Foyer">>
+<</button>></span> 
+
+!!!Casual Cazy
+-------------------------------------
+You can see the entrance to the Casual Cazy clothing store.
+
+<span class='lbb'><<button "Enter Casual Cazy">>
+	<<goto "eVentia - Casual Cazy">>
+<</button>></span>
+
+!!!Drop & Suck
+-------------------------------------
+You can see the entrance to the Drop & Suck clothing store.
+
+<span class='lbb'><<button "Enter Drop & Suck">>
+	<<goto "eVentia - Drop & Suck">>
+<</button>></span>
+
+!!!Zyto Cybernetics & N-Sculpting
+-------------------------------------
+You can see the entrance to the Zyto cyber-store.
+
+<span class='lbb'><<button "Enter Zyto Cybernetics">>
+	<<goto "eVentia - Zyto Cybernetics">>
+<</button>></span>
+
+!!!Dido's Tattoos & Piercings
+-------------------------------------
+You can see the entrance to the Dido's tattoos & piercings workshop.
+
+<span class='lbb'><<button "Enter Dido Tattoos & Piercings">>
+	<<goto "eVentia - Dido Tattoo & Piercings">>
+<</button>></span>
+
+

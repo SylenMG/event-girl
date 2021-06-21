@@ -1,0 +1,17 @@
+:: Intro - Awakening [light autosave] {"position":"975,300","size":"100,100"}
+You open your eyes and a shining light pierces your eyes turning the familiar darkness into an overwhelming scene of brightness.<<= setup.genderbend($player, "female")>>
+<<= setup.speak($characters.drlinus, "Appears they\'re waking up... Best you remain at the ready.")>><<= setup.speak($characters.eventiaguard, "Yes, sir!")>>
+Gravity pulls you down and the soft bed you lie on caresses your skin. Who are you? Where are you?
+<<= setup.speak($player, "Wha- Where am i?", "pleasure")>><<= setup.speak($characters.drlinus, "Take it slow, let your senses return. Remain calm.")>>
+You rise up and feel an unfamiliar weight on your chest. You touch it, and feel the the tender softness, as you cup your breasts.
+<<= setup.speak($player, "Mhmmm... What's this?", "pleasure")>>
+You trail your hands down along your stomach, until you reach your crotch. Your heart sinks as you feel as if somethings missing. A jolt of pleasure shoots up through your stomach and down your loins as you encounter something damp and wet.
+<<= setup.speak($player, "Oh this feels... Really good...", "pleasure")>>
+You drool as you touch your sensitive body.
+<<= setup.speak($characters.eventiaguard, "Err... hmph... Doc... Don't think they\'re entirely awake.")>><<= setup.speak($characters.drlinus, "Hey? Are you with me?")>>
+
+<span class='lbb'><<button "Your memory suddenly begins to return">>
+	<<goto "Intro - Memory Fall">>
+<</button>></span>
+
+

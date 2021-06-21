@@ -1,0 +1,69 @@
+:: Map [nobr] {"position":"1800,1575","size":"100,100"}
+Quick Access to locations discovered.<br>
+<br><span class="long-blue-button">
+<<if hasVisited("Pod - Main")>>
+<span class='lbb'><<button "Pod">>
+	<<goto "Pod - Main">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>>
+<<if hasVisited("eVentia - Pod Hall")>>
+<span class='lbb'><<button "Pod - Hall">>
+	<<goto "eVentia - Pod Hall">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>>
+<<if hasVisited("Pod - Baths")>>
+<span class='lbb'><<button "Pod - Baths">>
+	<<goto "Pod - Baths">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>>
+<<if hasVisited("eVentia - Event Board")>>
+<span class='lbb'><<button "Event Board">>
+	<<goto "eVentia - Event Board">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>>
+<<if hasVisited("eVentia - Lobby & Foyer")>>
+<span class='lbb'><<button "Lobby & Foyer">>
+	<<goto "eVentia - Lobby & Foyer">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>>
+<<if hasVisited("eVentia - Fashion Strip - North")>>
+<span class='lbb'><<button "Fashion Strip (North)">>
+	<<goto "eVentia - Fashion Strip - North">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>>
+<<if hasVisited("eVentia - Fashion Strip - South")>>
+<span class='lbb'><<button "Fashion Strip (South)">>
+	<<goto "eVentia - Fashion Strip - South">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>>
+<<if hasVisited("eVentia - Adult Strip")>>
+<span class='lbb'><<button "Adult Strip">>
+	<<goto "eVentia - Adult Strip">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>></span>
+
+

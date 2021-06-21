@@ -1,0 +1,43 @@
+:: Stripper Incident - Topless Serving (Big boobs)
+You´re just about done putting on your costume for the evening, when you spot another Event Girl with her tits hanging out. Your eyes are practically glued to her rack as she walks by, only for her to stop and turn around.
+<<= setup.speak($npc.eventgirls[0], "Hey there, don´t forget that it´s topless night, so, get those puppers out!", "smile")>><<= setup.speak($player, "Oh right! Guess… guess I forgot!")>>
+The cold air once again grazes your tits, making your nipples perk as you take off your top. You feel slightly exposed, but then again, walking bare-chested was never really a problem before. Although… your chest has grown quite some...
+As you enter the showfloor, you´re greeted with wolf-whistles and the loud-seductive, yet banging electronic music.
+<<= setup.speak($npc.executives[0], "Hey there doll! 1000 units if you let my pal here motorboat those!", "smile")>><<= setup.speak($npc.executives[1], "Yeah! Come on! I want those in my face!", "smile")>>
+You stop and think the proposal over.
+<<run setup.unwear($player, "top")>><<run setup.unwear($player, "bra")>>
+
+:: Stripper Incident - Topless Serving (Small boobs)
+You´re just about done putting on your costume for the evening, when you spot another Event Girl with her tits hanging out. Your eyes are practically glued to her rack as she walks by, only for her to stop and turn around.
+<<= setup.speak($npc.eventgirls[0], "Hey there, don´t forget that it´s topless night, so… get those bee-stings out!", "smile")>><<= setup.speak($player, "Oh right! Guess… guess I forgot!")>>
+The cold air once again grazes your tits, making your nipples perk as you take off your top. You feel slightly exposed, but then again, walking bare-chested was never really a problem before.
+As you enter the showfloor, you´re greeted with wolf-whistles and the loud-seductive, yet banging electronic music.
+<<= setup.speak($npc.executives[0], "That´s what you call tits?! Come on!", "smile")>><<= setup.speak($npc.executives[1], "You should get those enhanced doll! Would get you to earn more units for sure!", "smile")>>
+You grit your teeth and clench your fist at their taunts.
+<<run setup.unwear($player, "top")>><<run setup.unwear($player, "bra")>>
+
+:: Stripper Incident - Topless Serving (Slap)
+Turning around, you face the guys taunting you, sitting around one of the round tables. You stare him down, catching his gaze as you frown.
+<<= setup.speak($npc.executives[1], "What is it babygurl? Want my cock or something?", "smile")>><<= setup.speak($player, "What cock? All I see is a pussy-bitch!", "angry")>><<= setup.speak($npc.executives[1], "What the fuck did you just say to me?!", "angry")>>
+You plant your heels firmly into the ground, arching your back as he rises from his chair. Before he can even react, a stinging pain spreads through the palm of your hand as it connects with his cheeks. 
+<<= setup.speak($npc.executives[1], "AAAAAGH!", "surprised")>><<= setup.speak($npc.executives[2], "Holy shit! She´s a fucking beast!", "surprised")>>
+The sound itself muffled by the blasting music, yet still sending the guy flying across the table. The other guys all jump up, as their drinks spill all over the place.
+<<= setup.speak($player, "Come at me, bro!", "angry")>><<= setup.speak($npc.executives[0], "Shit man, fuck this place!", "surprised")>><<= setup.speak($npc.executives[1], "I won´t forget this! I swear!", "angry")>>
+The guys all pick themselves up, quickly heading for the exit, sprouting slurs and threats as they leave. After a firm scolding from the manager, you´re sent back to clean up the mess at their table.
+<<run setup.psyche($player, "Slut", -5, -5)>><<run setup.experience($player, "Slapping", 5, 5)>><<run setup.rating($player, -50)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Topless Serving (Accept)
+You send the guys a seductive smile as you strut towards them, leaning in over one of them, you further inquire about their offer.
+<<= setup.speak($player, "A thousand units you say? Hmm?", "smile")>><<= setup.speak($npc.executives[0], "Hell yeah baby, come on, climb on top of him!", "smile")>><<= setup.speak($npc.executives[1], "Give it to me you Goddess!", "surprised")>>
+Turning to the other guy, you lift your leg over his hips, climbing on top of him. His hard cock throbs through the thin fabric of his pants, making you moan as it presses unto your moist cunt. 
+<<= setup.speak($player, "Are you ready for this?", "smile")>><<= setup.speak($npc.executives[1], "Just kill me, please!", "pleasure")>>
+You lean forward, pressing the mound of your tits against his face. Placing your arms behind his head, you begin to apply more pressure until his muffled pleas turn into moaning. Rocking his heads from side to side, you blush as you realize that you´ve caught the attention of the better part of the club. You lean back, and almost immediately feel your E-Pal vibrating.
+<<= setup.speak($npc.executives[1], "Brother! I was just in heaven!", "surprised")>><<= setup.speak($npc.executives[0], "Alright, you earned! Now do me next!", "smile")>><<= setup.speak($npc.executives[2], "Oui, and when you´re done with them, get over here too!", "smile")>>
+You look around as at least five other tables are trying to grab your attention as well. 
+<<run setup.psyche($player, "Slut", 5, 5)>><<run setup.rating($player, 50)>><<run setup.addUnits($player, "Tip", 1000)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Topless Serving (Ignore)
+You walk past them, trying your best to ignore their snide remarks and simply just continuing the topless service.
+<<= setup.speak($player, "Yep… this is going to be a long night.")>>
+The night continues with you dodging groping hands, openly reaching out for your tits, hands on your ass and the occasional booty slap.
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>

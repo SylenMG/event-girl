@@ -1,0 +1,19 @@
+:: Event Auction - Virginity (Vaginal)
+Entering the dimly lit backstage, your E-Pal is scanned. After a short time a man enters.
+<<= setup.speak($npc.bidders[0], ["Where is she? Is my price in here?","Is my budding virgin in here? Where is she?", "So, where can I find her? Can I take her now?"], "smile")>>
+The man wears a typical stylish neon-suit, and looks like the stereotypical rich man.
+<<= setup.speak($player, ["I´m right here.","I have a name you know, but, this is me.","Standing right here. Hey, are you listening?","Your price is right here, are you ready?","Right over here, sugar. Think you can handle it?","Standing here, ready to serve.","I´m right here! Teehee~, come and claim me!","Your price is right here! *giggles*","Oh, silly you! I´m right here! *licks lips*"], "smile")>>
+He spins and your eyes meet. He looks you up and down, almost like a dog about to tear into a mutton chop.
+<<= setup.speak($npc.bidders[0], "I see, I see! Alright then, no time to waste. Come along. I gotta break that hymen in!")>>
+He grabs your hand and leads you towards the exit. You feel the jealous gaze of the other bidders as he leads you out of the auction hall.
+<<= setup.speak($player, "Where are we going?")>>
+<<= setup.speak($npc.bidders[0], "To my suite at the Gloria Hotel. I just had the sheets cleaned, perfect for such an opportunity!", "smile")>>
+The door towers over the two of you as you arrive at his suite. You feel the beep all the way down into your stomach as he swipes his hand over the biometric lock.
+<<= setup.speak($npc.bidders[0], "Welcome to my suite, let yourself be at home!", "smile")>>
+He grabs your hand and pulls you inside. As the door closes he pins you towards the wall. You whimper in surprise as you feel his hot breath down your neck.
+<<= setup.speak($player, ["Shit take it easy.","Oh- hey! Not so fast, it´s my first time after all!","Woah! What are you doing?!","Woah! Getting right to it, are we now? Alright then.","Geez, look whose horny!","Can´t wait to break me in? Hmph? Alright then.","Oh my! You want me bad huh? *giggles*","Teehee~! Can´t wait to shove your big bad cock up my virgin coochie?","*licks lips* Oh my! Mmmmh, take me hot stuff!"], "surprised")>>
+He pulls at your hair, smelling it first, before dragging you towards the bed and pushing you unto it.
+<<= setup.speak($npc.bidders[0], ["Fuck! I can´t wait to shove it inside you.","Damn, I gotta break you in now. I can´t wait any longer.","Fuck me, I gotta tear that up now."], "pleasure")>>
+His clothes drop to the ground and soon after, your own does as well.
+
+<<= setup.button("Continue.","Sex","<<set $sex.current = 'sex', $sex.givingEntity = $npc.bidders[0], $sex.receivingEntity = $player, $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>

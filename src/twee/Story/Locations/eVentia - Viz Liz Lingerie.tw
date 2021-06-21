@@ -1,0 +1,14 @@
+:: eVentia - Viz Liz Lingerie [northshops map autosave] {"position":"550,1475","size":"100,100"}
+!eVentia - Viz Liz Lingerie
+-------------------------------------
+You find yourself in the Viz Liz Lingerie store.
+
+!!!Lingerie
+-------------------------------------
+<<= setup.vendor("clothes", "viz-liz", "eVentia - Viz Liz Lingerie")>>
+
+<span class='lbb'><<button "Back to Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - North">>
+<</button>></span>
+
+

@@ -1,0 +1,28 @@
+:: Intro - Character Creation [dorm] {"position":"975,50","size":"100,100"}
+The howling of your alarm clock wakes you up and in a slumbering stupor you flail your arm in its general direction. You eventually manage to tap the snooze button. However, the continued howling 5-minutes later finally forces you up.
+
+A tired yawn escapes you whilst you stretch and slowly rise from your long nights rest. You then sluggishly drag yourself towards the bathroom to prepare for the day.
+
+As you enter, you take a good long look in the mirror, observing and taking in your obvious trashed morning appearance.
+
+In front of you stands <<textbox "$player.maleName" $player.maleName>>, 19 years old college sophomore, not too shabby you think to yourself, flexing a bit.
+
+With your toothbrush in hand you apply the toothpaste and start brushing away.
+
+You also grab your crotch, just to make sure your precious, most prized possession is still there.
+
+Penis: <span id='penis'><<= setup.examineGenital($player, 'penis')>></span> - (<<link 'Increase'>><<= setup.incBod($player, 'penis', 1)>><<replace '#penis'>><<= setup.examineGenital($player, 'penis')>><</replace>><</link>>/<<link 'Decrease'>><<= setup.decBod($player, 'penis', 1)>><<replace '#penis'>><<= setup.examineGenital($player, 'penis')>><</replace>><</link>>)
+
+@@#input-error;@@
+<span class='lbb'><<button "Take a shower">>
+	<<set $player.intBody = "images/player/male/pc-male-nude.png">>
+	<<set $player.maleName to $player.maleName.trim()>>
+	<<if $player.maleName is "">>
+		<<replace "#input-error">>Please enter your name.<</replace>>
+	<<else>>
+		<<goto "Intro - Shower">>
+		<<set $player.name to $player.maleName>>
+	<</if>>
+<</button>></span>
+
+

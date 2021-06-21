@@ -1,0 +1,34 @@
+:: Reflect - Accident
+You think about the accident and how utterly surreal that something so innocent and ridiculous could end up with you... Here... Like this. You remember the company name, Cryola, maybe you should ask about it? Or look it up? You could maybe get more answers. 
+
+It also hits you, all of your friends, probably having lived their lives fully without you. Not that you left behind any real family. You feel slightly alone, not sure what to feel about all of this? Your old life is gone, just like that, out of nowhere. An odd feeling in your stomach makes you a bit anxious, or is this excitement? It could be, that this is a new chance. The therapist did mention you could become a man again. Surely you have a debt to pay, but that means that all of this is just temporary. You also are in the future right?
+
+Surely it can not be that bad?
+<<run setup.completeRef($player, "refAccident")>>
+<<= setup.displayReflections($player)>>
+:: Reflect - Womanhood
+You think about the prospects of being a girl... Or a woman that is. How life will be like now. The right to be a man? Sounds like nonsense, you were born a man! You have that right!
+
+You grit your teeth and clench your fist, though you immediately feel the difference. You feel so weak and vulnerable. Your voice is light and feminine as well, how can anyone possibly take you serious? Even though you hate to admit it, you feel as if it might be best to just play along for now. You definitely are not a woman, or a girl, but its likely a good idea to at least pretend to be.
+
+Maybe it will come with a few benefits?
+<<run setup.completeRef($player, "refWomanhood")>>
+<<= setup.displayReflections($player)>>
+:: Reflect - Body
+You get up and run your small sensitive hands around your new body, exploring it. You feel the weight shifting in completely different places. You place your hands under your tits, feeling the weight they put on your front. After that you place your hands on your hips, feeling how wide they are, which also give you a weird sway when you walk. Running your fingers down to your plush ass, you make them jiggle a little.
+
+You touch your feet and your tender heels. They really have been shortened, giving you a funny need to stand on your front feet. Your legs and whole body is completely without any hair, and your skin soft and warm. Your hands are also very soft, not at all rough like they used to be. 
+
+Standing before the nearby mirror, you admire yourself and your figure. You for sure are really kinda... Hot. A warm feeling spreads from your lower body, for moment, completely forgetting that the person standing infront of you, is you...
+
+You trail your hand along your stomach, feeling the absence between your legs. A jolt of heat and pleasure shoots through you, and you pant lightly as you grace your new lips.
+<<run setup.completeRef($player, "refBody")>>
+<<= setup.displayReflections($player)>>
+:: Reflect - Explore
+You continue touching yourself, feeling your pussy tingle, already wet from excitement. Shocks of heated pleasure shoots through your stomach and your loins as you rub your clitty.
+
+Your whole body heating up like an oven, you lose control from the stimulation. You moan and pant, letting go completely. You constantly surprise yourself by how much better it continues to feel as you go along. You slide in a single finger at first, and end up sliding in another. You feel fairly tight, but the feeling of something filling you up is turning you mad with lust. Eventually your whole body buckles, and several waves mind-numbing pleasure travels through you. You moan like a bitch in heat as it overtakes you.
+
+Having lost track of time you chuckle, but that definitely took some of the edge off. You lie back panting, all sweaty and worn out. That was a lot better than it had any right to be.
+<<run setup.experience($player, "Masturbation", 5, 5)>><<run setup.completeRef($player, "refExplore")>>
+<<= setup.displayReflections($player)>>

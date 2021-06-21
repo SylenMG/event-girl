@@ -1,0 +1,18 @@
+:: Intro - Memory Fall [ev-therapist-1] {"position":"850,425","size":"100,100"}
+You stop groping yourself and look around the room. It's white with a clinical atmosphere, similar to a hospital, but not entirely.
+<<= setup.speak($player, "I-... I am... $player.maleName? Wait wha-!")>>
+You quickly jolt up as your memory returns, hitting you like a truck. 
+<<= setup.speak($player, "Holy shit! What the hell\'s going on?! Where the fuck am i?! Why- WHY THE FUCK DO I HAVE TITS?! MY VOICE?! WHY DO I SOUND LIKE THIS?!", "angry")>><<= setup.speak($characters.eventiaguard, "Miss! Please remain calm!")>><<= setup.speak($characters.drlinus, "Let us explain! My name-... Argh! Don't do anything hasty now!")>>
+You quickly roll over your bed and try to stand up only to fall face first unto the floor. You immediately try to stand up, only to realize your feet feel extremely weird and your body weak.
+<<= setup.speak($player, "What happened?! Oh- Oh no-no-NO! I was in the cryo-thing! WHAT THE HELL HAPPENED?!", "angry")>><<= setup.speak($characters.drlinus, "My name is Dr. Linus, I work for eVentia. The company responsible for saving your life! Just, remain calm, Miss... Whatever your name was.")>>
+<span id="CalmMessage"></span>
+<span class='lbb'><<button "Remain calm">>
+	<<replace "#CalmMessage">>
+	@@.alertmessage;Any person would freak out now.(Alternate Routes coming soon.)@@
+	<</replace>>
+<</button>></span>
+<span class='lbb'><<button "FREAK THE FUCK OUT">>
+	<<goto "Intro - Freak Out">>
+<</button>></span>
+
+

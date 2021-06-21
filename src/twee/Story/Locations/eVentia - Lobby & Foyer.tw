@@ -1,0 +1,61 @@
+:: eVentia - Lobby & Foyer [ev-foyer-1 map autosave] {"position":"175,1325","size":"100,100"}
+!eVentia Lobby & Foyer
+-------------------------------------
+You find yourself in the eVentia Foyer & Lobby. There is a constant influx of new visitors and staff and access to several eVentia shops and attractions.
+<<= setup.roaming($player, $characters, "roaming", "eventia")>>
+
+!!!Receptionist Desk & Event Board
+-------------------------------------
+You can see the receptionist desk and event board. <<= setup.social("receptionist desk", "eVentia - Lobby & Foyer")>>
+<span class='lbb'><<button "Check Event Board">>
+	<<goto "eVentia - Event Board">>
+<</button>></span>
+
+!!!Pod Hall
+-------------------------------------
+You can see the entrance to the pod hall.
+
+<span class='lbb'><<button "Enter Pod Hall">>
+	<<goto "eVentia - Pod Hall">>
+<</button>></span>
+
+!!!Event Girl Shop
+-------------------------------------
+You can see the entrance to the eVentia Event Girl Shop.
+
+<span class='lbb'><<button "Enter Event Girl Shop">>
+	<<goto "eVentia - Event Girl Shop">>
+<</button>></span>
+
+!!!Psyche Clinic
+-------------------------------------
+You can see the entrance to the eVentia Psyche Clinic. <<= setup.social("psyche clinic", "eVentia - Lobby & Foyer")>>
+<span class='lbb'><<button "Enter Psyche Clinic">>
+	<<if hasVisited("eVentia - Psyche Clinic")>>
+		<<goto "eVentia - Psyche Clinic">>
+	<<else>>
+		<<goto "Therapy - Intro">>
+	<</if>>
+<</button>></span>
+
+!!!Auction House
+-------------------------------------
+You can see the entrance to the eVentia Auction House.
+
+<span class='lbb'><<button "Enter Auction House">>
+	<<if hasVisited("eVentia - Auction House")>>
+		<<goto "eVentia - Auction House">>
+	<<else>>
+		<<goto "Event Auction - Intro 1">>
+	<</if>>
+<</button>></span>
+
+!!!Fashion Strip
+-------------------------------------
+You can see the entrance to the northern section of the eVentia fashion strip.
+
+<span class='lbb'><<button "Enter Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - North">>
+<</button>></span>
+
+

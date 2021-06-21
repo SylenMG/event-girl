@@ -1,0 +1,47 @@
+:: Stripper Incident - Champagne
+You strut around the many tables and chairs all aligned towards the stage. The occasional wolf-whistle grazing your ear, making you conscious of your current attire and disposition. As you reach the end, you turn and look up towards one of the dancers swinging around the pole. Spreading her legs as she swings, she flashes her transparent panties to the crowd, clearly exposing her trimmed pussy. At least a dozen of the men stand, flicking their fingers across their wrist, donating with their E-Pal and making her moan out load.
+<<= setup.speak($npc.adults[0], "Hey doll! Get over, we need you to open this bottle for us!", "smile")>>
+You glance towards the guys sitting by the table next to you, realizing they're talking to you.
+<<= setup.speak($npc.adults[1], "Yeah! Come on girl! Do that sucking thing like when you suck cock in the booths!", "smile")>><<= setup.speak($player, "Uuuuugnh!", "surprised")>>
+A sharp pain spreads through your buttcheeks as one of the guys slap you, only to grab hold of it and drag you closer to the table. You stumble, making your whole body jiggle and almost fall unto him.
+<<= setup.speak($npc.adults[2], "Damn, she´s eager, look at her!", "smile")>>
+You stand back up, arching your back to regain your composure. An unopened bottle of champagne is shoved unto your chest.
+
+:: Stripper Incident - Champagne (Give them a show)
+A giggle escapes you as you wink at the guy holding the champagne towards you. Licking your lips you grab the champagne bottle and press it against your tits as you look around the suddenly silent table. The hand grabbing your ass, trails along your cheek until it pokes at the entrance of your cunt, the thin fabric being the only protection in-between.
+<<= setup.speak($player, "You horny boys want a show? I´ll give you a show! *giggles*", "smile")>>
+Placing your tongue at the base of the bottle, you close your eyes and lusciously trail your tongue along the neck of the bottle. You moan as the fingers begin to prod the entrance to your cunt, sending tingles through your pussy up against to your stomach.
+<<= setup.speak($player, "Oooooh! Mmmmmmmh.....", "pleasure")>><<= setup.speak($npc.adults[1], "Oh my.... shit...", "surprised")>>
+Trailing back down and kissing the base of the champagne bottle, you slowly wank off the neck until you reach the muselet. The finger now having displaced your panties, begin to playfully make it´s way into your wet cunt. Tearing the muselet off, you place the bottom of the bottle unto your chest and begin to undo the cork. 
+<<= setup.speak($player, "AAAAAAAAAAAH!", "pleasure")>>
+A sharp jab of pleasure shocks you as several fingers now violate your cunt, making you moan as the cork *POPS* spilling it´s juicy contents all over your tits, face and the table in front of you.
+<<run setup.psyche($player, "Bimbo", 2, 3)>><<run setup.psyche($player, "Lust", 75, 25)>><<run setup.rating($player, 15)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Champagne (Service for units)
+You grimace, but take the champagne bottle anyway.
+<<= setup.speak($player, "Are you going to pay or what?")>>
+They scoff and take back the champagne.
+<<= setup.speak($npc.adults[1], "We ain´t paying for shit, you dumb whore.", "angry")>><<= setup.speak($npc.adults[2], "Yeah, this is like-... supposed to be a show and all that!", "angry")>>""
+The hand on your ass squeezes you one last time before retreating back, only to push at your thigh.
+<<= setup.speak($npc.adults[0], "Off you go then.")>><<= setup.speak($player, "Tsk... whatever, you don´t pay, you don´t get any service.", "angry")>>
+Turning around you continue to walk the showfloor, once again dealing with various tables trying to grab your attention with lewd remarks and the occasional boob grab or ass slap.
+
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Champagne (Slap him)
+You immediately plant your feet on the floor, arching your back whilst raising your hand. The pain spreads in the palm of your hand as it connects with the man´s cheek, sending spit flying across the table.
+<<= setup.speak($player, "Let go of me you freak!", "angry")>><<= setup.speak($npc.adults[2], "Oooooooh!", "surprised")>>
+As his hand let´s go of your buttcheek, you quickly walk back to make some distance.
+<<= setup.speak($npc.adults[1], "What the hell man?! She´s crazy!", "surprised")>><<= setup.speak($npc.adults[0], "F-fucking-! E-eventia whores man!", "surprised")>>
+You send your regards by flipping the bird, and continue walking the showfloor.
+<<run setup.rating($player, -5)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Champagne (Sit on lap)
+Taking the bottle, you lean your back against the chair of the guy cupping your ass. Slowly you slink down, sitting on his lap with your back against him. Your near naked ass rubbing against something long and hard. You moan and laugh as the guys around you turn silent.
+<<= setup.speak($player, "Oh my boys~... Did you bite off more than you can chew~?", "smile")>>
+They gulp in unison whilst watching you tit-fuck the neck of the bottle. Wiggling your ass, you practically jerk off the guy you´re sitting on.
+<<= setup.speak($player, "Let´s get this party started!", "smile")>>
+Pulling off the muselet, you give the bottle a few shakes whilst giggling like a wanton whore. Aiming the bottle into the air, you *POP* the cork whilst letting out your most depraved moan, turning heads from at least three other tables in the club.
+<<= setup.speak($player, "AAAAAAHHHH! Cum for me, daddy!", "pleasure")>>
+Licking the bottle clean, you take one swig and wink at the boys before getting back up. After receiving a few slaps to your booty, you return to the showfloor.
+<<run setup.psyche($player, "Slut", 2, 3)>><<run setup.psyche($player, "Lust", 75, 25)>><<run setup.rating($player, 10)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>

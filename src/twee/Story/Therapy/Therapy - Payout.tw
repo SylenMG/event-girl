@@ -1,0 +1,9 @@
+:: Therapy - Payout {"position":"675,1875","size":"100,100"}
+Grabbing your aching head you look around, how did you get here again?
+<<= setup.speak($characters.drlinus, "Ah! I see you\'re waking up after your latest session! How was it? Remember anything?", "smile")>><<= setup.speak($player, "Wait what, what session?... Oh... It's coming back now. It's already over?")>><<= setup.speak($characters.drlinus, "Yeah! You made a most brilliant subject I must say, Amnesia is a common side effect, I wouldn\'t worry too much about it. Your E-Pal will be monitoring the results, so no worry about any boring questionaires, just go out that and do what you do best!... Oh and your payout for participating of course!", "smile")>>
+<<= setup.hypnoResult($player, $therapy.id)>>
+<span class='lbb'><<button "Return">>
+	<<goto "eVentia - Psyche Clinic">>
+<</button>></span>
+
+

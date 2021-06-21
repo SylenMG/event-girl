@@ -1,0 +1,48 @@
+:: eVentia - Fashion Strip - North [northshops map autosave] {"position":"50,1475","size":"100,100"}
+!eVentia Fashion Strip - North
+-------------------------------------
+You find yourself in the northern section of the eVentia Fashion Strip, a part of the massive eVentia Entertainment Center. You see the southern section from here.
+<<= setup.roaming($player, $characters, "roaming", "eventia")>>
+<span class='lbb'><<button "Southern Section">>
+	<<goto "eVentia - Fashion Strip - South">>
+<</button>></span>
+<span class='lbb'><<button "Commercial Section">>
+	<<goto "eVentia - Commercial Strip">>
+<</button>></span>
+<span class='lbb'><<button "Return to eVentia Lobby">>
+	<<goto "eVentia - Lobby & Foyer">>
+<</button>></span> 
+
+!!!Cosmos Cosmetics
+-------------------------------------
+You can see the entrance to the Cosmos Cosmetics workshop.
+
+<span class='lbb'><<button "Enter Cosmos Cosmetics">>
+	<<goto "eVentia - Cosmos Cosmetics">>
+<</button>></span>
+
+!!!Luxia Hair
+-------------------------------------
+You can see the entrance to the Luxia Hair stylist.
+
+<span class='lbb'><<button "Enter Luxia Hair">>
+	<<goto "eVentia - Luxia Hair">>
+<</button>></span>
+
+!!!Mega-Heels
+-------------------------------------
+You can see the entrance to the Mega-Heels store.
+
+<span class='lbb'><<button "Enter Mega-Heels">>
+	<<goto "eVentia - Mega-Heels">>
+<</button>></span>
+
+!!!Viz Liz Lingerie
+-------------------------------------
+You can see the entrance to the Viz Liz store.
+
+<span class='lbb'><<button "Enter Viz Liz Lingerie">>
+	<<goto "eVentia - Viz Liz Lingerie">>
+<</button>></span>
+
+

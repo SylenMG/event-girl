@@ -1,0 +1,12 @@
+:: Intro - Info Drop [ev-therapist-2] {"position":"1350,300","size":"100,100"}
+You look towards the doctor as he explains everything.
+<<= setup.speak($characters.drlinus, "Like I mentioned before. You were a blank chamber, which eVentia has acquired for a hefty sum.")>><<= setup.speak($player, "What the hell is eVentia?")>><<= setup.speak($characters.drlinus, "eVentia is the largest entertainment corporation in the world. Our entertainment centers provide everything from light to adult entertainment. We also specialize in highly educated and trained stand-ins that can do temporary work at events and-")>><<= setup.speak($player,"Wait-wait... You haven't explained why I\'m a woman?! Where\'s my fucking cock?!")>><<= setup.speak($characters.drlinus, "Yes-yes, all right I\'ll explain. As per law, we don't know where you\'re from. You are not a citizen of the UNE and therefore have no gender rights. You\'re also in crippling debt, and therefore under special employment. Welcome on board! Miss...! You\'re a proud member of the eVentia family! You will be joining our brand line we call 'Event Girls', to pay off your debt of course.", "smile")>><<= setup.speak($player, "No gender rights?! WHAT THE FUCK?! WHAT DID YOU DO TO ME?! TURN ME THE FUCK BACK NOW!", "angry")>><<= setup.speak($characters.drlinus, "Keep her restrained...", "angry")>><<= setup.speak($characters.eventiaguard, "Yessir!", "angry")>>
+You feel the burly guard put his big hands on your shoulders, keeping you down.
+<<= setup.speak($player,"KEEP YOUR HANDS OF-...", "angry")>>
+You feel another sting and a rush of calm overwhelms you.
+
+<span class='lbb'><<button "You're calmed down again">>
+	<<goto "Intro - Info Drop 2">>
+<</button>></span>
+
+

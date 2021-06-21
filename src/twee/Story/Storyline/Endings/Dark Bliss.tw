@@ -1,0 +1,21 @@
+:: Ending - Dark Bliss
+The darkness fades a little and you begin to writhe your arms and legs. You cough as something long, veiny and warm is forces it´s way down your throat, rocking back and forth. Something covers your eyes and you moan as a deep pleasure shoots up your stomach, all the way to your chest.
+<<= setup.speak($player, "Mmmmh... *drools*", "pleasure")>>
+You writhe again, but your arms and legs are locked in position. For how long have you been stuck here? Where even are you?
+
+The long meaty rod is shoved all the way into your throat, but somehow, you can still breathe. With a few more slaps it begins to pump something directly down your throat. You moan again, realizing you´re lying on your back. Your belly... it feels... huge, and something is moving inside of it. A kick... followed by another.
+<<= setup.speak($player, "Uhm....Ugh....", "pleasure")>>
+You hear something muffled as a pair of hands massage your tits. You writhe some more, but not to escape. Your cunt feels empty, wanting whatever surprise that is prodding at the end of it to fill you out and make you whole again.
+
+Your moans make no difference and neither does your futile writhing. Is this it? Is this your new purpose?
+<<= setup.speak($player, "Mmmmh... I love.... it...", "pleasure")>>
+You fade back into the abyss. How long has it even been... and do you even care anymore?
+
+@@.italics;Thank you for playing Event Girl.
+
+I hope you enjoyed the experience and are looking forward to more content.
+
+If you wish to continue playing the game, simply press continue.@@
+
+<<= setup.button("Continue (Return to pod).", "Pod - Main")>>
+<<= setup.button("Continue (Return to before you accept the deal).", "Storyline - Amanda Meeting")>>

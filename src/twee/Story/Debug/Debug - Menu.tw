@@ -1,0 +1,6 @@
+:: Debug - Menu {"position":"554,176","size":"100,100"}
+!Debug Menu
+------------------------------------
+<<set $showPinup to true>><<set $settings.introMode = false>><span id='debug-menu'><<= setup.debug()>></span>
+
+

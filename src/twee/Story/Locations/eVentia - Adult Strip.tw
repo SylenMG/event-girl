@@ -1,0 +1,18 @@
+:: eVentia - Adult Strip [red-light map autosave] {"position":"50,1725","size":"100,100"}
+!eVentia Adult Strip
+-------------------------------------
+You find yourself strutting through the adult strip, a part of the massive eVentia Entertainment Center. You see the southern fashion strip from here.
+<<= setup.roaming($player, $characters, "roaming", "eventia")>>
+<span class='lbb'><<button "Southern Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - South">>
+<</button>></span>
+
+!!!Gloria Club & Bar
+-------------------------------------
+You can see the rowdy entrance to the Gloria Club & Bar.
+
+<span class='lbb'><<button "Enter Gloria Club & Bar">>
+	<<goto "eVentia - Gloria Club & Bar">>
+<</button>></span>
+
+

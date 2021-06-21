@@ -1,0 +1,18 @@
+:: eVentia - Gloria Gloryholes [glory-booths map autosave] {"position":"300,1724","size":"100,100"}
+!eVentia - Gloria Gloryholes
+-------------------------------------
+You find yourself at the gloryholes out back at the Gloria Club & Bar.
+
+<<= setup.displayUnits($player)>>
+
+!!!Gloryhole Booths
+-------------------------------------
+The small hallway leads to several booths labeled either "Client" or "Girl Booth".
+
+<<= setup.displayEvents($player, $time, "gloryhole")>>
+ 
+<span class='lbb'><<button "Back to Gloria Club & Bar">>
+	<<goto "eVentia - Gloria Club & Bar">>
+<</button>></span>
+
+

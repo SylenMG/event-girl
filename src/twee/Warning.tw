@@ -1,0 +1,15 @@
+:: Warning {"position":"1675,1450","size":"100,100"}
+You´re about to access some of the photosenstive content.
+
+If you still haven´t configured this in your settings, you may still do so now before proceeding.
+
+<<PhotoSetting>>
+
+<span class='lbb'><<button "Continue">>
+	<<goto "eVentia - Psyche Clinic">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+
+

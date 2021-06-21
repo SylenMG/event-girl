@@ -1,0 +1,232 @@
+body.pod-interior {
+    background-image: url("images/backgrounds/pod-interior.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.pod-terminal {
+    background-image: url("images/backgrounds/pod-terminal.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.pod-baths {
+    background-image: url("images/backgrounds/pod-baths.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.pod-hall {
+    background-image: url("images/backgrounds/pod-hall.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.ev-foyer-1 {
+    background-image: url("images/backgrounds/ev-foyer-1.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.ev-foyer-2 {
+    background-image: url("images/backgrounds/ev-foyer-2.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.cryola-cantina {
+    background-image: url("images/backgrounds/cryola-cantina.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.cryola-cryo {
+    background-image: url("images/backgrounds/cryola-cryo.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.cryola-cryo-red {
+    background-image: url("images/backgrounds/cryola-cryo-red.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.cryola-exterior {
+    background-image: url("images/backgrounds/cryola-exterior.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.cryola-reception {
+    background-image: url("images/backgrounds/cryola-reception.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.dorm {
+    background-image: url("images/backgrounds/dorm.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.elevator {
+    background-image: url("images/backgrounds/elevator.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.ev-therapist-1 {
+    background-image: url("images/backgrounds/ev-therapist-1.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.ev-therapist-2 {
+    background-image: url("images/backgrounds/ev-therapist-2.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.frozen {
+    background-image: url("images/backgrounds/frozen.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.light {
+    background-image: url("images/backgrounds/light.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.road {
+    background-image: url("images/backgrounds/light.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.university {
+    background-image: url("images/backgrounds/university.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.northshops {
+    background-image: url("images/backgrounds/northshops.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.southshops {
+    background-image: url("images/backgrounds/southshops.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.start {
+    background-image: url("images/backgrounds/start.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.strip-club {
+    background-image: url("images/backgrounds/strip-club.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.glory-booths {
+    background-image: url("images/backgrounds/glory-booths.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.hotel-room {
+    background-image: url("images/backgrounds/hotel-room.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.hypno {
+    background-image: url("images/therapy/spirals/spiral-1.gif");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  body.red-light {
+    background-image: url("images/backgrounds/red-light.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.city-1 {
+    background-image: url("images/backgrounds/city-1.jpg");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.city-2 {
+    background-image: url("images/backgrounds/city-2.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.city-3 {
+    background-image: url("images/backgrounds/city-3.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.city-4 {
+    background-image: url("images/backgrounds/city-4.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.city-5 {
+    background-image: url("images/backgrounds/city-5.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  body.clinic {
+    background-image: url("images/backgrounds/clinic-1.png");
+    background-attachment: fixed; 
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  

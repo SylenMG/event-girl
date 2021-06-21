@@ -1,0 +1,9 @@
+:: Zoom Options [nobr] {"position":"174,298","size":"100,100"}
+<span id="zoom-options"><<if $settings.zoomMode == false>><<link "Zoom on">><<set $settings.zoomMode = true>><<replace "#story-caption">>
+<<display "StoryCaption">>
+<</replace>><</link>><<else>>
+<<link "Zoom off">><<set $settings.zoomMode = false>><<replace "#story-caption">>
+<<display "StoryCaption">>
+<</replace>><</link>><</if>></span>
+
+

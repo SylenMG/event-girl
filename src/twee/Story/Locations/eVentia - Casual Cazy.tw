@@ -1,0 +1,16 @@
+:: eVentia - Casual Cazy [southshops map autosave] {"position":"175,1600","size":"100,100"}
+!eVentia - Casual Cazy
+-------------------------------------
+You find yourself in the Casual Cazy clothing store.
+
+<<= setup.roaming($player, $characters, "clothes")>>
+
+!!!Casuals
+-------------------------------------
+<<= setup.vendor("clothes", "casual-cazy", "eVentia - Casual Cazy")>>
+
+<span class='lbb'><<button "Back to Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - South">>
+<</button>></span>
+
+

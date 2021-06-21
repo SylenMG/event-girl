@@ -1,0 +1,33 @@
+:: StoryCaption [nobr] {"position":"50,175","size":"100,100"}
+<span style="font-family:hyperjump-regular;"><<if $settings.patreonVersion is false>><a href="https://www.patreon.com/bePatron?u=6653726" class="link-internal link-image">
+	<img src="images/patreonbutton.png" style="max-height: 20px">
+</a><br><</if>>
+<div id='pinup'><<include "Player Pin Up">></div>
+<<if $settings.introMode is false>>
+<span class='lbb'>
+<<button "E-Pal">>
+<<E-Pal Menu>>
+<</button>></span>
+<span class='lbb'>
+<<button "Inventory">>
+<<DisplayDialog "Inventory">>
+<</button>></span>
+<<if $settings.mapMode is true and tags().includes("map")>>
+<span class='lbb'><<button "Return to Pod">>
+<<goto "Pod - Main">>
+<</button>></span><<else>>
+<</if>><</if>>
+<<if $settings.debugMode is true>>
+<br><span class='lbb'><<button "Debug">>
+<<goto "Debug - Menu">>
+<<= Dialog.close()>>
+<</button>></span><</if>>
+<span class='lbb'><<button "Menu">>
+<<Menu>>
+<</button>></span></span>
+<<if $settings.introMode is false>>
+<<= setup.triggerStory($player, $time)>>
+<</if>>
+<<set $settings.cPassage = SugarCube.State.passage>>
+
+

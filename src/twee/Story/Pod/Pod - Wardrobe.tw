@@ -1,0 +1,19 @@
+:: Pod - Wardrobe [pod-interior autosave] {"position":"175,1199","size":"100,100"}
+@@.boldtext;Wardrobe@@
+-------------------------------------
+You browse through your current wardrobe.
+
+<div id='worn-clothes'><<= setup.wornClothes($player, "Pod - Wardrobe")>></div>
+
+<<= setup.wardrobe($player, 'top', 'Tops')>>
+<<= setup.wardrobe($player, 'bottom', 'Bottoms')>>
+<<= setup.wardrobe($player, 'bra', 'Bras')>>
+<<= setup.wardrobe($player, 'pantie', 'Panties')>>
+<<= setup.wardrobe($player, 'stockings', 'Stockings')>>
+<<= setup.wardrobe($player, 'feet', 'Feet')>>
+
+<span class='lbb'><<button "Return">>
+	<<goto "Pod - Main">>
+<</button>></span>
+
+

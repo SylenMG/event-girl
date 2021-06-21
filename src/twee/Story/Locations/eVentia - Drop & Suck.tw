@@ -1,0 +1,16 @@
+:: eVentia - Drop & Suck [southshops map autosave] {"position":"300,1600","size":"100,100"}
+!eVentia - Drop & Suck
+-------------------------------------
+You find yourself in the Drop & Suck clothing store.
+
+<<= setup.displayUnits($player)>>
+
+!!!Drop & Suck
+-------------------------------------
+<<= setup.vendor("clothes", "drop-suck", "eVentia - Drop & Suck")>>
+
+<span class='lbb'><<button "Back to Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - South">>
+<</button>></span>
+
+

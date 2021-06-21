@@ -1,0 +1,24 @@
+:: eVentia - Commercial Strip [northshops map autosave] {"position":"675,1475","size":"100,100"}
+!eVentia Commercial Strip - North
+-------------------------------------
+You find yourself in the commercial section of the eVentia Entertainment Center.
+<<= setup.roaming($player, $characters, "roaming", "eventia")>>
+<span class='lbb'><<button "Southern Section">>
+	<<goto "eVentia - Fashion Strip - South">>
+<</button>></span>
+<span class='lbb'><<button "Northern Section">>
+	<<goto "eVentia - Fashion Strip - North">>
+<</button>></span>
+<span class='lbb'><<button "Return to eVentia Lobby">>
+	<<goto "eVentia - Lobby & Foyer">>
+<</button>></span> 
+
+!!!Pixie Pharmaceuticals
+-------------------------------------
+You can see the entrance to the Pixie Pharmaceuticals.
+
+<span class='lbb'><<button "Enter Pixie Pharmaceuticals">>
+	<<goto "eVentia - Pixie Pharmaceuticals">>
+<</button>></span>
+
+

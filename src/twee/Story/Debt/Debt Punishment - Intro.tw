@@ -1,0 +1,18 @@
+:: Debt Punishment - Intro [autosave] {"position":"50,2425","size":"100,100"}
+You wake up to a sudden knock, not even able to get out of your pod bed before it's unlocked and opened.
+<<= setup.speak($characters.eventiaguard, "Yep, this is the one. Time to get sorted out.")>>
+He moves in to grab you, but you quickly retract yourself.
+<<= setup.speak($player, "What the hell is going on?! Let me get up first!", "angry")>>
+<<= setup.speak($characters.eventiaguard, "Well, yah haven´t paid up for this week, so time to pay up our way. Come on now, don´t make me drag you.")>>
+<<= setup.speak($player, "Let me get my clothes on first!", "angry")>>
+He looks at you annoyed.
+<<= setup.speak($characters.eventiaguard, "Tsk... whatever, hurry up. I have more rounds to go.")>>
+You quickly put on your clothes and get out of the pod. Before you can even react the guard has an iron grip around your arm and begins to drag you along.
+<<= setup.speak($player, "Hey! Jesus! Calm down! I can walk on my own!", "angry")>>
+<<= setup.speak($characters.eventiaguard, "That´s not my name.")>>
+<<= setup.speak($player, "Ugh! Where are we even going?!", "angry")>>
+<<= setup.speak($characters.eventiaguard, "Well, whatever the E-Pal says it has in store for you. Could be gloryhole booths or maybe free use stations? I dunno I just grab and place.")>>
+You spit out a few protests, but eventually accept whatever he has in store for you.
+<<= setup.button("Continue.", "Event - Main", "<<set $event.current = 'Punishment'>><<set $event.stage = 'punishment'>>")>>
+
+

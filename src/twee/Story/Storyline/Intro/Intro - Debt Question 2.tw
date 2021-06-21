@@ -1,0 +1,7 @@
+:: Intro - Debt Question 2 [ev-therapist-2] {"position":"1225,550","size":"100,100"}
+You question your debt and how to repay it.
+<<= setup.speak($characters.drlinus, "Well... You would never be able to apply for citizenship... And... Errr... If you don\'t at the very least pay your interest. It may have dire consequences.")>><<= setup.speak($player, "Consequences? Like... What would happen? Jail?")>><<= setup.speak($characters.drlinus, "No. We handle all internal conflicts... Internally. Firstly, I highly suggest you do not challenge this, and pay the interest. If not, the higher ups might force you onto the block. Which would be highly ill-advised. It would most likely result in your loss of your virginity, which has some real value on the auction blocks.")>><<= setup.speak($player, "SAY WHAT?!")>><<= setup.speak($characters.drlinus, "Well, no one is forcing you here! At least yet...")>>
+
+<<IntroQuestions>>
+
+

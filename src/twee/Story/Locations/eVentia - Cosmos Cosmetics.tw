@@ -1,0 +1,25 @@
+:: eVentia - Cosmos Cosmetics [northshops map autosave] {"position":"175,1475","size":"100,100"}
+!eVentia - Cosmos Cosmetics
+-------------------------------------
+You find yourself in the Cosmos Cosmetics workshop.
+
+<<= setup.displayUnits($player)>>
+
+!!!Makeup 
+-------------------------------------
+You can receive a makeover tailored to your preferences.
+
+<<= setup.stylist("makeup", "eVentia - Cosmos Cosmetics")>>
+
+!!!Manicure & Pedicure
+-------------------------------------
+You can receive a manicure & pedicure tailored to your preferences.
+
+<<= setup.stylist("nails", "eVentia - Cosmos Cosmetics")>>
+
+
+<span class='lbb'><<button "Back to Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - North">>
+<</button>></span>
+
+

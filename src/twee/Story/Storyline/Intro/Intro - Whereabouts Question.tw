@@ -1,0 +1,7 @@
+:: Intro - Whereabouts Question [ev-therapist-2] {"position":"1100,675","size":"100,100"}
+You ask about your whereabouts.
+<<= setup.speak($characters.drlinus, "We\'re currently in one of eVentia\'s many mega-entertainment centers. It\'s one of the bigger ones, containing everything from a variety of shops, hotel & housing, night clubs, strip clubs, conference centers & venues. All sorts of things really.")>><<= setup.speak($player, "That sounds pretty huge...")>><<= setup.speak($characters.drlinus, "It uuuuh... It is.")>>
+
+<<IntroQuestions>>
+
+

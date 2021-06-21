@@ -1,0 +1,16 @@
+:: Intro - Class Trip 5 [cryola-cantina] {"position":"1100,175","size":"100,100"}
+The tour goes on and you reach a Cryo-Chamber on display.
+<<= setup.speak($characters.cryolaguide, "And here we have our display model. A fully functional Cryo Chamber, the one used in our trials. No longer used in production. You\'re the first visitors to see it!")>>
+The Cryo-Chamber is golden-yellow and open, showing a comfortable spacious interior. The door is sleeved, and there's a userpad right next to the entrance of it.
+<<= setup.speak($characters.jake, "Looks all futuristic and shit, what do you say, $player.maleName?")>><<= setup.speak($player, "I don\'t really care bro, have you seen Jessica?", "male-careless")>>
+You're both interrupted once again as the tour guide continues her speech.
+<<= setup.speak($characters.cryolaguide, "And now we will have a short break. Feel free to take pictures and try out the comfortable interior of this display model. The cafeteria is just around the corner. The tour will continue in 20 minutes.")>>
+You look around to see if you can spot Jessica, and there she is, coming straight towards you.
+<<= setup.speak($characters.jessica, "Isn\'t this all so exciting $player.maleName! Just think about the endless opportunities mankind can achieve with this kind of technology!", "laugh")>><<= setup.speak($player, "Y-yes! I totally agree! Truly amazing really!",  "male-smile")>><<= setup.speak($characters.jessica, "Oh-hey! Take a picture of me inside of it!")>>
+She gives you her smartphone and darts of towards the others surrounding the Cryo Chamber, waving her hand to follower her. 
+
+<span class='lbb'><<button "You and Jake follow her">>
+	<<goto "Intro - Class Trip 6">>
+<</button>></span>
+
+

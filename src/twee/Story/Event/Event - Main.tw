@@ -1,0 +1,4 @@
+:: Event - Main {"position":"175,424","size":"100,100"}
+<span id='event-main'><<= setup.eventMain($event.current, $event.stage, $player)>></span>
+
+

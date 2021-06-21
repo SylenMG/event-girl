@@ -1,0 +1,30 @@
+:: eVentia - Pod Hall [pod-hall map autosave] {"position":"51,1325","size":"100,100"}
+!Pod Hall
+-------------------------------------
+You find yourself in the eVentia Pod Hall where most low income visitors stay, as well as Event Girls and other assorted staff.
+<<= setup.roaming($player, $characters, "roaming", "pods")>>
+!!!Pod - 021
+-------------------------------------
+You can see your pod.
+
+<span class='lbb'><<button "Enter Pod">>
+	<<goto "Pod - Main">>
+<</button>></span>
+
+!!!eVentia Lobby & Foyer
+-------------------------------------
+You can see the exit to the lobby and foyer.
+
+<span class='lbb'><<button "Exit to eVentia Lobby">>
+	<<goto "eVentia - Lobby & Foyer">>
+<</button>></span> 
+
+!!!Pod Baths
+-------------------------------------
+You can see the entrance to the public pod baths.
+
+<span class='lbb'><<button "Enter the Pod Baths">>
+	<<goto "Pod - Baths">>
+<</button>></span>
+
+

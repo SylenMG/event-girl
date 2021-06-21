@@ -1,0 +1,22 @@
+:: eVentia - Dido Tattoo & Piercings [autosave] {"position":"550,1600","size":"100,100"}
+!eVentia - Dido Tattoo & Piercings
+-------------------------------------
+You find yourself in the Dido tattoo & piercings workshop.
+
+!!!Tattoos
+-------------------------------------
+Properly advertise yourself in more pseudo-permanent ways.
+
+<<= setup.tattoos($player, "eVentia - Dido Tattoo & Piercings")>>
+
+!!!Piercings
+-------------------------------------
+Show the world your kinky side.
+
+<<= setup.piercings($player, "eVentia - Dido Tattoo & Piercings")>>
+
+<span class='lbb'><<button "Back to Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - South">>
+<</button>></span>
+
+

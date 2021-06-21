@@ -1,0 +1,14 @@
+:: eVentia - Event Board [ev-foyer-1 map autosave] {"position":"300,1325","size":"100,100"}
+!Event Board
+-------------------------------------
+You find yourself in the eVentia Lobby & Foyer, studying the Event Board for possible work.
+<<= setup.roaming($player, $characters, "roaming", "events")>>
+!Events
+-------------------------------------
+<<= setup.displayEvents($player, $time, "eventia")>>
+
+<span class='lbb'><<button "Return">>
+	<<goto "eVentia - Lobby & Foyer">>
+<</button>></span>
+
+

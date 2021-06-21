@@ -1,0 +1,7 @@
+:: Intro - Home Question [ev-therapist-2] {"position":"1225,675","size":"100,100"}
+You ask about where you would be staying.
+<<= setup.speak($characters.drlinus, "eVentia provides all baseline Event Girls with their own standard housing pod, conveniently located together in the entertainment center. There you can cool off and so on when not working. The pod has a modest monthly fee, and if you decide to upgrade in the future, that fee would increase of course.")>><<= setup.speak($player, "Right...")>>
+
+<<IntroQuestions>>
+
+

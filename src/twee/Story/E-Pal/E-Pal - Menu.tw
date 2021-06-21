@@ -1,0 +1,12 @@
+:: E-Pal - Menu {"position":"1100,1525","size":"100,100"}
+<span class='lbb'><<button "Story Log">>
+<<StoryLog>>
+<</button>></span>
+<span class='lbb'><<button "Transactions Log">>
+<<ELog>>
+<</button>></span>
+<span class='lbb'><<button "Debt Management">>
+<<DebtManagement>>
+<</button>></span>
+
+

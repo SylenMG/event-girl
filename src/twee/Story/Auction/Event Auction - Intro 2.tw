@@ -1,0 +1,14 @@
+:: Event Auction - Intro 2 {"position":"175,2275","size":"100,100"}
+You follow Linus inside moving along the red carpet. The narrow corridor-like entrance swallows you and bombards you with a romanticized classical feeling. Golden nobs with carved patterns of extreme detail and statues of ornate black marble stand along the walls.
+<<= setup.speak($player, "Isn\'t this all a bit too much?", "smile")>><<= setup.speak($characters.drlinus, "I wouldn\'t know, I suppose it is to get one into a real unit-spending mood, wouldn\'t you agree?")>><<= setup.speak($player, "Never been at an auction before...")>><<= setup.speak($characters.drlinus, "Well... It\'s not too complicated, you just come with a starting prize that is appraised by a specialist and then the attendees may make a bid. Simple really.... oh! And the winner gets the prize of course.")>>
+You reach the end of the entrance and enter a massive hall filled with four-sided rounded tables and royal-looking chairs. Everything is plated with gold on the sides and the overall noble red theme is prevalent everywhere from the drapes along the columns to the carpet and the pillows around the chairs.
+<<= setup.speak($player, "This is... something alright!", "surprised")>><<= setup.speak($characters.drlinus, "I agree. Here... take a look over here. You can sign up to auction an event with yourself if you\'d like.", "smile")>>
+You move over to the small display that Linus stands by. Your eyes glaze over your eVentia ID and your labeled event "First Night", but more importantly, the laughable starting price.
+<<= setup.speak($player, "That\'s my worth?! A first night with me! Nothing more than that!", "angry")>><<= setup.speak($characters.drlinus, "Ah well... you see, no matter if you\'re actually a virgin or not, the first night always starts low, but tends to build up to high amounts based on how heated the bidding becomes. Especially if one is a virgin. However, no other events are available until the first night, a form of assurance as to you pulling through.", "smile")>><<= setup.speak($player, "Backing out? What do you mean?")>><<= setup.speak($characters.drlinus, "Well, you know how it is... No one being forced to do anything here. Backing out means banishment from the house however... Not very nice... well... I\'ll leave you to it then, I have a patient to attend to.")>>
+And with that he slithers away again, leaving you with more questions than answers once more.
+
+<span class='lbb'><<button "Continue">>
+	<<goto "eVentia - Auction House">>
+<</button>></span>
+
+

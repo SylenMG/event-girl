@@ -1,0 +1,20 @@
+:: eVentia - Gloria Club & Bar [glory-booths map autosave] {"position":"175,1725","size":"100,100"}
+!eVentia - Gloria Club & Bar
+-------------------------------------
+You find yourself at the Gloria Club & Bar.
+
+<<= setup.displayUnits($player)>>
+
+!!!The Bar
+-------------------------------------
+The bar only has a few patrons, none that you know.<<= setup.social("the bar", "eVentia - Gloria Club & Bar")>>
+
+
+<span class='lbb'><<button "The Gloria Gloryholes">>
+	<<goto "eVentia - Gloria Gloryholes">>
+<</button>></span>
+<span class='lbb'><<button "Back to Adult Strip">>
+	<<goto "eVentia - Adult Strip">>
+<</button>></span>
+
+

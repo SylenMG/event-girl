@@ -1,0 +1,17 @@
+:: Therapy - Intro [autosave] {"position":"50,1999","size":"100,100"}
+You enter the Psyche Clinic and look around. The reception stands in the middle surrounded by what appears to be a waiting room.
+<<= setup.speak($characters.drlinus, "Ah! $player.femaleName! You came to visit the clinic? What can we do for you?", "smile")>>
+Interrupted by Dr. Linus familiar voice you turn around to face him.
+<<= setup.speak($player, "Nothing special, just looking around, getting the lay of the land...")>><<= setup.speak($characters.drlinus, "Splendid! Might I suggest you try out one of our newest therapy sessions? They're all highly experimental, so the pay is quite something. It could help you out greatly with your current... Crisis, that is.", "smile")>>
+You think about it for a second as Linus behind the reception disk, taking a look over the computer, seemingly looking for something.
+<<= setup.speak($player, "What uuuh? Do these sessions entail exactly?")>><<= setup.speak($characters.drlinus, "Oh... All sorts of things, mostly relaxation and purpose reinforcement. To make one more comfortable in their own skin and so on. Quite harmless really... Here, put your thumb on this.")>>
+He takes out a small chip-like print and puts it on the desk. You casually place your thumb on it.
+<<= setup.speak($player, "What does this do?")>><<= setup.speak($characters.drlinus, "Simply acquiring your legal consent, no hassle... Let me just store it.")>>
+He quickly puts it through a slit in the desk and some whirring whisks it away.
+<<= setup.speak($player, "Wait what?! What did I just sign up for exactly?!", "angry")>><<= setup.speak($characters.drlinus, "It's nothing at all really, it's all opt in, opt out, you can simply choose to not show up if you change your mind... No need to worry too much about it.")>><<= setup.speak($player, "Yeah... I'm sure...")>><<= setup.speak($characters.drlinus, "Well, take a look at the program list, lot's of exciting session programs to choose from. The standardized ones that is. Well, I'll be going then, think it over!", "smile")>>
+<<run setup.story("Event-Girl-01", "complete")>>
+<span class='lbb'><<button "Continue">>
+	<<Warning "Warnings - Photosensitive Content">>
+<</button>></span>
+
+

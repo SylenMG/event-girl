@@ -1,0 +1,363 @@
+:: Changelog {"position":"679,300","size":"100,100"}
+0.14.4
+- Fix for Boardroom incident.
+- Fix for masturbating being possible during night.
+
+0.14.3
+- Added Incident: Stripper Topless Serving (2 Variants, 3 Outcomes)
+- Added Incident: Stripper Stealth Handjob (4 Outcomes)
+- Added Incident: Stripper Great Job (1 Outcome)
+- Added Incident: Stripper Mind Check (1 Outcome)
+
+0.14.2
+- Fixed reflections not being able to go past their first levels.
+- Fixed a bug with punishments.
+- Fixed story events, so that looping should be avoidable (the way story events work will be looked at).
+- Fixed some minor errors.
+
+0.14.1
+- Some hotfixes.
+
+0.14.0
+- Optimization for the Reflection feature.
+- The player will now be prompted when reaching milestones in Feminine, Slut and Bimbo.
+- The player must now reflect on their progress in order to actually progress.
+- A lot of the reflections are placeholders right now, the reason being that you will be able to choose between embracing, letting go or fighting your mental changes.
+- A new Stripper Incident: Champagne.
+
+0.13.1
+- Completed integration of scripts into tweego.
+- lots of bug fixes from this transfer (some might still be there).
+- Other various bug fixes.
+
+0.13.0
+- Added the characters; Amanda, Sandra and Marcus.
+- Made portraits larger in the speech boxes.
+- Added two new endings; Accepting the Deal and Dark Bliss.
+- Rewrote the ending; Uncertain Future (it was bugged and needed to be refit).
+- Added another Story event "The Meeting and The Deal"; It has a random chance to occur after another story event. Outcome depends on your "contacts".
+- Reworked Punishments (The stuff that happens when you forgetti to pay).
+- Added Punishment: Free-Use Booth.
+- Added Punishment: EX-Bunny Test Subject.
+- Added Punishment: Viz Liz Mannequin.
+- other smaller fixes and minor changes.
+
+0.12.1
+- Integrated more code into the new framework.
+- Removed more [null] and [undefined] tags.
+- Fixed the start storyline clothes for the male body not working.
+- Fixed the examine action.
+- Fixed some roaming events not working.
+- Fixed some more fonts not showing properly.
+- Fixed healing genitals when sleeping.
+- Fixed psyche/experience.
+
+0.12.0
+- Framework Change: I´ve committed to some internal framework changes, which will make working on the game a bit easier for me. 
+- Added a new Incident: Bimbo Check (Girlfriend Stand-In)
+- Added a new Incident: Slut Check (Girlfriend Stand-In)
+- Added a new Incident: Skimpy Check (Girlfriend Stand-In)
+- Auction House Revamp. I completely changed how the Auction House works. I consider the Auction House functionally done now. Except from maybe adding more variations or Auctions. Please share your ideas if you have any.
+- Changed two Auctions(Vaginal Virginity and Bedding).
+- Added a new Auction: Anal Virginity.
+- Added a new Auction: Indentured Servitude (2 Outcomes).
+- Added a new Auction: Body Rental (3 Outcomes).
+- Made changes to how a lot of speech works. Many of the newer scenes (mostly auction), should now change depending on some psyche stats. This will be expanded further upon in the future.
+
+0.11.2
+- Fixed a bug during the Executive Meeting.
+
+0.11.0
+- Added new Incident: Bimbo Check (Sluttia)
+- Added new Incident: Mind Check (Sluttia)
+- Added new Incident: Lust Check (Sluttia)
+- Added new Incident: Groping (Booth Babe)
+- Added new Incident: Harassment (Booth Babe)
+- Added new Incident: Offer (Booth Babe)
+
+0.10.1
+- Added Autosaving and Autoloading.
+- You should now no longer be booted to the start menu if you refresh (F5).
+- KNOWN ISSUE: Sometimes when refreshing (F5) the game will act in weird ways. Not recommended to refresh the game this way. It should fix itself by simply playing though.
+- Made it so you can turn off the zoom function.
+- Girlfriend event should now register clothes properly.
+- Fixes for stripping event, should not break now even if you wear clothes not intended.
+- Debt should no longer be minus.
+- Debug events should now properly take you to the incident you wish to try out.
+- Some typo fixes.
+- Bug fixes.
+
+0.10.0
+- Added +8 new portrait templates.
+- Added new tools that will make it easier to make story pieces for quests (used this time for the Vernon Dinner Date).
+- Added a new Story Event: Meeting Vernon, the Gloria Gals, VP.
+- Added a new Story Quest: Dinner Date with Vernon.
+- Vernon's Dinner Date can go a lot of ways and will play an integral part in your future in eventia.
+- Instance Events (the one with only a chance to appear), will now also appear in the pod once they have been done once.
+- Added new Event: Cindanar Booth Babe
+- Added new Event: Stains Booth Babe
+- Added new Event: Gangbang (this one is unlocked with Vernon).
+- Added new Incident: Gangbang Incident (for Gangbang Event)
+- Added new Incident: Great Job (Booth Babe)
+- Added new Incident: Mind Check (Booth Babe)
+- Added new Incident: Lust Check (Booth Babe)
+- Added new Incident: Bimbo Check (Booth Babe)
+- Added support for more random clientele during events (only implemented for the new events right now).
+
+
+0.9.2
+- Fixed clothing stores not displaying clothes.
+- Optimized refresh on buying clothes.
+- Fixed clothes not registering to Transaction Log.
+- Fixed some sex scenes not really working with choice.
+- Fixed stripper events.
+- Fixed Hypertop portrait.
+
+0.9.1
+- Added +100 comments to the comment framework(mostly roaming).
+- Added 5 new outfits (Domina, Boothbabe (Cindanar), Latex, Hypersuit, Stains).
+- Total of 11 new pieces, with 2 new pair of boots/heels (Lada and Hyperboots).
+- Roaming System Update
+- An overhaul of the Roaming System now allows for flavor text and much greater variability with minor encounters as you strut around the entertainment center.
+- The Encounters that can happen are (like the old system, but much more refined) dependent on your clothes, psyche and skill (mostly high heels for skills).
+- Added more functionality to the Item System and Inventory system.
+- Debug Menu Updated
+- The Debug menu has had a style change and will from now on only be available with patreon (dev) releases.
+- Clothing Update
+- The way that clothes work has been updated, not really something you might notice, it still happened though :)
+- Wardrobe Update
+- Some new changes to the wardrobe so things get less bloated when you own more clothes.
+- The 3 types of pills should now have functionality.
+- Updated various vendors to more fluently update on purchases.
+- Fixed Bimbo, Slut and Feminine Psyche hierarchy not following properly down the line from Bimbo > Slut > Feminine.
+
+0.9.0
+- Added a new Event: Girlfriend Experience
+- Added a new Event: Sluttia Expo
+- Both have unique clothing requirements.
+- Added Girlfriend Incident: Coffee Date.
+- Added Girlfriend Incident: Cyberbowling.
+- Added Sluttia Incident: Crowded Expo.
+- Added Sluttia Incident: Cosplay Fuck.
+- Added Sluttia Incident: Gangbang (Mindbroken).
+- Added Sluttia Incident: Gangbang (Bimbo).
+- Added a Commercial Section to the eVentia Entertainment Center.
+- Added Pixie Pharmaceuticals
+- Added 3 items to Pixies.
+- Added Invetory functionality.
+- Added Item System.
+- Added new Fonts to give it all a little more flavor.
+- Added a "Units" reference to the side bar.
+- Fixed being able to wear stockings on bottoms that did not match, as well as skirts with dresses.
+- You can now hover your mouse over the pin-up doll to get a bigger image.
+
+0.8.2
+- Add a new functionality for thoughts, much like the note feature.
+- Auction House (Bedding), now requires Slut Level 1. ***
+- Updated alert messages to the new system.
+- Fixed being able to increase/decrease cock length without possess a cock.
+- Fixed some inconsistencies with the Therapy Sessions.
+- Fixed Events breaking on a story rool where the story could not progress (mostly happened on events that were not Receptionist).
+
+0.8.1 - Hotifx
+- Many of the fixes 0.7.5 Public
+- Hair Color from the stylist should now work
+- Sex should now assign the proper actors
+- Stripper Event should no longer break
+- Various other small fixes
+
+0.8.0
+- Added Dream: Dress Up (2 variants)
+- Added Dream: Bodymodding (2 variants)
+- Added Dream: Sex (virgin and regular)
+- Added Receptionist Incident: Executive Meeting (2 Variants)
+- Added Receptionist Incident: Great Job (Social Bonus)
+- Added Maid Incident: Board Room
+- Added Maid Incident: Luxury Suite
+- Added Maid Incident: Great Job (Cleaning Bonus)
+- Added Carshow Incident: Photo Grope
+- Added Carshow Incident: Grid Girl (2 variants)
+- Added Carshow Incident: Manager Sex (2 variants)
+- Added Carshow Incident: Great Job (Bimbo Bonus)
+- Sex:
+- Optimized the sex system, so that more comments are made.
+- Changed how flair and flavor is handled.
+- Added Cunnilingus scenes (both receiving and giving).
+- Added "Doggystyle" and "Mating Press" options.
+- Wear and Tear System:
+- Added a simple system that tracks your vagina and asshole health.
+- Have too much sex and you might get a little loose.
+- Will heal slowly when you sleep.
+
+
+0.7.2
+- Fixed Story segments trying to trigger from punishments
+- Fixed image not loading during punishments
+- Fixed some comment image issues
+- Fixed weekly repay not resetting and registering properly
+
+0.7.1
+- Fixed Morning
+- Fixed PinUp breaking
+- Minor bug fixes in general
+- Fixed a few typos
+
+0.7.0
+- Body Morphing System Updated
+	- Player can now become a Futanari or a Barbiedoll.
+	- Potential support for multiple cocks and vaginas.
+	- Visible on the pinup doll (not visible with clothing, we're 		  assuming the player tugs for now).
+	- Cocks come in five sizes.
+	- You can buy the Cyber Cock transplant from the Cybershop or use 		debug (patreon version only).
+- Debug Mode is now Patreon-version only
+	- Added lots of new options for body morphing to the debug menu for 	  testing.
+- Added the ability to Talk with certain characters.
+	- Brenda, Lily and Dr. Linus can be talked to for now.
+	- They will hang out in various locations at specific times.
+	- Will give some more insight into the world when talked to.
+	- Will be expanded upon in the future.
+- Reworked the Sex System
+	- Now Supports more sexual activities, including if the player 		gets/or has a penis.
+	- This adds double the amount of variety for sex scenes, incl. 		futa/gay content or futa fucking women.
+	- Added a bunch of new comments.
+	- Player can be face-fucked, treated roughly etc.
+	- Overall new scenes and varieties.
+- UI/Menu Update/E-Pal Log
+	- Changed the menus, now the player can access their E-Pal 			  anywhere.
+	- Story Log, that will tell you what to do. Will also inform you 	   when you've reached the end of this versions story content.
+	- Transaction Log moved to the new E-Pal.
+	- New Notification will pop up on stat changes, units, rating 		  change etc.
+	- Notifications will also inform you of Story Log changes.
+- Sleeping Updated
+	- The player will now show mental changes when waking up.
+- Debug Menu was updated.
+- Fixed scoring system breaking when being force-clothed for work.
+- Fixed Slut/slutty score being interchangable.
+- Fixed Debt being paid off on sleeping, instead of increasing.
+- Fixed time not advancing when certain incidents triggered
+
+0.6.1
+- 12 New pieces of Clothing:
+	- 4 whole outfits:
+		- Sluttia (Cosplay), will be used for a future event.
+			- Top, Bottoms, Heels.
+		- Promotion, will be used for a future event.
+			- Top, Hot-pants, stockings.
+		- Mega-Slut latex outfit.
+			- Top, Hot-pants, stockings.
+		- Party Girl outfit.
+			- Tube top, party skirt, stockings.
+- Added Tattoos and Piercings (these will not and never appear in scenes or portraits, strictly for doll).
+	- 5 Tattoos, one is standard and given with the storyline.
+	- 5 Piercings (Tongue, Nipple, Labret, Nose and Clit).
+- Added a Scoring System, which ties into clothing, tattoos, piercings and other stuff.
+	- The scoring system determines stuff like dynamic comments and how 	you are treated by your peers.
+	- It also ties into how scandily clad you can be when leaving your
+	pod. The higher your Slut psyche, the more provocatively you can 	 dress.
+- Dynamic Incident System
+	- The player will now experience dynamic incidents, slurs, sexual 		harassment as they move around the entertainment center.
+	- This also includes cat-fighting, as other Event Girls may get
+	  jealous or feel threatened by you and your slutty crusade.
+	- These take into account:
+		- Nudity: If the player is flashing tits or crotch, people will 		comment on it and shame, harass the player.
+		- Clothing: If the player is dressed in slutty, trashy or sexy
+		clothes, then people will comment on that as well.
+		- Psyche: The player will respond to this depending on their
+		current psyche and how feminine, slutty or bimbo they are.
+- Added the Cybernetics System and added cybermods to the cyber shop.
+	- Cybermods allow you to further your journey to become the 		ultimate sex doll.
+	- Currently only alters your scores for styles/sex.
+	- They will alter events and sex scenes in the future.
+- 2 new Receptionist events
+	- Pantie Purchase (2 variations).
+	- Bimbo Dream.
+- 3 new Maid event
+	- Sex Offer (2 variations).
+	- Bimbo Dream.
+	- Sex Trophy Collection (2 variations).
+- Gloryhole open again.
+	- 2 variant events.
+- Hot Stripes events open again (didn't roll for some reason).
+- Buyable costumes in the event shop return.
+- Fixed some clothes bugging after events.
+- Fixed debt.
+- Fixed a bug with the drool incident occuring even with low mind on Maid and Receptionist.
+
+0.5.2 (Hotfix)
+- Should now work with Firefox.
+- Disabled the gloryhole for now.
+- 
+
+0.5.1 (Hotfix)
+- Fixed some shops redirecting to lingerie store.
+- Fixed the Event Girl Shop.
+- Removed stripper comments (I have no idea why these break the stripping event right now).
+- Do not save or load during the stripping event.
+- Stripping event should work for now.
+- Fixed broken titty growth dream sequence.
+- Fixed a bug where the times an event was done was not saved properly.
+- Fixed a bug where if you were naked (probably if you were debugging or somehow found a way to streak), would return an error when putting on a stashed outfit.
+- Fixed it so that Clothes owned should be properly saved.
+
+0.5
+- New Event Framework, to ease better handling of events.
+- More Options for existing events based on the psyche and skills of the player.
+- Options: If the player's mind stat is above a certain point, they will be unable to do their job properly and be a drooling slut that anyone can take advantage of.
+- Options: If the player's lust stat is too high, more lusty options may appear that will inevitably increase their femininity.
+- Events: Earnings/Pay is now done differently. The player has an E-rating that may influence this across all events. Being a good girl will increase your rating whilst being a disobedient brat will tank it.
+- Lust is now a factor and a new Psyche attribute.
+- Lust builds up slowly from event outcomes, time, drugs or similar and must be relieved through masturbation, meditation, medication or similar.
+- The player must now balance their Mind and Lust or lose control to their desires.
+- Meditation: A new way to clear the mind and lower lust. Do it in the pod. (Currently drastically lowers both, as there are no other options currently).
+- Masturbation: Will reset your desire for lust, unless certain conditions have been met.
+- New Mental Framework: The player will now make comments or have thoughts on their current situation as the game progresses. These trigger when moving around or similar.
+- New Clothing/Vendor Framework: Whilst entirely technical (you might not notice a difference), made a new framework for clothing, that should hopefully make things more smooth from now on.
+- New Modular Psyche/Skill Framework: changed the way psyche and skills are handled, also very technical and unlikely that you will notice a difference.
+- Various other technical changes, more of the code is now kept outside Twine in general.
+- Emergency Exit has been added to the menu, it will show when in debug mode. Debug mode can be turned on in the menu.
+- Debug Menu: Updated to look nicer and categorized it.
+- Debug Menu: You can now debug all event incidents on their own, alter stats easier, debug wardrobe better etc.
+
+
+0.4
+- Optimized commentary during sex scenes.
+- Added Anal sex functionality to the sex system.
+- All sex scenes now have a dominant version as well, as compared to a submissive pov.
+- Added 1 new stripper incident (Anal).
+- Added 9 new therapy sessions.
+- Therapy sessions allow you to increase your Femininity, Slut or Bimbo psyche to full.
+- Auction House has been added.
+- You may now set up your vaginal virgnity for auctioning.
+- Requires some extra testing as it is using a lot of different scripts in an attempt to weave it together in a managable way.
+- Added 1 new receptionist incident.
+- Added 1 new maid incident.
+- Added a lot of new commentary during sex scenes.
+- Completely changed the framework around how a lot of things are handled by scripts.
+- This should allow for easier mental changes to impact how the player character behaves during certain situations (started the work on this).
+
+0.3
+- Added new functionality to debugging.
+- Added several new clothes/underwear:
+- Red Lace Bra/Panties.
+- Black Corset.
+- White Lace Panties.
+- Long-sleeved Top.
+- Denim Skirt.
+- Grey Jeans.
+- Aristo Dress.
+- Violentia Dress.
+- Added new functionality surrounding Events: Instance
+- Instance Events have a chance of being available every day, check the event board for it's availability. They generally pay better than Recurring events.
+- New Event: Car Show Girl, with 2 different Incidents.
+- Receptionist: 2 new Incidents.
+- Maid: 2 new Incidents.
+- Stripper: 1 new Incidents.
+- Sex System: Regular Intercourse is now supported.
+- Sex System: Both blowjob and sex propositions now choose from a random pool of clients, providing variety.
+- Endings: First Two Endings have been written and added (Pay off your debt to experience them).
+- Therapy: Femininity, Sluttyness and Bimbofication is now tied together. This is ordered as Bimbo > Slut > Feminine. This means that if Bimbo reaches level 1, then it bumps up Slut and Feminine to level 1 automatically. This change is to properly illustrate that a Bimbo is a feminine slut. A slut is feminine. But someone feminine, is not necessarily slutty or a bimbo.
+- Therapy: Payouts for various sessions have now been properly changed to reflect the risk associated with their participation.
+- Additionally a few bugfixes and text/grammar fixes.
+- Scripts: I've begun exporting a lot of the game's functionality into Javascript that can then easily be used in other projects. (The Realm for an example).
+
+

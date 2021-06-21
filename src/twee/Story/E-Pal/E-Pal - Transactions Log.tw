@@ -1,0 +1,5 @@
+:: E-Pal - Transactions Log {"position":"1100,1900","size":"100,100"}
+Last 20 Transactions:
+<<= setup.printELog($player)>>
+
+

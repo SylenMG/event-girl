@@ -1,0 +1,4 @@
+:: Event - Start {"position":"50,425","size":"100,100"}
+<span id='event-main'><<= setup.eventStart($event.current, $event.stage, $event.scene)>></span>
+
+

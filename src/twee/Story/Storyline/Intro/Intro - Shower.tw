@@ -1,0 +1,16 @@
+:: Intro - Shower [dorm nobr] {"position":"1100,50","size":"100,100"}
+The cold water hits your back and you curse, quickly switching on the hot water to even out the temperature. You wonder if your aunt has left you another allowance, although, you're prepared for her to suddenly stop supporting you any moment since your last argument. Which means it's probably time to start looking for a side job, which you would absolutely dread.
+<br><br>
+After rinsing the last of the soapy water of, you jump out of the shower and quickly dry yourself. You have an aching suspicion you might be slightly late, and Jake was supposed to pick you up today. As you were going on a class trip.
+<br><br>
+Just as you grabbed your clothes you hear an incessant honking outside your dorm and someone yelling from the parking lot.
+<br>
+<<= setup.speak($characters.jake, "Come on! $player.maleName, we\'re late as fuck!", "yelling")>><br><span id="clothes"><span class='lbb'><<button "Put on your clothes">><<set $player.intBody = "images/player/male/pc-male-clothed.png">><<replace "#clothes">><<replace "#story-caption">><<display "StoryCaption">><</replace>>You quickly jump into your pants and with your half-buttoned shirt, only slightly covering your abs you make a dash for the door. However, something catches your eyes as you make for the exit, the usual letter from your aunt. 
+<br><br>
+You pick it up, and without even needing to open it, you already know that it doesn't contain the usual support from her. 
+<br><br>
+You cringe slightly, knowing you will have to either make it up with that hag or get a job...
+<br><br>
+<<set $player.femaleName = $player.maleName>><span class='lbb'><<button "Exit your dorm">><<goto "Intro - Meeting Jake">><</button>></span><</replace>><</button>></span>
+
+

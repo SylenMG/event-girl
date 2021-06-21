@@ -1,0 +1,4 @@
+:: E-Pal - Story Log {"position":"1100,1650","size":"100,100"}
+<<= setup.displayStoryLog($story.nEntries, $story.cEntries)>>
+
+

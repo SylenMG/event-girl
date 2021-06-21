@@ -1,0 +1,12 @@
+:: Therapy - Default {"position":"550,1875","size":"100,100"}
+<<timed 1s t8n>>Session is in progress...<</timed>>
+
+<<timed 2s t8n>>You're being a good girl...<</timed>>
+
+<<timed 3s t8n>>Wait for now...<</timed>>
+
+<<timed 4s t8n>>Session Complete...<</timed>>
+
+<<timed 5s>><span class='lbb'><<button "Complete Session">><<goto "Therapy - Payout">><</button>></span><</timed>>
+
+

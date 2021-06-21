@@ -1,0 +1,16 @@
+:: eVentia - Mega-Heels [northshops map autosave] {"position":"425,1475","size":"100,100"}
+!eVentia - Mega-Heels
+-------------------------------------
+You find yourself in the Mega-Heels clothing store.
+
+<<= setup.roaming($player, $characters, "heels")>>
+
+!!!Heels
+-------------------------------------
+<<= setup.vendor("clothes", "mega-heels", "eVentia - Mega-Heels")>>
+
+<span class='lbb'><<button "Back to Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - North">>
+<</button>></span>
+
+

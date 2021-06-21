@@ -1,0 +1,7 @@
+:: Intro - eVentia Question [ev-therapist-2] {"position":"975,675","size":"100,100"}
+You question what eVentia is and does.
+<<= setup.speak($characters.drlinus, "eVentia, like I mentioned before is the largest entertainment corporation in the world. Our entertainment centers provide everything from light to adult entertainment. We also specialize in highly educated and trained stand-ins that can do temporary work at events, go-go dancing and so on.")>><<= setup.speak($player, "Alright, got it!")>>
+
+<<IntroQuestions>>
+
+

@@ -1,0 +1,32 @@
+:: Reflect - Feminine 1
+Taking in a deep breath, the plush sheets caress you as you stretch your whole body. You lie there for a bit, examining your slim, unrecognizably feminine hand.
+<<= setup.speak($player, "Yep... still girly... and way too sensitive... and soft.")>>
+You run your fingers through the palm of your hand, sending soft tingles through your wrist. Turning around, you almost immediately compensate for the weight distribution in your chest.
+<<= setup.speak($player, "I can´t believe how fast I got used to this. I guess it´s not as bad as I thought.")>>
+Thinking about what you´ve been through so far, how people treat you so differently. The way that they even look at you differently. A chill runs down your spine, as you contemplate whether or not you like this change?
+
+<span id="choice"><span class='lbb'><<button "Deal with it for now.">><<replace "#choice">>You guess you´ll just have to deal with it for now. Not that you have much of a choice anyway. Maybe even take from this as a learning experience?
+<<= setup.speak($player, "What could go wrong, right?", "smile")>>
+Turning around, you move your hands behind the back of your head, resting.
+
+<<run setup.psycheHard($player, "Feminine", 1)>><<run setup.psyche($player, "Feminine", 15)>><<run setup.completeRef($player, "refFeminine1")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Embrace it.">><<replace "#choice">>You fight a little to contain a smile, your stomach filling with butterflies. Maybe this was a stroke of luck? Maybe you were always supposed to be a girl... or a woman? 
+<<= setup.speak($player, "I´m liking this more and more, not gonna lie.", "smile")>>
+Turning around, you move your hands behind the back of your head, resting.
+
+<<run setup.psycheHard($player, "Feminine", 1)>><<run setup.psyche($player, "Feminine", 45)>><<run setup.completeRef($player, "refFeminine1")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Hell no, you´re a guy.">><<replace "#choice">>You clench your fist and grit your teeth. You can´t believe you have to go through this, not one bit.
+<<= setup.speak($player, "I´ll make them pay... all of them.", "angry")>>
+Twisting and turning, your grimace only grows worse as you scoff at your soft and plump body not aligning with you at all.
+
+<<run setup.psycheHard($player, "Feminine", 1)>><<run setup.completeRef($player, "refFeminine1")>><<= setup.displayReflections($player)>><</replace>><</button>></span>
+:: Reflect - Feminine 2
+placeholder 2 <<run setup.psycheHard($player, "Feminine", 2)>>
+<<run setup.completeRef($player, "refFeminine2")>>
+<<= setup.displayReflections($player)>>
+:: Reflect - Feminine 3
+placeholder 3 <<run setup.psycheHard($player, "Feminine", 3)>>
+<<run setup.completeRef($player, "refFeminine3")>>
+<<= setup.displayReflections($player)>>
+:: Reflect - Feminine 4
+placeholder 4 <<run setup.psycheHard($player, "Feminine", 4)>>
+<<run setup.completeRef($player, "refFeminine4")>>
+<<= setup.displayReflections($player)>>

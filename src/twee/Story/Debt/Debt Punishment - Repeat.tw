@@ -1,0 +1,11 @@
+:: Debt Punishment - Repeat [autosave] {"position":"175,2425","size":"100,100"}
+You wake up to a sudden knock, not even able to get out of your pod bed before it's unlocked and opened.
+<<= setup.speak($characters.eventiaguard, "You again. Hah! Can\'t even pay your dues eh?")>>
+He moves in to grab you, but you quickly retract yourself.
+<<= setup.speak($player, "No need! Just give me a moment.", "angry")>>
+<<= setup.speak($characters.eventiaguard, "Tsk... sure.")>>
+You quickly put on your clothes and get out of the pod. Before you can even react the guard has an iron grip around your arm and begins to drag you along.
+
+<<= setup.button("Continue.", "Event - Main", "<<set $event.current = 'Punishment'>><<set $event.stage = 'punishment'>>")>>
+
+

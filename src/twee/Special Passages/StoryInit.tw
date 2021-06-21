@@ -1,0 +1,217 @@
+:: StoryInit {"position":"50,47","size":"100,100"}
+<<set $settings = {
+	gameVersion: 150,
+	patreonVersion: true,
+	debugMode: true,
+	mapMode: true,
+	introMode: true,
+	zoomMode: true,
+	sceneDimensions: 850,
+	artType: "Realporn",
+	cPassage: "Intro - Start",
+	sPassage: ""
+}>>
+
+<<set $player = setup.loadPlayer()>>
+<<set $allClothes = setup.loadClothes()>>
+<<set $debuggedExperience = ["Oral","Handjob","Sex","Anal","Dancing","Cleaning","Social","High Heels"]>>
+<<set $debuggedPsyche = ["Feminine","Slut","Bimbo","Mind","Lust"]>>
+
+<<set $update = {
+	pinup: "<<replace '#story-caption'>><<display 'StoryCaption'>><</replace>>"
+}>>
+
+<<set $story = {
+	background: 0,
+	difficulty: {
+		startUnits: 1150,
+		startDebt: 445000,
+		startInterest: 0.5,
+		startDemand: 1000
+	},
+	nEntries: ["Event-Girl-00"],
+	cEntries: [],
+	fEntries: [],
+	passage: "",
+	endPassage: "",
+	roaming: [],
+	showActive: true,
+	showCompleted: false,
+	fuckedJessica: false,
+	vernonHelp: false,
+	hasReflected: false
+}>>
+
+<<set $scene = {
+	actor: "",
+	group: "",
+	type: "",
+	background: "",
+	variance: ""
+}>>
+
+<<set $sex = {
+	givingEntity: "",
+	receivingEntity: "",
+	gE: "",
+	rE: "",
+	count: 0,
+	current: "",
+	stage: "",
+	modifier: "",
+	passage: ""
+}>>
+
+<<set $clothes = {
+	owned: ["eVentia Jacket", "eVentia Slacks", "eVentia Bra", "eVentia Panties", "eVentia Heels"],
+	stashedOutfit: [],
+	wardrobeShow: {
+	  tops:false,
+	  bottoms:false,
+	  bras:false,
+	  panties:false,
+	  stockings:false,
+	  feet:false
+	}
+}>>
+
+<<set $characters = setup.loadCharacters()>>
+
+<<set $social = {
+	entity: "",
+	essentialsGroup: setup.getInteractables("Essentials", $characters),
+	passage: "",
+	talkId: "",
+	doneTalks: []
+}>>
+
+<<set $npc = {
+	clients: setup.getInteractables("Clients", $characters),
+	executives: setup.getInteractables("Executives", $characters),
+	adults: setup.getInteractables("Adults", $characters),
+	elderly: setup.getInteractables("Elderly", $characters),
+	cool: setup.getInteractables("Cool", $characters),
+	goth: setup.getInteractables("Goth", $characters),
+	eventgirls: setup.getInteractables("Event Girls", $characters),
+	bidders: setup.getInteractables("Bidders", $characters)
+}>>
+
+<<set $event = {
+	current: "",
+	stage: "",
+	scene: 0,
+	clients: "",
+	executives: "",
+	loadedDetails: "",
+	return: "",
+	done: [],
+	storyCompleted: [],
+	debugIncident: ""
+}>>
+
+<<set $auction = {
+	current: "",
+	stage: "",
+	scene: "",
+	firstAuction: true,
+	firstRental: true,
+	firstServitude: true,
+	startPrice: 0,
+	climbPrice: 0,
+	finalPrice: 0
+}>>
+
+<<set $therapy = {
+	id: ""
+}>>
+
+<<set $time = {
+	currentDay: 0,
+	days: ["Monday","Tuesday","Wednesday","Thursday","Friday",
+	"Saturday","Sunday"],
+	dayTime: ["Morning","Afternoon","Evening","Night"],
+	currentDayTime: 0
+}>>
+
+<<set $misc = {
+	repayAmount: 0,
+	loadedDetails: ""
+}>>
+
+<<set $debug = {
+	main: false,
+	wardrobe: false,
+	sex: false,
+	stats: false,
+	events: false,
+	body: false,
+	story: false
+}>>
+
+<<set $eventStats = [
+	{
+		name: 'Receptionist',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Maid',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Stripper',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Car Show',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Gloryhole',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Girlfriend',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Sluttia',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Gangbang',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Cindanar Booth Babe',
+		roll: 0,
+		done: 0,
+	},
+	{
+		name: 'Stains Booth Babe',
+		roll: 0,
+		done: 0,
+	}
+]>>
+
+<<set $showPCFront to true>>
+<<set $showTerminal to true>>
+<<set $showEvents to true>>
+
+<<set $storyHasReflected to false>>
+
+<<set $DebugClothes to false>>
+<<set $DebugOutfit to false>>
+<<set $hypnoMode to true>>
+
+<<set $pinupView = "front">>
+<<set $pcMaleBody = "images/player/male/pc-male-undies.png">>
+
+

@@ -1,0 +1,40 @@
+:: Punishment - Free Use (non-slutty)
+You´re led deep within the adult strip, until you reach an open hall of sorts where several stands are lined up against each other. In those stands at least several woman, and some effimate-looking men are locked in place with their behind easily accessible. Just around half of them are currently @@.italics;in use@@ with someone vigorously humping away at some poor girl or guys throat, pussy or ass.
+<<= setup.speak($player, "Oh fuck no! You can´t be serious! I gotta go in one of those?! JUST NO!", "angry")>><<= setup.speak($characters.eventiaguard, "You don´t got a choice girly, could have just paid. Now, don´t resist.", "smile")>>
+Some of the stands even have modifications to change the posture and height of whomever is locked in place. The floor and stands are sticky with fluids and have seen quite the wear and tear.
+<<= setup.speak($characters.eventiaguard, "Alright, this one has your name on it. You´ll be assigned this stand for... 6 hours it says. Better get comfortable.", "smile")>>
+You take another look at the Guard, briefly thinking about trying an escape. However, he seems way bigger than you and it would just cause you more grief in the long rong. You sigh and resort yourself to your fate. Taking off your clothes and placing your hands on the handles, you crawl unto the stand, shifting and lying on your back.
+<<= setup.speak($characters.eventiaguard, "Yep, just like that. Let me fix those straps.")>>
+You´re strapped into the stand in a rather awkward pose, that just about maximizes access to every hole you possess. Trying to wiggle yourself into a more comfortable, you cringe and frown.
+<<= setup.speak($npc.clients[0], "Hey man, this one ready soon? I got a nut to bust!")>><<= setup.speak($characters.eventiaguard, "Yeah sure, just let me finish tying her up.")>><<= setup.speak($player, "Wait?! Are you serious, already?! Go use one of the others you creep!", "angry")>><<= setup.speak($npc.clients[0], "Oh fuck, I love it when they talk back!", "smile")>>
+As a finishing touch, the guard forces a ring gag unto your mouth. With just a few protesting jerks, you finally open up and let it slide in completely, making biting down impossible. What follows is nothing more than your meek protesting moans.
+<<= setup.speak($characters.eventiaguard, "All yours... I got shit to do, so don´t make me come back. Even if you could.")>><<= setup.speak($npc.clients[0], "Fuck yes... all clean too!", "smile")>>
+Just moments after the guard has turned, something long, wet, veiny and meaty is shoved into your throat. You gag and retch as it forcibly invades your throat with no care or restraint.
+
+
+:: Punishment - Free Use (slutty)
+You´re led deep within the adult strip, until you reach an open hall of sorts where several stands are lined up against each other. In those stands at least several woman, and some effimate-looking men are locked in place with their behind easily accessible. Just around half of them are currently @@.italics;in use@@ with someone vigorously humping away at some poor girl or guys throat, pussy or ass.
+<<= setup.speak($player, "So, free use it is? Pfft. I just lie on my back. Easy.", "smile")>><<= setup.speak($characters.eventiaguard, "Don´t forget this is supposed to be a punishment...", "smile")>>
+Some of the stands even have modifications to change the posture and height of whomever is locked in place. The floor and stands are sticky with fluids and have seen quite the wear and tear.
+<<= setup.speak($characters.eventiaguard, "Alright, this one has your name on it. You´ll be assigned this stand for... 6 hours it says. Better get comfortable.", "smile")>>
+You sigh as you take off your clothes and place your hands on the handles. You crawl unto the stand, shifting and lying on your back.
+<<= setup.speak($characters.eventiaguard, "Yep, just like that. Let me fix those straps.")>>
+You´re strapped into the stand in a rather awkward pose, that just about maximizes access to every hole you possess. Trying to wiggle yourself into a more comfortable, you cringe and frown.
+<<= setup.speak($npc.clients[0], "Hey man, this one ready soon? I got a nut to bust!")>><<= setup.speak($characters.eventiaguard, "Yeah sure, just let me finish tying her up.")>><<= setup.speak($player, "Have some patience pal, you got all day to use me in a few.")>>
+As a finishing touch, the guard forces a ring gag unto your mouth.
+<<= setup.speak($characters.eventiaguard, "All yours... I got shit to do, so don´t make me come back. Even if you could.")>><<= setup.speak($npc.clients[0], "Fuck yes... all clean too!", "smile")>>
+Just moments after the guard has turned, something long, wet, veiny and meaty is shoved into your throat. You gag and retch as it forcibly invades your throat with no care or restraint.
+
+
+:: Punishment - Free Use (Continued)
+It doesn´t take long until you´re covered in cum from at least several visitors. Your stand being a favorite with one cock being replaced by another almost immediately. Your throat sore and your behind sore, you writhe aginst your tight restraints.
+<<= setup.speak($npc.clients[3], "Come on man! My turn already!", "angry")>><<= setup.speak($npc.clients[2], "Oui! I´ve been standing here for 20 minutes! That ass is mine!","angry")>><<= setup.speak($npc.clients[1], "AAAAAH! FUCK! I´M COMING!", "pleasure")>>
+Another load is deposited directly down your throat making you gag and retch. His balls pressed firmly up against your nose and his cock forced down on you, you tremble as another wave of pleasure burns through you from the vigorous pumping of your ass.
+<<= setup.speak($npc.clients[4], "UGH! SHIT! THAT´S IT!", "pleasure")>><<= setup.speak($player, "Mmmmh...", "pleasure")>>
+At least several hours pass of half of the entire joint of clients take their turns on you, until the eVentia Guard makes his inevitable return.
+<<= setup.speak($characters.eventiaguard, "Times up everyone... finish it up. She got places to be.")>><<= setup.speak($npc.clients[5], "Awww man! Will she make a return? I just came here!", "smile")>><<= setup.speak($characters.eventiaguard, "I don´t know man, ask her.")>>
+As the last clients finish up and slide out of your abused aching holes, you cough up at least several strings of man-juice. The guard removes the restraints, allowing you to crawl of the stand. You stand up, shaken and worn out. Just as you arch your back, strings of cum slide down your thighs and unto the jizz-covered floor.
+<<= setup.speak($characters.eventiaguard, "Watch it. Don´t slip on the floor. I am NOT taking you to the infirmary...")>>
+You carefully put on your clothes again and follow the guard back to your pod.
+<<run setup.incBod($player, "vagina", 3)>><<run setup.incBod($player, "asshole", 3)>><<run setup.incBod($player, "mouth", 1)>><<run setup.experience($player, "Blowjob", 15, 5)>><<run setup.experience($player, "Sex", 15, 5)>><<run setup.experience($player, "Anal", 5, 15)>><<run setup.bodyNote($player, "vagina")>><<run setup.bodyNote($player, "asshole")>><<run setup.count("receivedVaginal", setup.random(20))>><<run setup.count("givenBlowjobs", setup.random(20))>><<run setup.count("receivedAnal", setup.random(20))>><<run setup.setDayTime(3)>>
+<<= setup.button("Continue.", "Pod - Main")>>

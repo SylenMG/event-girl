@@ -1,0 +1,21 @@
+:: Name {"position":"1675,1575","size":"100,100"}
+Base Name
+<<textbox "$player.name" $player.name>>
+
+Male Name
+<<textbox "$player.maleName" $player.maleName>>
+
+Female Name
+<<textbox "$player.femaleName" $player.femaleName>>
+
+Stripper Name
+<<textbox "$player.stripperName" $player.stripperName>>
+
+<span class='lbb'><<button "Set Names">>
+	<<set $player.name to $player.name.trim()>>
+	<<set $player.maleName to $player.maleName.trim()>>
+	<<set $player.femaleName to $player.femaleName.trim()>>
+	<<set $player.stripperName to $player.stripperName.trim()>>
+<</button>></span>
+
+

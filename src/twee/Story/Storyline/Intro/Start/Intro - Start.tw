@@ -1,0 +1,23 @@
+:: Intro - Start [start] {"position":"850,50","size":"100,100"}
+!Intro
+-----------------------------------------------
+<<set $showPinup to true>>Event Girl is an interactive story, in which you take control of a young college student going on a field trip with his class to a Cryolab. The year is 2023, and promising progress is being made in the Cryostasis field.
+
+However, an unfortunate accident on the field trip has unknowingly left you in permanent stasis. You wake up, flung far into the future. The year is now 2206 and the world is a very different place. Not only that, but you're not even yourself anymore. The corporation responsible for your awakening; eVentia Corp has changed you into a more suitable candidate to pay off your crippling debt to them.
+
+The world of the future now lies before your new feminine self. 
+
+You must now become an Event Girl.
+
+@@.red;Warning!@@ - The game contains photosensitive content, flashing images, suggestive content and mind-altering content that some may be susceptible, vulnerable or otherwise discouraged by. You can turn off photosensitive content in the settings, though this @@.bold;still@@ does not guarantee it won't show due to error/bugs/me forgetting to disable it.
+
+<<= setup.button("Start", "Intro - Character Creation")>>
+<<= setup.button("New Start", "New Character Creation")>>
+<span class='lbb'><span class='lbb'><<button "Changelog">>
+	<<Changelog>>
+</span><</button>></span>
+<span class='lbb'><span class='lbb'><<button "Upcoming Content">>
+	<<Upcoming Content>>
+</span><</button>></span>
+
+

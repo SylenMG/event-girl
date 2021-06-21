@@ -1,0 +1,72 @@
+:: Event Auction - Sign Up {"position":"175,2150","size":"100,100"}
+You place your index finger on the fingerprint reader by the holotable displaying the various kinds of auctions available to you. A deep beep signals that your registration is complete. A sequence of instuctions then pop up.
+
+@@.boldtext;Your registration is complete. Your auction of "$auction.current" is to take place tommorrow at 12:00. Please prepare accordingly and refrain from actions that lower your marketable value. Have a nice day.@@
+
+You return to your pod and relax for the remainder of the day whilst making sure you're as clean as possible.
+<<= setup.speak($player, ["Really hope this will give me some units... I could need it.","Tsk... this is such a bad idea.","God, I hope I don´t get bought by some creep.","I hope my buyer has a huge cock.","Tsk, hopefully he´ll be good-looking, but preferrably a stud.","Mhm, I hope my buyer is hot.","Can´t wait to be put to good use, mmmmmh.","Mhmmm, can´t wait for cockies...*drools*","Teehee~, can´t wait to serve some cocks."])>>
+Your stomach acting like an elevator, going up and then down, filled with butterflies. As the day passes and night comes, you try to sleep, but toss and turn.
+<<= setup.speak($player, ["God damn it...","This is the worst idea ever.","If only there was another way...","Not a bad idea at all. Easy units.","Mhmm... thinking about it, being on that stage. Makes me horny.","I wonder what they´ll force me to do... Mhmmm.","Mhmmm... cockies. *drools*","I gotta be a good girl and prepare.","I´m the bestest girl ever and will give the best experience ever *giggles*."])>>
+The darkness quickly claims you as you drift of into an aimless slumber. Your dreams filled with various outcomes of tommorrow.
+
+<<= setup.button("Continue.", "Event Auction - Follow Up", "<<set $time.currentDayTime == 0>><<set $time.day += 1>>")>>
+
+:: Event Auction - Follow Up
+You´re blinded by bright lights as you open your eyes. Followed by a yawn you stretch your arms and legs. Dragging yourself towards the showers, your skin grows goosebumps as the ice cold water hits your back.
+<<= setup.speak($player, "Ugh! Cold!")>>
+Drying yourself off, you check the time and promptly move towards your designated location.
+
+As you enter you notice that the Auction Hall is filled up with lots of guests, some wearing neat gallant suits whilst others wear casual clothes.
+<<if $auction.firstAuction == true>>
+<<= setup.speak($characters.drlinus, "Ah! You finally arrived! Thought you might´ve bailed for a moment!", "smile")>>
+You feel Linus´ presence slither along the red carpet and enter your line of sight once more.
+<<= setup.speak($player, "...Of course not... I keep my word you know. What´re you doing here anyway?")>>
+A slick smile spreads across his face as he rubs his hands.
+<<= setup.speak($characters.drlinus, "Why I am here, you ask? Well! To see through your first auction of course! And bid!")>>
+Your stomach drops as you clench your fist.
+<<= setup.speak($player, "WHAT?! You´re going to bid on me?!", "angry")>>
+His chuckle fills the hall.
+<<= setup.speak($characters.drlinus, "Only joking! HAHA!.. *ahem*... Let me show you to the backroom, you´re one of the first girls I believe. It won´t be long until you go on the stage.")>>
+You slowly follow along as he takes you to the backroom to wait for your turn.
+<<else>>
+<<= setup.speak($player, ["Looks like it´ll be the regulars... fine I guess.","Another day, another auction. My ass. Tsk.","Nothing special, tsk. These are the people that are going to bid? Give me a break.","Lots of cocks walking around, or should I say... money.","They look rich alright, and horny. I can smell it.","Another day, and I auction my ass off again. Hopefully he´s got a proper cock.","Teehee~, so many cocks around! *licks lips*","Mmmmh, I gets wets thinking about them buying me... mmmh, I gotta be a good girl~","*drools* cocks... *drools*"], "smile")>>
+<</if>>
+<<= setup.button("Continue.", "Event Auction - The Stage")>>
+
+:: Event Auction - The Stage
+Shortly after entering the dimly lit backroom, a neatly dressed woman approaches you. She moves with an almost flawless grace and stops before you only to bow casually.
+<<= setup.speak($characters.housespeaker, "The floor is yours, miss. They´re ready to receive you.")>>
+Her voice is almost completely monotone and direct.
+<<= setup.speak($player, ["Thanks, I guess.","Here goes nothing.","Time to sell myself... Yikes.","Tsk, finally. I was getting bored.","About time, let´s get this show rolling.","Here goes, wish me luck. Better climb high.","Teehee~, finally! Let´s goooo!","Awww! Finally! I wus gettins bored! *giggles*","Are the cocks ready for me? *licks lips*"], "smile")>>
+The woman leads you out unto the stage and you follow along. The light blinds you as you enter, with murmurs and whispers. The crowd is completely silent, which makes your stomach turn.
+<<if $auction.firstAuction == true>>
+Does your hair sit right? Are you wearing the proper clothes? Is your makeup alright? Questions you´d never thought you´d have on a stage infront of just short of a hundred people. People that are going to bid on a lucrative experience with you.
+<<= setup.speak($player, "What the hell did I sign up for...")>><<else>>
+The familiar thoughts crawl through your head. Whom could be the final bidder? And what comes next...
+<</if>>
+<<= setup.button("Continue.","Event Auction - The Bidding")>>
+
+:: Event Auction - The Bidding
+<<set $auction.finalPrice = setup.bid($player, $auction.current)>><<set $auction.climbPrice = Math.floor($auction.finalPrice/10 + $auction.startPrice)>>The sound of the woman clearing her throat echoes a deep silence through the hall. The previous chit-chatter and whispers completely evaporate. The woman gets herself comfortable behind her podium, which points out towards the audience.
+<<= setup.speak($characters.housespeaker, "We move on to subject entry " + setup.random(100) + ", an enterprising Eventia Girl, also known as $player.femaleName.")>>
+She turns and looks to, with all eyes following her.
+<<= setup.speak($characters.housespeaker, "The subject auction type is $auction.current, and begins at the price of $auction.startPrice. With that, let the bidding commence.")>>
+You look out unto the audience, a light flashes from back down in the corner.
+<<= setup.speak($characters.housespeaker, "Does anyone raise to $auction.climbPrice? Anyone? Do we get a- Right there, alright! Anyone to match that?", "smile")>>
+And with that, more flashes join the fray. After some time, several dings echo through the hall.
+<<= setup.speak($characters.housespeaker, "And with that, the bidding for $player.femaleName has concluded with Bidder#" + setup.random(150) + ", taking home the price. Congratulations.", "smile")>>
+You spot a perticularly smug man in the audience, but get little time to look around as you´re led backstage once again.
+
+<<nobr>>
+<div class='default-container'>
+<div class='default-text'>
+Subject: Candace.<br>
+@@.boldtext;Auction: $auction.current.@@<br>
+Starting Price: u$auction.startPrice<br>
+Final Price: u$auction.finalPrice<br>
+</div>
+</div>
+<</nobr>>
+
+<<= setup.button("Continue.","Event Auction - " + SugarCube.State.variables.auction.current + "")>>
+

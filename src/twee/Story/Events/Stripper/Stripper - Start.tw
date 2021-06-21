@@ -1,0 +1,13 @@
+:: Stripper - Start
+You approach Brenda sitting by the receptionist desk.
+
+<<= setup.speak($characters.brenda, "Ready for another day gurl?")>>
+
+<<= setup.speak($player, "Sure am.")>>
+
+You put on your receptionist outfit in the backroom. It´s familiar tightening grip proving less of a challenge every time. 
+Before moving on, you take one gander in the mirror. The short and tight top exposing your curves and mid-riff make you shuffle it around a bit, before settling.
+
+Strutting back out you prepare for another day as the face of eVentia, receiving clients, organizing event girls and answering questions from whomever might need them.
+
+<<= setup.equipOutfit($player, "receptionist", "stash")>><<= setup.button("Continue.", "Event - Main")>>

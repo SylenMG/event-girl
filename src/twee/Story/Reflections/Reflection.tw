@@ -1,0 +1,12 @@
+:: Reflection {"position":"50,925","size":"100,100"}
+<span id='ref'><<if $player.modifiers.includes("hasReflected")>>You lie down on your bed, thinking about everything that has happened so far.
+<<else>><<set $player.modifiers.push("hasReflected")>>You lie down on your bed, thinking about everything that has happened so far.
+
+What´s going on? What´s going to happen now? What are you going to do now? You´re not even yourself anymore, you have tits?!
+
+You look down on your new body. Cupping your tits, you squish and push them in. You moan lightly for a second. It´s all so... Feminine... Curvy... Sexy... What are you even doing right now?
+
+You put your hands on your head, trying to process it all.<</if>>
+
+<<= setup.displayReflections($player)>></span>
+

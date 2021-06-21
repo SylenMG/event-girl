@@ -1,0 +1,7 @@
+:: Intro - Event Girl Question [ev-therapist-2] {"position":"1350,550","size":"100,100"}
+You question your new position as event girl.
+<<= setup.speak($characters.drlinus, "An Event Girl is a multi-purpose temporary entertainment stand-in! Think of it, as a woman of all womanly trades sorta-thing! The pay is high, and the demand even higher! Only going higher if you become really good at it.")>><<= setup.speak($player,"What kinda... 'Womanly' trades are we talking here?")>><<= setup.speak($characters.drlinus, "Oh... Pretty much anything really. Most commonly receptionist work, maid work, show girl, stripper wo-")>><<= setup.speak($player, "Stripper?!")>><<= setup.speak($characters.drlinus, "Well listen now, no one is forcing you to do any particular one. They\'re all well-paying. You can pick your fancy. It\'s really not that bad at all.")>>
+
+<<IntroQuestions>>
+
+

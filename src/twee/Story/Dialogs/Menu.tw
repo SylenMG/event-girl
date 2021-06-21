@@ -1,0 +1,23 @@
+:: Menu [nobr] {"position":"1800,1450","size":"100,100"}
+<span class="long-blue-button">
+<span class='lbb'><<button "Settings">>
+	<<goto "Settings">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<br><span class='lbb'><<button "Saves">>
+<<= UI.saves()>>
+<</button>></span>
+<br><span class='lbb'><<button "Restart">>
+<<= Engine.restart()>>
+<</button>></span>
+<br><span class='lbb'><<button "Emergency Exit">>
+	<<goto "Pod - Main">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+</span>
+
+

@@ -1,0 +1,20 @@
+:: Character [noreturn] {"position":"425,49","size":"100,100"}
+!Character
+---------------------------------------------
+<<= setup.character($player)>>
+
+!!!Description
+---------------------------------------------
+<<= setup.examine($player)>>
+
+!!!Psyche
+---------------------------------------------
+<<= setup.showPsyche($player)>>
+
+!!!Skills
+---------------------------------------------
+<<= setup.showExperience($player)>>
+
+<span class='lbb'><<button "Return" $return>><</button>></span>
+
+

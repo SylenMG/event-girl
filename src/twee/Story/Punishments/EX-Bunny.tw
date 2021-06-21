@@ -1,0 +1,33 @@
+:: Punishment - EX Bunny
+You´re taken to the bustling commercial strip, where you eventually happen upon a colorful bright-pink shop. The entrance is littered with all manner of products with labels such as 'Luca-Lux Pills' and 'Lexaline Solutions'. 
+<<= setup.speak($characters.eventiaguard, "Here we are. You´ve been assigned ´Test Bunny´ at Pixie Pharma... so yeah... gotta do what they say.", "smile")>><<= setup.speak($player, "Test Bunny? What does that even mean?", "smile")>><<= setup.speak($npc.executives[0], "It means that you will be testing a line of products for us.")>>
+You quickly spin, startled at the sudden voice coming from your back.
+<<= setup.speak($npc.executives[0], "Greetings new Test Bunny. Please, come inside so that we may begin. It´ll be shorter if you just comply.", "smile")>><<= setup.speak($player, "Shit! You startled me... ugh. Whatever. Let´s just get this over with.", "surprised")>><<= setup.speak($characters.eventiaguard, "Right, I´ll just be going then. You call me if she makes any trouble.")>>
+With that you´re let inside the store. The walls of the store are decorated with monitors playing colorful, jumpy commercials and ads for all manner of products. Pink Pills and beauty products. Nothing that surprises you though. You follow the man into the backroom and down some stairs, until you reach a long hallway with several numbered rooms on each side. 
+<<= setup.speak($npc.executives[0], "I believe this is our assigned room. It will be a short test of three. I hope you can power throug that.", "smile")>>
+A chuckle escapes him as he opens the door. The room itself is near-absent of any furniture at all, with white walls, a white long table in the middle and a few chairs. On the table you see some light tables and a three bowls filled with pills.
+<<= setup.speak($npc.executives[0], "This is it. You will be ingesting these three pills in a very specific order. Pixie´s will have access to your biometrics and be able to monitor the long-term effects of the pills.")>><<= setup.speak($player, "Long-term? Wait... this shit is safe... right?")>><<= setup.speak($npc.executives[0], "Of course! I assure you that all of our experimental products are 100% safety guaranteed!")>>
+You sigh walking closer to the table.
+<<= setup.speak($npc.executives[0], "Let´s begin with the white pill, that would be the one to your left. Simply ingest the pill and wait five minutes as I record the effects.")>>
+You pick up one of the white slightly-transparent pills, eyeing the contents.
+<<= setup.speak($player, "Well... guess I have to...")>>
+Placing the pill on your tongue, you let it slide down in one big gulp.
+
+:: Punishment - EX Bunny (Continued)
+You float on pink pillowy clouds as your body is electrified with a sense of utter fulfillment and purpose. The lollipop in your mouth is sugary and tasteful, and the beat of your heart is like a fluttery dash of pure happiness. 
+<<= setup.speak($player, "Weee-wooo! *hick*...teehee~", "pleasure")>>
+The endless space surrounding you is nothing but a deep pitch-pink abyss. The hands that grip and trail along your body makes you giggle and wiggle your butt.
+
+The dash of pink is suddenly washed away by a wave of rainbows and vibrant sprinkles that cover you in neon light. Your limbs detach from your main body and the electric connection between your soul, mind and body is partly severed for a moment. You reach oneness with the universe. This is you. You exist to please and serve. You want to please and serve. It makes you happy to please and serve.
+<<= setup.speak($player, "I... I want to please and serve....*hick*", "pleasure")>>
+All around you exist, lollipops getting licked and strings pulling you back and forth. They need you to please and serve. This makes you happy. This gives you purpose.
+
+Your body slowly floats back and reconnects to your soul and a drop in your stomach takes you low. The pink and rainbowdash colors suddenly darken as the scene changes to a dark abyss.
+
+You open your eyes. You immediately scoff and hold your head to reduce the pounding headache. 
+<<= setup.speak($player, "Ugh! What-... What the HELL?!", "angry")>>
+The comfort of your bedsheets caressing your back you twist and turn. You´re in your pod? How much time passed?
+
+It´s night. Did the guard bring you back? Was the test.... a failure? You remember nothing at all. With every limb in your body weighing a ton, you decide that it´s probably just best to go to sleep.
+<<run setup.setDayTime(3)>>
+<<= setup.button("Sleep.","Sleep")>>

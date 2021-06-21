@@ -1,0 +1,41 @@
+:: Pod - Main [pod-interior map autosave] {"position":"50,1200","size":"100,100"}
+You find yourself inside of your sleeping pod.
+
+@@.boldtext;Terminal@@ - <<if $showTerminal is true>>[[Turn Off|Pod - Main][$showTerminal to false]]<<else>>[[Turn On|Pod - Main][$showTerminal to true]]<</if>>
+-------------------------------------
+<<if $showTerminal is true>>Your terminal is on, displaying your current units and debt to eVentia.
+
+Units: $player.units 
+Debt: $player.debt
+
+<span class='lbb'><<button "Story Log">>
+<<StoryLog>>
+<</button>></span>
+<span class='lbb'><<button "Transactions Log">>
+<<ELog>>
+<</button>></span>
+<span class='lbb'><<button "Debt Management">>
+<<DebtManagement>>
+<</button>></span>
+
+<</if>>@@.boldtext;Wardrobe@@
+-------------------------------------
+Access your eVentia wardrobe or check yourself out in the mirror.
+
+<span class='lbb'><<button "Check Yourself">>
+	<<goto "Character">>
+<</button>></span>
+<span class='lbb'><<button "Access Wardrobe">>
+	<<goto "Pod - Wardrobe">>
+<</button>></span>
+
+@@.boldtext;Events@@ - <<if $showEvents is true>>[[Turn Off|Pod - Main][$showEvents to false]]<<else>>[[Turn On|Pod - Main][$showEvents to true]]<</if>>
+-------------------------------------
+<<if $showEvents is true>>Your established or upcoming events.
+<<= setup.establishedEvents($player, $time)>>
+<</if>>
+
+<<= setup.displayPodActions($player)>>
+
+
+

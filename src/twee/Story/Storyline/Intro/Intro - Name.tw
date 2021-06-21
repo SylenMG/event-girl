@@ -1,0 +1,22 @@
+:: Intro - Name [ev-therapist-2] {"position":"1475,550","size":"100,100"}
+<<= setup.speak($player, "Alright... I think that was all. So... What now?")>><<= setup.speak($characters.drlinus, "You should also choose a new name, I can put it into your E-Pal, you\'ll be using it to track yourself as an Event Girl whilst working here.")>>
+He hands you a small electronic device which is prompting you for a name.
+
+<<textbox "$player.femaleName" $player.femaleName>>
+
+After putting in your new name you put your new E-Pal into your jacket.
+<<= setup.speak($characters.drlinus, "Don\'t lose that now, they\'re quite expensive actually, would be terrible for your debt.")>><<= setup.speak($player, "Right... Right, I get it.")>>
+@@#input-error;@@
+<span class='lbb'><<button "Continue">>
+	<<set $player.femaleName to $player.femaleName.trim()>>
+	<<if $player.femaleName is "">>
+		<<replace "#input-error">>Please enter your name.<</replace>>
+	<<elseif $player.femaleName == $player.maleName>>
+		<<replace "#input-error">>Please enter a new name.<</replace>>
+	<<else>>
+		<<set $player.name to $player.femaleName>>
+		<<goto "Intro - Finale">>
+	<</if>>
+<</button>></span>
+
+

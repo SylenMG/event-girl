@@ -1,0 +1,30 @@
+:: Intro - Finale [autosave] {"position":"1475,675","size":"100,100"}
+<<= setup.speak($characters.drlinus, "I'll show you to your pod. This here is my health clinic. Feel free to drop by whenever you want to unwind. All Event Girls at eVentia have access to a therapist and conditioning for their work.")>><<= setup.speak($player,"Conditioning? What do you mean?")>><<= setup.speak($characters.drlinus, "Oh...? Nothing special really... I can tell you more about it later. You should rest now, and get more familiar with your... New life that is. Here, you might want to wear these.")>>
+He hands you some high heels, which you reluctantly accept and put on. As you stand up you wobble uncontrollably, trying to find your balance.
+<<= setup.speak($player,"This... Why did you shorten my tendons again? Really?")>><<= setup.speak($characters.drlinus, "Simply company policy. I\'m afraid you'll have to get used to it.")>><<= setup.speak($player,"Right...")>><<= setup.speak($characters.drlinus, "Let me walk you to your pod.")>>
+You both leave the room and enter the clinic reception. The guard from before stands by the entrance. A few clients also seemingly sit around waiting their turn.
+
+You exit the clinic and enter what looks like a massive shopping mall of sorts. As well as a lobby and foyer. You see the eVentia logo around the entrance and by the reception area.
+<<= setup.speak($characters.drlinus, "This way. Follow me please.")>>
+You're led to a more secluded area, a form of back entrance.
+<<= setup.speak($characters.drlinus, "Your pod should be 021, down here I believe.")>>
+You reach the pod, a rather small bed-like chamber, with several monitors and accomodations.
+<<= setup.speak($player,"I\'m... Supposed to stay here?")>><<= setup.speak($characters.drlinus, "For now... Please, take your time to process all this. I made sure that your first month of interest is already paid, so you have time to get into things. Don\'t hesitate on visiting me, for anything really. But for now, I imagine that you must be weary and need rest.")>><<= setup.speak($player,"Thank you.")>><<= setup.speak($characters.drlinus, "I\'ll leave you to it then.")>>
+<<run setup.story("Event-Girl-01", "start")>>
+<span class='lbb'><<button "Enter your pod and reflect on your situation">>
+	<<goto "Reflection">>
+	<<run setup.logEPal("Vat Maintenance", 220000, 750, "Debt")>>
+	<<run setup.logEPal("Vitro Test", 2000, 150, "Debt")>>
+	<<run setup.logEPal("Nyxline Meta-Implant", 2000, 150, "Debt")>>
+	<<run setup.logEPal("XXXXXX (E001)", 3800, 150, "Debt")>>
+	<<run setup.logEPal("Biomorphic Neo-Genesis", 250000, 1000, "Debt")>>
+	<<run setup.logEPal("Public Registration", 120, 0, "Debt")>>
+	<<run setup.logEPal("E-Package (Standard)", 225, 0, "Debt")>>
+	<<run setup.logEPal("XXXXXX (E002)", 1700, 1050, "Debt")>>
+	<<run setup.logEPal("E-Tracker Geo-F Implant", 255, 0, "Debt")>>
+	<<run setup.logEPal("Vat Disposal", 120, 0, "Debt")>>
+	<<run setup.logEPal("E-Benefits", 1150, 0, "Benefits")>>
+	<<set $settings.introMode to false>>
+<</button>></span>
+
+

@@ -1,0 +1,8 @@
+:: Event Auction - Aftermath
+<<run setup.story("Auction-House-00", "complete")>><<run setup.addUnits($player, 'Auction House', $auction.finalPrice)>><<set $time.currentDayTime == 4>><<set $auction.firstAuction = false>>You return to your pod, feeling completely drained from the experience.
+<<= setup.speak($player, "That really took the wind out of me... *yawn*...")>>
+You slouch unto your pod bed and fall head first into a deep slumber.
+
+<<= setup.button("Sleep.", "Sleep")>>
+
+

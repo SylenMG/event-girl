@@ -1,0 +1,15 @@
+:: eVentia - Psyche Clinic [map autosave clinic] {"position":"50,1875","size":"100,100"}
+!eVentia - Psyche Clinic
+-------------------------------------
+You're standing in the waiting room of the Psyche Clinic, it's completely empty. A menu of various therapy sessions can be seen, showing their supposed contents and payouts.
+
+<<= setup.displayUnits($player)>>
+
+<<= setup.displayTherapy($player)>>
+<span id="TherapyMessage"></span>
+
+<span class='lbb'><<button "Return">>
+	<<goto "eVentia - Lobby & Foyer">>
+<</button>></span>
+
+

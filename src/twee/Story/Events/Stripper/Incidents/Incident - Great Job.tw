@@ -1,0 +1,16 @@
+:: Stripper Incident - Great Job
+Your sweaty body swaying to the electronic bass, your heart pumping and your lingerie tossed all around you on the stage. The cheering of the audience and the occasional wolf-whistle fills your ears as you make another daring swing around the pole.
+<<= setup.speak($npc.executives[0], "My god! The way she moves! Take me!", "surprised")>><<= setup.speak($npc.clients[0], "Ooooh! That´s it baby! Show me that kitty!", "pleasure")>><<= setup.speak($npc.clients[1], "This shit is fucking top-class!", "smile")>>
+With the cold pole lodged between your buttcheeks, you slowly slink down unto all fours. You lock eyes with another patron and send him a seductive smile, before slowly crawling towards him.
+<<= setup.speak($npc.clients[1], "Oh shit boys! She´s coming for me!", "surprised")>><<= setup.speak($npc.clients[2], "Daaamn girl!", "smile")>>
+You stop before and shake your tits, beginning to lean forward towards his face.
+
+:: Stripper Incident - Great Job (Continued)
+With his face firmly pressed against your tits, digging into your cleavage. You place your arms behind his head and smother him. You spot one of the other guys almost jumping unto the stage and raising his hand aiming it at your ass. A moan escapes you as a stinging pain spreads through your buttcheeks. 
+<<= setup.speak($npc.clients[3], "Take it you slut! You dirty whore!", "smile")>><<= setup.speak($npc.clients[1], "MMMMmmmmh...", "pleasure")>>
+You giggle as you push the patron back down, leaning back and flashing your naked pussy once to the audience. The announcer calls your name, which prompts you to roll over and finish the show with one last booty twerk.
+Grabbing your clothes, you strut back towards the backstage.
+<<= setup.speak($characters.manager, "Damn, that was quite some show! You´re on fire $player.stripperName!", "smile")>><<= setup.speak($player, "Thanks, was a little wild, but I just thought, better to go with it than against it.", "smile")>><<= setup.speak($characters.manager, "That should be rewarded! Great performance deserves something extra you know!", "smile")>>
+Your E-Pal vibrates as a nice fat bonus registers.
+<<run setup.psyche($player, "Slut", 2, 3)>><<run setup.psyche($player, "Lust", 75, 25)>><<run setup.rating($player, 25)>><<run setup.bonus($player, 800, "Dancing")>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>

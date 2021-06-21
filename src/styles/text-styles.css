@@ -1,0 +1,101 @@
+.speaker-text {
+	text-align: center;
+}
+
+.default-text {
+}
+
+.speaker-header {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.lbtext {
+  color: lightblue;
+	font-weight: bold;
+}
+
+.grey {
+  color: grey;
+	font-weight: bold;
+}
+
+.pink {
+  color: lightpink;
+	font-weight: bold;
+}
+
+.hardpink {
+  color: pink;
+	font-weight: bold;
+}
+
+.deeppink {
+  color: deeppink;
+	font-weight: bold;
+}
+
+.hotpink {
+  color: hotpink;
+	font-weight: bold;
+}
+
+.lightgreen {
+  color: lightgreen;
+	font-weight: bold;
+}
+
+.lightblue {
+	color: lightblue;
+	  font-weight: bold;
+  }
+
+.red {
+  color: red;
+	font-weight: bold;
+}
+
+.blue {
+  color: #68d;
+	font-weight: bold;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.boldtext {
+	font-weight: bold;
+}
+
+.initloadtext {
+	font-weight: bold;
+  	font-size: 2em;
+}
+
+.initloadpinktext {
+	font-weight: bold;
+  	font-size: 2em;
+  	color: lightpink;
+}
+
+.alertmessage {
+  color: red;
+	font-weight: bold;
+}
+
+.frozentext {
+  color: powderblue;
+	font-weight: bold;
+}
+
+.italics {
+	font-weight: italic;
+  	font-style: italic;
+}
+
+.ai-alert {
+	color: red;
+	font-weight: bold;
+  	font-size: 150%;
+}

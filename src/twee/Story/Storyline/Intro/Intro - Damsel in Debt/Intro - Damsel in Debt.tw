@@ -1,0 +1,72 @@
+:: Intro - Arriving at eVentia [city-1]
+The Eventia logo towers above you as you look out the window from the holo-taxi. The largest entertainment center in sector A-01, you double check your N-Face to see if it´s the correct designation.
+<<= setup.speak($player, "This is it... where I´ll pay off that stupid debt.")>>
+The door to the holo-taxi slides open and the bustling sound of the surrounding metropolis hits you. The stench of the nearby sewer making you retch, you quickly jump out of the taxi and grab your bags from the trunk. The taxi simply hovers off as your N-Face vibrates, telling you that you´re at least 200 units lighter in your wallet.
+<<= setup.speak($player, "Ugh... let´s see... that over there would be the main entrance. E-01, should be close to that guys clinic.")>>
+Hauling your baggage towards the entrance, you enter the entertainment center.
+<<= setup.equipOutfit($player, "starterGirl")>><<= setup.acquireItem("White Camisole", "clothes")>><<= setup.acquireItem("Grey Jeans", "clothes")>><<= setup.acquireItem("Pink Bra", "clothes")>><<= setup.acquireItem("Pink Panties", "clothes")>><<= setup.acquireItem("Peeptoe Heels", "clothes")>>
+<<= setup.button("Continue.", "Intro - Entering eVentia")>>
+:: Intro - Entering eVentia [ev-foyer-2]
+A splash of fresh cooling air hits you as you move through the entrance, washing away the smells of the wretched outside. Turning around, you take in the refreshing scenery of the lobby and foyer. You spot one of the guards standing in the corner, waving you over.
+<<= setup.speak($characters.eventiaguard, "You one of them new arrivals? You look like one.")>><<= setup.speak($player, "Yes, I was told to get health exam first, here´s my ID.")>>
+Holding out your wrist, the guards scans it with a soft beep.
+<<= setup.speak($characters.eventiaguard, "Yep, you have an appointment with Dr. Linus. His clinic is right over there, to the left, then straight.")>><<= setup.speak($player, "Thanks.", "smile")>>
+Moving towards the clinic, you look around to examine what will soon, most likely, become your new home. In the foyer couches sits at least several men all wearing neon suits, typical for the executive types. A group of girls wearing flashy dolled-up fashion seems to be making their way down south, towards the 'Adult'-strip, judging from the signs. Lastly, men and women of all social circles, bustling through the busy entertainment center.
+
+<<= setup.button("Continue.", "Intro - Meeting Dr. Linus")>>
+:: Intro - Meeting Dr. Linus [clinic]
+Arriving at the Psyche Clinic, the glass doors slide open and you enter the reception. Dragging your baggage along, you make your way to the desk, only to hear your name called out.
+<<= setup.speak($characters.drlinus, "Ah! Would that be $player.femaleName? I have been expecting you!", "smile")>><<= setup.speak($player, "Oh? Hello there. I just arrived, hope I´m not late.")>>
+A tall, slender man in a lab coat approaches you. His slick hair adds to his clinical demeanor. 
+<<= setup.speak($characters.drlinus, "Welcome to the Eventia Psyche Clinic! My name is Dr. Linus and I´ll be your main physician during your stay with us.")>><<= setup.speak($player, "Thanks, and I´m $player.femaleName, but you already know that.", "smile")>><<= setup.speak($characters.drlinus, "Well, let´s get to it. If you will follow me, then I can properly evaluate if you´re of upstanding health.")>>
+You follow the physician, walking along the sprinkly clean white floor, giving your heels a firm click with every step. Walking down the hallways you pass a turn which gives off a distinct moaning that echoes off the walls. You stop for a second to look down the hall, but a interrupted.
+<<= setup.speak($characters.drlinus, "Shall we continue? Please don´t mind the other patients.")>>
+You nod and continue towards his office. Entering his office, you´re immediately taken in by the many different phallus figurines that decorate it. A painting also hangs on the wall, featuring a lithe woman-... with a thick third appendage dangling from her nether regions.
+<<= setup.speak($player, "Nice... office.")>><<= setup.speak($characters.drlinus, "Ah! I see you take a liking to it as well? I do my best to make my clients feel right at home.", "smile")>>
+A sigh escapes you as you sit down on the chair aimed at his desk.
+<<= setup.speak($characters.drlinus, "No need to get comfortable miss, if you would undress now, I can begin the scan.")>><<= setup.speak($player, "Right, of course... That´s why I´m here...")>>
+Taking one last glance at his obscene office, you begin to undress for his... 'scan'.
+
+<<= setup.button("Continue.", "Intro - Health Check-Up")>>
+:: Intro - Health Check-Up [clinic]
+<<= setup.equipOutfit($player, "naked")>>The cool air makes your tits perks and your skin crawl as a cool breeze caress your skin. The physician has already whipped out his scanner, charging it up with a deep buzzing.
+<<= setup.speak($characters.drlinus, "This might tickle a bit, but it´s completely normal. Just stand still as I work the scanner over your body.")>>
+A buzzing sends small tingling shocks through your upper back as the scanner makes contact with your skin. He rolls it along your lower back, making a small moan escape you. The scanner moves down your back, until it caresses your asscheeks.
+<<= setup.speak($characters.drlinus, "Spread please.", "smile")>><<= setup.speak($player, "W-what?!", "surprised")>><<= setup.speak($characters.drlinus, "Spread your legs. I need to make sure you´re ready for any type of service you might participate in.")>><<= setup.speak($player, "B-but I´m not some E-Hooker, I wouldn´t do any of t-that?!", "surprised")>><<= setup.speak($characters.drlinus, "Company policy, miss.")>>
+You gulp as you spread your legs, letting the scanner slide under your vagina. A hard beep suddenly repeatedly rings from the scanner.
+<<= setup.speak($characters.drlinus, "Wauw... You´re a virgin?", "smile")>><<= setup.speak($player, "Yeah?! So what?! Is that a problem?!", "angry")>><<= setup.speak($characters.drlinus, "No... not at all. An advantage even. You should check out the auction blocks. You can make a small fortune auct-", "smile")>><<= setup.speak($player, "I´m not here to auction off my virginity! I´m here to pay off my debt!", "angry")>>
+A sigh escapes the physician as he concludes the scan.
+
+<<= setup.button("Continue.", "Intro - Check-up Conclusion")>>
+:: Intro - Check-up Conclusion [clinic]
+<<= setup.equipOutfit($player, "starterGirl")>>The buzzing stops and the physician puts the scanner on his desk. Walking around to sit in his office chair, a light-screen suddenly flips up with your picture and record being displayed.
+<<= setup.speak($characters.drlinus, "Well, you´re a perfect healthy adult woman. The only thing of note is your... lack of experience.", "smile")>><<= setup.speak($player, "So... can I like go now? I was told you had a pod for me.")>>
+His chuckle and nod makes your stomach drop. He leans back, eyeing you up and down.
+<<= setup.speak($characters.drlinus, "Yes. You´re cleared for work. An Eventia Guard should be waiting outside the clinic, ready to escort you to your pod. But- before you leave. Let me remind you that you can always visit the clinic to enhance your mind and psyche.", "smile")>><<= setup.speak($player, "Sure... Whatever.")>>
+You grab your clothes to put them back on, with him sitting in his chair, observing. Your eyes meet at least several times, as he poorly pretends to be checking something in the meanwhile.
+<<= setup.speak($player, "I´ll be going then, see you around, Linus.")>><<= setup.speak($characters.drlinus, "I sure do hope so- I mean, for psyche enhancement. Not if you get hurt-ahaha!", "smile")>>
+You grab your bags and head back towards the clinics reception, where you spot the same guard that previously received you by the entrance.
+
+<<= setup.button("Continue.", "Intro - Escort to Pod")>>
+:: Intro - Escort to Pod [ev-foyer-1]
+You lock eyes with the guard and walk towards him with your arms now sore from dragging your baggage around all day. The guard nods at you as you get closer.
+<<= setup.speak($characters.eventiaguard, "As you have been cleared for work at Eventia, you may now be escorted to your pod. Please follow along, miss.")>><<= setup.speak($player, "Right-... you´re not going to help with this?")>>
+The guard ignores you and exits the clinic, making you scuff at him. You follow him out back into the foyer, where the same bustle and rush of before greets you again. The guard leads you east, towards a hall with a sign saying; "Pod Halls".
+<<= setup.speak($player, "I hope it´s not too crampy... Please don´t be worse than the last.")>>
+You enter the Pod Hall, only to stop at a different sign saying; "Pod Baths".
+<<= setup.speak($characters.eventiaguard, "This here be the baths, they´re uni-sex and shared, to your information, miss.")>>
+Barely paying attention to what he´s saying, you drag your baggage along, only for the weight to suddenly be lifted as the guard takes it with one hand.
+<<= setup.speak($characters.eventiaguard, "Let me take care of that the rest of the way. Oh... your pod is right there, miss.", "smile")>>
+Turning around you spot your pod designation number.
+
+<<= setup.button("Continue.", "Intro - Arrival at Pod")>>
+:: Intro - Arrival at Pod [pod-hall]
+You swipe your wrist over the holo-lock, which promptly slides the pod open with a soft click. A single bed with a foldable table awaits you. You spot at least several other monitors and other modules for wardrobe-management and storing things.
+<<= setup.speak($player, "Is this it? That´s... old as heck...")>><<= setup.speak($characters.eventiaguard, "That´s it miss. You can maybe upgrade it for a penny or two when one of the newer ones becomes available.")>>
+The guard tosses in your baggage and takes a step back.
+<<= setup.speak($characters.eventiaguard, "You can report to the reception tommorrow if you so desire. I´ll be leaving now. Good evening to you, miss.")>>
+You nod at the guard and begin to unpack your things.
+
+<<= setup.button("Continue.", "Pod - Main")>>
+
+

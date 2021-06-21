@@ -1,0 +1,46 @@
+:: Ending - Uncertain Future
+You think a bit about it, but eventually decide that you've had enough of eVentia and their corporate agenda.
+<<= setup.speak($player, "I think I´ll take my chances. Just finalize my contract, please.", "smile")>>
+He looks you up and down whilst scratching his chin.
+<<= setup.speak($characters.drlinus, "And the citizenship? It will be very difficult to attain on your own.")>><<= setup.speak($player, "I´ll earn it on my own terms.", "smile")>><<= setup.speak($characters.drlinus, "Very well. I suppose I should wish you good luck then. A pleasure to have worked with you, $player.femaleName.", "smile")>>
+He scribbles down some notes on his light tablet and then holds his finger over the scanner.
+<<= setup.speak($characters.drlinus, "From this day, you´re a free civillian and no longer an eVentia asset. You can always return though, should you find the brave new world to be too much for you. You have till midnight to empty out your pod.", "smile")>>
+He reaches out for a handshake, but you´ve already turned around to leave.
+<<= setup.speak($player, "Yeah... See you around, Linus.", "smile")>>
+
+<<= setup.button("Continue.", "Ending - UF Brenda")>>
+:: Ending - UF Brenda
+You reach your pod and fold your outfits and clothes neatly, packing it all into your newly purchased duffle bags. Turning around you´re almost spooked by the professional, but stout and proud figure standing before.
+<<= setup.speak($characters.brenda, "I heard your ass leaving! Gurl! Not without saying bye now are we?", "smile")>><<= setup.speak($player, "Of course not, just thought I would prepare first.", "smile")>>
+You both chuckle as you hug, her embrace warming you.
+<<= setup.speak($characters.brenda, "So... Debt free huh? Quite something! You got any plans out there on the streets?", "smile")>><<= setup.speak($player, "No, not really. There´s still so moch I don´t know. I´ll figure it out somehow, I guess.")>>
+Brenda shifts her posture and lets out a chuckle.
+<<= setup.speak($characters.brenda, "Don´t worry! I got a pal that can help you out... runs a small restaurant downtown. Always looking for more hands waitressing. It might be a little run down, but its where I´ll go once I´m done here.", "smile")>>
+She holds her wrist against yours, transferring the data to your E-Pal.
+<<= setup.speak($player, "Wait, this will work outside eVentia?", "smile")>>
+You point at your E-Pal.
+<<= setup.speak($characters.brenda, "Sure, why not? Uplinks are pretty standard issue. Even the corporate ones are. I mean, Eventia might be seeing everything you do, but it will do for now right?")>>
+With Brenda´s help you both get your last stuff in order, leaving your pod in pristine condition, ready and waiting for whatever poor soul next in line to be eVentia's puppet.
+<<= setup.speak($player, "Thanks Brenda, I´ll be going now. Hope to see you soon.", "smile")>><<= setup.speak($characters.brenda, "Make sure to check out that place! See you around, gurl!", "smile")>>
+
+<<= setup.button("Continue.", "Ending - UF Final Choice")>>
+:: Ending - UF Final Choice
+With that, you turn around and face the massive transparent exit from the lobby. With your two dufflebags in hand you walk through. The hot air hits you as the doors slide open, gradually changing to a cold draft. The long and fast screeching noise of traffick fills your ears, as you strut out unto the finely laid stone curb. Holocars and holobikes alike sliding around in a bustle of a mega-metropolitan mess.
+
+You look to your left, and then to your right. Both ways looking near identical with dull towering skyscrapers drowning in neon advertisements. Slightly confused, even intimidated, the thought crosses you for a moment. Maybe eVentia wasen´t so bad after all? The world looks as if taken directly out of some dystopian comic. Your gaze going higher and higher until you finally get a glimpse of the grey skies with no blue... Just darkness and a grey muddy carpet swallowing everything around it.
+
+You sharpen your resolve and begin to strut down the street. Where are you going and why? You have no answer. You look to your left studying the signs advertising all manners of things from drinks, to luxury food, implants and of course depraved sexual services.
+
+You take out your E-Pal display, noticing the GLS having been unlocked. A location is tapped in; that place of one of Brenda's friends. An advertisement suddenly catches your attention.
+
+@@.bold;Pleasure girls wanted! Do your part now! Service grants citizenship! UNC Armed Forces hiring now! Join up now!@@
+
+A brave new world stands before you, with options on every corner. You hold your breath for a moment. Feeling the deep relaxing ease of breathing out. The air fresh with sweet freedom. You make your choice.
+
+@@.italics;Thank you for playing Event Girl.
+
+I hope you enjoyed the experience and are looking forward to more content.
+
+If you wish to continue playing the game, simply press continue.@@
+
+<<= setup.button("Continue.", "Pod - Main")>>

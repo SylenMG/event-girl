@@ -1,0 +1,23 @@
+:: Intro - Class Trip 7 [cryola-cryo] {"position":"1350,175","size":"100,100"}
+As Jessica is taking her pictures you spot Jake moving towards the chamber entrance. You notice his familiar grin when he's up to no good.
+<<= setup.speak($characters.jake, "Sit back mister! Commencing cryo-freezer-something!")>>
+You roll your eyes as he messes with the console.
+
+However, you're startled by a sudden click as your wrists are clenched and held in place. You look down to see your arms have been fastened to the armrest. A feminine voice can be heard as several diodes are turned on.
+
+@@.ai-alert;Chamber AI: Subject secured, commencing vitals check.@@
+<<= setup.speak($player, "Dude! What the fuck are you doing?!", "male-careless")>><<= setup.speak($characters.jake, "Oh shit! What the hell?!", "bruh")>><<= setup.speak($characters.jessica, "Oh that\'s exciting! The model still has some of it\'s functions left! Smile!", "laugh")>><<= setup.speak($player, "Get me out! This ain\'t fucking funny!", "male-careless")>><<= setup.speak($characters.jake, "I\'m trying bro, I don\'t know what the fuck i\'ve been pressing?!", "bruh")>>
+
+@@.ai-alert;Chamber AI: All vitals nominal. Subject fit for cryo-strapping, commencing.@@
+
+The chamber doors emit a soft click and begin to slowly close down.
+<<= setup.speak($player, "Get the fucking guide or something!", "male-careless")>><<= setup.speak($characters.jake, "Oh shit, hang in there bro!", "bruh")>>
+You see Jake dart off whilst Jessica waves at you, continuing with her pictures as the door slowly slides down.
+<<= setup.speak($characters.jessica, "It\'ll be fine $player.maleName, it\'s just part of the-", "laugh")>>
+The door finally slams shut, leaving the only vision of the outside through a small window on the front of the door.
+
+<span class='lbb'><<button "You try to remain calm">>
+	<<goto "Intro - Class Trip 8">>
+<</button>></span>
+
+

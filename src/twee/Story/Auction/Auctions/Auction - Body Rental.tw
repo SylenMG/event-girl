@@ -1,0 +1,62 @@
+:: Event Auction - Body Rental
+<<if $auction.firstRental == true>><<set $auction.firstRental = false>>Entering the dimly lit backstage, your E-Pal is scanned. After a short time a man with the Auction House-logo on his suit enters.
+<<= setup.speak($npc.executives[0], "Please follow me, and I´ll take you to the transfer room. Your buyer is already seated.", "smile")>>
+You´re lead into a near white room, containing only two chairs around one square-table.
+<<= setup.speak($npc.executives[0], "Please sit, and then we can begin.")>><<= setup.speak($player, "So-... how will it happen? Will it hurt? Who bought me?")>>
+He remains silent, until you take your seat.
+<<= setup.speak($npc.executives[0], "There is no reason for you too meet your buyer. What he does with his time is up to him and him alone. It is a rental experience, after all.")>>
+You shuffle a bit in your chair.
+<<= setup.speak($player, "Right, so what now?")>><<= setup.speak($npc.executives[0], "Simply sit tight and wait. Then you will be instructed to turn on your Neuro-Doll implant, and the buyer will take over. The rental period is 24-hours, after which you will resume control.")>><<= setup.speak($player, "Alright then. I´m ready.")>>
+After waiting a bit, you hear a soft ding from behind you, and a green lamp turns on.
+<<= setup.speak($npc.executives[0], "If you would be so kind as to turn on your implant, miss. Then the rental period can commence.", "smile")>>
+You take a deep breath.
+<<= setup.speak($player, "Alright then. Here goes nothing.")>>
+You simply feed the correct thoughts into your implant, turning it on.<<else>>Entering the dimly lit backstage, your E-Pal is scanned. After a short time a man with the Auction House-logo on his suit enters.
+<<= setup.speak($npc.executives[0], "Please follow me, and I´ll take you to the transfer room. Your buyer is already seated.", "smile")>><<= setup.speak($player, "Yeah, I know the way. Not my first rodeo.")>><<= setup.speak($npc.executives[0], "Very well.")>>
+You´re lead into a near white room, containing only two chairs around one square-table.
+<<= setup.speak($npc.executives[0], "Please sit, and then we can begin.")>>
+He remains silent, until you take your seat.
+<<= setup.speak($npc.executives[0], "All we need now is for the buyer to be-...")>>
+You hear a soft ding from behind you, and a green lamp turns on.
+<<= setup.speak($npc.executives[0], "If you would be so kind as to turn on your implant, miss. Then the rental period can commence.", "smile")>>
+You take a deep breath. Here you go again... renting your body out to some complete stranger.
+<<= setup.speak($player, "Alright then. Wish me luck.")>>
+You simply feed the correct thoughts into your implant, turning it on.
+<</if>>
+Nothingness consumes you instantly.
+
+<<= setup.button("Wake up.", either("Event Auction - Rental Conclusion 1", "Event Auction - Rental Conclusion 2", "Event Auction - Rental Conclusion 3"), "<<set $time.currentDay += 1>>")>>
+
+:: Event Auction - Rental Conclusion 1
+You cough and retch as your throat is filled to the brim. Flailing your arms you moan as some hot and warm spreads inside of you. Pushing away, something long and warm plops out of your throat making you cough. A slap and wave of pleasure runs through you as someones hips connect violently with your ass.
+<<= setup.speak($npc.adults[0], ["Oooh fuck this bitch was good. I´m fucking drained man.", "God, she sucked me dry. I´m done!"], "pleasure")>><<= setup.speak($npc.adults[1], ["Is it my turn now? I´ve been waiting quite a while!", "Come on! My turn now!"], "smile")>><<= setup.speak($npc.adults[2], ["AAAAAAAAH! FUCK I´M CUMMING!", "SHIT-SHIT! I´M CUMMING, GOD-JESUS-MOTHER MARIE!"], "pleasure")>>
+You manage to get them off of you, barely able to stand on your own feet. With cum leaking down your loins and a need to throw up, the heavy smell of semen and raw sex fills your nostrils. You spot your clothes lying about, all of it soaked in man-juice.
+<<= setup.speak($player, "W-what happened?!", "pleasure")>><<= setup.speak($npc.adults[0], "Hey bitch, we ain´t done. We want our moneys worth!", "angry")>><<= setup.speak($npc.adults[1], "Oh shit, wait. Time´s up. Remember?")>>
+You look around, your vision blurred and your eyes hurting. Your legs tremble as another spike of pain shoot up your rear, followed with cum leaking out of it.
+<<= setup.speak($player, "W-what are you talking about? Where am I?", "pleasure")>><<= setup.speak($npc.adults[0], "Shit, let´s get the fuck out.")>>
+You squint your eyes, trying to get your bearings. You see the familiar Gloria Gals Bar, and instantly know where you are. The Adult Strip. Shaking your head, you begin to put your clothes back on and drag yourself home. The walk of shame makes your head hang low. At least several other patrons look towards you in disgust, and scuffing at the long trail of cum. 
+
+The cold water hits your back as you attempt to get rid of the worst in the public showers. Shortly after, you drag yourself towards your pod.
+<<run setup.count("receivedGroping", setup.random(100))>><<run setup.incBod($player, "vagina", 4)>><<run setup.incBod($player, "asshole", 4)>><<run setup.incBod($player, "mouth", 1)>><<run setup.bodyNote($player, "vagina")>><<run setup.bodyNote($player, "asshole")>><<run setup.satisfy($player)>>
+<<= setup.button("Continue.","Event Auction - Aftermath")>>
+
+:: Event Auction - Rental Conclusion 2
+<<run setup.cleanOutfit($player)>>You open your eyes and realize that you´re standing directly infront of your pod. You feel clean, your body almost light, as if you had just received an excellent massage. Looking down, you realize you´re naked and holding a piece of paper.
+<<= setup.speak($player, "Tsk, really?")>>
+You open the piece of paper, revealing a smiley with a pointy nose and a small note: @@.bold;Thanks! I had fun!@@
+<<= setup.speak($player, "Well. I´m glad you had fun. Whomever you are.", "smile")>>
+Although the message seems harmles, a certain ominous thought suddenly hits you. How did they know that your pod was located here? 
+
+Shaking your head, you crawl into your pod.
+
+<<= setup.button("Continue.","Event Auction - Aftermath")>>
+:: Event Auction - Rental Conclusion 3
+You open your eyes and look around. You´re sitting on a bench in the Northern Fashion Strip. Looking down, you check your body, seeing if anything has changed. 
+<<= setup.speak($player, "Odd... I guess?")>>
+You quickly conclude that nothing has changed at all and get up, looking around.
+<<= setup.speak($player, "Well. That was that then? I wonder what they did?", "smile")>>
+Looking around again one last time to make extra sure, you finally give up and simply begin to walk back towards your pod.
+<<= setup.speak($player, "Easy money.", "smile")>>
+You smirk.
+
+<<= setup.button("Continue.","Event Auction - Aftermath")>>

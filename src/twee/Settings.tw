@@ -1,0 +1,13 @@
+:: Settings [noreturn] {"position":"175,49","size":"100,100"}
+!Settings
+---------------------------------------------
+Max Returns: 10 - Set
+(Doesn't work yet)
+
+<<DebugSetting>>
+
+<<PhotoSetting>>
+
+<span class='lbb'><<button "Return" $return>><</button>></span>
+
+

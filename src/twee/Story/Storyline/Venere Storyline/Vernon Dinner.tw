@@ -1,0 +1,110 @@
+:: Storyline - Vernon Dinner
+<<= setup.story("Vernon-Dinner-00", "complete")>>You stand around your pod, constantly eyeing your chosen outfit in the shared mirror. Your stomach curls and just before you open your pod to change, a familiar voice sends a shiver down your spine.
+<<= setup.speak($characters.eventiaguard, "I see you´re ready? Hah! I was sent to pick you up...")>><<= setup.speak($player, "S-shit, whatever... did he cancel?")>><<= setup.speak($characters.eventiaguard, "No meathead, I told you I was here to pick you up. You really thought he would come here to get you himself?")>>
+He waves you along and you follow him. As you pass the foyer a few of the other eVentia girls throw snide remarks at you. You don´t get far though, before you scout his round stature leaning against the receptionist desk, with Brenda standing behind it giggling at something.
+
+<<nobr>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Nude",[{id: 'crotch', type: 'score-max', level: 1},{id: 'tits', type: 'score-max', level: 1}], ["hidden"])>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Casual",[{id: 'crotch', type: 'score-min', level: 2},{id: 'tits', type: 'score-min', level: 2},{id: 'sexy', type: 'score-max', level: 2}], ["hidden"])>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Sexy",[{id: 'crotch', type: 'score-min', level: 2},{id: 'tits', type: 'score-min', level: 2},{id: 'sexy', type: 'score-min', level: 3}], ["hidden"])>>
+<</nobr>>
+:: Storyline - Vernon Dinner Nude
+They both turn their attention to you and the guard as you close in on them, their eyes lighting up.
+<<= setup.speak($characters.vernon, "Oh, aha... well... that is certainly a fashion statement! I-... I suppose I like!", "surprised")>><<= setup.speak($characters.brenda, "Shiiet gurl, that´s some daring shit!", "smile")>><<= setup.speak($player, "I guess so, just felt like... showing of, I suppose.", "smile")>><<= setup.speak($characters.eventiaguard, "Alright then, my jobs done. Back to work.")>>
+You flush slightly as you the gaze of the entire lobby crawls around your body. Especially Vernon, whom quickly shifts his position, hiding his crotch from view.
+<<= setup.speak($player, "Should we get going then?")>><<= setup.speak($characters.vernon, "Aha! Yes! Of course! Ahem... well, my lovely Brenda, stay safe!", "smile")>><<= setup.speak($characters.brenda, "Sure thing chief. You take care of her now!", "smile")>>
+Vernon gestures to you, and you follow along.
+
+<<= setup.button("Continue.", "Storyline - Vernon Dinner Table")>>
+:: Storyline - Vernon Dinner Casual
+They both turn their attention to you and the guard as you close in on them, their eyes lighting up.
+<<= setup.speak($characters.vernon, "Hmph, does eVentia not pay you enough? Could have asked if you needed some units for a proper dress.", "smile")>><<= setup.speak($characters.brenda, "Hey now, it´s not that bad?")>><<= setup.speak($player, "I uuuh, I guess I tried?", "smile")>>
+<<= setup.speak($characters.vernon, "Anyways, here´s a little something. Use it on getting something proper, aight?", "smile")>><<= setup.addUnits($player, "Mr. Venere", 5000)>><<= setup.speak($characters.eventiaguard, "Alright then, my jobs done. Back to work.")>>
+You flush slightly as you the gaze of the entire lobby crawls around your body.
+<<= setup.speak($player, "Should we get going then?")>><<= setup.speak($characters.vernon, "Aha! Yes! Of course! Ahem... well, my lovely Brenda, stay safe!", "smile")>><<= setup.speak($characters.brenda, "Sure thing chief. You take care of her now!", "smile")>>
+Vernon gestures to you, and you follow along.
+
+<<= setup.button("Continue.", "Storyline - Vernon Dinner Table")>>
+:: Storyline - Vernon Dinner Sexy
+They both turn their attention to you and the guard as you close in on them, their eyes lighting up. 
+<<= setup.speak($characters.vernon, "Wow! You look gorgeous!", "surprised")>><<= setup.speak($characters.brenda, "Shiiet gurl, you got that shit tight!", "smile")>><<= setup.speak($player, "I guess so, just felt like... showing of, I suppose.", "smile")>><<= setup.speak($characters.eventiaguard, "Alright then, package has been dropped off. Back to work.")>>
+
+You flush slightly as you the gaze of the entire lobby crawls around your body. Especially Vernon, whom quickly shifts his position, hiding his crotch from view.
+<<= setup.speak($player, "Should we get going then?")>><<= setup.speak($characters.vernon, "Aha! Yes! Of course! Ahem... well, my lovely Brenda, stay safe!", "smile")>><<= setup.speak($characters.brenda, "Sure thing chief. You take care of her now!", "smile")>>
+Vernon gestures to you, and you follow along.
+
+<<= setup.button("Continue.", "Storyline - Vernon Dinner Table")>>
+:: Storyline - Vernon Dinner Table
+It doesn´t take long before you arrive to your destination. The neon red light hits your body and the sign saying ´Gloria Gallore´. Vernon looks at you smiling, only to wave at someone. A young woman dressed in bright red, a micro-skirt and scandalous top struts towards. The top tightening her tits making them jump with every step.
+<<= setup.speak($characters.vernon, "Ah! Candace! Nice to see you. Get us a table darling.", "smile")>>
+Her stare pierces you as her scoff quickly turns into a warming smile. She nods, spins and sways her booty side to side before grabbing two menu cards. Vernon simply follows, almost stumbling into a table trying to follow her.
+<<= setup.speak($characters.vernon, "Ah! C-come along now, $player.femaleName...", "smile")>><<= setup.speak($player, "Right.")>> 
+As you enter the Gallore, your loins flush as several patrons turn their attention to you... and your attire. A cold shiver runs down your spine, and you gulp. You almost jump towards your table, taking a seat right away.
+<<= setup.speak($characters.vernon, "Oh, now. Didn´t give me the chance to pull out your chair there. Ah, no matter.")>>
+You immediately begin to tap your foot, as you realize that several of the patrons are casting stares at you... and whispering.
+<<= setup.speak($player, "So... can I see the menu?")>><<= setup.speak($characters.vernon, "Worried about them? Don´t be, they´ll gossip about anything these days.", "smile")>>
+You calm down a little, and breathe a sigh of relief. At least he´s not bothered by it.
+<<= setup.speak($player, "So- uuuh, the menu?", "smile")>><<= setup.speak($characters.vernon, "I already ordered for us, as you are, you know, a time tourist! Ahaha! I thought about treating you to something exotic, for you at least.", "smile")>>
+The waitress from before pops in from your left, holding two wine glasses and a bottle. After placing the wine glasses, she non-chalantly pours in something red and glowing, a neon-wine perhaps?
+
+<<= setup.button("So... is everything neon?", "Storyline - Vernon Dinner Neonwine")>>
+<<= setup.button("Let´s cut straight to business, what do you want?", "Storyline - Vernon Dinner Business")>>
+:: Storyline - Vernon Dinner Neonwine
+He grabs a swig from his wineglass and chuckles.
+<<= setup.speak($characters.vernon, "I suppose you could say that we´ve had a bit of a neon revolution, is it to your liking?", "smile")>><<= setup.speak($player, "I don´t know yet, it feels a little... excessive.")>><<= setup.speak($characters.vernon, "I bet so, things were likely, less extravagant during your time. Say, how much do you know?")>>
+His tone becomes dry and his expression changes from the warming smile to a more serious stone face. 
+<<= setup.speak($player, "I uuuh, about what exactly?")>><<= setup.speak($characters.vernon, "Your current situation. How much do you know?")>>
+
+<<= setup.button("I don´t know anything, really.", "Storyline - Vernon Dinner Nothing")>>
+:: Storyline - Vernon Dinner Business
+He grabs a swig from his wineglass and chuckles.
+<<= setup.speak($characters.vernon, "I business-woman I see! Curious!", "smile")>><<= setup.speak($player, "Well, I just figured... the fancy dinner and all, can´t just be to try to woe me?")>><<= setup.speak($characters.vernon, "What if it was? You´re hot! Makes my cock dance all funny! But alas- I do have business with you. How much do you know?")>>
+His tone becomes dry and his expression changes from the warming smile to a more serious stone face.
+<<= setup.speak($player, "I uuuh, about what exactly?")>><<= setup.speak($characters.vernon, "Your current situation. How much do you know?")>>
+
+<<= setup.button("I don´t know anything, really.", "Storyline - Vernon Dinner Nothing")>>
+:: Storyline - Vernon Dinner Nothing
+<<run setup.psyche($player, "Lust", 50,50)>>You caress your wineglass, only to lift it. A first to wine, the strong essence of raspberries slide down your throat, making your nipples perk up as a warming heat shoots down into your loins. A sudden sensation of feeling a bit... hollow, spreads in your womb.
+<<= setup.speak($characters.vernon, "Do you like it? A favorite around here, especially with the looser chicks.", "smile")>><<= setup.speak($player, "Uuuh... what the hell is in this?")>><<= setup.speak($characters.vernon, "Nothing, just regular wine.")>>
+You try to open your mouth again, but just end up moaning a little. 
+<<= setup.speak($characters.vernon, "Aha, I knew it, you like it!")>><<= setup.speak($player, "R-right... well, to answer your question. I don´t really know anything. Just the usual.")>><<= setup.speak($characters.vernon, "Well then, I suppose I have quite the story to share with you then...")>>
+
+<<= setup.button("Hear his story.", "Storyline - Vernon Dinner Story")>>
+:: Storyline - Vernon Dinner Story
+<<= setup.speak($characters.vernon, "And that is what I find curious... You see, Gloria Gals work closely with eVentia, as you may have guessed by now.", "smile")>><<= setup.speak($player, "Mhm?")>><<= setup.speak($characters.vernon, "I was at the board meeting that was... to say it lightly, deciding your fate.")>> 
+You perk up a little, feeling a small inching craving to taste some more of that... red delicious... whatever it was.
+<<= setup.speak($characters.vernon, "The original outcome of that meeting, was to simply bring you back. It was after all, a federal demand after they discovered you, doing their regular sweep.")>><<= setup.speak($characters.vernon, "You would also have received a citizenship right then and there, as you are... or were, a man, after all.")>><<= setup.speak($characters.vernon, "Right? And to top it off, the tech to bring you back, it´s not exactly new... so why were you collecting dust...")>> 
+Catching a bit of drool, you look up at him with doe eyes.
+<<= setup.speak($player, "Yes! I were, at least... a man...")>><<= setup.speak($characters.vernon, "So why did they change you? And why the debt. This intriques me, and is very... peculiar. I bet that they´re hiding something.")>> <<= setup.speak($player, "So you will help me?!")>> 
+His smirk grows wider.
+<<= setup.speak($characters.vernon, "Well-well now... I never said that. Depends though, if you´re worth helping.")>>
+
+<<= setup.button("Please! I´ll do anything!", "Storyline - Vernon Dinner Please")>>
+<<= setup.button("Pfft... fuck off.", "Storyline - Vernon Dinner Early End")>>
+:: Storyline - Vernon Dinner Please
+<<= setup.speak($player, "Please! If you can help me in any way, I´d do anything!")>><<= setup.speak($characters.vernon, "That´s the proper attitude!")>><<= setup.speak($characters.vernon, "Your ass is worth a fortune. A time-travelling man! Trapped in the body of a woman! No other corporation has such an asset!", "smile")>><<= setup.speak($characters.vernon, "You could become rich in less than a month! Me included, of course. You help me turning a good profit on your ass, I´ll help you out too.", "smile")>>
+Your stomach curls at the sound of what he´s proposing. Do you have a choice though?
+<<= setup.speak($characters.vernon, "We´ll advertise you, neonboards, the whole lot. The entire nation will come from afar to nut in an ass like yours! Can´t you see the profits?!", "smile")>><<= setup.speak($characters.vernon, "My god! The profits! This is a business opportunity of a lifetime!", "smile")>><<= setup.speak($player, "If I do this, then what will you do for me?")>><<= setup.speak($characters.vernon, "Aha, the business woman awakes! I like it! You let me sell that man-ass, and I´ll put my top *ahem* investigator, on your case. I bet they´re hiding something.")>><<= setup.speak($player, "Hmmmm.")>><<= setup.speak($characters.vernon, "In fact, I know it! They would have given you the offer that I am giving you now! If only they were not trying to hide your ass.")>> 
+His eyes are practically dollar signs... although, the dollar is long gone.
+<<= setup.speak($characters.vernon, "Well then, what do you say?.")>>
+
+<<= setup.button("Alright.", "Storyline - Vernon Dinner Accept")>>
+<<= setup.button("Fuck no.", "Storyline - Vernon Dinner Early End")>>
+:: Storyline - Vernon Dinner Accept
+<<run setup.eventDone("Gangbang", 1)>><<run setup.story("Vernon-Gangbang-Event", "start")>><<set $story.vernonHelp to true>><<= setup.speak($player, "Alright then, I accept.")>><<= setup.speak($characters.vernon, "Atta girl! A toast! To a successful deal! I´m going to make you a star!")>>
+You stare into the glowing red liquid in your wineglass, contemplating what you just did... was it the right choice?
+<<= setup.speak($characters.vernon, "I see our food is arriving, you´ll love this! Nano-noodles! Quite oriental! Just like the good ol´days!", "smile")>><<= setup.speak($player, "Right.")>>
+The evening proceeds rather uneventful, with Vernon constantly repeating himself about how much money you´re going to make, occasionally hinting at the mountain of cocks you will be cleaning... 
+
+At the end of it all, you stomach felt funny, probably from the odd food.
+<<= setup.speak($characters.eventiaguard, "I´m here to escort the lady back to her pod.", "smile")>> <<= setup.speak($characters.vernon, "Ah, appears it´s become a little late! Well, it was nice! Very nice! See you soon $player.femaleName! We´re gonna be rich! Ahahaha!", "smile")>><<= setup.speak($characters.eventiaguard, "Follow me miss.")>><<= setup.speak($player, "Lead the way...")>>
+
+<<= setup.button("Continue.", "Pod - Main")>>
+
+:: Storyline - Vernon Dinner Early End
+<<= setup.speak($characters.vernon, "Ah, I see. You not only have the body of a dumb wench, you also fail to understand your place.", "smile")>><<= setup.speak($player, "The fuck is wrong with you.", "angry")>><<= setup.speak($characters.vernon, "Nothing at all. What´s wrong with you though, having trouble to fit in? Come on. You´re a walking fetish. The wet dream of every man.")>>
+He chuckles.
+<<= setup.speak($characters.vernon, "The kind of money your ass could make, wheeew... A man, a real man, involuntarily trapped inside some whore´s body.")>><<= setup.speak($characters.vernon, "A guy could kill to blow his load into something like that.")>><<= setup.speak($characters.vernon, "The utter humiliation and shame. The complete failure of a man. Taking loads after loads. You could become rich in less than a month! A month! But you fail to see that!")>><<= setup.speak($player, "I-i don´t care! Goodbye!")>><<= setup.speak($characters.vernon, "Tsk... good luck with eVentia breathing down your neck, slut.")>><<= setup.speak($player, "UGH!")>>
+You stomp your way out of the establishment, not caring for the idle gossip and gasps happening all around you.
+
+<<= setup.button("Continue.", "Pod - Main")>>

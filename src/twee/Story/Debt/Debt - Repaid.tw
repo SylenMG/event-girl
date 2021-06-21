@@ -1,0 +1,30 @@
+:: Debt - Repaid [autosave] {"position":"175,1075","size":"100,100"}
+With a familiar bing you feel your E-Pal vibrating. Taking out the display, you're overcome with joy and a sense of accomplishment.
+
+With your debt finally repaid you make your way to Dr. Linus' office in the Psyche Clinic.
+
+<<= setup.speak($characters.drlinus, "What brings you here? $player.femaleName.")>>
+
+<<= setup.speak($player, "I've finally repaid my debt." "smile")>>
+
+<<= setup.speak($characters.drlinus, "Hmmm, really? Let me take a look.", "smile")>>
+
+He takes a look at the monitor by his desk.
+
+<<= setup.speak($characters.drlinus, "Hmph, right, it appears so. Of course, that only means you\'re debt-free. So, what now you might ask? Well, that\'s up to you really. I can sign you up for bio-morph program, with a paid citizenship. That would put you into debt again, but you would be able to work it off with us, and then enter the program once completed.")>>
+
+<<= setup.speak($player, "Bio-morph, you mean turning me back to a man?")>>
+
+<<= setup.speak($characters.drlinus, "Yes, exactly. You would also be signed up for citizen-stimulus package, a home, which comes with universal basic income. Everything a new citizen needs to become an upstanding member of society. It doesn\'t come cheap though.", "smile")>>
+
+You think about the offer for a moment, weighing the options before you.
+
+@@#input-error;@@
+<span class='lbb'><<button "Accept the offer">>
+	<<replace "#input-error">>Coming soon.<</replace>>
+<</button>></span>
+<span class='lbb'><<button "Embrace feminity and freedom.">>
+	<<goto "Ending - Display">>
+<</button>></span>
+
+

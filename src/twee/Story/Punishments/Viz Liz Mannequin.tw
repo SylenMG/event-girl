@@ -1,0 +1,20 @@
+:: Punishment - Viz Liz Mannequin
+The guard takes you to the Northern Fashion Strip and stops just outside the Viz Liz lingerie store. The window displays going into the store are all filled with simple transparent mannequins displaying their fine and luxurious lingerie and other assorted articles of clothing.
+<<= setup.speak($characters.eventiaguard, "This is it. You´ll be standing in one of those display windows with some lingerie on. Pretty tame for a punishment if you ask me.", "smile")>><<= setup.speak($player, "What?! Really? I´m going to just stand there? Tsk...", "angry")>><<= setup.speak($npc.eventgirls[0], "Welcome-welcome to Viz Liz! Is this the live mannequin I was told about?")>>
+The guard nods and places his hand on your back, forcing you to walk forward.
+<<= setup.speak($characters.eventiaguard, "Yep... So, you do what she says and we ain´t got a problem. Should not be a far walk home from here. You give me a call if she´s acting too much like a spoiled bitch, aight?")>><<= setup.speak($npc.eventgirls[0], "I´m sure that won´t be necessary! I bet she will love what I have for her to wear! Teehee~","smile")>>
+The store manager grabs your arm and eagerly drags you inside the store. Pink panties and colorful neon g-strings hang all around the store, as well as more rauncht red lingerie sets with stockings and suspenders. You´re taken to the back however, where the store manager immediately picks out a set of lingerie.
+<<= setup.speak($npc.eventgirls[0], "Yes, this will do! Put this on~! I want to see!","smile")>><<= setup.speak($player, "Hmmm... alright. I guess I could go with that.")>>
+<<run setup.equipOutfit($player, "lingerie")>>You take off your clothes and slide on the red G-string and the pairing red lace bra. With the two comes a pair of red stilletos to match. Turning around, you check out yourself in the mirror.
+<<= setup.speak($npc.eventgirls[0], "Hey! That´s not bad! But-... I bet anything would fit with your amazing figure!","smile")>><<= setup.speak($player, "I uuuuh... thanks I guess...")>>
+The store manager follows you towards the display windows, pointing at the center of it all where you spot a circle-stand for you to stand on. Strutting up on the stand, you almost immediately feel exposed as bystanders stop to ogle and even take pictures at your near-naked body.
+<<= setup.speak($npc.eventgirls[0], "Wow! You already fit the scene! I´ll just leave you to it then! Don´t forget to pose! You got this!","smile")>><<= setup.speak($player, "Okay...! I think I got this...")>>
+You attempt to strike a confident pose which only ends up with you feeling even more awkward and misplaced.
+:: Punishment - Viz Liz Mannequin (Continued)
+At least several hours pass with you just standing there, like a living breathing mannequin. Your legs and soles are sore to the bones and at least countless of spectators and bystanders have drooled over your exposed body. Just as you thought it would never end, the store manager returns.
+<<= setup.speak($npc.eventgirls[0], "Ah! I see you´re still standing! What a natural!... Well, time is up!","smile")>><<= setup.speak($player, "F-finally.... heh...")>>
+Your legs tremble and shake as you slowly walk down from the stand, doing everything you can not to stumble. You manage to drag yourself into the wardrobe where your own clothes wait.
+<<= setup.speak($npc.eventgirls[0], "Well! I hope you had fun! I surely did! Please come again anytime!")>><<= setup.speak($player, "I gotta get home... so tired.")>>
+Outside the store you spot the guard waiting patiently for you. 
+<<run setup.setDayTime(3)>>
+<<= setup.button("Continue.", "Pod - Main")>>

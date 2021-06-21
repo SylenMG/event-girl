@@ -1,0 +1,8 @@
+:: Therapy - Hypno Load [autosave] {"position":"300,1875","size":"100,100"}
+<<timed 1s t8n>>@@.initloadtext;Initiating@@<</timed>><<timed 2s>>@@.initloadtext;.@@<</timed>><<timed 3s>>@@.initloadtext;.@@<</timed>><<timed 4s>>@@.initloadtext;.@@<</timed>>
+
+<<timed 5s t8n>><<= setup.hypnoLoad($therapy.id)>><</timed>><<timed 6s>>@@.initloadtext;.@@<</timed>><<timed 7s>>@@.initloadtext;.@@<</timed>><<timed 8s>>@@.initloadtext;.@@<</timed>>
+
+<<timed 9s t8n>>@@.initloadpinktext;Be a good girl now@@<</timed>><<timed 10s t8n>>@@.initloadpinktext; and pay attention.@@<</timed>><<timed 15s>><<if $hypnoMode is true>><<goto "Therapy - Hypno">><<else>><<goto "Therapy - Default">><</if>><</timed>>
+
+

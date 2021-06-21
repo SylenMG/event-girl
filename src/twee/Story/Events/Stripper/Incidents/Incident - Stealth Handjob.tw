@@ -1,0 +1,46 @@
+:: Stripper Incident - Stealth Handjob
+The night starts as usual, with girls taking to the stage dropping their lingerie or costumes, exposing their body for the swipe of units. The showfloor stinks of sex and the pent up need for release. A ruckus of laughter, joy and kinky remarks echoes through your ears, making you almost miss the guy calling you from the corner booths. You turn around, seeing one lone man in a neon business-suit sitting in the leather-cushioned booth. Your eyes locking with his, you smile seductively as you strut towards him.
+<<= setup.speak($npc.executives[0], "What´s a fine lass like you doing all alone over there?", "smile")>>
+You sit down next to him, leaning into the leather cushions.
+<<= setup.speak($player, "Just enjoying the show I suppose.", "smile")>><<= setup.speak($npc.executives[0], "Well, it is quite the show. Does things to a man, if you catch my drift? What do you say? Help me out here? It´ll be good units.")>>
+You take a quick gander at his crotch, his veiny cock already out, hidden only by the booth table.
+
+:: Stripper Incident - Stealth Handjob (Accept)
+You gaze around for a moment, making sure that no one is paying attention, before moving closer. Leaning back he rests his arms on the booth cushions in a relaxed manner, giving you complete access to his cock.
+<<= setup.speak($npc.executives[0], "All yours baby-doll.")>>
+His cock already throbbing. The warm meat grazes the palm of your hand as you grab it. Taking another look around, you stroke it.
+<<= setup.speak($npc.executives[0], "Mmmh, fuck yeah baby, stroke that cock.", "smile")>>
+Leaning back against him and the leather cushions of the booth, you try to look as natural as possible whilst jerking your wrist. It doesn´t take long before he groans and his cock spasms, covering your hand in cum.
+<<= setup.speak($npc.executives[0], "Oooooh! Fuck yeah!", "pleasure")>><<= setup.speak($player, "Shit! Not so loud- Ugh! You could have warned me!", "surprised")>>
+You quickly withdraw your hand, only to wipe it off in the cushions of the booth. Looking around you realize that you´ve caught the attention of at least a handful of patrons.
+<<= setup.speak($player, "Alright, pay up.")>><<= setup.speak($npc.executives[0], "Sure doll, here ya go.", "smile")>>
+He swipes his wrist, making your E-Pal vibrate, promptly telling you to move on.
+<<run setup.experience($player, "Handjob", 15, 5)>><<run setup.psyche($player, "Slut", 2, 3)>><<run setup.psyche($player, "Lust", 75, 25)>><<run setup.rating($player, 10)>><<run setup.bonus($player, 500, "Handjob")>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Stealth Handjob (Blowjob)
+You lean against him, giving him a content, seductive stare. 
+<<= setup.speak($player, "How about I just blow you and you really make my night?", "smile")>><<= setup.speak($npc.executives[0], "Well, aren´t ya a real feisty minx! Works for me.", "smile")>>
+A chuckle escapes you as you slowly slink down, ass in the air, kissing the tip of his cock. Your lips enveloping the glans and your tongue tasting the salty pre-cum. You wrap your hand around the base of his shaft, jerking it to slowly milk him.
+<<= setup.speak($npc.executives[0], "Ooooh, fuck me doll, you a real fucking slut you know that?", "surprised")>>
+Your loins tingle and your cunt dampens as you wrap your cock-pillows around his meat, pushing it further into your mouth. You suck and swirl your tongue around the base of his, making his cock twitch and jump, signaling that he´s close to blow his load.
+<<= setup.speak($player, "*gargle*.", "pleasure")>><<= setup.speak($npc.executives[0], "Ahhh! Shit! HERE IT COMES!", "pleasure")>>
+His hand grabs the back of your head, shoving you down unto his entire shaft, forcing it all the way in to it´s base. The warm meat twitches against the back of your throat, dumping it´s hot load. The salty taste of trails along your tongue as he finishes and pulls out.
+<<= setup.speak($player, "*cough*... mmmmh *cough*", "pleasure")>><<= setup.speak($npc.executives[0], "God damn you whore, you made me blow my load almost instantly. Here´s ya units, you earned them.", "smile")>>
+Another cough escapes you as you stumble back up, not paying attention to the scores of patron´s whose attention you´ve caught.
+<<run setup.experience($player, "Blowjob", 15, 5)>><<run setup.psyche($player, "Slut", 2, 8)>><<run setup.psyche($player, "Lust", 75, 25)>><<run setup.rating($player, 20)>><<run setup.bonus($player, 500, "Blowjob")>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Stealth Handjob (Decline)
+You wrinkle your brows and frown at the sight of his cock, quickly leaning back.
+<<= setup.speak($player, "Yeah… so… I think I´m going to pass on this one.")>><<= setup.speak($npc.executives[0], "Aww come on babydoll, you really going to blueball me like that?", "smile")>>
+Leaving the booth, you stand up, but turn before strutting away.
+<<= setup.speak($player, "Yeah… actaully, I am. Good luck… with that.")>><<= setup.speak($npc.executives[0], "Tsk… typical pretentious whores man.")>>
+You return to the showfloor.
+<<run setup.psyche($player, "Slut", -2, -8)>><<run setup.psyche($player, "Lust", 15, 25)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>
+:: Stripper Incident - Stealth Handjob (Insult)
+You immediately jump back at the sight of his cock, frowning and cursing.
+<<= setup.speak($player, "Holy shit! Are you for real dude?!", "angry")>><<= setup.speak($npc.executives[0], "What?! Can a man not get a hand? Shit man, I thought this with a strip club!", "angry")>><<= setup.speak($player, "That shits disgusting bro! Get it away!", "angry")>><<= setup.speak($npc.executives[0], "Oui?! Did you just insult my fucking cock?! You bitch!", "angry")>>
+You quickly plant your feet to make a quick spin and dash for the changing rooms, as you see him getting his pants in order, presumably to chase you.
+As you enter the changing rooms, he seems to have given up.
+<<run setup.psyche($player, "Slut", -2, -8)>><<run setup.psyche($player, "Feminine", -2, -8)>><<run setup.psyche($player, "Lust", 15, 25)>><<run setup.rating($player, -10)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>

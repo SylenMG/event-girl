@@ -1,0 +1,21 @@
+
+:: Stripper Incident - Mind Check
+You slide the thin fabric low-cut top over your chest and take one last costume check in the mirror. With everything sitting just right, you turn and head towards the stage. 
+However, before you reach the opening, a thundering pain shoots through your head. The feeling of your head almost splitting right open makes you groan in pain. 
+<<= setup.speak($player, "Ahhh… shit! What the he-", "angry")>>
+A dizzy spell falls over you as the lights begin to flicker. Your vision blurs and your sense of self is a blitz that turns on and off. The hands touching you become more aggressive, running up and down your tummy, only to slink between your thighs.
+Why are you being touched by hands? Where are you even? The light fades into total darkness and your eyes are shut. 
+Something warm prods the opening of your mouth, and begins to push past your lips. Another blitz, and the long, warm and meaty rod is suddenly lodged into your throat, bulging it profusely making you gag and retch.
+<<= setup.speak($player, "*cough* hrngh! *cough*", "pleasure")>>
+The last thing that you remember is your feeble attempt at trying to breathe, with your lungs burning and something hot and sweet being pumped into your mouth. The darkness then claims you, as you fall deep into the abyss.
+
+:: Stripper Incident - Mind Check (Continued)
+Opening your eyes, you lie on something soft and feel something cold on your forehead. Taking off the bag of ice on your forehead, you look around. You´re sitting on the couch in the backstage room.
+<<= setup.speak($npc.eventgirls[0], "Hey there… uuuh, you alright?")>><<= setup.speak($player, "W-what happened?")>><<= setup.speak($npc.eventgirls[0], "You uuuh… how do I put this… You had some kind of episode?", "smile")>>
+With wobbly legs trying their best to balance on your heels, you get back onto your feet. 
+<<= setup.speak($player, "What do you mean? Episode?")>><<= setup.speak($npc.eventgirls[0], "Y-yeah… you were like… running around, screaming about some girl called Jessica? And someone named $player.maleName, I think? You also assaulted some poor guy...")>>
+A sigh escapes you.
+<<= setup.speak($player, "I see… Thanks, for this. I think I´m going to go back.")>><<= setup.speak($npc.eventgirls[0], "I think that´s for the best. I´ll inform the manager. I bet he´ll understand.")>>
+Putting on your regular clothes, you head back to your pod with a pounding headache.
+<<run setup.psyche($player, "Mind", -20, -50)>><<run setup.psyche($player, "Lust", 75, 25)>><<run setup.rating($player, -10)>>
+<span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Stripper", "Pod - Main")>><</replace>><</button>></span>

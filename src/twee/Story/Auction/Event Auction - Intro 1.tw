@@ -1,0 +1,13 @@
+:: Event Auction - Intro 1 {"position":"50,2275","size":"100,100"}
+You stand before a narrow neatly-decorated entrance, almost hidden away by the lobby & foyer. The carpet laid along the entrace red and a sign above inlaid in gold saying "Auction".
+<<= setup.speak($characters.drlinus, "Taking a look at the Auction House I presume?", "smile")>>
+You almost jump as Dr. Linus slithers into you ling of sight.
+<<= setup.speak($player, "Christ! Where did you come from?!", "angry")>><<= setup.speak($characters.drlinus, "Simply taking a stroll, I enjoy clearing my mind... Always important to have a clear mind you know.")>><<= setup.speak($player, "So what is this Auction all about? Just selling random junk I suppose?")>><<= setup.speak($characters.drlinus, "Not quite. Events. Best described as an Event Auction. You present yourself and offer yourself for an evening or similar... Or the more *ahem* unique experiences... Like the first bedding.")>>
+Your eyebrow twitches.
+<<= setup.speak($player, "The first bedding? What do you mean?")>><<if $player.statistics.receivedVaginal >= 1>><<= setup.speak($characters.drlinus "Why wouldn\'t you know everything about that? You\'ve already had sex... Such a waste, you could have made a nice fat unit bonus giving that up to someone with a real wallet to break open.")>><<= setup.speak($player, "H-HOW WOULD YOU KNOW THAT?!", "angry")>><<= setup.speak($characters.drlinus, "eVentia records everything you know...")>><<else>><<= setup.speak($characters.drlinus, "Well you know, losing the v-card? You can make a lot of units selling your first time you know.")>><<= setup.speak($player, "REALLY?! That\'s... SICK!", "angry")>><<= setup.speak($characters.drlinus, "Call it what you want, it\'s something to consider... given your current situation you know...")>><</if>><<= setup.speak($player, "G-god damn it!", "angry")>><<= setup.speak($characters.drlinus, "So... want me to take you inside? Show you around? It\'s much bigger inside.", "smile")>><<= setup.speak($player, "Sure... whatever.")>>
+<<run setup.story("Auction-House-00", "start")>>
+<span class='lbb'><<button "Continue">>
+	<<goto "Event Auction - Intro 2">>
+<</button>></span>
+
+

@@ -1,0 +1,15 @@
+:: Intro - Class Trip 4 [cryola-cantina] {"position":"975,175","size":"100,100"}
+The two of you blend in with the rest of the class and the tour guide, a young blonde, professional-looking woman resumes explaining some of the equipment presented. The both of you quickly get bored though, not really having any interest in any of this. You spot Jessica in the crowd of the class, your eyes meet and she blushes.
+<<= setup.speak($characters.jake, "Yo, she wants you bro, gotta make sure she don\'t run away. Go on dude.")>><<= setup.speak($player, "I know, I know. Calm down. Be right back then.", "male-default")>>
+You smoothly reposition yourself to get closer to her, until you stand next to her.
+<<= setup.speak($player, "Hey Jessica, forgot to let ya know I had a great time yesterday.", "male-hello")>><<= setup.speak($characters.jessica, "Oh hey $player.maleName, me too! We should do it again another time.")>>
+You're both abruptly interrupted.
+<<= setup.speak($characters.palmer, "Be quiet you two! Pay attention to the tour!", "angry")>>
+You both cringe slightly, but quickly pick up on the tour.
+<<= setup.speak($characters.cryolaguide, "And here we observe the Hemo-coolant Injector. An old and outdated approach to prevent blood and cell crystal formation and attain total vitrification in mere seconds. No longer needed with our newer Vita Cell-Regulation system.")>>
+
+<span class='lbb'><<button "The tour continues">>
+	<<goto "Intro - Class Trip 5">>
+<</button>></span>
+
+

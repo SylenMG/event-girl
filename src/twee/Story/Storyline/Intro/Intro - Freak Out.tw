@@ -1,0 +1,16 @@
+:: Intro - Freak Out [ev-therapist-2] {"position":"1100,300","size":"100,100"}
+You're just not having any of this.
+<<= setup.speak($player, "WHAT THE HELL ARE YOU TALKING ABOUT?! WHERE THE FUCK AM I?! WHY THE FUCK DO I HAVE TITS?! WHERE'S MY COCK?!", "angry")>>
+You once again try to stand up properly only to fall backwards and land on your ass. 
+<<= setup.speak($characters.eventiaguard, "Should I restrain her sir?")>><<= setup.speak($characters.drlinus, "No-no, they\'re obviously distraught about the procedures, let them be for now.")>><<= setup.speak($player, "WHAT THE FUCK ARE YOU TALKING ABOUT?! WHAT DID YOU DO TO ME?!", "angry")>>
+You grab the edge of the bed and haul yourself up, supporting your newfound weight and... proportions.
+<<= setup.speak($characters.drlinus, "You\'ve been in stasis for a very long time. We... In fact had hoped you could tell us which year you came from? Your pod was a so called... Blank Pod.")>><<= setup.speak($player,"Wait... What year is it?")>><<= setup.speak($characters.drlinus, "The year is 2206, hopefully not too far from your origin year?")>>
+You stiffen as your hear the words escape his mouth, and all you can think about is to wake up from this nightmare. You eye the door and dash for it.
+<<= setup.speak($characters.drlinus, "Restrain her... I'll give her a sedative.", "angry")>><<= setup.speak($characters.eventiaguard, "Yessir!", "angry")>>
+The big man quickly jumps infront of you grappling your naked body. You try to writhe free, but your body is weak, soft and not fit to fight back at all. You feel a light prick on your neck, and a soothing calm overtakes you.
+
+<span class='lbb'><<button "You're calmed down">>
+	<<goto "Intro - Restrained">>
+<</button>></span>
+
+

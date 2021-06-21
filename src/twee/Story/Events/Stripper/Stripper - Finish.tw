@@ -1,0 +1,14 @@
+:: Stripper - Finish
+After a long day of dealing with confused clients, answering questions about eventia, their venues, event girls and other lucrative offers. You sigh as it reaches it conclusion.
+
+Your feet are sore from strutting around in heels all day and your skin slightly tender from the tight attire.
+
+<<= setup.speak($characters.brenda, "Alright gurl, think we can call it a day. Shift should arrive soon!")>>
+
+Surely enough, two other Event Girls shortly arrive to replace you at your desk. You check your E-Pal and sign off which promptly processes your earnings and reliability rating.
+
+<<= setup.speak($characters.brenda, "See ya around gurl, I gon´ hit the showers!", "smile")>>
+
+<<= setup.speak($player, "See ya.")>>
+<<= setup.experience($player, "High Heels", 5, 5)>><<= setup.experience($player, "Social", 5, 5, 2)>><<= setup.earningsEvent("Receptionist", $player)>>
+<<= setup.equipOutfit($player, "stashedOutfit")>><<= setup.button("Continue.", "Pod - Main")>>

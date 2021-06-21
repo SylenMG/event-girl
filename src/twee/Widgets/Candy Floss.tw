@@ -1,0 +1,23 @@
+:: Candy Floss [widget nobr] {"position":"50,300","size":"100,100"}
+<<widget CandyFloss>>
+<span id="Candy">
+<<set _candy = ["Floozy","Ditzy","Cocks!... And Cummies!","Bimbo","Cocks!","Cum!","Candyfloss!","BIG FUCKING COCKS YES!","Bubblegum...PINK!","Plastic is fantastic!","Drop for Cock!","Cock Zombie Now!","Cummies...Teehee!","Teehee!","So... BIG!","Fuck me harder!","Brainmelt! YES!","C4G1-7B6-7A6-6C7","Size Queen!","Big Black Cockatrice!","Sell me please!","Can I service your cock sir?","How about my tits?","Big tits, small mind!","Daddy!","Go crazy on me!","Please make it stop.","No escape from the cock!","Ronald Reagan","Spermies in my tummy!","Cummies in my tummy!","I. WANT. COCK!","Fuckies please?!","No safety, just cock!","Take me to heaven daddy!","Harder!","HARDER!","FUCK ME UP!","eVentia owns me!","PAY DEBT ONLY DEBT!","Owned!","Pawn my ass please?","Buy me please?","Uuuuh?","Oooh!","Aaaaaah!","Suckies!","eVentia speaking.","Only 1 unit!","Cummers make me boggers!","Fertilize me!","Cumbrain now!","Cuntface now!","BIG!","How much? Not much!","Rent me please!","More cocks equals more fucks!","Tick Tock Suck Cock!","Clap me daddy!","Fuck Machine EXTREME!","No cock? BAD!", "Pink Fluffy Mind!","UUUUGH THINKING BAD!","HARDER!","GIVE ME THE FUCKING COCK!","PUT THE CUMMIES IN THE BAG AND NOBODY GETS HURT!","Chew bubblegum and eat ass!","Fuckings is my existence!","Made for fuckings!","Destroy me!","Please daddy? Please fuck my tight cunt?","PAY! PAY! PAY!","I HATE MONEY GIVE IT ALL TO DADDY!","eVentia is life, eVentia is daddy!","Will you own me please?","I live to serve COCK!","Bigger is better!","Cum?","Fuck me good, fuck me hard!","I am become CUM! The consumer of worlds!","I have a dream! About cum!","Bambi Sleep","That which does not make me cum, makes me cum HARDER!","Live as if you were to CUM tomorrow. Learn as if you were to CUM forever.","If CUM doesn\'t knock, build a COCK!","BE. THE. CUM!","Cum lasts forever.","In cum we trust!","To cum is to live!"]>>
+<<set _pinkytext = ["pink","hotpink","deeppink","hardpink"]>>
+<<set _moreCocks = setup.random(_candy.length)>>
+<<set _moreCum = setup.random(_pinkytext.length)>>
+<<if _moreCocks > 0>>
+<<set _moreCocks -= 1>>
+<</if>>
+<<if _moreCum > 0>>
+<<set _moreCum -= 1>>
+<</if>>
+<<print "@@." + _pinkytext[_moreCum] + ";" + _candy[_moreCocks] + "@@">>
+<<timed 1s>>
+<<replace "#Candy">>
+<<CandyFloss>>
+<</replace>>
+<</timed>>
+</span>
+<</widget>>
+
+

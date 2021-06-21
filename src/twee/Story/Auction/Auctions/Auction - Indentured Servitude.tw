@@ -1,0 +1,57 @@
+:: Event Auction - Indentured Servitude
+<<if $auction.firstServitude == true>><<set $auction.firstServitude = false>>Entering the dimly lit backstage, your E-Pal is scanned. After a short time a man with the Auction House-logo on his suit enters.
+<<= setup.speak($npc.executives[0], "Let me begin and ask, are you familiar with the UNC standards of procedure?", "smile")>>
+You shake your head.
+<<= setup.speak($player, "Sorry, I uuuh, have not exactly been able to brush up on that.")>>
+He sighs.
+<<= setup.speak($npc.executives[0], "I see. Well, there will not be enough to go over all of it now. Generally speaking, you are contractually obligated to do as you´re told for 24 hours.")>><<= setup.speak($player, "Like...? Anything they say?")>><<= setup.speak($npc.executives[0], "No. Those are what the standards are for. Here is a shortened list. Please brush over it.")>><<= setup.speak($player, "Alright then. Give it to me.")>>
+He takes out a small light tablet which contains a short list of commandments that you´re not obligated to fulfill.
+
+@@.boldtext;UNC Standards for Indentured Servitude@@
+
+1. No infliction of harm or self-infliction of harm can occur to the servant.
+2. The servant is not to carry out any kind of order that may in any way lead to the harm of others.
+3. The servant is not obligated to carry out any kind of command that involves sex or anything of a sexual nature.
+4. The servant is furthermore protected by UNC worker standards and must be equipped with standard safety equipment if needed.
+5. The servant cannot be commanded to forcibly act or commit to acts that would otherwise lengthen the already agreed upon contract.
+6. The servant is not obligated to hand over any of the possessions that they owned prior to the signing of the contract.
+7. The servant can terminate the contract at any moment if any of the above should occur.
+8. Whatever the servant produces within the contract period is automatically owned by the contract holder.
+9. Authorities must arrive at the scene within 5 minutes of termination. Standard Protocol.
+
+Brushing over the many commandments you follow the Auction House representative into a form of waiting room.
+<<= setup.speak($npc.executives[0], "Please wait here until the buyer arrives.", "smile")>>
+You take a deep breath.
+<<= setup.speak($player, "Right...")>><<else>>Entering the dimly lit backstage, your E-Pal is scanned. After a short time a man with the Auction House-logo on his suit enters.
+<<= setup.speak($npc.executives[0], "Let me begin and ask, are you familiar with the UNC standards of procedure?", "smile")>>
+You nod nonchalantly.
+<<= setup.speak($player, "Sure am, not my first time.")>><<= setup.speak($npc.executives[0], "I see. Well, no need to wait around then. Let´s get to business.")>>
+You follow the Auction House representative into a form of waiting room.
+<<= setup.speak($npc.executives[0], "Please wait here until the buyer arrives.", "smile")>>
+<</if>>
+<<= setup.button("Continue.", either("Event Auction - Servitude Conclusion 1", "Event Auction - Servitude Conclusion 2"), "<<set $time.currentDay += 1>>")>>
+
+:: Event Auction - Servitude Conclusion 1
+Waiting around for a short while, a man eventually enters the room. A rather old and elderly man, flicking a rather stylish cane.
+<<= setup.speak($npc.elderly[0], "I-is this her?")>><<= setup.speak($npc.executives[0], "Indeed it is mister.", "smile")>><<= setup.speak($npc.elderly[0], "I-i see! She looks young and strong! Just what I needed. Where do I sign?")>>
+The old man rests on his cane, leaning in over the table where the light tablet lies. The representative moves his hand towards the tablet and points out the corner of it. The old man places his finger on it, and a soft beep follows.
+<<= setup.speak($player, "Where do I sign?")>>
+The man grabs the light tablet and presents it to you, signing it.
+<<= setup.speak($npc.elderly[0], "Now, come with me young lady! We have much to do. My nephew is moving and we need help!", "smile")>><<= setup.speak($player, "I see.")>>
+You look back towards the representative, knowing full well by now that you have doomed yourself to a long day of heavy lifting.
+<<= setup.speak($npc.executives[0], "A pleasure doing business!")>>
+The many next hours you spend moving furnitures and various heavy boxes. All until your arms almost feel like they´re going to fall off. Even so, the old man doesn´t seem that bad at all. He even ordered pizza and let you go before the contract was up.
+<<= setup.button("Continue.","Event Auction - Aftermath")>>
+
+:: Event Auction - Servitude Conclusion 2
+Not long after two younger looking guys enter the room. They almost seem like typical teenagers, their clothes vibrant and too big.
+<<= setup.speak($npc.goth[0], "Brooo, what did I say man? Best idea ever! She´s super hot!", "smile")>><<= setup.speak($npc.goth[1], "Oh shit, yeah. Think we can make her change outfits? I mean-")>>
+They both look towards the representative, whom simply shrugs.
+<<= setup.speak($npc.goth[1], "Y-yeah, we know. Nothing sexual! But- That don´t exclude giving us drinks! And snacks!", "smile")>><<= setup.speak($npc.executives[0], "It does not.")>><<= setup.speak($player, "Great.")>>
+You´re both presented with a light tablet containing your contract, of which you both sign.
+<<= setup.speak($npc.goth[0], "Alright, let´s go hot stuff! We like, have this party planned!", "smile")>><<= setup.speak($npc.goth[1], "And you´re gonna serve drinks!", "smile")>><<= setup.speak($player, "Whatever you say...")>>
+You look back towards the representative, whom seems to be struggling to keep his chuckle in check.
+
+You spend the better part of the next night serving drinks and snacks to a group of guys at some party. At times obeying ridiculous commands like, making a funnny duck face or showing your tongue. You swear that they also at least occasionally tried to touch your ass, but decided not to cause a fuss.
+
+<<= setup.button("Continue.","Event Auction - Aftermath")>>

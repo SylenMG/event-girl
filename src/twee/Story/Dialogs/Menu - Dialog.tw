@@ -1,0 +1,38 @@
+:: Menu - Dialog [widget nobr] {"position":"1300,1825","size":"100,100"}
+<<widget Menu>>
+<<script>>
+Dialog.setup("Menu");
+Dialog.wiki(Story.get("Menu").processText());
+Dialog.open();
+<</script>>
+<</widget>>
+
+<<widget DebugSetting>>
+<span id="debug-setting">Debug Mode: 
+<<if $settings.debugMode is true>>
+@@.lightgreen;On@@ - 
+<<link "Turn Off">>
+	<<set $settings.debugMode to false>>
+	<<replace "#debug-setting">>
+	<<DebugSetting>>
+	<</replace>>
+<</link>>
+<<else>>
+@@.red;Off@@ -
+<<link "Turn On">>
+	<<if $settings.patreonVersion is false>>
+	<<replace "#debug-setting">>
+	<<DebugSetting>> - @@.red;Only available for the Patreon version.@@
+	<</replace>>
+	<<else>>
+	<<set $settings.debugMode to true>>
+	<<replace "#debug-setting">>
+	<<DebugSetting>>
+	<</replace>>
+	<</if>>
+<</link>>
+<</if>>
+</span>
+<</widget>>
+
+

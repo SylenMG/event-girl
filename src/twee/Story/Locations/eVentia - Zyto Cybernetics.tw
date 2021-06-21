@@ -1,0 +1,26 @@
+:: eVentia - Zyto Cybernetics [southshops map autosave] {"position":"425,1600","size":"100,100"}
+!eVentia - Zyto Cybernetics
+-------------------------------------
+You find yourself in the Zyto cyber-store.
+
+!!!N-Sculpting
+-------------------------------------
+N-sculpting is the art of adjusting the self and recreating your body in your own perfect image.
+
+<<= setup.sculpting($player, "eVentia - Zyto Cybernetics")>>
+
+!!!Neuroimplants & Cybermods
+-------------------------------------
+Enhance your abilities to ascend yourself to truly spectacular levels of entertainment and pleasure.
+
+<<= setup.cybermods($player, "eVentia - Zyto Cybernetics")>>
+
+!!!Cyber-stamping (Coming Soon)
+-------------------------------------
+With cutting edge technology, cyber-stamping can heighten your sensitivity, touch, soften or otherwise enhance your skin.
+
+<span class='lbb'><<button "Back to Fashion Strip">>
+	<<goto "eVentia - Fashion Strip - South">>
+<</button>></span>
+
+

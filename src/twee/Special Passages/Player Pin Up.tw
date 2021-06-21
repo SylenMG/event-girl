@@ -1,0 +1,56 @@
+:: Player Pin Up [nobr] {"position":"300,50","size":"100,100"}
+<<if $showPinup is true>>
+<<if $settings.zoomMode == true>><div class="pinup-outer-container" id="pinup-outer-container"
+onmouseover="document.getElementById('pczoom-bar').style.display = 'block';document.getElementById('pczoom-bar').innerHTML = setup.pinupModel();" onmouseout="document.getElementById('pczoom-bar').style.display = 'none';">
+<<= setup.displayTime()>>
+<br>
+<div id="pinup-inner-container">
+<div class="imgEnlarge">
+<<= setup.pinupModel($player, $pinupView)>>
+</div>
+</div>
+</div>
+<<if $player.sex != "male">>
+<<if $pinupView == "front">>
+<<link "Show Back">><<set $pinupView = "back">>
+<<replace "#story-caption">>
+<<display "StoryCaption">>
+<</replace>><</link>> - <<include "Zoom Options">>
+<<else>>
+<<link "Show Front">><<set $pinupView = "front">>
+<<replace "#story-caption">>
+<<display "StoryCaption">>
+<</replace>><</link>> - <<include "Zoom Options">> 
+<</if>>
+<</if>>
+<br>
+<<include "Units">>
+<br>
+<<else>>
+<<= setup.displayTime()>>
+<br>
+<div id="pinup-inner-container">
+<div class="imgEnlarge">
+<<= setup.pinupModel($player, $pinupView)>>
+</div>
+</div>
+<<if $player.sex != "male">>
+<<if $pinupView == "front">>
+<<link "Show Back">><<set $pinupView = "back">>
+<<replace "#story-caption">>
+<<display "StoryCaption">>
+<</replace>><</link>> - <<include "Zoom Options">>
+<<else>>
+<<link "Show Front">><<set $pinupView = "front">>
+<<replace "#story-caption">>
+<<display "StoryCaption">>
+<</replace>><</link>> - <<include "Zoom Options">> 
+<</if>>
+<</if>>
+<br>
+<<include "Units">>
+<br>
+<</if>>
+<</if>>
+
+

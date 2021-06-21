@@ -1,0 +1,7 @@
+:: Intro - Debt Question [ev-therapist-2] {"position":"1100,550","size":"100,100"}
+You question your debt and how to repay it.
+<<= setup.speak($characters.drlinus, "Your debt has accumulated over time. The cost of maintaining your outdated cryo chamber. As well as your required transformation into a more suitable subject for debt repayment and by law of course.")>><<= setup.speak($player, "I literally paid for this... Myself?")>><<= setup.speak($characters.drlinus, "Of course... That\'s only fair you know. Your debt as it stands is $player.debt units, which is... Wow... Just wow.")>><<= setup.speak($player, "That sounds really high...")>><<= setup.speak($characters.drlinus, "It is... But... Not entirely impossible to repay. You should be able to repay it over time with some help. We take care of our own at eVentia, we're family now! Of course!... Anything else?")>>
+
+<<IntroQuestions>>
+
+
