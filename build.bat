@@ -1,1 +1,1 @@
-tweego -o "dist/Event Girl.html" src
+tweego -o "../dist/Event Girl/Event Girl.html" src

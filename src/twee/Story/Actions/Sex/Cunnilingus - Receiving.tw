@@ -1,8 +1,24 @@
-:: Cunnilingus - Giving - Intro
+:: Cunnilingus - Receiving - Intro
+Your gaze meets, and whilst staringly intently at <<= setup.himher($sex.gE)>>, your lips move closer to each other.
+<<= setup.rEtSexComment($sex.gE, "intro", "cunnilingus-giving")>>
+The warm pillowy softness grazes your lips and you close your eyes. <<= setup.displayVisual("Your tongue explores and dances around hers, licking, suckling and kissing each other.", "image-" + $sex.count, $sex.gE, "cunnilingus", "kiss")>> You caress <<= setup.himher($sex.gE)>> and trail your hand along <<= setup.hisher($sex.gE)>> stomach. Withdrawing from the kissing, <<= setup.heshe($sex.gE)>> moves further down, licking your neck and sloppily kissing it. A lush moan escapes you as you place your hand on <<= setup.hisher($sex.gE)>> shoulder, pushing <<= setup.himher($sex.gE)>> further down towards your cunt.
+<<= setup.getSexComment($sex.rE, "intro", "cunnilingus-receiving")>>
+<<= setup.hisher($sex.gE, "B")>> lips now caressing and exploring your chest, <<= setup.heshe($sex.gE)>> licks <<= setup.hisher($sex.gE)>> way towards your nipples. With sloppy sounds <<= setup.heshe($sex.gE)>> suckles your teat, making you giggle. <<= setup.heshe($sex.gE, "B")>> moves further down, kissing <<= setup.hisher($sex.gE)>> way towards your stomach and finally between your thighs.
 
 <<= setup.newSex($sex.count)>>
-:: Cunnilingus - Giving - Lick
+:: Cunnilingus - Receiving - Lick
+<<= setup.hisher($sex.gE, "B")>> lips meet your pussy, kissing and licking it. <<= setup.heshe($sex.gE, "B")>> savours the taste of your juices as you become wet with wanton need, moaning in pleasure. 
+<<= setup.getSexComment($sex.gE, "main", "cunnilingus-giving")>><<= setup.getSexComment($sex.rE, "main", "cunnilingus-receiving")>>
+<<= setup.heshe($sex.gE, "B")>> moves her tongue up and down, toying with your clitoris as <<= setup.heshe($sex.gE)>> flicks it with the tip of <<= setup.hisher($sex.gE)>> tongue. Your moans grow deeper and more wild, causing your stomach and loins to contract. <<= setup.displayVisual("Trailing <<= setup.hisher($sex.gE)>> lips further down, grazing your labia, stopping at the entrance to your cunt. Sticking out <<= setup.hisher($sex.gE)>> tongue <<= setup.heshe($sex.gE)>> enters you, exploring the inside of your pussy.", "image-" + $sex.count, $sex.gE, "cunnilingus", "pussy-lick")>> You grab the top of <<= setup.hisher($sex.gE)>> head as you quiver and moan, your thighs now pressing in on <<= setup.hisher($sex.gE)>> head. Your hips rock uncontrollably as shocks of pleasure shoot up from your cunt and through your body.
 
-:: Cunnilingus - Giving - Finger
+:: Cunnilingus - Receiving - Finger
+Moving up to your clitoris <<= setup.heshe($sex.gE)>> twists and twirls <<= setup.hisher($sex.gE)>> tongue around it, causing you to shiver and rock your hips. 
+<<= setup.getSexComment($sex.gE, "main", "cunnilingus-giving")>><<= setup.getSexComment($sex.rE, "main", "cunnilingus-receiving")>>
+With <<= setup.hisher($sex.gE)>> tongue playing with your clitoris, <<= setup.heshe($sex.gE)>> moves <<= setup.hisher($sex.gE)>> attention to the entrance of your cunt. <<= setup.displayVisual("Licking two of <<= setup.hisher($sex.gE)>> fingers, lubricating them, only to prod your pussy with them. Entering you slowly, the pressure at the base of your cunt stretches you as <<= setup.hisher($sex.gE)>> fingers begins to explore you.", "image-" + $sex.count, $sex.gE, "cunnilingus", "pussy-finger")>> <<= setup.heshe($sex.gE, "B")>> moves <<= setup.hisher($sex.gE)>> fingers left and right, making you almost scream. You move one hand up to cover your mouth, as tears of lust start to trail along your cheeks. Whilst licking your clit, <<= setup.heshe($sex.gE)>> begins to rock <<= setup.hisher($sex.gE)>> hands back and forth, finger-fucking you with a steady pace.
 
-:: Cunnilingus - Giving - Climax
+:: Cunnilingus - Receiving - Climax
+Your moans grow louder and your grip around <<= setup.hisher($sex.gE)>> head tightens. Your loins quiver and the squeeze from your thighs pressing in on <<= setup.hisher($sex.rE)>> cheeks grow stronger. A pressure builds deep inside your stomach, like a powder keg ready to blow.
+<<= setup.getSexComment($sex.gE, "outro", "cunnilingus-giving")>><<= setup.getSexComment($sex.rE, "outro", "cunnilingus-receiving")>>
+The tongue fucking your cunt becomes more wild, pressing against your smoothe plush walls of pleasure. <<= setup.displayVisual("A deep shock moves through your body, as your broken moaning turns into passionate screams.", "image-" + $sex.count, $sex.gE, "cunnilingus", "orgasm")>> A massive tremble of pure orgasmic bliss makes you rock uncontrollably, your eyes rolling back into your skull and your tongue presented like a wild slut in ecstasy.
+<<= setup.getSexComment($sex.gE, "climax", "cunnilingus-giving")>><<= setup.getSexComment($sex.rE, "climax", "cunnilingus-receiving")>>
+You continue to squirm long after, as waves and shocks of post-orgasm reverberate through your body several times over.
