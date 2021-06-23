@@ -1,6 +1,6 @@
 :: Cunnilingus - Receiving - Intro
 Your gaze meets, and whilst staringly intently at <<= setup.himher($sex.gE)>>, your lips move closer to each other.
-<<= setup.rEtSexComment($sex.gE, "intro", "cunnilingus-giving")>>
+<<= setup.getSexComment($sex.gE, "intro", "cunnilingus-giving")>>
 The warm pillowy softness grazes your lips and you close your eyes. <<= setup.displayVisual("Your tongue explores and dances around hers, licking, suckling and kissing each other.", "image-" + $sex.count, $sex.gE, "cunnilingus", "kiss")>> You caress <<= setup.himher($sex.gE)>> and trail your hand along <<= setup.hisher($sex.gE)>> stomach. Withdrawing from the kissing, <<= setup.heshe($sex.gE)>> moves further down, licking your neck and sloppily kissing it. A lush moan escapes you as you place your hand on <<= setup.hisher($sex.gE)>> shoulder, pushing <<= setup.himher($sex.gE)>> further down towards your cunt.
 <<= setup.getSexComment($sex.rE, "intro", "cunnilingus-receiving")>>
 <<= setup.hisher($sex.gE, "B")>> lips now caressing and exploring your chest, <<= setup.heshe($sex.gE)>> licks <<= setup.hisher($sex.gE)>> way towards your nipples. With sloppy sounds <<= setup.heshe($sex.gE)>> suckles your teat, making you giggle. <<= setup.heshe($sex.gE, "B")>> moves further down, kissing <<= setup.hisher($sex.gE)>> way towards your stomach and finally between your thighs.
