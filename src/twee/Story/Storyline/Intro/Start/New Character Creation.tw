@@ -1,5 +1,12 @@
-:: New Character Creation
+:: Character Creation
+!!!Name Yourself
+-----------------------------------
+Your standard name is the first used, with male and female names used for clarification. Your stripper name is simply your stage name if you become one.
 
+Name: <<textbox "$player.name" $player.name>>
+Male: <<textbox "$player.maleName" $player.maleName>>
+Female: <<textbox "$player.femaleName" $player.femaleName>>
+Stripper: <<textbox "$player.stripperName" $player.stripperName>>
 
 !!!Character Background
 -----------------------------------
@@ -10,8 +17,4 @@
 <<= setup.setStartValues($story.difficulty)>>
 
 <span id='startBtn'><<= setup.getStart($story.background)>></span>
-
-<<= setup.button("Test New Sex", "Blowjob - Giving - Intro", "<<set $sex.gE = $player>><<set $sex.rE = $characters.client1>>")>>
-
-
-
+/* <<= setup.button("Test New Sex", "Blowjob - Giving - Intro", "<<set $sex.gE = $player>><<set $sex.rE = $characters.client1>>")>>*/

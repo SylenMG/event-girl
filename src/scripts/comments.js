@@ -985,10 +985,14 @@ setup.loadCommentLib = function (comments) {
 
 setup.comPortrait = function (commenter, portrait) {
 	if (commenter.modifiers.includes("player")) {
-		let pMakeup = commenter.body.face.makeup;
-		let pHairstyle = commenter.body.hair.styleName;
-		let pHaircolor = commenter.body.hair.color;
-		var comPortrait = "images/portraits/player/" + portrait + "/" + pMakeup + "-" + pHairstyle + "-" + pHaircolor + ".png";
+		if (commenter.gender == "male") {
+			var comPortrait = "images/portraits/player-male/" + portrait + ".png";
+		} else {
+			let pMakeup = commenter.body.face.makeup;
+			let pHairstyle = commenter.body.hair.styleName;
+			let pHaircolor = commenter.body.hair.color;
+			var comPortrait = "images/portraits/player/" + portrait + "/" + pMakeup + "-" + pHairstyle + "-" + pHaircolor + ".png";
+		}
 	} else {
 		var comPortrait = "images/portraits/" + commenter.portraitName + "/" + portrait + ".png";
 	}

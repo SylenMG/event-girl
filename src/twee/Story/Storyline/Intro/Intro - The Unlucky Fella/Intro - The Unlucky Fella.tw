@@ -1,0 +1,227 @@
+:: Intro - Waking Up [dorm] {"position":"975,50","size":"100,100"}
+The howling of your alarm clock wakes you up and in a slumbering stupor you flail your arm in its general direction. You eventually manage to tap the snooze button. However, the continued howling 5-minutes later finally forces you up.
+
+A tired yawn escapes you whilst you stretch and slowly rise from your long nights rest. You then sluggishly drag yourself towards the bathroom to prepare for the day.
+
+As you enter, you take a good long look in the mirror, observing and taking in your obvious trashed morning appearance.
+
+In front of you stands $player.maleName, 19 years old college sophomore, not too shabby you think to yourself, flexing a bit.
+
+With your toothbrush in hand you apply the toothpaste and start brushing away.
+
+You also grab your crotch, just to make sure your precious, most prized possession is still there.
+
+<<= setup.button("Continue.", "Intro - Shower", "<<set $player.intBody = 'images/player/male/pc-male-nude.png'>>")>>
+:: Intro - Shower [dorm] {"position":"1100,50","size":"100,100"}
+The cold water hits your back and you curse, quickly switching on the hot water to even out the temperature. You wonder if your aunt has left you another allowance, although, you're prepared for her to suddenly stop supporting you any moment since your last argument. Which means it's probably time to start looking for a side job, which you would absolutely dread.
+
+After rinsing the last of the soapy water of, you jump out of the shower and quickly dry yourself. You have an aching suspicion you might be slightly late, and Jake was supposed to pick you up today. As you were going on a class trip.
+
+Just as you grabbed your clothes you hear an incessant honking outside your dorm and someone yelling from the parking lot.
+<<= setup.speak($characters.jake, "Come on! $player.maleName, we´re late as fuck!", "yelling")>>
+You stumble towards your clothes.
+
+<span id="clothes"><span class='lbb'><<button "Put on your clothes.">><<set $player.intBody = "images/player/male/pc-male-clothed.png">><<replace "#clothes">><<replace "#story-caption">><<display "StoryCaption">><</replace>>You quickly jump into your pants and only manage to button a few of the buttons. With your shirt only slightly covering your abs you make a dash for the door. Just as you grab the doorknob, your eyes catch the letter from your aunt by the drawers. 
+
+You pick it up, and without even needing to open it, you already know that it doesn't contain the usual support from her. 
+<<= setup.speak($player, "So she finally stopped paying? Pfft... I don´t need her.", "male-careless")>>
+You cringe slightly, knowing you will have to either make it up with that hag or get a job...
+
+<<= setup.button("Continue.", "Intro - Meeting Jake")>><</replace>><</button>></span>
+:: Intro - Meeting Jake [university]
+You rush down the stairs from the dorms, almost slipping and bashing into the door. The cool morning breeze hits you and bright morning lights make you squint your eyes as you enter the parking lot. You spot Jake in his sedan, his arm resting on the rolled down door window.
+<<= setup.speak($characters.jake, "There you are! Dude! We´re so fucking late, Miss Palmers gonna kill us!")>>
+A chuckle escapes as you regain your composure, grabbing and opening the car door.
+<<= setup.speak($player, "Calm down, not like it's the first time we´re late. Alright, hit it.", "male-default")>>
+Leaning back into the familiar ruddy leather, your stomach is pushed against your back as Jake speeds up and blazes into the morning traffic.
+<<= setup.speak($characters.jake, "So... How did it go?", "smile")>><<= setup.speak($player, "What are you talking about?", "male-smile")>><<= setup.speak($characters.jake, "Come on man, you´re dating Jessica! THE Jessica, hot as hell, rich daddy and huge mammarinas. How can I not want the details? Spill ´em!")>>
+Rolling your eyes, you shift your gaze towards your phone, pretending you got something important to check.
+<<= setup.speak($player, "Dude, come on man. Details?", "male-hello")>><<= setup.speak($characters.jake, "So? Did ya fuck her or what? Tell me all about it bro!", "bruh")>>
+You think back on your date with Jessica.
+
+<span id="choice"><span class='lbb'><<button "Nah, she just gave me a blowie.">><<replace "#choice">>
+<<= setup.speak($player, "Nah, she just gave me a blowie, satisfied?", "male-smile")>><<= setup.speak($characters.jake, "Ay! That sounds pretty good to me!", "bruh")>>Your fist connects with his as you both chuckle. You lie back into the leather seat, gazing out of the window as you approach your destination.
+
+<<= setup.button("Continue.", "Intro - Arriving at Cryola")>>
+<<= setup.button("Think back on Jessica giving you a blowjob.", "Sex", "<<set $sex.current = 'blowjob', $sex.givingEntity = $characters.jessica, $sex.receivingEntity = $player, $sex.modifier = 'sensual', $sex.stage = 'intro', $sex.passage = 'Intro - Arriving at Cryola'>>")>>
+<</replace>><</button>></span><span class='lbb'><<button "Yeah, I fucked her.">><<set $story.fuckedJessica = true>><<replace "#choice">><<run setup.experience($player, "Sex", 110, 0)>><<= setup.speak($player, "Yeah, I fucked her. You satisfied now?", "male-smile")>><<= setup.speak($characters.jake, "Holy shit bro! You on a fucking roll man!", "bruh")>>Your fist connects with his as you both chuckle. You lie back into the leather seat, gazing out of the window as you approach your destination.
+
+<<= setup.button("Continue.", "Intro - Arriving at Cryola")>>
+<<= setup.button("Think back on fucking Jessica.", "Sex", "<<set $sex.current = 'sex', $sex.givingEntity = $player, $sex.receivingEntity = $characters.jessica, $sex.modifier = 'sensual', $sex.stage = 'intro', $sex.passage = 'Intro - Arriving at Cryola'>>")>>
+<</replace>><</button>></span><span class='lbb'><<button "Fucked her in the ass.">><<set $story.fuckedJessica = true>><<replace "#choice">><<run setup.experience($player, "Anal", 110, 0)>><<= setup.speak($player, "Did I fuck her? Fucked her in the ass!", "male-smile")>><<= setup.speak($characters.jake, "Whaaat?! For real?! No way!", "bruh")>>Your fist connects with his as you both chuckle. 
+<<= setup.speak($player, "Totally did, she didn´t have any condoms around, so took her ass instead.", "male-smile")>><<= setup.speak($characters.jake, "Wait, that means she´s still technically a virgin?", "smile")>><<= setup.speak($player, "Yeah I guess so... Who cares though.", "male-default")>><<= setup.speak($characters.jake, "Yeah... haha... who cares.")>>
+You lie back into the leather seat, gazing out of the window as you approach your destination.
+
+<<= setup.button("Continue.", "Intro - Arriving at Cryola")>>
+<<= setup.button("Think back on fucking Jessica´s ass.", "Anal", "<<set $sex.current = 'sex', $sex.givingEntity = $player, $sex.receivingEntity = $characters.jessica, $sex.modifier = 'sensual', $sex.stage = 'intro', $sex.passage = 'Intro - Arriving at Cryola'>>")>>
+<</replace>><</button>></span><span class='lbb'><<button "Nah man, you know, first date and all that.">><<replace "#choice">><<= setup.speak($player, "Nah man, you know, first date and all that.", "male-default")>><<= setup.speak($characters.jake, "Ah well, maybe next time eh? I bet she just playing hard to get.")>>
+Your fist connects with his as you both chuckle.
+
+<<= setup.button("Continue.", "Intro - Arriving at Cryola")>></span><</replace>><</button>></span>
+
+:: Intro - Arriving at Cryola [cryola-exterior autosave]
+As you approach the destination, you spot the huge cube-like structure with the bright red logo reading; "Cryola Cryolabs". 
+<<= setup.speak($characters.jake, "Weren´t these Cryola-clowns involved in some stasis scandal not too long ago?")>><<= setup.speak($player, "Really? Never heard about them before. I don´t really understand why we have to go to a cryolab for a humanities class.", "male-default")>><<= setup.speak($characters.jake, "Who cares bro, we here for that ass!")>>
+Driving into the parking lot, you quickly find a spot. After exiting the vehicle, you both approach the building and the lobby entrance. A cool washing breeze hits you as the glass doors slide open, inviting you inside. The lobby is completely devoid of any kind of life.
+<<= setup.speak($characters.jake, "Fuck! I knew it, we´re too fucking la-")>>
+Before he can even finish his sentence, someone clears their throat behind the both of you.
+
+<<= setup.button("Continue.", "Intro - Cryola Receptionist")>>
+:: Intro - Cryola Receptionist [cryola-reception]
+<<= setup.speak($characters.cryolareceptionist, "I assume ze boz of you we´re zuppozed za be wiz ze visiting class?")>>
+Her foreign accent clearly pierces your ears and her tits almost spilling out of her secretary outfit immediately catches your attention. Looking up and awkwardly meeting her gaze you gulp as you force out a response.
+
+<span id="choice"><span class='lbb'><<button "Oooh shit! Tits!">><<replace "#choice">>
+<<= setup.speak($player, "Oooooh! Shit! Tits!", "male-smile")>>
+Your eyes fixated on her cleavage that is about to burst, you realize that you just spoke your mind openly. Her gaze turns ice cold as Jake bursts into laughter.
+<<= setup.speak($characters.cryolareceptionist, "I iz going to azzume zat iz a yez. Now please, follow me for ze tour and ze viziting clazz... or elze I will be forced to call ze zecurity.", "answer")>>
+She turns around and begins to strut towards the elevator. You both follow her, completely hypnotized by the tapping of her heels and her swaying pencil skirt booty.
+
+<<= setup.button("Keep your eyes fixated on her swaying booty.", "Intro - Catching Up")>>
+<<= setup.button("Play it cool and follow along.", "Intro - Catching Up", "")>>
+<</replace>><</button>></span><span id="choice"><span class='lbb'><<button "Oh uuuh... Yes!">><<replace "#choice">>
+<<= setup.speak($player, "Oh uuuh... Yes! We were! We could use some help though, we´re kinda lost here.", "male-hello")>><<= setup.speak($characters.cryolareceptionist, "Yez, I can help you. Next time announce your arrival at ze reception. You walked right pazt me when you burzted through our foyer.", "answer")>>
+She points towards the entrance, and correctly enough, you both really did just wander past it.
+<<= setup.speak($characters.cryolareceptionist, "Now, pleaze follow me, zir.")>>
+She turns around and begins to strut towards the elevator. You both follow her, completely hypnotized by the tapping of her heels and her swaying pencil skirt booty.
+
+<<= setup.button("Play it cool and follow along.", "Intro - Catching Up", "")>>
+<</replace>><</button>></span>
+:: Intro - Catching Up [elevator]
+The typical elevator music hits your ears as the elevator doors slide open. The three of you enter and the receptionst slides her card over the console and presses a few buttons. You quickly notice that it´s not going up, but down.
+<<= setup.speak($player, "So uuuh, the rest of the class is waiting for us?", "male-default")>>
+She looks at you directly with her piercing glare.
+<<= setup.speak($characters.cryolareceptionist, "No, ze class haz already begun ze tour. We will be there zoon enough, zey zhould not have gotten far.", "answer")>>
+A faint click and the elevator door opens revealing a long hallway. You spot the class not far from the three of you further down the hall.
+<<= setup.speak($characters.jake, "Ah good! I see them, thank you miss!")>><<= setup.speak($characters.cryolareceptionist, "Alright. I will leave it to you then. Have nice vizit.")>>
+She smiles as you both exit the elevator and quickly stroll towards the class. As you approach the tour in session, you hear an almost condescending, yet so familiar voice address you.
+<<= setup.speak($characters.palmer, "Ah! look who it is, decided to finally come along after all?", "angry")>><<= setup.speak($characters.jake, "Sorry Miss Palmer, we had some trouble with traffic, but we´re here now aren´t we?", "bruh")>>
+Crossing her arms, a wrinkle travels along her forehead, as if she is thinking of ways to torture the both of you. You think of what to say.
+
+<<= setup.button("Yeah, we got stuck in the morning traffic.", "Intro - Meeting Jessica 1", "<<run setup.experience($player, 'Social', 110)>>")>>
+<<= setup.button("Come on man, not a big deal, not like we missed anything!", "Intro - Meeting Jessica 2", "<<run setup.experience($player, 'Social', 50)>><<run setup.experience($player, 'Cool', 50)>>")>>
+<<= setup.button("Pfft, whatever, it´s just some cryoshit.", "Intro - Meeting Jessica 3", "<<run setup.experience($player, 'Cool', 110)>>")>>
+:: Intro - Meeting Jessica 1 [cryola-cantina]
+She loosens up a little as she processes your excuses.
+<<= setup.speak($characters.palmer, "I guess that´s a likely excuse. Join up then, we´re getting to the good part now. They´re going to show us the newest line of their cryo-chambers.")>>
+The two of you blend in with the rest of the class. The tour guide, a young blonde, professional-looking woman resumes explaining some of the equipment presented. The both of you quickly get bored though, not really having any interest in any of this. You spot Jessica in the crowd of the class, your eyes meet and she blushes.
+<<= setup.speak($characters.jake, "Yo, she wants you bro, gotta make sure she don´t run away. Go on dude.")>><<= setup.speak($player, "I know, I know. Calm down. Be right back then.", "male-default")>>
+You smoothly reposition yourself to get closer to her, until you stand next to her. Her hypnotic sweet perfume going straight to your cock.
+<<= setup.speak($player, "Hey Jessica, forgot to let ya know I had a great time yesterday.", "male-hello")>><<= setup.speak($characters.jessica, "Oh hey $player.maleName, me too! We should do it again another time.")>>
+You´re both abruptly interrupted.
+<<= setup.speak($characters.palmer, "Be quiet you two! Pay attention to the tour!", "angry")>>
+You both cringe slightly, but quickly pick up on the tour.
+<<= setup.speak($characters.cryolaguide, "And here we observe the Hemo-coolant Injector. An old and outdated approach to prevent blood and cell crystal formation and attain total vitrification in mere seconds. No longer needed with our newer Vita Cell-Regulation system.")>>
+
+:: Intro - Meeting Jessica 2 [cryola-cantina]
+She clenches her fist as the wrinkle grows in size, almost as if it´s about to burst.
+<<= setup.speak($characters.palmer, "I´ve about had it with you two! You´re both walking on thin ice! You hear! Now get in line!", "angry")>>
+The two of you blend in with the rest of the class. The tour guide, a young blonde, professional-looking woman resumes explaining some of the equipment presented. The both of you quickly get bored though, not really having any interest in any of this. You spot Jessica in the crowd of the class, your eyes meet and she blushes.
+<<= setup.speak($characters.jake, "There she is, you gotta make a move or what?")>><<= setup.speak($player, "I know, I know. Calm down. Be right back then.", "male-default")>>
+You smoothly reposition yourself to get closer to her, until you stand next to her. Her hypnotic sweet perfume going straight to your cock.
+<<= setup.speak($player, "Hey there, you doing good?", "male-hello")>><<= setup.speak($characters.jessica, "Uuuuh... oh... hey $player.maleName! I guess-")>>
+You´re both abruptly interrupted.
+<<= setup.speak($characters.palmer, "Be quiet you two! Pay attention to the tour!", "angry")>>
+You both cringe slightly, but quickly pick up on the tour.
+<<= setup.speak($characters.cryolaguide, "And here we observe the Hemo-coolant Injector. An old and outdated approach to prevent blood and cell crystal formation and attain total vitrification in mere seconds. No longer needed with our newer Vita Cell-Regulation system.")>>
+
+<<= setup.button("Continue.", "Intro - Cryo-chamber Display")>>
+
+:: Intro - Meeting Jessica 3 [cryola-cantina]
+She clenches her fist as the wrinkle grows three-fold in size turning red, almost as if it´s about to go nuclear.
+<<= setup.speak($characters.palmer, "I´ve about had it with you two! You´re both walking on thin ice! You hear! Now get in line!", "angry")>>
+The two of you blend in with the rest of the class. The tour guide, a young blonde, professional-looking woman resumes explaining some of the equipment presented. The both of you quickly get bored though, not really having any interest in any of this. You spot Jessica in the crowd of the class, your eyes meet and she blushes.
+<<= setup.speak($characters.jake, "There she is, if you ain´t making a move, I am bro.")>><<= setup.speak($player, "Fuck you man, watch this.", "male-default")>>
+You smoothly reposition yourself to get closer to her, until you stand next to her. Her hypnotic sweet perfume going straight to your cock.
+<<= setup.speak($player, "´sup girl, how you doin´, thinking about me?", "male-hello")>><<= setup.speak($characters.jessica, "Oh! *giggles*, hey there handsom-!")>>
+You´re both abruptly interrupted.
+<<= setup.speak($characters.palmer, "Be quiet you two! Pay attention to the tour!", "angry")>>
+You both cringe slightly, but quickly pick up on the tour.
+<<= setup.speak($characters.cryolaguide, "And here we observe the Hemo-coolant Injector. An old and outdated approach to prevent blood and cell crystal formation and attain total vitrification in mere seconds. No longer needed with our newer Vita Cell-Regulation system.")>>
+
+<<= setup.button("Continue.", "Intro - Cryo-chamber Display")>>
+:: Intro - Cryo-chamber Display [cryola-cantina]
+The tour goes on and you reach a Cryo-Chamber on display.
+<<= setup.speak($characters.cryolaguide, "And here we have our display model. A fully functional Cryo Chamber, the one used in our trials. No longer used in production. You´re the first visitors to see it!")>>
+The Cryo-Chamber is golden-yellow and open, showing a comfortable spacious interior. The door is sleeved, and there's a userpad right next to the entrance of it.
+<<= setup.speak($characters.jake, "Looks all futuristic and shit, what do you say, $player.maleName?")>><<= setup.speak($player, "I don´t really care bro, have you seen Jessica?", "male-careless")>>
+You're both interrupted once again as the tour guide continues her speech.
+<<= setup.speak($characters.cryolaguide, "And now we will have a short break. Feel free to take pictures and try out the comfortable interior of this display model. The cafeteria is just around the corner. The tour will continue in 20 minutes.")>>
+You look around to see if you can spot Jessica, and there she is, coming straight towards you.
+<<= setup.speak($characters.jessica, "Isn´t this all so exciting $player.maleName! Just think about the endless opportunities mankind can achieve with this kind of technology!", "laugh")>><<= setup.speak($player, "Y-yes! I totally agree! Truly amazing really!",  "male-smile")>><<= setup.speak($characters.jessica, "Oh-hey! Take a picture of me inside of it!")>>
+She gives you her smartphone and darts of towards the others surrounding the Cryo Chamber, waving her hand to follower her. 
+
+<<= setup.button("Continue.", "Intro - Taking a picture")>>
+:: Intro - Taking a picture [cryola-cantina]
+After the rest of the class has largely lost interest in the display model, she jumps in.
+<<= setup.speak($characters.jessica, "Get a good one of me!", "laugh")>>
+She smiles as she freezes up posing for the shot. You take a few snapshots, trying your best to keep yourself from zooming too close on her cleavage.
+<<= setup.speak($player, "Alright! Think I got a few great ones for sure!", "male-hello")>>
+She jumps and smiles at you.
+<<= setup.speak($characters.jessica, "Your turn now!")>><<= setup.speak($player, "Ah... I don't need any pictures taken, I´ll pass.", "male-default")>>
+You try your best to decline politely, but Jake jumps in.
+<<= setup.speak($characters.jake, "Hey come on bro, don´t take away her opportunity to build her boyfriend portfolio!")>><<= setup.speak($player, "Dude! Really?!", "male-careless")>><<= setup.speak($characters.jessica, "Come on $player.maleName, for me?")>>
+You cringe a little, but eventually give in to their nagging and let Jake shove you inside.
+<<= setup.speak($player, "Alright... fine.", "male-smile")>>
+You lean up against the comfortable interior, the cryo bed standing upright, you lean your head on the pillowy top and your arms on the arm-rest. Jessica promptly begins to take some pictures with her smartphone.
+
+<<= setup.button("Continue.", "Intro - Terrible Mistake")>>
+:: Intro - Terrible Mistake [cryola-cryo]
+As Jessica is taking her pictures you spot Jake moving towards the chamber entrance. You notice his familiar grin when he´s up to no good.
+<<= setup.speak($characters.jake, "Sit back mister! Commencing cryo-freezer-something!")>>
+You roll your eyes as he messes with the console.
+
+However, you´re startled by a sudden click as your wrists are clenched and held in place. You look down to see your arms have been fastened to the armrest. A feminine voice can be heard as several diodes are turned on.
+
+@@.ai-alert;Chamber AI: Subject secured, commencing vitals check.@@
+<<= setup.speak($player, "Dude! What the fuck are you doing?!", "male-careless")>><<= setup.speak($characters.jake, "Oh shit! What the hell?!", "bruh")>><<= setup.speak($characters.jessica, "Oh that´s exciting! The model still has some of it´s functions left! Smile!", "laugh")>><<= setup.speak($player, "Get me out! This ain´t fucking funny!", "male-careless")>><<= setup.speak($characters.jake, "I´m trying bro, I don´t know what the fuck i´ve been pressing?!", "bruh")>>
+
+@@.ai-alert;Chamber AI: All vitals nominal. Subject fit for cryo-strapping, commencing.@@
+
+The chamber doors emit a soft click and begin to slowly close down.
+<<= setup.speak($player, "Get the fucking guide or something!", "male-careless")>><<= setup.speak($characters.jake, "Oh shit, hang in there bro!", "bruh")>>
+You see Jake dart off whilst Jessica waves at you, continuing with her pictures as the door slowly slides down.
+<<= setup.speak($characters.jessica, "It´ll be fine $player.maleName, it´s just part of the-", "laugh")>>
+The door finally slams shut, leaving the only vision of the outside through a small window on the front of the door.
+
+<<= setup.button("Continue.", "Intro - Panic")>>
+:: Intro - Panic [cryola-cryo-red autosave]
+You try to get a hold of what's going on outside, but the whole chamber appears completely soundproof.
+
+@@.ai-alert;Chamber AI: Commencing systems check... VCR Module missing. Cryo-strapping Failure.@@
+
+Several red lights turn on and a small beeping sound begins.
+
+You continue to attempt to get a look outside, and think you could spot at least Jake, Palmers and the tour guide all argueing. Your stomach drops as your eyes lock with the tour guide, her eyes filled with horror. This was definitely not part of the tour.
+
+@@.ai-alert;Chamber AI: Emergency Override in effect. Cryo-strapping resuming.@@
+
+You hear several liquids traveling up through various tubes in the chamber, and a strange odor filling the air.
+<<= setup.speak($player, "Oh hell no! HEY! GET ME OU-..t o-f", "male-terrified")>>
+You feel yourself getting light-headed. You fight it to stay awake, as best as you can.
+
+@@.ai-alert;Chamber AI: Cryo-strapping complete. Subject ready for total vitrification.@@
+
+@@.ai-alert;Chamber AI: Commencing Cryo-vitrification.@@
+
+The last thing you can remember is the burning feeling of the temperature dropping you into a deep timeless slumber in mere seconds.
+
+<<= setup.button("Continue.", "Cryo Sleep")>>
+:: Intro - Cryo Sleep [frozen]
+<<timed 3s t8n>>Darkness surrounds you and you are nowhere and no one.<</timed>>
+
+<<timed 6s t8n>>There is nothing...<</timed>>
+
+<<timed 9s t8n>>Something stings you... How odd...<</timed>>
+
+<<timed 12s t8n>>You drift off again...<</timed>>
+
+<<timed 15s t8n>>You're out of time, it's nowhere to be found... What's going on?<</timed>>
+
+<<timed 18s t8n>>Oh, your stomach feels weird... You have a stomach?<</timed>>
+
+<<timed 21s t8n>>Something cuts me... Did I... Lose something?<</timed>>
+
+<<timed 24s t8n>>Darkness...<</timed>>
+
+<<timed 27s t8n>>Hot... It's getting hotter... What's that? Light?<</timed>>

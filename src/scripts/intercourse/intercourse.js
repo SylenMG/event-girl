@@ -6,26 +6,38 @@
 //Given means entity was active partner, if blowjob/cunnilingus means entity was the one sucking. If vaginal/anal means entity was the one fucking vagina/ass.
 //Received means entity was passive partner. If vagina/ass means entities vagina/ass orifice was the one being penetrated
 
-setup.newSex = function (count) {
+setup.newSex = function (sex) {
 	let returnSex = "";
+	let perspective = setup.checkPerspective(sex);
+	switch(perspective) {
+		case "blowjob-giving":
+		
+		break;
+		case "blowjob-receiving":
+
+		break;
+		default:
+		
+		break;
+	}
 	let sObject = {
 		scenes: [
 			{
-			name: "Suck.",
+			name: ["Suck <<= setup.hisher($sex.rE)>> cock.","Take <<= setup.hisher($sex.rE)>> shaft inside your mouth.","Use your lips on <<= setup.hisher($sex.rE)>> cock."],
 			passage: "<<include 'Blowjob - Giving - Suck'>>"
 			},
 			{
-			name: "Lick.",
+			name: ["Lick the tip of <<= setup.hisher($sex.rE)>> cock."],
 			passage: "<<include 'Blowjob - Giving - Lick'>>"
 			}
 		],
 		climax: [
 			{
-			name: "Swallow.",
+			name: ["Swallow."],
 			passage: "<<include 'Blowjob - Giving - Swallow'>>"
 			},
 			{
-			name: "Facial.",
+			name: ["Facial."],
 			passage: "<<include 'Blowjob - Giving - Facial'>>"
 			}
 		]
@@ -111,21 +123,21 @@ setup.checkPerspective = function (sex) {
 			var perspective = "blowjob-giving";
 			console.log("Blowjob(giving): Pass.");
 			break;
-		} else if (sex.receivingEntity.modifiers.includes("player") && sex.givingEntity.modifiers.includes("hasPenis")) {
+		} else if (sex.receivingEntity.modifiers.includes("player") && sex.receivingEntity.modifiers.includes("hasPenis")) {
 			var perspective = "blowjob-receiving";
 			console.log("Blowjob(receiving): Pass.");
 			break;
 		} else {
 			console.log("Error: neither giving Entity(" + sex.givingEntity.name + ") or receiving Entity(" + sex.receivingEntity.name + ") have flag 'hasPenis'.");
 			console.log("Checking for cunnilingus instead...");
-			var sexType = "cunniligus";
+			var perspective = "cunniligus";
 		}
 		case "cunnilingus":
 		if (sex.givingEntity.modifiers.includes("player") && sex.receivingEntity.modifiers.includes("hasVagina")) {
-			var sexType = "cunnilingus-giving";
+			var perspective = "cunnilingus-giving";
 			console.log("Cunnilingus(giving): Pass.");
 			break;
-		} else if (sex.receivingEntity.modifiers.includes("player") && sex.givingEntity.modifiers.includes("hasVagina")) {
+		} else if (sex.receivingEntity.modifiers.includes("player") && sex.receivingEntity.modifiers.includes("hasVagina")) {
 			var perspective = "cunnilingus-receiving";
 			console.log("Cunnilingus(receiving): Pass.");
 			break;
@@ -144,7 +156,7 @@ setup.checkPerspective = function (sex) {
 			}
 		} else {
 			console.log("Error: giving Entity(" + sex.givingEntity.name + ") did not have flag 'hasPenis'.");
-			var sexType = "sex";
+			var perspective = "sex";
 			console.log("Ignoring Error and bypassing(checking sex), please report this error and where it occured.");
 		}
 		case "vaginal":
@@ -161,7 +173,7 @@ setup.checkPerspective = function (sex) {
 			}
 		} else {
 			console.log("Error: giving Entity(" + sex.givingEntity.name + ") did not have flag 'hasPenis'.");
-			var sexType = "sex";
+			var perspective = "sex";
 			console.log("Ignoring Error and bypassing(checking sex), please report this error and where it occured.");
 		}
 		case "sex":

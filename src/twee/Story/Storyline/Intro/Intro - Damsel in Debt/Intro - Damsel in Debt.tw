@@ -4,7 +4,7 @@ The Eventia logo towers above you as you look out the window from the holo-taxi.
 The door to the holo-taxi slides open and the bustling sound of the surrounding metropolis hits you. The stench of the nearby sewer making you retch, you quickly jump out of the taxi and grab your bags from the trunk. The taxi simply hovers off as your N-Face vibrates, telling you that you´re at least 200 units lighter in your wallet.
 <<= setup.speak($player, "Ugh... let´s see... that over there would be the main entrance. E-01, should be close to that guys clinic.")>>
 Hauling your baggage towards the entrance, you enter the entertainment center.
-<<= setup.equipOutfit($player, "starterGirl")>><<= setup.acquireItem("White Camisole", "clothes")>><<= setup.acquireItem("Grey Jeans", "clothes")>><<= setup.acquireItem("Pink Bra", "clothes")>><<= setup.acquireItem("Pink Panties", "clothes")>><<= setup.acquireItem("Peeptoe Heels", "clothes")>>
+<<run setup.equipOutfit($player, "starterGirl")>><<run setup.acquireItem("White Camisole", "clothes")>><<run setup.acquireItem("Grey Jeans", "clothes")>><<run setup.acquireItem("Pink Bra", "clothes")>><<run setup.acquireItem("Pink Panties", "clothes")>><<run setup.acquireItem("Peeptoe Heels", "clothes")>>
 <<= setup.button("Continue.", "Intro - Entering eVentia")>>
 :: Intro - Entering eVentia [ev-foyer-2]
 A splash of fresh cooling air hits you as you move through the entrance, washing away the smells of the wretched outside. Turning around, you take in the refreshing scenery of the lobby and foyer. You spot one of the guards standing in the corner, waving you over.
@@ -67,6 +67,6 @@ The guard tosses in your baggage and takes a step back.
 <<= setup.speak($characters.eventiaguard, "You can report to the reception tommorrow if you so desire. I´ll be leaving now. Good evening to you, miss.")>>
 You nod at the guard and begin to unpack your things.
 
-<<= setup.button("Continue.", "Pod - Main")>>
+<<= setup.button("Continue.", "Pod - Main","<<set $settings.introMode = false>>")>>
 
 

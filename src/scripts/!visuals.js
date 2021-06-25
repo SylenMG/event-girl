@@ -683,7 +683,7 @@ setup.displayVisual = function (eText, replacer, entity, group, act, background,
 	let imagePath = "images/scenes/" + group + "/" + artType + "/" + gifId + "." + fileType;
 	let imageReturn = "<<link '" + eText + "'>><<replace '#" + replacer + "'>><br><div style='border: 0.2em solid grey; border-radius: 1em; overflow: hidden; width:100%;'>" + 
 	"<img src='" + imagePath + "' style='position: relative; margin-bottom: -1em;' width=100% height=auto></div><</replace>><</link>>";
-	return "<br><span id='" + replacer + "'></span>" + imageReturn + "<br>";
+	return "<span id='" + replacer + "'></span>" + imageReturn;
 }
 
 var logReel = 0;

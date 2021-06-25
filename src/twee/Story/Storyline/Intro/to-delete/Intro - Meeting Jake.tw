@@ -1,4 +1,4 @@
-:: Intro - Meeting Jake [university nobr] {"position":"1225,50","size":"100,100"}
+:: Intro - Meeting Jake123 [university nobr] {"position":"1225,50","size":"100,100"}
 You rush down the stairs from the dorms and enter the parking lot where Jake is waiting for you with his sedan window rolled down.
 <br><<set $player.intBody = "images/player/male/pc-male-clothed.png">><<= setup.speak($characters.jake, "There you are! Dude! We're so fucking late, Miss Palmers gonna kill us!")>><br>
 You enter the vehicle as you chuckle lightly.

@@ -59,7 +59,8 @@
 	current: "",
 	stage: "",
 	modifier: "",
-	passage: ""
+	passage: "",
+	endPassage: ""
 }>>
 
 <<set $clothes = {

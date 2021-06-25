@@ -228,9 +228,9 @@ setup.loadCharacters = function () {
 			worldLocation: "unknown"
 		},
 		malePlayer: {
-			name: "Jimmy",
-			portraitName: "malePlayer",
-			modifiers: [],
+			name: "You",
+			portraitName: "player-male",
+			modifiers: ["hasPenis"],
 			gender: "male",
 			bodyRef: {
 				penis: 3,
@@ -272,7 +272,7 @@ setup.loadCharacters = function () {
 		jessica: {
 			name: "Jessica",
 			portraitName: "jessica",
-			modifiers: [],
+			modifiers: ["hasVagina"],
 			gender: "female",
 			bodyRef: {
 				penis: 3,

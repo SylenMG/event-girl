@@ -65,6 +65,6 @@ setup.setStartValues = function (diff) {
 }
 
 setup.getStart = function (current) {
-    let starts = ["Male - Start", "Intro - Arriving at eVentia"];
-    return setup.button("Begin Intro.", starts[current]);
+    let starts = ["Intro - Waking Up", "Intro - Arriving at eVentia"];
+    return setup.button("Begin Intro.", starts[current], "<<set $player.units = $story.difficulty.startUnits>><<set $player.debt = $story.difficulty.startDebt>><<set $player.interest = $story.difficulty.startInterest>><<set $player.weeklyDemand = $story.difficulty.startDemand>><<set $characters.malePlayer.name = $player.maleName>>");
 }

@@ -282,9 +282,9 @@ setup.loadPlayer = function () {
 
 	let player = {
 		id: 0,
-		name: "Jimmy",
-		maleName: "Jimmy",
-		femaleName: "Candace",
+		name: "John",
+		maleName: "John",
+		femaleName: "Cassandra",
 		stripperName: "Candace",
 		portraitName: "player",
 		isTransformed: false,
