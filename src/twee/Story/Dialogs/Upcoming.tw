@@ -1,5 +1,6 @@
 :: Upcoming {"position":"554,301","size":"100,100"}
 @@.boldtext;Upcoming and Planned Content@@
+<div style="height: 30em; overflow:auto;">
 This is simply to share the plans moving forward. They are subject to change and may not represent what a future update might actually entail or look like.
 
 Events
@@ -38,5 +39,5 @@ Various technical stuff planned.
 - Debug Conversion into Console with scripts.
 - Player body conversion into scripts.
 - Events conversion.
-
+</div>
 

@@ -1,4 +1,15 @@
 :: Changelog {"position":"679,300","size":"100,100"}
+<div style="height: 30em; overflow:auto;">
+0.15.0
+- Created a private git, that will become public with time. You can request access for now if you want (for modding purpose).
+- Starting to look into simplifying (codewise/not content-wise), some aspects of the game, so that they can be modded.
+- Worked on a new framework for sex, that is more lightweight and focus on written passages, instead of random sentence-pieces.
+- Added a brand new Character Creator.
+- Added Backgrounds to the CC: The standard and a new Background that allows you to start the game as a woman.
+- Added Difficulty to the CC.
+- Rewrote (and still are in the process of thinking of new interesting angles) the intro, so that you now can better tailor your start in the game.
+- This includes some new scenes.
+
 0.14.4
 - Fix for Boardroom incident.
 - Fix for masturbating being possible during night.
@@ -359,5 +370,5 @@
 - Therapy: Payouts for various sessions have now been properly changed to reflect the risk associated with their participation.
 - Additionally a few bugfixes and text/grammar fixes.
 - Scripts: I've begun exporting a lot of the game's functionality into Javascript that can then easily be used in other projects. (The Realm for an example).
-
+</div>
 

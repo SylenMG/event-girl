@@ -11,8 +11,7 @@ You must now become an Event Girl.
 
 @@.red;Warning!@@ - The game contains photosensitive content, flashing images, suggestive content and mind-altering content that some may be susceptible, vulnerable or otherwise discouraged by. You can turn off photosensitive content in the settings, though this @@.bold;still@@ does not guarantee it won't show due to error/bugs/me forgetting to disable it.
 
-<<= setup.button("Start", "Intro - Character Creation")>>
-<<= setup.button("New Start", "Character Creation")>>
+<<= setup.button("Start", "Character Creation")>>
 <span class='lbb'><span class='lbb'><<button "Changelog">>
 	<<Changelog>>
 </span><</button>></span>

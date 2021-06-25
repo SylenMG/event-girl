@@ -21,7 +21,7 @@ Just as you grabbed your clothes you hear an incessant honking outside your dorm
 <<= setup.speak($characters.jake, "Come on! $player.maleName, we´re late as fuck!", "yelling")>>
 You stumble towards your clothes.
 
-<span id="clothes"><span class='lbb'><<button "Put on your clothes.">><<set $player.intBody = "images/player/male/pc-male-clothed.png">><<replace "#clothes">><<replace "#story-caption">><<display "StoryCaption">><</replace>>You quickly jump into your pants and only manage to button a few of the buttons. With your shirt only slightly covering your abs you make a dash for the door. Just as you grab the doorknob, your eyes catch the letter from your aunt by the drawers. 
+<span id="clothes"><span class='lbb'><<button "Put on your clothes.">><<set $player.intBody = "images/player/male/pc-male-clothed.png">><<replace "#clothes">><<replace "#story-caption">><<include "StoryCaption">><</replace>>You quickly jump into your pants and only manage to button a few of the buttons. With your shirt only slightly covering your abs you make a dash for the door. Just as you grab the doorknob, your eyes catch the letter from your aunt by the drawers. 
 
 You pick it up, and without even needing to open it, you already know that it doesn't contain the usual support from her. 
 <<= setup.speak($player, "So she finally stopped paying? Pfft... I don´t need her.", "male-careless")>>
@@ -206,7 +206,7 @@ You feel yourself getting light-headed. You fight it to stay awake, as best as y
 
 The last thing you can remember is the burning feeling of the temperature dropping you into a deep timeless slumber in mere seconds.
 
-<<= setup.button("Continue.", "Cryo Sleep")>>
+<<= setup.button("Continue.", "Intro - Cryo Sleep")>>
 :: Intro - Cryo Sleep [frozen]
 <<timed 3s t8n>>Darkness surrounds you and you are nowhere and no one.<</timed>>
 
@@ -225,3 +225,5 @@ The last thing you can remember is the burning feeling of the temperature droppi
 <<timed 24s t8n>>Darkness...<</timed>>
 
 <<timed 27s t8n>>Hot... It's getting hotter... What's that? Light?<</timed>>
+
+<<timed 27s t8n>><<= setup.button("Continue.", "Intro - Awakening")>><</timed>>
