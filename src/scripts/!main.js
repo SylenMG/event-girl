@@ -1,3 +1,4 @@
+
 Object.defineProperty(window, "v", {
 	get: function () {
 		return State.variables;

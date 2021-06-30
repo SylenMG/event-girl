@@ -1,8 +1,8 @@
 :: StoryInit {"position":"50,47","size":"100,100"}
 <<set $settings = {
-	gameVersion: 150,
+	gameVersion: 15,
 	patreonVersion: true,
-	debugMode: true,
+	debugMode: false,
 	mapMode: true,
 	introMode: true,
 	zoomMode: true,

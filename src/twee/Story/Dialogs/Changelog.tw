@@ -1,5 +1,8 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
+0.15.1
+- Fixed the Mind stat not being able to be decreased.
+
 0.15.0
 - Created a private git, that will become public with time. You can request access for now if you want (for modding purpose).
 - Starting to look into simplifying (codewise/not content-wise), some aspects of the game, so that they can be modded.

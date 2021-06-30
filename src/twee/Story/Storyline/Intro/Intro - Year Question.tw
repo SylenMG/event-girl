@@ -1,7 +1,0 @@
-:: Intro - Year Question [ev-therapist-2] {"position":"975,550","size":"100,100"}
-You ask about the year.
-<<= setup.speak($characters.drlinus, "The year is 2206, a lot of what you\'re used to has likely changed dramatically. My personal advice... Keep a level head and an open mind. Be careful out there... I won\'t be able to help you a whole dang much once you've left this room")>><<= setup.speak($player, "Alright.")>><<= setup.speak($characters.drlinus, "I mean of course unless it\'s with therapy, hypnosis or other forms of mental treatment.")>><<= setup.speak($player, "Hypnosis? Like for real hypnosis?")>><<= setup.speak($characters.drlinus, "I probably wouldn\'t think too much about that for now.")>><<= setup.speak($player, "If you say so...")>><<= setup.speak($characters.drlinus, "Anything else?")>>
-
-<<IntroQuestions>>
-
-

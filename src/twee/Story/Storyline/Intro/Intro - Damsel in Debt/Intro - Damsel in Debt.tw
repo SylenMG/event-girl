@@ -1,5 +1,5 @@
 :: Intro - Arriving at eVentia [city-1]
-The Eventia logo towers above you as you look out the window from the holo-taxi. The largest entertainment center in sector A-01, you double check your N-Face to see if it´s the correct designation.
+<<run setup.psycheHard($player, "Feminine", 3)>><<run setup.experienceHard($player, "High Heels", 2)>>The Eventia logo towers above you as you look out the window from the holo-taxi. The largest entertainment center in sector A-01, you double check your N-Face to see if it´s the correct designation.
 <<= setup.speak($player, "This is it... where I´ll pay off that stupid debt.")>>
 The door to the holo-taxi slides open and the bustling sound of the surrounding metropolis hits you. The stench of the nearby sewer making you retch, you quickly jump out of the taxi and grab your bags from the trunk. The taxi simply hovers off as your N-Face vibrates, telling you that you´re at least 200 units lighter in your wallet.
 <<= setup.speak($player, "Ugh... let´s see... that over there would be the main entrance. E-01, should be close to that guys clinic.")>>

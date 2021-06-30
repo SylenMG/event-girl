@@ -21,6 +21,10 @@ setup.ccBackgrounds = function (current) {
     return "<span id='ccBackground'>" + returnBackgrounds + "</span>" + "";
 }
 
+setup.pushToPlayer = function (player, pushed) {
+    player.modifiers.push(pushed);
+}
+
 setup.setStartValues = function (diff) {
     let values = {
 		startUnits: [1150, 1600, 2100, 3000],

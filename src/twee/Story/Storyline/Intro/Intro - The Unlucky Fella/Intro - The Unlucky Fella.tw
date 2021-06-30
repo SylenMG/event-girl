@@ -1,5 +1,5 @@
 :: Intro - Waking Up [dorm] {"position":"975,50","size":"100,100"}
-The howling of your alarm clock wakes you up and in a slumbering stupor you flail your arm in its general direction. You eventually manage to tap the snooze button. However, the continued howling 5-minutes later finally forces you up.
+<<set $player.modifiers.push("Unlucky")>>The howling of your alarm clock wakes you up and in a slumbering stupor you flail your arm in its general direction. You eventually manage to tap the snooze button. However, the continued howling 5-minutes later finally forces you up.
 
 A tired yawn escapes you whilst you stretch and slowly rise from your long nights rest. You then sluggishly drag yourself towards the bathroom to prepare for the day.
 
@@ -226,4 +226,4 @@ The last thing you can remember is the burning feeling of the temperature droppi
 
 <<timed 27s t8n>>Hot... It's getting hotter... What's that? Light?<</timed>>
 
-<<timed 27s t8n>><<= setup.button("Continue.", "Intro - Awakening")>><</timed>>
+<<timed 27s t8n>><<= setup.button("Continue.", "Intro - The Awakening", "<<= setup.genderbend($player, 'female')>>")>><</timed>>

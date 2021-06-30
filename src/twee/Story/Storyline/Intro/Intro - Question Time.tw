@@ -1,9 +1,3 @@
-:: Intro - Question Time [ev-therapist-2] {"position":"850,550","size":"100,100"}
-You open your eyes and once again find yourself on the now familiar bed. However, this time, you're cuffed to it.
-<<= setup.speak($characters.drlinus, "Ah... She\'s awake... Again... Care to remain calm this time? Or should I let corporate know of how involuntary you are? I\'m sure they don\'t mind calling the police. Trust me girl. You don\'t want that.", "angry")>>
-You regain yourself, and properly assess the situation.
-<<= setup.speak($player,"No-no... I\'ll uhhh, take it slow.", "surprised")>><<= setup.speak($characters.drlinus, "Also, before you decide to try and make a run for it. A tracker is implanted in your body. Our very own top-of-the-line E-tracker, that\'ll inform us of your whereabouts 24/7.")>>
-After processing the newly gained information, you quickly conclude that it's probably in your best interest to cooperate... For now.
-<<= setup.speak($player, "I have a lot of questions...")>><<= setup.speak($characters.drlinus, "That\'s what I'm here for. Ask away.", "smile")>><<IntroQuestions>>
+
 
 

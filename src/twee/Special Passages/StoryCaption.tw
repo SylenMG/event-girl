@@ -27,7 +27,8 @@
 <</button>></span></span>
 <<if $settings.introMode is false>>
 <<= setup.triggerStory($player, $time)>>
-<</if>>
 <<set $settings.cPassage = SugarCube.State.passage>>
+<</if>>
+
 
 

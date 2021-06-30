@@ -73,10 +73,10 @@ setup.debugStats = function (debuggedExperience, debuggedPsyche) {
 	let debuggedStats = "@@.boldtext;Experience@@<br><<= setup.showExperience($player)>><br>@@.boldtext;Psyche@@<br><<= setup.showPsyche($player)>>";
 	let returnDebugged = "";
 	for (let i = 0; i < debuggedExperience.length; i++) {
-		returnDebugged = returnDebugged + debuggedExperience[i] + " - <<link 'Increase'>><<= setup.experience($player, $debuggedExperience[" + i + "], 15)>><<replace '#debuggedstats'>><<= setup.debugStats($debuggedExperience, $debuggedPsyche)>><</replace>><</link>><br>";
+		returnDebugged = returnDebugged + debuggedExperience[i] + " - (<<link 'Increase'>><<= setup.experience($player, $debuggedExperience[" + i + "], 15)>><<replace '#debuggedstats'>><<= setup.debugStats($debuggedExperience, $debuggedPsyche)>><</replace>><</link>>/<<link 'Decrease'>><<= setup.experience($player, $debuggedExperience[" + i + "], -15)>><<replace '#debuggedstats'>><<= setup.debugStats($debuggedExperience, $debuggedPsyche)>><</replace>><</link>>)<br>";
 	}
 	for (let i = 0; i < debuggedPsyche.length; i++) {
-		returnDebugged = returnDebugged + debuggedPsyche[i] + " - <<link 'Increase'>><<= setup.psyche($player, $debuggedPsyche[" + i + "], 15)>><<replace '#debuggedstats'>><<= setup.debugStats($debuggedExperience, $debuggedPsyche)>><</replace>><</link>><br>";
+		returnDebugged = returnDebugged + debuggedPsyche[i] + " - (<<link 'Increase'>><<= setup.psyche($player, $debuggedPsyche[" + i + "], 15)>><<replace '#debuggedstats'>><<= setup.debugStats($debuggedExperience, $debuggedPsyche)>><</replace>><</link>>/<<link 'Decrease'>><<= setup.psyche($player, $debuggedPsyche[" + i + "], -15)>><<replace '#debuggedstats'>><<= setup.debugStats($debuggedExperience, $debuggedPsyche)>><</replace>><</link>>)<br>";
 	}
 	return "<span id='debuggedstats'>" + debuggedStats + "<br>" + returnDebugged + "</span>";
 }

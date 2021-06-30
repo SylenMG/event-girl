@@ -1,0 +1,102 @@
+:: Intro - The Awakening
+You open your eyes and a shining light pierces your eyes turning the familiar darkness into an overwhelming scene of brightness.
+<<= setup.speak($characters.drlinus, "Appears they´re waking up... Best you remain at the ready.")>><<= setup.speak($characters.eventiaguard, "Yes, sir!")>>
+The soft linen from the bed caress your skin as gravity pulls you down. Where are you? Why are the lights so bright? Whose talking? Who... even are you?
+<<= setup.speak($player, "Wha- Where am i?", "pleasure")>><<= setup.speak($characters.drlinus, "Take it slow, let your senses return. Remain calm.")>>
+You rise up and feel an unfamiliar weight on your chest. Touching it, you moan slightly as the tender softness spreads a tingling sensation of pleasure throught your whole upper chest.
+<<= setup.speak($player, "Mhmmm... What´s this?", "pleasure")>>
+Trailing your hands down along your stomach, you reach your crotch. Your heart sinks as it becomes apparent that something is wrong... something... is missing? A jolt of pleasure shoots up through your stomach and down your loins as you feel something damp and wet.
+<<= setup.speak($player, "Oh this feels... Really good...", "pleasure")>>
+You drool as you touch your sensitive body.
+<<= setup.speak($characters.eventiaguard, "Err... hmph... Doc... Don´t think they´re entirely awake.")>><<= setup.speak($characters.drlinus, "Hey? Are you with me?")>>
+Their voices become echoes in the background as you continue to feel around.
+
+<<= setup.button("Continue.", "Intro - Memory Fall")>>
+:: Intro - Memory Fall [ev-therapist-1] 
+You stop groping yourself and look around the room. The white walls blend in with the grey floor giving it a clinical atmosphere, similar to a hospital, but not entirely.
+<<= setup.speak($player, "I-... I am... $player.maleName? Wait wha-!")>>
+You quickly jolt up as your memory returns, hitting you like a truck. 
+<<= setup.speak($player, "Holy shit! What the hell´s going on?! Where the fuck am i?! Why- WHY THE FUCK DO I HAVE TITS?! MY VOICE?! WHY DO I SOUND LIKE THIS?!", "angry")>><<= setup.speak($characters.eventiaguard, "Miss! Please remain calm!")>><<= setup.speak($characters.drlinus, "Let us explain! My name-... Argh! Don´t do anything hasty now!")>>
+You quickly roll over your bed, but gravity takes hold off you. A searing pain spreads from your chin, as your face violently connects with the floor. You groan in pain, immediately trying to stand again. However, your feet wobbling, you only manage to get back up by lifting yourself unto the bed.
+<<= setup.speak($player, "What happened?! Oh- Oh no-no-NO! I was in the cryo-thing! WHAT THE HELL HAPPENED?!", "angry")>><<= setup.speak($characters.drlinus, "My name is Dr. Linus, I work for eVentia. The company responsible for saving your life! Just, remain calm, Miss... Whatever your name was.")>>
+
+<<= setup.button("Pretend to be calm and try to escape.", "Intro - Freak Out")>>
+<<= setup.button("Try to make sense of it all.", "Intro - Freak Out")>>
+<<= setup.button("FREAK THE FUCK OUT!!!", "Intro - Freak Out")>>
+:: Intro - Freak Out [ev-therapist-2] {"position":"1100,300","size":"100,100"}
+Your blood bloiling, you clench your fist and grit your teeth. The weirdness and odd displacement of... everything, jiggling and being weird, only adding fuel to the fire.
+<<= setup.speak($player, "WHAT THE HELL ARE YOU TALKING ABOUT?! WHERE THE FUCK AM I?! WHY THE FUCK DO I HAVE TITS?! WHERE´S MY COCK?!", "angry")>>
+You once again push yourself up, only for your feet to give away and a loud slap ringing through your ears as your ass cushions your fall to the floor.
+<<= setup.speak($characters.eventiaguard, "Should I restrain her sir?")>><<= setup.speak($characters.drlinus, "No-no, they´re obviously distraught about the procedures, let them be for now.")>><<= setup.speak($player, "WHAT THE FUCK ARE YOU TALKING ABOUT?! WHAT DID YOU DO TO ME?! WHO EVEN ARE YOU?!", "angry")>>
+Grabbing the edge of the bed and hauling yourself up, you try your best to support your newfound weight and proportions.
+<<= setup.speak($characters.drlinus, "You´ve been in stasis for a very long time. We... In fact had hoped you could tell us which year you came from? Your pod was a so called... Blank Pod.")>><<= setup.speak($player,"Wait... Okay-okay... What year is it?")>><<= setup.speak($characters.drlinus, "The year is 2206, hopefully not too far from your origin year?")>>
+You stiffen as your hear the words escape his mouth, and all you can think about is to wake up from this nightmare. You eye the door and dash for it.
+<<= setup.speak($characters.drlinus, "Restrain her... I´ll give her a sedative.", "angry")>><<= setup.speak($characters.eventiaguard, "Yessir!", "angry")>>
+The big man quickly jumps infront of you grappling your naked body. You try to writhe free, but your body is weak, soft and not fit to fight back at all. A soothing calmness overtakes you after you feel a soft prick on your neck.
+
+<<= setup.button("Continue.", "Intro - Restrained")>>
+:: Intro - Restrained [ev-therapist-2] 
+Once again you open your eyes, only for a bright shining light piercing your eyes. Putting your right hand infront of your face, you slowly get up.
+<<= setup.speak($player, "Alright... Alright... So... I´m in the future and I´m not in my own body. This is... a really... really bad dream right?", "surprised")>><<= setup.speak($characters.drlinus, "I´m afraid not, Miss. Your pod has been in possession of eVentia for at least a few years. Like I said before, you´re very lucky to even be alive. It cost a fortune to save you!")>>
+The sudden realization hits you, that everyone and everything you know is likely gone forever. No matter how surreal it feels, you´re stuck here, for good...
+<<= setup.speak($player,"I-... There´s no way to send me back? Like at all?!", "surprised")>>
+He shakes his head.
+<<= setup.speak($characters.drlinus, "You mean time travel? Tsk... Silly nonsense... We don´t even know what year you´re from... However, the overwhelming debt associated with your chamber tells me it must have been for some time at least.")>>
+You look down, fumbling your fingers, you let them know the year.
+<<= setup.speak($player,"2023... That´s the year...")>><<= setup.speak($characters.eventiaguard, "Holy shit!")>><<= setup.speak($characters.drlinus, "Damn... That explains the huge debt. Must have cost a fortune to keep your chamber stable for so long. Haven´t seen one this steep before.")>>
+Your voice breaks up as you think back on the accident.
+<<= setup.speak($player,"I can´t believe this... All because of some stupid joke...!", "surprised")>><<= setup.speak($characters.drlinus, "You likely have a ton of questions, but before that, I will have to explain a few things for you. Also, please wear this... It would make things... More comfortable for everyone involved.")>>
+Holding in his hands you see a pair of panties, a bra, some slim pants, a yellow jacket and a pair of heels.
+<<= setup.speak($player, "Really? Heels?!", "angry")>>
+You grit your teetch once more.
+<<= setup.speak($characters.drlinus, "Well... Better get used to it... It´s what you´ll be walking around in from now on.")>>
+You reluctantly take the clothes and put them on.
+
+<<= setup.button("Continue.", "Intro - Info Drop", "<<= setup.equipOutfit($player, 'starter', 'nostash')>><<= setup.acquireItem('eVentia Jacket', 'clothes')>><<= setup.acquireItem('eVentia Slacks', 'clothes')>><<= setup.acquireItem('eVentia Bra', 'clothes')>><<= setup.acquireItem('eVentia Panties', 'clothes')>><<= setup.acquireItem('eVentia Heels', 'clothes')>>")>>
+:: Intro - Info Drop [ev-therapist-2]
+You look towards the doctor as he explains everything.
+<<= setup.speak($characters.drlinus, "Like I mentioned before. You were a blank chamber, which eVentia has acquired for a hefty sum.")>>
+Examining the room that you sit in, you pretend to have an interest in whatever this hoax is.
+<<= setup.speak($player, "What the hell is eVentia?")>><<= setup.speak($characters.drlinus, "eVentia is the largest entertainment corporation in the world. Our entertainment centers provide everything from light to adult entertainment. We also specialize in highly educated and trained stand-ins that can do temporary work at events and-")>>
+Looking around, you notice that the room has two exits. What appears to be the main exit, of which the guard stands by, and then the fire exit. At least you think it´s a fire exit. The room is otherwise dull, the walls all white, with nothing else than the bed and the chair that this- whoever this is, is sitting in.
+<<= setup.speak($player,"Wait-wait... You haven´t explained why I´m a woman?! Where´s my fucking cock?!")>>
+He leans back into his chair.
+<<= setup.speak($characters.drlinus, "Yes-yes, all right I´ll explain. As per law, we don´t know where you´re from. You are not a citizen of the UNE and therefore have no gender rights. You´re also in crippling debt, and therefore under special employment.", "smile")>>
+A smile spreads on his cheeks as he almost deliberately holds out his hands, as if to welcome you with open arms.
+<<= setup.speak($characters.drlinus, "Welcome on board! Miss...! You´re a proud member of the eVentia family! You will be joining our brand line we call ´Event Girls´, to pay off your debt of course.", "smile")>>
+The wrinkle growing on your forehead now feeling as if it is bulging and ready to pop, you clench your fist in raw anger.
+<<= setup.speak($player, "No gender rights?! WHAT THE FUCK?! WHAT DID YOU DO TO ME?! TURN ME THE FUCK BACK NOW!", "angry")>>
+Sliding back to create some distance, the man non-chalantly waves his hand at the guard.
+<<= setup.speak($characters.drlinus, "Keep her restrained...", "angry")>><<= setup.speak($characters.eventiaguard, "Yessir!", "angry")>>
+The burly guard put his big hands on your shoulders, keeping you down.
+<<= setup.speak($player,"KEEP YOUR HANDS OF-...", "angry")>>
+You feel another sting and a rush of calm overwhelms you.
+
+<<= setup.button("Continue.", "Intro - Info Drop 2", "<<run setup.psyche($player, 'Feminine', 50, 0)>><<run setup.psyche($player, 'Mind', 50, 0)>>")>>
+:: Intro - Info Drop 2 [ev-therapist-2 autosave]
+The calmness spreads through your body, and the sweet sound of someone giggling passes through your ears.
+<<= setup.speak($player,"*giggles* Who-Whose giggling?")>><<= setup.speak($characters.drlinus, "You are... Now listen, I know that it´s a lot of information. I get it. But you have to work with me here.", "smile")>>
+He moves closer to you, eyeing you up and down.
+<<= setup.speak($characters.drlinus, "I´m also paying of some debt, it´s a perfectly natural thing... Yours is just... Of a different magnitude.")>>
+You breathe in and swallow your pride, almost cracking up.
+<<= setup.speak($player,"Alright... I want a lawyer.")>><<= setup.speak($characters.drlinus, "Errr...")>>
+The guard bursts into laughter.
+<<= setup.speak($characters.eventiaguard, "Sh- SHE WANT´S A LAWYA! OH BOY I CAN´T WAIT TO TELL THIS ONE TO THE BOYS AHAHAHA!", "laugh")>><<= setup.speak($characters.drlinus, "Shut up you idiot!... Ahem... I´m afraid that´s not possible miss... You´re not in a position to be making such demands.", "angry")>>
+The guard´s smile quickly erodes as you wobble back up.
+<<= setup.speak($player,"I have rights! I KNOW I HAVE!", "angry")>><<= setup.speak($characters.drlinus, "Yes. You have the right to pay back your debt and apply for citizenship like any other individual.")>>
+Looking towards the man, you open-handedly point towards your crotch in frustration.
+<<= setup.speak($player,"Turn me back. I´m not supposed to be a fucking girl. What the fuck did you do to my cock?!", "angry")>><<= setup.speak($characters.eventiaguard, "Didn´t they auction that thing off? To help with the debt?")>><<= setup.speak($characters.drlinus, "Will you shu-")>>
+Boiling over you explode in a fit of rage.
+<<= setup.speak($player,"YOU WHAT?! WHAT THE FUCK IS WRONG WITH YOU PEOPLE?!", "angry")>><<= setup.speak($characters.drlinus, "Restrain her... for crying out loud...", "angry")>><<= setup.speak($characters.eventiaguard, "Yessir!")>>
+You once again feel the burly guard put his big hands on your shoulders, keeping you down.
+
+You feel another sting and a rush of calm overwhelms you. However, this time you completely doze out.
+
+:: Intro - Question Time [ev-therapist-2]
+You open your eyes and once again find yourself on the now familiar bed. However, this time, you're cuffed to it.
+<<= setup.speak($characters.drlinus, "Ah... She\'s awake... Again... Care to remain calm this time? Or should I let corporate know of how involuntary you are? I\'m sure they don\'t mind calling the police. Trust me girl. You don\'t want that.", "angry")>>
+You regain yourself, and properly assess the situation.
+<<= setup.speak($player,"No-no... I\'ll uhhh, take it slow.", "surprised")>><<= setup.speak($characters.drlinus, "Also, before you decide to try and make a run for it. A tracker is implanted in your body. Our very own top-of-the-line E-tracker, that\'ll inform us of your whereabouts 24/7.")>>
+After processing the newly gained information, you quickly conclude that it's probably in your best interest to cooperate... For now.
+<<= setup.speak($player, "I have a lot of questions...")>><<= setup.speak($characters.drlinus, "That\'s what I'm here for. Ask away.", "smile")>><<IntroQuestions>>
+

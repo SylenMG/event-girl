@@ -88,9 +88,7 @@ setup.experience = function (entity, skillName, value, random, max, nobreak) {
 		incText = "decreased";
 	}
 	for (var i = 0; i < entity.skills.length; i++) {
-		if (entity.skills[i].progression < 0) {
-			entity.skills[i].progression = 0;
-		} else if (entity.skills[i].progression > 100) {
+		if (entity.skills[i].progression > 100) {
 			entity.skills[i].progression = 100;
 		}
 		if (entity.skills[i].name == skillName) {
@@ -108,6 +106,18 @@ setup.experience = function (entity, skillName, value, random, max, nobreak) {
 					} else {
 						returnExperience = "Your " + skillName + " is already at max level!";
 						console.log("Max Level (tried to increase, but failed): " + skillName + " on " + entity.name + ".");
+					}
+				} else if (entity.skills[i].progression < 0) {
+					if (entity.skills[i].level > 0) {
+						console.log("Decreased: " + entity.name + ", " + skillName + " by 1 level.");
+						entity.skills[i].level -= 1;
+						entity.skills[i].progression = 100;
+						entity.skills[i].progression += incValue;
+						returnExperience = "Your " + skillName + " skills has decreased to level " + entity.skills[i].level + "!";
+					} else {
+						entity.skills[i].progression = 0;
+						returnExperience = "Your " + skillName + " skills cannot decrease any further!";
+						console.log("Error (tried to decrease, but failed): " + skillName + " on " + entity.name + ".");
 					}
 				} else {
 					returnExperience = "Your " + skillName + " experience has " + incText + " by " + incValue + ", (" + entity.skills[i].progression + ")!";
@@ -147,9 +157,7 @@ setup.psyche = function (entity, psycheName, value, random, max) {
 		incText = "decreased";
 	}
 	for (let i = 0; i < entity.psyche.length; i++) {
-		if (entity.psyche[i].progression < 0) {
-			entity.psyche[i].progression = 0;
-		} else if (entity.psyche[i].progression > 100) {
+		if (entity.psyche[i].progression > 100) {
 			entity.psyche[i].progression = 100;
 		}
 		if (entity.psyche[i].name == psycheName) {
@@ -172,6 +180,24 @@ setup.psyche = function (entity, psycheName, value, random, max) {
 					} else {
 						returnPsyche = "You need to reflect to increase your " + psycheName + " psyche further!";
 						console.log("Max Level (tried to increase, but failed): " + psycheName + " on " + entity.name + ".");
+					}
+				} else if (entity.psyche[i].progression < 0) {
+					if (psycheName != "Feminine" && psycheName != "Slut" && psycheName != "Bimbo") {
+						if (entity.psyche[i].level > 0) {
+							console.log("Decreased: " + entity.name + ", " + psycheName + " by 1 level.");
+							entity.psyche[i].level -= 1;
+							entity.psyche[i].progression = 100;
+							entity.psyche[i].progression += incValue;
+							returnPsyche = "Your " + psycheName + " psyche has decreased to level " + entity.psyche[i].level + "!";
+						} else {
+							entity.psyche[i].progression = 0;
+							returnPsyche = "Your " + psycheName + " psyche cannot decrease any further!";
+							console.log("Error (tried to decrease, but failed): " + psycheName + " on " + entity.name + ".");
+						}
+					} else {
+						entity.psyche[i].progression = 0;
+						returnPsyche = "Your " + psycheName + " psyche cannot decrease any further!";
+						console.log("Error (tried to decrease, but failed): " + psycheName + " on " + entity.name + ".");
 					}
 				} else {
 					returnPsyche = "Your " + psycheName + " psyche has " + incText + " by " + incValue + ", (" + entity.psyche[i].progression + ")!";
@@ -222,11 +248,34 @@ setup.psycheHard = function (entity, hardName, value) {
 	if (psycheFound == false) {
 		let learnedValue = value;
 		let learnedPsyche = {name: hardName,shown: true,progression: 0,level: learnedValue};
-		hardPsyche = "You\´ve discovered the " + hardName + " psyche! (" + learnedValue + ")";
+		hardPsyche = "You´ve discovered the " + hardName + " psyche!";
 		entity.psyche.pushUnique(learnedPsyche);
 	}
 	setup.logNote(hardName, hardPsyche);
 }
+
+setup.experienceHard = function (entity, hardName, value) {
+	//console.log("Hard Change: " + hardName + ".");
+	let expFound = false;
+	let hardExp = null;
+	for (var i = 0; i < entity.skills.length; i++) {
+		if (entity.skills[i].name == hardName) {
+			expFound = true;
+			entity.skills[i].level = value;
+			entity.skills[i].progression = 0;
+			hardExp = "Your " + hardName + " skill has changed to " + value + ".";
+			break;
+		} 
+	}
+	if (expFound == false) {
+		let learnedValue = value;
+		let learnedExp = {name: hardName,shown: true,progression: 0,level: learnedValue};
+		hardExp = "You´ve discovered the " + hardName + " skill!";
+		entity.skills.pushUnique(learnedExp);
+	}
+	setup.logNote(hardName, hardExp);
+}
+
 setup.satisfy = function (entity) {
 	setup.psycheHard(entity, "Lust", 0);
 }

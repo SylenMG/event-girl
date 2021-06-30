@@ -499,7 +499,10 @@ setup.eventMain = function (initEvent, stage, player) {
 	let storyFound = false;
 	let punishmentFound = false;
 	//Roll for chance at story event
-	let storyRoll = setup.random(100);
+	let storyRoll = 100;
+	if (player.modifiers.includes("Unlucky")) {
+		storyRoll = setup.random(100);
+	}
 	console.log("Story Roll: " + storyRoll);
 	if (storyRoll <= 25 && stage != "punishment" && stage != "debug") {
 		stage = "story";

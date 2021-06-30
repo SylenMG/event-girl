@@ -1,7 +1,0 @@
-:: Intro - Return Question [ev-therapist-2] {"position":"1350,675","size":"100,100"}
-You ask about turning back to a man.
-<<= setup.speak($characters.drlinus, "Of course, like I said before. Once you\'re debt free, you can apply for citizenship, and you would have gender rights. Which basically just means you can by law change your sex at will at any clinic. It\'s pricey, though if you play your cards right and remain dedicated, should be a non-issue.")>><<= setup.speak($player, "Right...")>>
-
-<<IntroQuestions>>
-
-
