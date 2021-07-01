@@ -22,36 +22,59 @@ Leaning back in his chair, he eyes you up and down.
 
 <<IntroQuestions>>
 :: Intro - Debt Question [ev-therapist-2]
-You question your debt and how to repay it.
-<<= setup.speak($characters.drlinus, "Your debt has accumulated over time. The cost of maintaining your outdated cryo chamber. As well as your required transformation into a more suitable subject for debt repayment, by law of course.")>><<= setup.speak($player, "I literally paid for this... Myself?")>><<= setup.speak($characters.drlinus, "Of course... That´s only fair you know. Your debt as it stands is $player.debt units, which is... Wow... Just wow.")>><<= setup.speak($player, "That sounds really high...")>><<= setup.speak($characters.drlinus, "It is... But... Not entirely impossible to repay. You should be able to repay it over time with some help. We take care of our own at eVentia, we're family now! Of course!... Anything else?")>>
-You question your debt and how to repay it.
-<<= setup.speak($characters.drlinus, "Well... You would never be able to apply for citizenship... And... Errr... If you don´t at the very least pay your interest. It may have dire consequences.")>><<= setup.speak($player, "Consequences? Like... What would happen? Jail?")>><<= setup.speak($characters.drlinus, "No. We handle all internal conflicts... Internally. Firstly, I highly suggest you do not challenge this, and pay the interest. If not, the higher ups might force you onto the block. Which would be highly ill-advised. It would most likely result in your loss of your virginity, which has some real value on the auction blocks.")>><<= setup.speak($player, "SAY WHAT?!")>><<= setup.speak($characters.drlinus, "Well, no one is forcing you here! At least yet...")>>
+You shuffle in the bed, arching your back to better reposition yourself with your... newfound distribution of weight. Looking at the guard, you´re reminded by the words "debt" and "punishment". With a slight break in your voice, you question your debt... and what happens if you don´t pay.
+<<= setup.speak($characters.drlinus, "The cost of maintaining your outdated cryo chamber has caused your debt to accumulate over time. As well as your required transformation into a more suitable subject for debt repayment, by law of course.")>>
+You scuff as you clench your fist, almost boiling over again, you just manage to calm yourself down.
+<<= setup.speak($player, "I literally paid for this... Myself?")>><<= setup.speak($characters.drlinus, "Of course... That´s only fair you know. Your debt as it stands is $player.debt units, which is... Wow... Just wow.")>>
+Biting your lip, your stomach drops at the sound of the figure.
+<<= setup.speak($player, "That sounds really high...")>><<= setup.speak($characters.drlinus, "It is... But... Not entirely impossible to repay. You should be able to repay it over time with some help. We take care of our own at eVentia, we´re family now! Of course!... Anything else?")>>
+Knowing yourself, you resort yourself to asking the question; What if you don´t pay at all?
+<<= setup.speak($characters.drlinus, "Well... You would never be able to apply for citizenship... And... Errr... If you don´t at the very least pay your interest. It may have dire consequences.")>><<= setup.speak($player, "Consequences? Like... What would happen? Jail?")>>
+He clears his throat as he elaborates.
+<<= setup.speak($characters.drlinus, "No. We handle all internal conflicts... Internally. Firstly, I highly suggest you do not challenge this, and pay the interest. If not, the higher ups might force you to go on the block. Which would be highly ill-advised.")>>
+The guard chuckles in the background, but are swiftly shushed by Dr. Linus.
+<<= setup.speak($characters.drlinus, "It would most likely result in your loss of your virginity, which has some real value on the auction blocks.")>><<= setup.speak($player, "SAY WHAT?!")>><<= setup.speak($characters.drlinus, "Well, no one is forcing you here! At least yet...")>>
+You sit back down after having sprung up and cross your arms in disapprovement.
 
 <<IntroQuestions>>
-
 :: Intro - Event Girl Question [ev-therapist-2]
-You question your new position as event girl.
-<<= setup.speak($characters.drlinus, "An Event Girl is a multi-purpose temporary entertainment stand-in! Think of it, as a woman of all womanly trades sorta-thing! The pay is high, and the demand even higher! Only going higher if you become really good at it.")>><<= setup.speak($player,"What kinda... 'Womanly' trades are we talking here?")>><<= setup.speak($characters.drlinus, "Oh... Pretty much anything really. Most commonly receptionist work, maid work, show girl, stripper wo-")>><<= setup.speak($player, "Stripper?!")>><<= setup.speak($characters.drlinus, "Well listen now, no one is forcing you to do any particular one. They´re all well-paying. You can pick your fancy. It´s really not that bad at all.")>>
-
-You question what eVentia is and does.
-<<= setup.speak($characters.drlinus, "eVentia, like I mentioned before is the largest entertainment corporation in the world. Our entertainment centers provide everything from light to adult entertainment. We also specialize in highly educated and trained stand-ins that can do temporary work at events, go-go dancing and so on.")>><<= setup.speak($player, "Alright, got it!")>>
+You scratch your chin as you think; "Event Girl? Gotta be something with Events then?". Looking at Dr. Linus, you inquire about eVentia and what an Event Girl is.
+<<= setup.speak($characters.drlinus, "An Event Girl is a multi-purpose temporary entertainment stand-in! Think of it, as a woman of all womanly trades sorta-thing! The pay is high, and the demand even higher! Only going higher if you become really good at it.")>>
+Suddenly becoming keenly aware of your two bags of womanly flesh and absence of your manhood, you inquire further.
+<<= setup.speak($player,"What kinda... 'Womanly' trades are we talking here?")>><<= setup.speak($characters.drlinus, "Oh... Pretty much anything really. Most commonly receptionist work, maid work, show girl, stripper wo-")>><<= setup.speak($player, "Stripper?!")>>
+Leaning back and crossing his arms, he continues.
+<<= setup.speak($characters.drlinus, "Well listen now, no one is forcing you to do any particular one. They´re all well-paying. You can pick your fancy. It´s really not that bad at all.")>>
+Tilting your head slightly, you give him a questioning stare.
+<<= setup.speak($player,"Right... and Eventia? What´s the deal with that?")>><<= setup.speak($characters.drlinus, "Eventia, like I mentioned before is the largest entertainment corporation in the world. Our entertainment centers provide everything from light to adult entertainment. We also specialize in highly educated and trained stand-ins that can do temporary work at events, go-go dancing and so on.")>><<= setup.speak($player, "Alright, got it... I guess.")>>
+You sigh at the prospect of having to be a receptionist, a maid... or even worse, a stripper.
 
 <<IntroQuestions>>
-
 :: Intro - Whereabouts Question [ev-therapist-2]
-You ask about your whereabouts.
-<<= setup.speak($characters.drlinus, "We´re currently in one of eVentia´s many mega-entertainment centers. It´s one of the bigger ones, containing everything from a variety of shops, hotel & housing, night clubs, strip clubs, conference centers & venues. All sorts of things really.")>><<= setup.speak($player, "That sounds pretty huge...")>><<= setup.speak($characters.drlinus, "It uuuuh... It is.")>>
+Looking around the room again, your best guess is that you would be in a hospital of some kind. 
+<<= setup.speak($player,"So, where are we exactly?")>><<= setup.speak($characters.drlinus, "We´re currently in one of eVentia´s many mega-entertainment centers. It´s one of the bigger ones, containing everything from a variety of shops, hotel & housing, night clubs, strip clubs, conference centers & venues. All sorts of things really.")>>
+You chuckle with a light tone of worry and disbelief at his long list of services available in the supposed entertainment center.
+<<= setup.speak($player, "That sounds pretty huge...")>><<= setup.speak($characters.drlinus, "This one is actually one of the smaller ones.")>><<= setup.speak($player, "Right.")>>
+Rolling your eyes, you think of what else you need to know.
 
 <<IntroQuestions>>
-
-:: Intro - Home Question [ev-therapist-2] {"position":"1225,675","size":"100,100"}
-You ask about where you would be staying.
-<<= setup.speak($characters.drlinus, "eVentia provides all baseline Event Girls with their own standard housing pod, conveniently located together in the entertainment center. There you can cool off and so on when not working. The pod has a modest monthly fee, and if you decide to upgrade in the future, that fee would increase of course.")>><<= setup.speak($player, "Right...")>>
+:: Intro - Home Question [ev-therapist-2]
+Thinking back on your old apartment, your stomach churns as you already get a sense of homesickness.
+<<= setup.speak($player,"What about my home? Where will I be staying? I bet it´s gone now.")>>
+<<= setup.speak($characters.drlinus, "It most definitely is, however, eVentia provides all baseline Event Girls with their own standard housing pod, conveniently located together in the entertainment center.")>> 
+You tilt your head slightly at the word "pod". Does he mean a literal pod? Similar to what you just got unfrozen from?
+<<= setup.speak($player, "Right...")>>
+<<= setup.speak($characters.drlinus, "There you can cool off and so on when not working. The pod has a modest monthly fee, and if you decide to upgrade in the future, that fee would increase of course.", "smile")>>
+Biting your lip, you think of what else you need to know.
 
 <<IntroQuestions>>
-
 :: Intro - Return Question [ev-therapist-2] {"position":"1350,675","size":"100,100"}
-You ask about turning back to a man.
-<<= setup.speak($characters.drlinus, "Of course, like I said before. Once you´re debt free, you can apply for citizenship, and you would have gender rights. Which basically just means you can by law change your sex at will at any clinic. It´s pricey, though if you play your cards right and remain dedicated, should be a non-issue.")>><<= setup.speak($player, "Right...")>>
+Unsettled by how quickly you got used to your new... disproportionate body; the jiggling excess of fat, absence of any muscle and the softness of your skin. You ask if there is any hope left.
+<<= setup.speak($player, "But- I can turn back right? I can become a dude again?")>><<= setup.speak($characters.drlinus, "Of course, like I said before. Once you´re debt free, you can apply for citizenship, and you would have gender rights. Which basically just means you can by law change your sex at will at any clinic.")>>
+Nodding in desperation, you eyes glisten at the prospects of undoing this terrible mistake.
+<<= setup.speak($player, "So all I gotta do is play my cards right? I can do that.")>>
+Wobbling his hand, Dr. Linus continues.
+<<= setup.speak($characters.drlinus, "It´s pricey, though if you play your cards right and remain dedicated, should be a non-issue.")>>
+<<= setup.speak($player, "Got it, no problem.")>>
+Clenching the side of the bed, your eagerness to undo this mistake makes you think of what else you need to know.
 
 <<IntroQuestions>>

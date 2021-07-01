@@ -92,11 +92,61 @@ You once again feel the burly guard put his big hands on your shoulders, keeping
 
 You feel another sting and a rush of calm overwhelms you. However, this time you completely doze out.
 
+<<= setup.button("Continue.", "Intro - Question Time")>>
 :: Intro - Question Time [ev-therapist-2]
-You open your eyes and once again find yourself on the now familiar bed. However, this time, you're cuffed to it.
-<<= setup.speak($characters.drlinus, "Ah... She\'s awake... Again... Care to remain calm this time? Or should I let corporate know of how involuntary you are? I\'m sure they don\'t mind calling the police. Trust me girl. You don\'t want that.", "angry")>>
-You regain yourself, and properly assess the situation.
-<<= setup.speak($player,"No-no... I\'ll uhhh, take it slow.", "surprised")>><<= setup.speak($characters.drlinus, "Also, before you decide to try and make a run for it. A tracker is implanted in your body. Our very own top-of-the-line E-tracker, that\'ll inform us of your whereabouts 24/7.")>>
-After processing the newly gained information, you quickly conclude that it's probably in your best interest to cooperate... For now.
-<<= setup.speak($player, "I have a lot of questions...")>><<= setup.speak($characters.drlinus, "That\'s what I'm here for. Ask away.", "smile")>><<IntroQuestions>>
+You open your eyes and once again find yourself on the now familiar bed. However, this time, you´re cuffed to it.
+<<= setup.speak($characters.drlinus, "Ah... She´s awake... Again... Care to remain calm this time? Or should I let corporate know of how involuntary you are? I´m sure they don´t mind calling the police. Trust me girl. You don´t want that.", "angry")>>
+Looking around, you can hardly see as everything is blurred out. You regain yourself and attempt to properly assess the situation.
+<<= setup.speak($player,"No-no... I´ll uhhh, take it slow.", "surprised")>>
+Rubbing your eyes, you push yourself back up to a sitting position in the bed.
+<<= setup.speak($characters.drlinus, "Also, before you decide to try and make a run for it. A tracker is implanted in your body. Our very own top-of-the-line E-tracker, that´ll inform us of your whereabouts 24/7.")>>
+After processing the newly gained information, you quickly conclude that it´s probably in your best interest to cooperate... For now.
+<<= setup.speak($player, "I have a lot of questions...")>><<= setup.speak($characters.drlinus, "That´s what I'm here for. Ask away.", "smile")>>
+You think about what to ask.
+
+<<IntroQuestions>>
+:: Intro - Name [ev-therapist-2]
+Wiggling your cuffed hand to signal that you got the message, you inquire about being let go.
+<<= setup.speak($player, "Alright... I think that was all. So... gonna let me go?")>>
+Looking towards the guard, Dr. Linus snaps his finger. The guard moves over, swinging some kind of a keycard. Holding the keycard over your cuffs, they click open.
+<<= setup.speak($characters.drlinus, "You should also choose a new name, I can put it into your E-Pal. You´ll be using it to track yourself as an Event Girl whilst working here.")>>
+He hands you a small electronic device which is prompting you for a name.
+
+<<textbox "$player.femaleName" $player.femaleName>>
+
+After putting in your name, the device prompts you with a message; "Attach to Wrist". 
+<<= setup.speak($characters.drlinus, "Don´t lose that now, they´re quite expensive actually, would be terrible for your debt.")>><<= setup.speak($player, "Right... Right, I get it.")>>
+Holding the device over your wrist, it slaps itself unto it and locks.
+
+@@#input-error;@@
+<span class='lbb'><<button "Continue.">>
+	<<set $player.femaleName to $player.femaleName.trim()>>
+	<<if $player.femaleName is "">>
+		<<replace "#input-error">>Please enter your name.<</replace>>
+	<<elseif $player.femaleName == $player.maleName>>
+		<<replace "#input-error">>Please enter a new name.<</replace>>
+	<<else>>
+		<<set $player.name to $player.femaleName>>
+		<<goto "Intro - Finale">>
+	<</if>>
+<</button>></span>
+:: Intro - Finale [autosave]
+A light chuckle escapes Dr. Linus, as he watches you wobble uncomfortably on the soles of your feet.
+<<= setup.speak($characters.drlinus, "So, $player.femaleName it is? I´ll show you to your pod.")>><<= setup.speak($player,"Yeah? It works doesn´t it? You got laws for names now too?")>>
+The guard cracks a laugh as well.
+<<= setup.speak($characters.drlinus, "Nah, no worries. This here is my health clinic. Feel free to drop by whenever you want to unwind. All Event Girls at eVentia have access to a therapist and conditioning for their work.")>><<= setup.speak($player,"Conditioning? What do you mean?")>><<= setup.speak($characters.drlinus, "Oh...? Nothing special really... I can tell you more about it later. You should rest now, and get more familiar with your... New life that is. Here, you might want to wear these.")>>
+Holding out his hands, you see him holding some high heels. You reluctantly grab the heels and put them on.
+<<= setup.speak($player,"This... Why did you shorten my tendons again? Really?")>><<= setup.speak($characters.drlinus, "Simply company policy. I´m afraid you´ll have to get used to it.")>><<= setup.speak($player,"Right...")>><<= setup.speak($characters.drlinus, "Let me walk you to your pod.")>>
+The guard opens the door, and you both leave the room. You enter the bright white corridor and enter what looks like a clinic reception, with people sitting around, supposedly waiting their turn. You almost catch yourself gasping; as some of the people have metallic lines in their faces, glowing eyes, sockets in their temples. The suits that some of them wear are lined in neon, and the variance in style goes from business to full blown cyber-like punkish.
+<<= setup.speak($player,"You weren´t kidding... this really does look like the future.")>><<= setup.speak($characters.drlinus, "As you imagined? Curious.")>>
+You exit the clinic and enter what looks like a massive shopping mall of sorts. As well as a lobby and foyer. The eVentia logo is scattered all around the entrance and by the reception area.
+<<= setup.speak($characters.drlinus, "This way. Follow me please.")>>
+You´re led to a more secluded area, a form of back entrance.
+<<= setup.speak($characters.drlinus, "Your pod should be 021, down here I believe.")>>
+Reaching a hall with large container-like pods stacked on top of each other, you scuff at the prospect of having to actually live in something like this. The guard stops at one of the pods and hovers his hand over the entrance. The door slides open, revealing a rather small bed-like chamber, with several monitors and accomodations.
+<<= setup.speak($player,"I´m... Supposed to stay here?")>><<= setup.speak($characters.drlinus, "For now... Please, take your time to process all this. I made sure that your first week of interest is already paid, so you have time to get into things. Don´t hesitate on visiting me, for anything really. But for now, I imagine that you must be weary and need rest.")>><<= setup.speak($player,"Thanks... I guess.")>><<= setup.speak($characters.drlinus, "I´ll leave you to it then.")>>
+The guard and Dr. Linus both part ways, leaving you all alone. You crawl inside, lying in the bed.
+
+<<= setup.button("Continue.", "Reflection", "<<set $settings.introMode to false>><<run setup.story('Event-Girl-01', 'start')>>")>>
+	
 

@@ -72,3 +72,15 @@ setup.getStart = function (current) {
     let starts = ["Intro - Waking Up", "Intro - Arriving at eVentia"];
     return setup.button("Begin Intro.", starts[current], "<<set $player.units = $story.difficulty.startUnits>><<set $player.debt = $story.difficulty.startDebt>><<set $player.interest = $story.difficulty.startInterest>><<set $player.weeklyDemand = $story.difficulty.startDemand>><<set $characters.malePlayer.name = $player.maleName>>");
 }
+
+<<run setup.logEPal("Vat Maintenance", 220000, 750, "Debt")>>
+	<<run setup.logEPal("Vitro Test", 2000, 150, "Debt")>>
+	<<run setup.logEPal("Nyxline Meta-Implant", 2000, 150, "Debt")>>
+	<<run setup.logEPal("XXXXXX (E001)", 3800, 150, "Debt")>>
+	<<run setup.logEPal("Biomorphic Neo-Genesis", 250000, 1000, "Debt")>>
+	<<run setup.logEPal("Public Registration", 120, 0, "Debt")>>
+	<<run setup.logEPal("E-Package (Standard)", 225, 0, "Debt")>>
+	<<run setup.logEPal("XXXXXX (E002)", 1700, 1050, "Debt")>>
+	<<run setup.logEPal("E-Tracker Geo-F Implant", 255, 0, "Debt")>>
+	<<run setup.logEPal("Vat Disposal", 120, 0, "Debt")>>
+	<<run setup.logEPal("E-Benefits", 1150, 0, "Benefits")>>
