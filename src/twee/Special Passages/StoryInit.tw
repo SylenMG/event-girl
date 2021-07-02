@@ -26,6 +26,7 @@
 	difficulty: {
 		startUnits: 1150,
 		startDebt: 445000,
+		realDebt: 0,
 		startInterest: 0.5,
 		startDemand: 1000
 	},

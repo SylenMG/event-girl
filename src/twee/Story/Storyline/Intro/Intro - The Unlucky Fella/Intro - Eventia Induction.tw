@@ -20,10 +20,10 @@ You quickly jolt up as your memory returns, hitting you like a truck.
 You quickly roll over your bed, but gravity takes hold off you. A searing pain spreads from your chin, as your face violently connects with the floor. You groan in pain, immediately trying to stand again. However, your feet wobbling, you only manage to get back up by lifting yourself unto the bed.
 <<= setup.speak($player, "What happened?! Oh- Oh no-no-NO! I was in the cryo-thing! WHAT THE HELL HAPPENED?!", "angry")>><<= setup.speak($characters.drlinus, "My name is Dr. Linus, I work for eVentia. The company responsible for saving your life! Just, remain calm, Miss... Whatever your name was.")>>
 
-<<= setup.button("Pretend to be calm and try to escape.", "Intro - Freak Out")>>
-<<= setup.button("Try to make sense of it all.", "Intro - Freak Out")>>
+<<= setup.button("Pretend to be calm and try to escape.", "Intro - Pretend Calmness")>>
+<<= setup.button("Try to make sense of it all.", "Intro - Remaining Calm")>>
 <<= setup.button("FREAK THE FUCK OUT!!!", "Intro - Freak Out")>>
-:: Intro - Freak Out [ev-therapist-2] {"position":"1100,300","size":"100,100"}
+:: Intro - Freak Out [ev-therapist-2]
 Your blood bloiling, you clench your fist and grit your teeth. The weirdness and odd displacement of... everything, jiggling and being weird, only adding fuel to the fire.
 <<= setup.speak($player, "WHAT THE HELL ARE YOU TALKING ABOUT?! WHERE THE FUCK AM I?! WHY THE FUCK DO I HAVE TITS?! WHERE´S MY COCK?!", "angry")>>
 You once again push yourself up, only for your feet to give away and a loud slap ringing through your ears as your ass cushions your fall to the floor.

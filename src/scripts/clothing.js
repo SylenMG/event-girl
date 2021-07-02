@@ -198,7 +198,7 @@ setup.loadClothes = function () {
 			type: "tits",
 			score: 3
 		}],
-		modifiers: ["casual-cazy","casual","sexy","nobra","tops"]
+		modifiers: ["casual-cazy","casual","sexy","tops"]
 	},
 	{
 		name: "Slink Top",

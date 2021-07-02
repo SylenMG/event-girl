@@ -18,7 +18,7 @@ The woman opens and enters, only to return a minute after.
 
 <<= setup.button("Continue.", "Storyline - Amanda Meeting")>>
 :: Storyline - Amanda Meeting
-You enter pass through the black marble doors and enter a near-white office with a ractangular desk in the middle. The whole room is in stark contrast to the garden outside it, and the air much more dry. Behind the desk you see a black-haired woman, her head held high and her eyes vigorously scanning your every move. With her hands easily resting on her desk, you approach.
+You pass through the black marble doors and enter a near-white office with a ractangular desk in the middle. The whole room is in stark contrast to the garden outside it, and the air much more dry. Behind the desk you see a black-haired woman, her head held high and her eyes vigorously scanning your every move. With her hands easily resting on her desk, you approach.
 <<= setup.speak($characters.amanda, "Please, sit.")>>
 She nods towards the smaller, yet comfy-looking chair in front of her white desk.
 <<= setup.speak($characters.sandra, "As you requested. Standing by.")>><<= setup.speak($characters.amanda, "Very good Sandra, at ease.")>><<= setup.speak($player, "So uh-... If this is about my debt-")>><<= setup.speak($characters.amanda, "Please... No need to jump to conclusions. My name is Amanda Waller. I´m the Vice President of Eventia Incorporated.")>><<= setup.speak($player, "Well uuuh, nice to meet you, I´m-")>>

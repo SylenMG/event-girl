@@ -1,12 +1,14 @@
 :: Storyline - Vernon Dinner
-<<= setup.story("Vernon-Dinner-00", "complete")>>You stand around your pod, constantly eyeing your chosen outfit in the shared mirror. Your stomach curls and just before you open your pod to change, a familiar voice sends a shiver down your spine.
+<<run setup.story("Vernon-Dinner-00", "complete")>>You stand around your pod, constantly eyeing your chosen outfit in the shared mirror. Your stomach curls and just before you open your pod to change, a familiar voice sends a shiver down your spine.
 <<= setup.speak($characters.eventiaguard, "I see you´re ready? Hah! I was sent to pick you up...")>><<= setup.speak($player, "S-shit, whatever... did he cancel?")>><<= setup.speak($characters.eventiaguard, "No meathead, I told you I was here to pick you up. You really thought he would come here to get you himself?")>>
 He waves you along and you follow him. As you pass the foyer a few of the other eVentia girls throw snide remarks at you. You don´t get far though, before you scout his round stature leaning against the receptionist desk, with Brenda standing behind it giggling at something.
 
 <<nobr>>
-    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Nude",[{id: 'crotch', type: 'score-max', level: 1},{id: 'tits', type: 'score-max', level: 1}], ["hidden"])>>
-    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Casual",[{id: 'crotch', type: 'score-min', level: 2},{id: 'tits', type: 'score-min', level: 2},{id: 'sexy', type: 'score-max', level: 2}], ["hidden"])>>
-    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Sexy",[{id: 'crotch', type: 'score-min', level: 2},{id: 'tits', type: 'score-min', level: 2},{id: 'sexy', type: 'score-min', level: 3}], ["hidden"])>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Nude",[{id: 'crotch', type: 'score-max', level: 0},{id: 'tits', type: 'score-max', level: 0}], ["hidden"])>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Nude",[{id: 'crotch', type: 'score-min', level: 1},{id: 'tits', type: 'score-max', level: 0}], ["hidden"])>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Nude",[{id: 'crotch', type: 'score-max', level: 0},{id: 'tits', type: 'score-min', level: 1}], ["hidden"])>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Casual",[{id: 'crotch', type: 'score-min', level: 1},{id: 'tits', type: 'score-min', level: 1},{id: 'sexy', type: 'score-max', level: 2}], ["hidden"])>>
+    <<= setup.regButton("Continue.", "Storyline - Vernon Dinner Sexy",[{id: 'crotch', type: 'score-min', level: 1},{id: 'tits', type: 'score-min', level: 1},{id: 'sexy', type: 'score-min', level: 3}], ["hidden"])>>
 <</nobr>>
 :: Storyline - Vernon Dinner Nude
 They both turn their attention to you and the guard as you close in on them, their eyes lighting up.

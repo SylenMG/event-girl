@@ -2,6 +2,11 @@
 <div style="height: 30em; overflow:auto;">
 0.15.1
 - Fixed the Mind stat not being able to be decreased.
+- Fixed debt and units being broken for the male intro.
+- Added the option to remain calm during the male intro.
+- Minor alterations and improvements in writing during intros.
+- Fixed Pink-button top being flagged as "no-bra".
+- Fixed a dead end that could occur if you showed up to vernon's dinner partially nude instead of full-nude.
 
 0.15.0
 - Created a private git, that will become public with time. You can request access for now if you want (for modding purpose).
