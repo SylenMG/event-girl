@@ -25,7 +25,7 @@ You simply feed the correct thoughts into your implant, turning it on.
 <</if>>
 Nothingness consumes you instantly.
 
-<<= setup.button("Wake up.", either("Event Auction - Rental Conclusion 1", "Event Auction - Rental Conclusion 2", "Event Auction - Rental Conclusion 3"), "<<set $time.currentDay += 1>>")>>
+<<= setup.button("Wake up.", either("Event Auction - Rental Conclusion 1", "Event Auction - Rental Conclusion 2", "Event Auction - Rental Conclusion 3", "Event Auction - Rental Conclusion 4"), "<<set $time.currentDay += 1>>")>>
 
 :: Event Auction - Rental Conclusion 1
 You cough and retch as your throat is filled to the brim. Flailing your arms you moan as some hot and warm spreads inside of you. Pushing away, something long and warm plops out of your throat making you cough. A slap and wave of pleasure runs through you as someones hips connect violently with your ass.
@@ -45,18 +45,33 @@ The cold water hits your back as you attempt to get rid of the worst in the publ
 <<= setup.speak($player, "Tsk, really?")>>
 You open the piece of paper, revealing a smiley with a pointy nose and a small note: @@.bold;Thanks! I had fun!@@
 <<= setup.speak($player, "Well. I´m glad you had fun. Whomever you are.", "smile")>>
-Although the message seems harmles, a certain ominous thought suddenly hits you. How did they know that your pod was located here? 
+Although the message seems harmles, a certain ominous thought suddenly hits you. How did they know that your pod was located here?
 
 Shaking your head, you crawl into your pod.
 
 <<= setup.button("Continue.","Event Auction - Aftermath")>>
 :: Event Auction - Rental Conclusion 3
-You open your eyes and look around. You´re sitting on a bench in the Northern Fashion Strip. Looking down, you check your body, seeing if anything has changed. 
+You open your eyes and look around. You´re sitting on a bench in the Northern Fashion Strip. Looking down, you check your body, seeing if anything has changed.
 <<= setup.speak($player, "Odd... I guess?")>>
 You quickly conclude that nothing has changed at all and get up, looking around.
 <<= setup.speak($player, "Well. That was that then? I wonder what they did?", "smile")>>
 Looking around again one last time to make extra sure, you finally give up and simply begin to walk back towards your pod.
 <<= setup.speak($player, "Easy money.", "smile")>>
 You smirk.
+
+<<= setup.button("Continue.","Event Auction - Aftermath")>>
+
+:: Event Auction - Rental Conclusion 4
+You open your eyes and look around. You´re sitting on a bench in the Northern Fashion Strip. Looking down, you check your body, seeing if anything has changed.
+<<= setup.speak($player, "Whoa I feel off balance.")>>;
+You scramble to your feet, looking down in shock. <<if $player.body.tits == 0>>
+You discover an unexpected puffiness on your chest. Modest, but clearly noticable.
+<<= setup.speak($player, "Huh, apparently the customer wanted to experience a little boost.")>>
+<<= setup.decBod($player, 'tits', 2)>><<endif>><<else>>
+<<= setup.speak($player, "Where the fuck are my tits?", "angry")>>
+Sure enough, you're now flat as a board, all the cash you spent on your luscious enhancements flushed down the drain in one moment. The bid money doesn't even begin to cover the costs.
+<<= setup.speak($player, "God dammit.", "angry")>>;
+You stomp away angrily.
+<<= setup.decBod($player, 'tits', 5)>><<endif>>
 
 <<= setup.button("Continue.","Event Auction - Aftermath")>>
