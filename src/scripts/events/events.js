@@ -79,12 +79,17 @@ setup.loadEventDetails = function (entity) {
 	' You will be provided with some Cindanar sportswear, that will properly show off our merchandise.' + 
 	'@@.boldtext;Outfit:@@ Cindanar Sportswear.<br>@@.boldtext;Base Pay:@@ 1000.<br>@@.boldtext;Contractor:@@ Cindanar.<br>' + 
 	'@@.boldtext;Duration:@@ Morning to Evening.<br><br>' + 
-	'@@.boldtext;Requirements:@@ Cinadanar Sportswear.';
+	'@@.boldtext;Requirements:@@ Cindanar Sportswear.';
 	let stainsDetails = 'Stains is doing another product display for our art gallery and need a willing body to grab the attention of our artisté clientele. ' + 
 	' You will be provided with some respectful Stainswear, that will properly show off your canvas body.' + 
 	'@@.boldtext;Outfit:@@ Stainswear.<br>@@.boldtext;Base Pay:@@ 2500.<br>@@.boldtext;Contractor:@@ Stains.<br>' + 
 	'@@.boldtext;Duration:@@ Morning to Evening.<br><br>' + 
 	'@@.boldtext;Requirements:@@ Stainswear.';
+	let ehookingDetails = 'E-Royale presents the line, where any girl can stand and get down to business the old way. No registration required. You may use the line ' + 
+	'as you see fit, as long as you pay the fee for the E-Royale rooms.' + 
+	'@@.boldtext;Outfit:@@ Any.<br>@@.boldtext;Base Pay:@@ Selective.<br>@@.boldtext;Contractor:@@ Freelance.<br>' + 
+	'@@.boldtext;Duration:@@ Evening to Night.<br><br>' + 
+	'@@.boldtext;Requirements:@@ Nothing.';
 	
 	
 	let eventReceptionist = {
@@ -172,7 +177,7 @@ setup.loadEventDetails = function (entity) {
 		timeStart: 2,
 		timeEnd: 3,
 		timeInfo: 'This event must be done during the @@.boldtext;Evening@@.',
-		reqInfo: 'You definitely don\'t feel ready for this one.<br>' + '<<= setup.speak($player, "Yeah, I\'m definitely not going to do that.")>>' + '<br>Requires: Mind (max: 3), Slutty (min: 2).',
+		reqInfo: 'You definitely don´t feel ready for this one.<br>' + '<<= setup.speak($player, "Yeah, I´m definitely not going to do that.")>>' + '<br>Requires: Mind (max: 3), Slutty (min: 2).',
 		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-min', level: 2}],
 		clothingInfo: '',
 		clothingReqs: []
@@ -270,7 +275,25 @@ setup.loadEventDetails = function (entity) {
 		clothingInfo: '',
 		clothingReqs: []
 		}
-	let events = [eventReceptionist, eventMaid, eventStripper, eventCarshow, eventGloryhole, eventGirlfriend, eventSluttia, eventGangbang, eventCBoothBabe, eventSBoothBabe];
+	let eventeHooking = {
+		name: 'E-Hooking',
+		eventName: 'E-Hooking',
+		description: 'The oldest profession in all of eVentia.',
+		contractor: 'Freelance',
+		modifiers: ["pod","hooking"],
+		details: ehookingDetails,
+		rate: 100,
+		baseReward: 0,
+		skillBonus: 0,
+		timeStart: 2,
+		timeEnd: 3,
+		timeInfo: 'This event must be done during the @@.boldtext;Evening@@.',
+		reqInfo: 'You definitely don´t feel ready for this one.<br>' + '<<= setup.speak($player, "Yeah, I´m definitely not going to do that.")>>' + '<br>Requires: Mind (max: 3), Slutty (min: 3).',
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-min', level: 3}],
+		clothingInfo: '',
+		clothingReqs: []
+		}
+	let events = [eventReceptionist, eventMaid, eventStripper, eventCarshow, eventGloryhole, eventGirlfriend, eventSluttia, eventGangbang, eventCBoothBabe, eventSBoothBabe, eventeHooking];
 	return events;
 }
 

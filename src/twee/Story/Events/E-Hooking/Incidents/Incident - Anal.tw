@@ -1,0 +1,69 @@
+:: E-Hooking Anal - Main
+Standing around the E-Royale Line, you toss your hair back and arch your back at the passing clients. Shaking the goods once or twice, you hear at least a few cat-calls and wolf-whistles, most of them coming from men, but also some from women.
+<<= setup.speak($player, "Come on boys, all fresh and ready to go!", "smile")>>
+Blowing a few kisses towards them, you lure them with your finger as they stop to consider your offer.
+<<= setup.speak($npc.adults[0], "Ahhh... shit, alright then, what´s the price on that ass?", "smile")>><<= setup.speak($player, "You want to bend me over?")>>
+You pout at him and wink, only to turn around and shake your booty like a bitch in heat.
+<<= setup.speak($npc.adults[0], "Fuck yeah babe.")>>
+Leaning against the wall, you think about your price.
+
+:: E-Hooking Anal - Decline
+Looking the man up and down, you shake your head in disapproval.
+<<= setup.speak($player, "Not this time, sorry.")>>
+The guy takes a step back, his movement slightly erratic and shallow in stature.
+<<= setup.speak($npc.adults[0], "W-what?! You think you can just decline me?! You fucking whore!", "angry")>><<= setup.speak($player, "Listen, I ain´t touching your dick. Now get lost.", "angry")>>
+Your minor exchange of insults almost immediately catches the attention of an eVentia guard. Looking at you first, he switches his stare at the man. He remains silent, staring him down, menacingly.
+<<= setup.speak($npc.adults[0], "F-fuck this! Whatever man!", "surprised")>>
+Turning around, he bolts off. The guard switches back to you and gives you an approving nod, of which you receive with a smile.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Anal - High Price (Failure)
+With a smirk on your cheeks, you respond in the most non-chalant, but seductive tone.
+<<= setup.speak($player, "2000 units babe, and I´ll drain those balls of yours.", "smile")>>
+A grimace appears on his face as he scratches his chin.
+<<= setup.speak($npc.adults[0], "Pfft... sorry darling, but you´re hardly worth that much.")>><<= setup.speak($player, "Your loss, hornyboy!", "smile")>>
+Licking your lips and grabbing your tits to shake them, you try your best to change his mind.
+<<= setup.speak($npc.adults[0], "Damn... there´s gotta be a cheaper slut around here somewhere.")>>
+Turning around, he leaves you at the line.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Anal - High Price (Success)
+With a smirk on your cheeks, you respond in the most non-chalant, but seductive tone.
+<<= setup.speak($player, "2000 units babe, and I´ll drain those balls of yours.", "smile")>>
+A wicked smile appears on his face as he scratches his chin.
+<<= setup.speak($npc.adults[0], "That´s not cheap you know, but damn... you´re one sexy girl.")>><<= setup.speak($player, "I could be your sexy girl, you know.", "smile")>>
+Licking your lips and grabbing your tits to shake them, you try your best to reel him in.
+<<= setup.speak($npc.adults[0], "You´re just too hot! Alright!","smile")>>
+You walk towards the free rooms, with him following you closely behind.
+<<run setup.bonus($player, 2000)>>
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'anal-sex', $sex.rE = $player, $sex.gE = $npc.adults[0], $sex.passage = 'Event - Finish', $event.current = 'E-Hooking', $event.return = 'Pod - Main'>>")>>
+:: E-Hooking Anal - Medium Price (Failure)
+With a smirk on your cheeks, you respond in the most non-chalant, but seductive tone.
+<<= setup.speak($player, "1000 units babe, and I´ll drain those balls of yours.", "smile")>>
+A grimace appears on his face as he scratches his chin.
+<<= setup.speak($npc.adults[0], "Pfft... sorry darling, but you´re hardly worth that much.")>><<= setup.speak($player, "Really? Can´t even drop that for me?", "smile")>>
+Licking your lips and grabbing your tits to shake them, you try your best to change his mind.
+<<= setup.speak($npc.adults[0], "Nah man... there´s gotta be a cheaper slut around here somewhere.")>>
+Turning around, he leaves you at the line.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Anal - Medium Price (Success)
+With a smirk on your cheeks, you respond in the most non-chalant, but seductive tone.
+<<= setup.speak($player, "Only 1000 units babe, and I´ll drain those balls of yours.", "smile")>>
+A wicked smile appears on his face as he scratches his chin.
+<<= setup.speak($npc.adults[0], "You know, that´s a pretty fair price.")>><<= setup.speak($player, "A fair price for a fair lady.", "smile")>>
+Licking your lips and grabbing your tits to shake them, you try your best to reel him in.
+<<= setup.speak($npc.adults[0], "I have no idea what you´re talking about, but I´m gonna fuck that mouth anyway.","smile")>>
+You walk towards the free rooms, with him following you closely behind.
+<<run setup.bonus($player, 1000)>>
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'anal-sex', $sex.rE = $player, $sex.gE = $npc.adults[0], $sex.passage = 'Event - Finish', $event.current = 'E-Hooking', $event.return = 'Pod - Main'>>")>>
+:: E-Hooking Anal - Low Price (Success)
+With a smirk on your cheeks, you respond in the most non-chalant, but seductive tone.
+<<= setup.speak($player, "Only 500 units babe, and I´ll drain those balls of yours.", "smile")>>
+A wicked smile appears on his face as he scratches his chin.
+<<= setup.speak($npc.adults[0], "Wow, that´s kinda cheap.")>><<= setup.speak($player, "Mhm, a special discount, just for you.", "smile")>>
+Licking your lips and grabbing your tits to shake them, you try your best to reel him in.
+<<= setup.speak($npc.adults[0], "Fair enough, lead the way.","smile")>>
+You walk towards the free rooms, with him following you closely behind.
+<<run setup.bonus($player, 500)>>
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'anal-sex', $sex.rE = $player, $sex.gE = $npc.adults[0], $sex.passage = 'Event - Finish', $event.current = 'E-Hooking', $event.return = 'Pod - Main'>>")>>

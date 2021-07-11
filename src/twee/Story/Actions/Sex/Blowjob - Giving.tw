@@ -3,7 +3,6 @@ You raise your head and there it is... staring at you. A cock waiting to be lick
 <<= setup.getSexComment($sex.gE, "intro", "blowjob-giving")>><<= setup.getSexComment($sex.rE, "intro", "blowjob-receiving")>>
 The glans of the head slightly dripping with pre-cum, aching to be tasted. <<= setup.displayVisual("You absent-mindedly catch yourself licking your lips in anticipation.", "image-" + $sex.count, $sex.gE, "blowjob", "reveal")>> You stroke your fingers along <<= setup.hisher($sex.rE)>> shaft, only to grab it lightly, feeling the veins and texture against your palm.
 
-<<= setup.newSex($sex.count)>>
 :: Blowjob - Giving - Lick
 The salty pre-cum caress your tongue as you taste the bulbuous head. You tremble slightly as you slide your lips up and down <<= setup.hisher($sex.rE)>> shaft. Looking up you meet <<= setup.hisher($sex.rE)>> satisfied gaze as you begin to take things further, stroking the length of <<= setup.hisher($sex.rE)>> hard veiny cock with your lips and the tip of your tongue. 
 <<= setup.getSexComment($sex.gE, "main", "blowjob-giving")>><<= setup.getSexComment($sex.rE, "main", "blowjob-receiving")>>

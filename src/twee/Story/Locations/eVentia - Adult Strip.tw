@@ -15,4 +15,10 @@ You can see the rowdy entrance to the Gloria Club & Bar.
 	<<goto "eVentia - Gloria Club & Bar">>
 <</button>></span>
 
+!!!E-Royale Line
+-------------------------------------
+You see several scandily clad women leaning against the wall. A neon-red line follows along the wall, with the E-Royale logo.
+
+<<= setup.displayEvents($player, $time, "hooking")>>
+
 

@@ -1,5 +1,16 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
+0.16.0
+- Added Story Incident: Sluttia Orc Slut
+- The Sluttia Story incident will currently happen during regular Sluttia event, but are planned to take part in the Vernere story route.
+- Added a new Event: E-Hooking (can be found in the adult strip)
+- Added Incident: E-Hooking Oral
+- Added Incident: E-Hooking Sex
+- Added Incident: E-Hooking Anal
+- Added the new lightweight sex framework to the E-Hooking incidents for testing purposes.
+- Fixed Reflection not being accessible from the debug menu.
+- The new sex framework is now added to the debug menu.
+
 0.15.1
 - Fixed the Mind stat not being able to be decreased.
 - Fixed debt and units being broken for the male intro.

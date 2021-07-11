@@ -82,6 +82,7 @@ setup.loadEvents = function () {
 	'<<= setup.speak($characters.secret, "Are you ready in there? They are opening the venue soon!")>>' + 
 	'<<= setup.eventText("You exit unto the venue.")>>' + 
 	'<<run setup.equipOutfit($player, "stains", "stash")>>';
+
 	
 	let receptionistIntro = [
 		{
@@ -2519,6 +2520,17 @@ setup.loadEvents = function () {
 			requirements: []
 		}]
 	}
+	let sluttiaOrcSlut = {
+		name: 'Sluttia Orc Slut (Standard)',
+		passageText: '<<include "Sluttia Incident - Orc Slut">>',
+		requirements: [{id: 'Mind', type: 'psyche-min', level: 4}],
+		options: [
+		{
+			buttonText: 'Continue.',
+			resultText: '<<include "Sluttia Incident - Orc Slut (Continued)">>',
+			requirements: []
+		}]
+	}
 	
 	let stripperShowfloor = {
 		name: 'Showfloor (Schoolgirl)',
@@ -2845,6 +2857,115 @@ setup.loadEvents = function () {
 		}]
 	}
 	
+	let ehookingOral = {
+		name: 'E-Hooking Incident - Oral',
+		passageText: '<<include "E-Hooking Oral - Main">>',
+		requirements: [],
+		options: [
+		{
+			buttonText: '2000 units.',
+			resultText: '<<include "E-Hooking Blowjob - High Price (Success)">>',
+			requirements: [{id: 'beauty', type: 'score-min', level: 2}]
+		},
+		{
+			buttonText: '2000 units.',
+			resultText: '<<include "E-Hooking Blowjob - High Price (Failure)">>',
+			requirements: [{id: 'beauty', type: 'score-max', level: 1}]
+		},
+		{
+			buttonText: '1000 units.',
+			resultText: '<<include "E-Hooking Blowjob - Medium Price (Success)">>',
+			requirements: [{id: 'beauty', type: 'score-min', level: 1}]
+		},
+		{
+			buttonText: '1000 units.',
+			resultText: '<<include "E-Hooking Blowjob - Medium Price (Failure)">>',
+			requirements: [{id: 'beauty', type: 'score-max', level: 0}]
+		},
+		{
+			buttonText: '500 units.',
+			resultText: '<<include "E-Hooking Blowjob - Low Price (Success)">>',
+			requirements: []
+		},
+		{
+			buttonText: 'Decline.',
+			resultText: '<<include "E-Hooking Blowjob - Decline">>',
+			requirements: []
+		}]
+	}
+	let ehookingSex = {
+		name: 'E-Hooking Incident - Sex',
+		passageText: '<<include "E-Hooking Sex - Main">>',
+		requirements: [],
+		options: [
+		{
+			buttonText: '2000 units.',
+			resultText: '<<include "E-Hooking Sex - High Price (Success)">>',
+			requirements: [{id: 'beauty', type: 'score-min', level: 2}]
+		},
+		{
+			buttonText: '2000 units.',
+			resultText: '<<include "E-Hooking Sex - High Price (Failure)">>',
+			requirements: [{id: 'beauty', type: 'score-max', level: 1}]
+		},
+		{
+			buttonText: '1000 units.',
+			resultText: '<<include "E-Hooking Sex - Medium Price (Success)">>',
+			requirements: [{id: 'beauty', type: 'score-min', level: 1}]
+		},
+		{
+			buttonText: '1000 units.',
+			resultText: '<<include "E-Hooking Sex - Medium Price (Failure)">>',
+			requirements: [{id: 'beauty', type: 'score-max', level: 0}]
+		},
+		{
+			buttonText: '500 units.',
+			resultText: '<<include "E-Hooking Sex - Low Price (Success)">>',
+			requirements: []
+		},
+		{
+			buttonText: 'Decline.',
+			resultText: '<<include "E-Hooking Sex - Decline">>',
+			requirements: []
+		}]
+	}
+	let ehookingAnal = {
+		name: 'E-Hooking Incident - Anal',
+		passageText: '<<include "E-Hooking Anal - Main">>',
+		requirements: [],
+		options: [
+		{
+			buttonText: '2000 units.',
+			resultText: '<<include "E-Hooking Anal - High Price (Success)">>',
+			requirements: [{id: 'beauty', type: 'score-min', level: 2}]
+		},
+		{
+			buttonText: '2000 units.',
+			resultText: '<<include "E-Hooking Anal - High Price (Failure)">>',
+			requirements: [{id: 'beauty', type: 'score-max', level: 1}]
+		},
+		{
+			buttonText: '1000 units.',
+			resultText: '<<include "E-Hooking Anal - Medium Price (Success)">>',
+			requirements: [{id: 'beauty', type: 'score-min', level: 1}]
+		},
+		{
+			buttonText: '1000 units.',
+			resultText: '<<include "E-Hooking Anal - Medium Price (Failure)">>',
+			requirements: [{id: 'beauty', type: 'score-max', level: 0}]
+		},
+		{
+			buttonText: '500 units.',
+			resultText: '<<include "E-Hooking Anal - Low Price (Success)">>',
+			requirements: []
+		},
+		{
+			buttonText: 'Decline.',
+			resultText: '<<include "E-Hooking Anal - Decline">>',
+			requirements: []
+		}]
+	}
+
 	let boothbabeGreatJob = {
 		name: 'Great Job (Standard)',
 		passageText: '<<= setup.eventText("A belated sigh escapes you, as your shoulders crack from your stretching. Lowering your arms you spot at least 2-3 dudes pointing and chatting amongst themselves, ' + 
@@ -3600,9 +3721,10 @@ setup.loadEvents = function () {
 	let maidIncidents = [maidDirtyRoom1,maidDirtyRoom2,maidAfterparty,maidHallway,maidVoyeur,maidSpanking,maidPantiePromo,maidCinema,maidDrool,maidSex1,maidSex2,maidBimbo,maidCollectionRoom1,maidCollectionRoom2,maidBoardRoom,maidLuxurySuite,maidGreatJob];
 	let stripperIncidents = [stripperShowfloor,stripperPrivateDance,stripperBlowjob,stripperSex,stripperAnal,stripperChampagne,stripperToplessBig,stripperToplessSmall,stripperGreatJob,stripperMindCheck,stripperStealthHandjob];
 	let carshowIncidents = [carshowLineWork,carshowPhotoshoot,carshowGridGirl,carshowPhotoGrope,carshowManagerSex1,carshowManagerSex2,carshowGreatJob];
-	let sluttiaIncidents = [sluttiaGangbang1,sluttiaGangbang2,sluttiaCosplayFuck,sluttiaGreatjob,sluttiaBimboCheck,sluttiaMindCheck];
+	let sluttiaIncidents = [sluttiaGangbang1,sluttiaGangbang2,sluttiaCosplayFuck,sluttiaGreatjob,sluttiaBimboCheck,sluttiaMindCheck,sluttiaOrcSlut];
 	let girlfriendIncidents = [girlCoffeeDate1,girlCoffeeDate2,girlBimboCheck,girlSkimpyCheck,girlSlutCheck];
 	let gangbangIncidents = [gangbangStandard];
+	let ehookingIncidents = [ehookingOral,ehookingSex,ehookingAnal];
 	let boothbabeIncidents = [boothbabeGreatJob,boothbabeMindCheck,boothbabeLustCheck,boothbabeBimboCheck,boothbabeGrope,boothbabeHarass,boothbabeHardSell];
 	let gloryholeIncidents = [gloryholeBlowjob1,gloryholeBlowjob2];
 	let punishmentIncidents = [punishGloryhole1,punishGloryhole2,punishFreeUse1,punishFreeUse2,punishEXBunny,punishVizLizMannequin];
@@ -3768,6 +3890,18 @@ setup.loadEvents = function () {
 		incidents: boothbabeIncidents,
 		finish: stainsFinish
 	}
+	let eventeHooking = {
+		name: "E-Hooking",
+		outfit: "none",
+		start: "<<include 'E-Hooking - Start'>>",
+		intro: {
+			passageText: '<<include "E-Hooking - Start">><<run setup.story("Event-Girl-00", "complete")>>',
+			buttonText: 'Continue.',
+			next: '1'
+		},
+		incidents: ehookingIncidents,
+		finish: "<<include 'E-Hooking - Finish'>>"
+	}
 	let eventStory = {
 		name: "Story",
 		outfit: "none",
@@ -3779,7 +3913,7 @@ setup.loadEvents = function () {
 		incidents: punishmentIncidents
 	}
 	
-	let events = [eventReceptionist, eventMaid, eventStripper, eventCarshow, eventSluttia, eventCindanar, eventStains, eventGangbang, eventGirlfriend, eventGloryhole, eventStory, eventPunishments];
+	let events = [eventReceptionist, eventMaid, eventStripper, eventCarshow, eventSluttia, eventCindanar, eventStains, eventGangbang, eventGirlfriend, eventeHooking, eventGloryhole, eventStory, eventPunishments];
 	
 	return events;
 }

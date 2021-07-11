@@ -1,0 +1,10 @@
+:: E-Hooking - Start
+You check yourself and your outfit in the mirror, with flutters moving up your stomach at the prospect of looking like a hooker.
+<<= setup.speak($player, "I guess this will have to do.")>>
+Exiting the pod hall, you turn at least a few heads as you make your way towards the adult strip. Your heels clicking as they hit the floor, you give your booty an extra sway, letting everyone know that your money-maker is up for grabs.
+
+You reach the strip and walk up towards E-Royale Line, standing at the working line. Not even a minute goes by before you've attracted at least a few wolf-whistles.
+<<= setup.speak($player, "Come on boys, come get it!")>>
+With stretched legs, you move your upper body down, only to toss your hair back and arching your back as you come back up.
+
+<<= setup.button("Continue.", "Event - Main")>>

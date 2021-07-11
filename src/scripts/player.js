@@ -336,6 +336,22 @@ setup.printStatistics = function (entity) {
 		console.log(entity.statistics[i].name + ": " + entity.statistics[i].count);
 	}
 }
+setup.incStat = function (entity, stat, amount) {
+	if (amount == undefined) {
+		amount = 1;
+	}
+	if (entity.modifiers.includes("player")) {
+		//console.log("Count(" + givingEntity.name + "): Increasing " + givenCount + " by +1.");
+		for (let i = 0; i < entity.statistics.length; i++) {
+			if (stat == entity.statistics[i].name) {
+				entity.statistics[i].count += amount;
+				//console.log("Increased Count(" + givenCount + "), by " + givenAmount + ".");
+				break;
+			}
+		}
+	}
+}
+
 //Increases the score of an entity (player most likely).
 setup.incScore = function (entity, type, amount) {
 	if (type != "none" || type != undefined) {

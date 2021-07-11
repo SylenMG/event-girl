@@ -1,0 +1,31 @@
+:: Sluttia Incident - Orc Slut
+You enter the changing room and begin to take off your clothes. Yelping and jumping in surprise at the door being bashed open, you quickly turn around, covering your bare chest. Having only managed to get the loincloth on, you´re surprised to see the hiring manager standing before you.
+<<= setup.speak($npc.executives[0], "Ahaha! Is that my Sluttia for the evening? Perfect! Did they tell you of the lightshoot?", "smile")>><<= setup.speak($player, "The what now? I haven´t been told anything?!", "surprised")>><<= setup.speak($npc.executives[0], "We´ll be doing a lightshoot of you fighting off some orcs, and perhaps even losing to ´em!")>>
+You cringe as he says "Orcs"... as in, real orcs? Or like costume or cosplay orcs? Anything would surprise you at this point.
+<<= setup.speak($npc.executives[0], "Well, get finished up here and then come back out, I´ll show you the capture studio.")>>
+Exiting the changing room, you quickly finish putting on the last straps of the costume and follow him outside.
+<<= setup.speak($npc.executives[0], "Alright then, come along, the studio is just over here. Any questions before they start bodycapturing?")>><<= setup.speak($player, "What the hell even is a lightshoot?", "surprised")>><<= setup.speak($npc.executives[0], "Oh that? It´s like taking a complete modular print of that sexy body of yours, and putting it into an interactible scene.")>><<= setup.speak($npc.executives[0], "Then any users can just decide on what kind of scene they want; It being one where Sluttia get´s gang-banged by a bunch of orcs or similar. Or whatever those freaks get off on!", "smile")>>
+You stomach drops as you reach the studio. The walls laced with moving photography of skimpily-clad women in all sorts of "adult" situations. Sometimes coming out on top, and sometimes ending at the receiving end of multiple assailants. The photos all look holographic, yet distinctively real with high attention to detail.
+<<= setup.speak($player, "Right... I see where this is going.")>>
+Entering the studio itself, you´re greeted by more examples of moving holographic photos, an empty reception and a hallway behind the reception. You follow the manager down the hallway, reaching an oval room with a giant sphere-like structure in the center. The sound of your footsteps deafening, you spot the walls being tapered with some kind of foam, which most likely make the room sound-proof.
+<<= setup.speak($npc.executives[1], "Ah, there they are, all ready to go I suppose?")>>
+The hiring manager turns to you with a wide smile, waiting for your response.
+<<= setup.speak($player, "I guess so... but uuuh, what do I do?")>><<= setup.speak($npc.executives[1], "You simply enter the lightbox, and do a few moves for it to capture your form and body, and we´re done! Simple as.")>>
+Moving towards the entrance of the sphere, you take a peek inside. The brightness of the inside almost blinds you at first, but your eyes almost immediately adjusts to it. Looking back at the hiring manager, he simply nods and smiles. 
+
+:: Sluttia Incident - Orc Slut (Continued)
+The bright light swallows your body from top to bottom as you enter the sphere. The door behind you slowly slides down, causing a chill to run down your spine. A clean voice echoes through the sphere.
+<<= setup.speak($characters.secret, "Alright $player.femaleName, move towards the center of the sphere, and we can begin.")>>
+You move towards what your best guess of the center is and stand there for a while.
+<<= setup.speak($characters.secret, "Great, we´re nearly done. If you could lie down, and also run around for a bit, then we can finalize the lightshoot.")>><<= setup.speak($player, "Nearly done? Really?")>>
+You do as they say, lying down at first, only to get back up and run around for a while. Shortly after, the door to the sphere opens back up, and the lights dim.
+<<= setup.speak($characters.secret, "Alright, we got everything we needed. Come back out.")>>
+Exiting the sphere, you´re greeted once more by the hiring manager.
+<<= setup.speak($npc.executives[0], "Nice and easy, right? They got all they needed, take a look yourself.")>>
+He holds a long pen-like device, of which he slides out a transparent piece of paper. The paper almost immediately lights up, displaying you in your Sluttia garment. You simply stand there, shifting your weight on one heel in a proud pose. A pose you most certainly didn't take inside the sphere.
+<<= setup.speak($npc.executives[0], "Just like that-... and of course, it can do raunchy stuff too if you´re into that.", "smile")>>
+He presses a few buttons on the pen, and several "Orcs" enter the scene. You at first beat them back a little, but are eventually overwhelmed. Biting your lip, you watch as they rip your loincloth off and forcefully penetrates your barbarian pussy with their long thick green cocks. The movement of the models on the paper is almost impeccable, even though you never did any of this, it still seems to be able to "recreate it".
+<<= setup.speak($npc.executives[0], "Like what you see? We´ll be selling these, just as Mr. Venere planned. They´ll be a fucking cash cow I tell ya!", "smile")>><<= setup.speak($player, "Right, so just about any pervert out there is going to own their own little piece of holographic models, resembling me... getting railed by a bunch of orcs...")>><<= setup.speak($npc.executives[0], "Yeah, it´s gonna be fucking great!", "pleasure")>>
+A sigh escapes you, and you return back to the venue and the dressing rooms. After changing back, you make your way back to your pod. A few moments later, you feel your E-Pal vibrate, giving you a nice lump of units.
+
+<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish($event.current, "Pod - Main")>><</replace>><</button>></span>

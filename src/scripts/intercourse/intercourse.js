@@ -6,53 +6,7 @@
 //Given means entity was active partner, if blowjob/cunnilingus means entity was the one sucking. If vaginal/anal means entity was the one fucking vagina/ass.
 //Received means entity was passive partner. If vagina/ass means entities vagina/ass orifice was the one being penetrated
 
-setup.newSex = function (sex) {
-	let returnSex = "";
-	let perspective = setup.checkPerspective(sex);
-	switch(perspective) {
-		case "blowjob-giving":
-		
-		break;
-		case "blowjob-receiving":
 
-		break;
-		default:
-		
-		break;
-	}
-	let sObject = {
-		scenes: [
-			{
-			name: ["Suck <<= setup.hisher($sex.rE)>> cock.","Take <<= setup.hisher($sex.rE)>> shaft inside your mouth.","Use your lips on <<= setup.hisher($sex.rE)>> cock."],
-			passage: "<<include 'Blowjob - Giving - Suck'>>"
-			},
-			{
-			name: ["Lick the tip of <<= setup.hisher($sex.rE)>> cock."],
-			passage: "<<include 'Blowjob - Giving - Lick'>>"
-			}
-		],
-		climax: [
-			{
-			name: ["Swallow."],
-			passage: "<<include 'Blowjob - Giving - Swallow'>>"
-			},
-			{
-			name: ["Facial."],
-			passage: "<<include 'Blowjob - Giving - Facial'>>"
-			}
-		]
-	};
-	if (count < 2) {
-		for (let i = 0; i < sObject.scenes.length; i++) {
-			returnSex = returnSex + "<span class='lbb'><<button '" + sObject.scenes[i].name + "'>><<set $sex.count += 1>><<replace '#scene-" + count + "'>>" + sObject.scenes[i].passage + "<br><br><<= setup.newSex($sex.count)>><</replace>><</button>></span>";
-		}
-	} else {
-		for (let i = 0; i < sObject.scenes.length; i++) {
-			returnSex = returnSex + "<span class='lbb'><<button '" + sObject.climax[i].name + "'>><<set $sex.count += 1>><<replace '#scene-" + count + "'>>" + sObject.climax[i].passage + "<br><br><</replace>><</button>></span>";
-		}
-	}
-	return "<span id='scene-" + count + "'>" + returnSex + "</span>";
-}
 
 setup.countSexStat = function (givingEntity, receivingEntity, givenCount, receivedCount, givenAmount, receivedAmount) {
 	if (givenAmount == undefined) {
@@ -116,6 +70,7 @@ setup.sexOptions = function (player, scene, sceneList) {
 
 setup.checkPerspective = function (sex) {
 	//returns the perspective in case this is not already defined
+	console.log("xxxxxxxxxx");
 	switch(sex.current) {
 		case "oral":
 		case "blowjob":

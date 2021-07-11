@@ -1,4 +1,4 @@
-:: Stripper - Start
+:: Sluttia - Start
 You approach Brenda sitting by the receptionist desk.
 <<= setup.speak($characters.brenda, "Ready for another day gurl?")>><<= setup.speak($player, "Sure am.")>>
 You put on your receptionist outfit in the backroom. It´s familiar tightening grip proving less of a challenge every time. 
