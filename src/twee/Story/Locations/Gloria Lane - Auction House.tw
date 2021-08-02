@@ -1,15 +1,11 @@
-:: eVentia - Auction House [autosave] {"position":"50,2150","size":"100,100"}
-!eVentia - Auction House
+:: Gloria Lane - Auction House
+!Gloria Lane - Auction House
 -------------------------------------
 You stand within the noble hall, taking in the antique classical atmosphere with the red carpet and the wooden tables and stands all cut with elaborate intricate rose designs.
-
-<<= setup.displayUnits($player)>>
 
 <<= setup.displayAuctions($player)>>
 <span id="AuctionMessage"></span>
 
-<span class='lbb'><<button "Return">>
-	<<goto "eVentia - Lobby & Foyer">>
-<</button>></span>
+<<= setup.button("Back to Gloria Lane.", "Gloria Lane")>>
 
 

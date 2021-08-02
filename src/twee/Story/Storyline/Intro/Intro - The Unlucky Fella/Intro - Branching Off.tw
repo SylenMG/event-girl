@@ -19,6 +19,38 @@ You grit your teetch once more.
 You reluctantly take the clothes and put them on.
 
 <<= setup.button("Continue.", "Intro - Info Drop 3", "<<= setup.equipOutfit($player, 'starter', 'nostash')>><<= setup.acquireItem('eVentia Jacket', 'clothes')>><<= setup.acquireItem('eVentia Slacks', 'clothes')>><<= setup.acquireItem('eVentia Bra', 'clothes')>><<= setup.acquireItem('eVentia Panties', 'clothes')>><<= setup.acquireItem('eVentia Heels', 'clothes')>>")>>
+:: Intro - Pretend Calmness [ev-therapist-1] 
+Having pulled yourself unto the bed, you grit your teeth... you sigh, putting on your best poker face to fool them.
+<<= setup.speak($player, "I see. I´ll stay calm, don´t worry.")>>
+<<= setup.speak($characters.drlinus, "You´ve been in stasis for a very long time. We... In fact had hoped you could tell us which year you came from? Your pod was a so called... Blank Pod.")>><<= setup.speak($player,"Wait... Okay-okay... What year is it?")>><<= setup.speak($characters.drlinus, "The year is 2206, hopefully not too far from your origin year?")>>
+You stiffen as your hear the words escape his mouth, and all you can think about is to wake up from this nightmare. Instead, you look the room... the door behind the guard. With a distraction, you could possibly make a run for it.
+<<= setup.speak($player, "Alright... Alright... So... I´m in the future and I´m not in my own body. This is... a really... really bad dream right?", "surprised")>><<= setup.speak($characters.drlinus, "I´m afraid not, Miss. Your pod has been in possession of eVentia for at least a few years. Like I said before, you´re very lucky to even be alive. It cost a fortune to save you!")>>
+The sudden realization hits you, that everyone and everything you know is likely gone forever. No matter how surreal it feels, you´re stuck here, for good...
+<<= setup.speak($player,"I-... There´s no way to send me back? Like at all?!", "surprised")>>
+He shakes his head. Looking around the room... an idea hits you.
+<<= setup.speak($characters.drlinus, "You mean time travel? Tsk... Silly nonsense... We don´t even know what year you´re from... However, the overwhelming debt associated with your chamber tells me it must have been for some time at least.")>>
+You look down, fumbling your fingers, you let them know the year.
+<<= setup.speak($player,"2023... That´s the year...")>><<= setup.speak($characters.eventiaguard, "Holy shit!")>><<= setup.speak($characters.drlinus, "Damn... That explains the huge debt. Must have cost a fortune to keep your chamber stable for so long. Haven´t seen one this steep before.")>>
+Your voice breaks up as you think back on the accident.
+<<= setup.speak($player,"Oh-oh no! I think I´m going to faint.", "surprised")>><<= setup.speak($characters.drlinus, "Agh! Quick! Go get the E-Shot! She could be having a heart attack!")>>
+Putting a hand over your forehead you fall back into the bed.
+
+<<= setup.button("Continue.", "Intro - Pretend Calmness (Continued)")>>
+:: Intro - Pretend Calmness (Continued) [ev-therapist-1] 
+Keeping one eye slightly open, you realize the guard quickly left the room. Taking the opportunity you quick spring back up.
+<<= setup.speak($characters.drlinus, "W-woah! Calm dow-! Shit! Get back here!", "surprised")>>
+You quickly get back up and jump down from the bed. Now standing on the front of your feet, you make a dash for the exit. Entering the long hallway, you don't get far until something huge crashes into you.
+<<= setup.speak($characters.eventiaguard, "I got her sir!", "angry")>><<= setup.speak($player,"Agh! Get off of me! You psychos!", "angry")>><<= setup.speak($characters.eventiaguard, "Shut up! Stupid bitch! Think I´ll fall for that!? You ain´t the first one to try that!", "angry")>>
+The guard grabs your legs and drags you back into the room. The sigh of a very disappointed Dr. Linus greets you once more.
+<<= setup.speak($characters.drlinus, "Now that you have also tried that. Are you going to cooperate now?", "angry")>><<= setup.speak($player,"Does it look like I have a choice?", "angry")>><<= setup.speak($characters.drlinus, "Stop with the games. If you have questions, now is the time. War this... It would make things... More comfortable for everyone involved.")>>
+Holding in his hands you see a pair of panties, a bra, some slim pants, a yellow jacket and a pair of heels.
+<<= setup.speak($player, "Really? Heels?!", "angry")>>
+You grit your teetch once more.
+<<= setup.speak($characters.drlinus, "Well... Better get used to it... It´s what you´ll be walking around in from now on.")>>
+You reluctantly take the clothes and put them on.
+
+<<= setup.button("Continue.", "Intro - Info Drop 3", "<<= setup.equipOutfit($player, 'starter', 'nostash')>><<= setup.acquireItem('eVentia Jacket', 'clothes')>><<= setup.acquireItem('eVentia Slacks', 'clothes')>><<= setup.acquireItem('eVentia Bra', 'clothes')>><<= setup.acquireItem('eVentia Panties', 'clothes')>><<= setup.acquireItem('eVentia Heels', 'clothes')>>")>>
+
 :: Intro - Info Drop 3 [ev-therapist-2]
 You look towards the doctor as he explains everything.
 <<= setup.speak($characters.drlinus, "Like I mentioned before. You were a blank chamber, which eVentia has acquired for a hefty sum.")>><<= setup.speak($player, "What the hell is eVentia?")>><<= setup.speak($characters.drlinus, "eVentia is the largest entertainment corporation in the world. Our entertainment centers provide everything from light to adult entertainment. We also specialize in highly educated and trained stand-ins that can do temporary work at events and-")>><<= setup.speak($player,"Wait-wait... You haven´t explained why I´m a woman?!")>>

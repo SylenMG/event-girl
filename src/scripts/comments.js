@@ -984,6 +984,7 @@ setup.loadCommentLib = function (comments) {
 }
 
 setup.comPortrait = function (commenter, portrait) {
+	console.log("comportrait fired");
 	if (commenter.modifiers.includes("player")) {
 		if (commenter.gender == "male") {
 			var comPortrait = "images/portraits/player-male/" + portrait + ".png";

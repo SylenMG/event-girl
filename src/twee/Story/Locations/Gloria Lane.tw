@@ -1,0 +1,17 @@
+:: Gloria Lane
+!Gloria Lane
+-------------------------------------
+You find yourself at the Gloria Lane. The home of Gloria services and luxury residences.
+
+<<= setup.button("Back to eVentia Lobby & Foyer.", "eVentia - Lobby & Foyer")>>
+!!!Gloria Hotel
+-------------------------------------
+The Gloria Hotel, where the rich and famous make their temporary homes.
+
+<<= setup.button("Enter the Gloria Hotel.", "Gloria Lane - Gloria Hotel")>>
+!!!Auction House
+-------------------------------------
+You can see the entrance to the Gloria Auction House.
+
+<<= setup.button("Enter the Auction House.", "Gloria Lane - Auction House", "<<if hasVisited('Gloria Lane - Auction House')>><<goto 'Gloria Lane - Auction House'>><<else>><<goto 'Event Auction - Intro 1'>><</if>>")>>
+

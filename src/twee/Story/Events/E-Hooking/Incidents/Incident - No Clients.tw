@@ -1,0 +1,18 @@
+:: E-Hooking No Clients - Main
+You shift the weight from one heel to the other, looking down the empty line.
+<<= setup.speak($player, "Not a single soul... hmph...")>>
+You look around at the other Eventia Girls, whom also seem about as bored as you. Taking a glance at the guard, he shrugs.
+<<= setup.speak($npc.eventgirls[0], "Gahd dahm, where dem johns be at?!", "angry")>>
+Another Eventia Girl seems to be visibly shaking.
+<<= setup.speak($npc.eventgirls[1], "I-i... haven´t had cock for hours... gotta suck!", "surprised")>>
+Leaning against the wall you sigh.
+
+:: E-Hooking No Clients - Continue
+The day was long and boring, with not a single client showing up.
+<<= setup.speak($player, "This is bullshit...")>>
+However, despite your luck, the E-Royale Line still recognizes your conviction, making your E-Pal vibrate.
+<<= setup.speak($player, "Hmph, at least my rating went up.")>>
+Walking back to your pod, you sigh and hope for better next time.
+<<run setup.rating($player, 10)>>
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+

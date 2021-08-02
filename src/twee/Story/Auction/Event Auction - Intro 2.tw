@@ -7,8 +7,6 @@ You move over to the small display that Linus stands by. Your eyes glaze over yo
 <<= setup.speak($player, "That\'s my worth?! A first night with me! Nothing more than that!", "angry")>><<= setup.speak($characters.drlinus, "Ah well... you see, no matter if you\'re actually a virgin or not, the first night always starts low, but tends to build up to high amounts based on how heated the bidding becomes. Especially if one is a virgin. However, no other events are available until the first night, a form of assurance as to you pulling through.", "smile")>><<= setup.speak($player, "Backing out? What do you mean?")>><<= setup.speak($characters.drlinus, "Well, you know how it is... No one being forced to do anything here. Backing out means banishment from the house however... Not very nice... well... I\'ll leave you to it then, I have a patient to attend to.")>>
 And with that he slithers away again, leaving you with more questions than answers once more.
 
-<span class='lbb'><<button "Continue">>
-	<<goto "eVentia - Auction House">>
-<</button>></span>
+<<= setup.button("Continue.", "Gloria Lane - Auction House")>>
 
 

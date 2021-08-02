@@ -62,7 +62,7 @@ You put out your tongue like a wanton whore begging to suck his cock.
 
 You take him towards a secluded corner in the hall. 
 
-<<= setup.psyche($player, "Slut", 10, 20)>><<= setup.rating($player, 10)>><<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.givingEntity = $player, $sex.receivingEntity = $characters.client3, $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
+<<= setup.psyche($player, "Slut", 10, 20)>><<= setup.rating($player, 10)>><<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'blowjob', $sex.gE = $player, $sex.rE = $characters.client3, $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
 
 :: Receptionist Groping - Mind Approach
 <<= setup.speak($player, "Ehehe..*drools*.....", "smile")>>

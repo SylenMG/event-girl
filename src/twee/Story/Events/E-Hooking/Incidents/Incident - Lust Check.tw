@@ -1,0 +1,17 @@
+:: E-Hooking Lust Check - Main
+Staring down the line, you shift your weight unto your right leg, leaning against the wall. The heat from your groin spreading up through your stomach, now also making your nipples visible erect.
+<<= setup.speak($player, "God... if someone doesn´t come by soon...")>>
+You clench your groin in desperation, but give up as another john walks past you. 
+
+
+:: E-Hooking Lust Check - Continue
+Dashing against him, you grab his jacket pulling him in against you, staring him down.
+<<= setup.speak($npc.adults[0], "Whoa! What are you doing?!", "surprised")>><<= setup.speak($player, "You. Me. Sex. Now.", "pleasure")>>
+Trying to fight back in vain, you start dragging him towards the free rooms.
+<<= setup.speak($npc.adults[0], "Calm down lady! I don´t have the cash!", "surprised")>><<= setup.speak($player, "Don´t care! You get it for free then!", "pleasure")>>
+Reaching the free room, you toss him in and lock the door behind you. Several hours later, after having not only drained him, but also a handful of other johns almost for free, you lean back sigh.
+<<= setup.speak($player, "Just what I needed.", "smile")>>
+Confidently strutting back to your pod, you call it a day. 
+<<run setup.satisfy($player)>><<run setup.bonus($player, setup.random(500))>><<run setup.count("receivedGroping", 10)>><<run setup.count("givenBlowjobs", 5)>><<run setup.count("receivedVaginal", 5)>><<run setup.count("receivedAnal")>>
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+

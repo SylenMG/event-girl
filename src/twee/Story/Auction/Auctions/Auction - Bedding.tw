@@ -16,6 +16,6 @@ He pulls at your hair, smelling it first, before dragging you towards the bed an
 <<= setup.speak($npc.bidders[0], ["Fuck! I can´t wait to shove it inside you.","Damn, I gotta fuck you now. I can´t wait any longer.","Fuck me, I gotta tear that up now."], "pleasure")>>
 His clothes drop to the ground and soon after, your own does as well.
 
-<<= setup.button("Suck his cock.","Sex","<<set $sex.current = 'oral', $sex.givingEntity = $player, $sex.receivingEntity = $npc.bidders[0], $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>
-<<= setup.button("Let him fuck you.","Sex","<<set $sex.current = 'sex', $sex.givingEntity = $npc.bidders[0], $sex.receivingEntity = $player, $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>
-<<= setup.button("Use your ass.","Sex","<<set $sex.current = 'anal', $sex.givingEntity = $npc.bidders[0], $sex.receivingEntity = $player, $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>
+<<= setup.button("Suck his cock.","New Sex","<<set $sex.current = 'oral', $sex.gE = $player, $sex.rE = $npc.bidders[0], $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>
+<<= setup.button("Let him fuck you.","New Sex","<<set $sex.current = 'sex', $sex.gE = $npc.bidders[0], $sex.rE = $player, $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>
+<<= setup.button("Use your ass.","New Sex","<<set $sex.current = 'anal', $sex.gE = $npc.bidders[0], $sex.rE = $player, $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>

@@ -20,7 +20,7 @@ You´re given little time to catch your breath as it plops out again. <<= setup.
 :: Blowjob - Giving - Facial
 Licking the base of <<= setup.hisher($sex.rE)>> cock you stroke <<= setup.himher($sex.rE)>> with steady pace. With <<= setup.hisher($sex.rE)>> veiny shaft in hand, you feel <<= setup.hisher($sex.rE)>> cock twitch. You quickly insert <<= setup.hisher($sex.rE)>> cock into your mouth once more, only to suck it fervently and milk it for all of it´s worth.
 <<= setup.getSexComment($sex.gE, "outro", "blowjob-giving")>><<= setup.getSexComment($sex.rE, "outro", "blowjob-receiving")>>
-With a loud sloppy sound <<= setup.hisher($sex.rE)>> cock plops out of your mouth and explodes all over your face, covering it in male juices. <<= setup.displayVisual("You quickly react, closing your eyes and hold out your tongue to receive your sweet reward.", "image-" + $sex.count, $sex.gE, "climax", "facial")>> Strings of cum land across your nose, lips, some in your mouth and a bit on your forehead. 
+With a loud sloppy sound <<= setup.hisher($sex.rE)>> cock plops out of your mouth and explodes all over your face, covering it in male juices. <<= setup.displayVisual("You quickly react, closing your eyes and hold out your tongue to receive your sweet reward.", "climax" + $sex.count, $sex.gE, "climax", "facial")>> Strings of cum land across your nose, lips, some in your mouth and a bit on your forehead. 
 <<= setup.getSexComment($sex.rE, "climax", "blowjob-receiving")>>
 <<= setup.hisher($sex.rE, "B")>> cock slap unto your cum-covered lips as <<= setup.heshe($sex.rE)>> dickslaps your face, drying the last bit of man-juice on your cheek. 
 <<= setup.getSexComment($sex.gE, "climax", "blowjob-giving")>>

@@ -21,7 +21,7 @@ var debug = [
 		'<span class="lbb"><<button "Pod - Reflection">><<goto "Reflection">>"<</button>></span>',
 		'<span class="lbb"><<button "eVentia - Lobby & Foyer">><<goto "eVentia - Lobby & Foyer">>"<</button>></span>',
 		'<span class="lbb"><<button "eVentia - Commercial Strip">><<goto "eVentia - Commercial Strip">>"<</button>></span>',
-		'<span class="lbb"><<button "eVentia - Auction House">><<goto "eVentia - Auction House">>"<</button>></span>',
+		'<span class="lbb"><<button "Gloria Lane - Auction House">><<goto "Gloria Lane - Auction House">>"<</button>></span>',
 		'<span class="lbb"><<button "eVentia - Psyche Clinic">><<goto "eVentia - Psyche Clinic">>"<</button>></span>']
 	},
 	{
@@ -36,10 +36,10 @@ var debug = [
 		'@@.red;Note: If you do not have the required genital, it will break.@@',
 		'Oral, giving: [[Go Here|New Sex][$sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.adults[0], $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
 		'Oral, receiving: [[Go Here|New Sex][$sex.current = "blowjob", $sex.gE = $npc.adults[0], $sex.rE = $player, $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
-		'Sex, vaginal: [[Go Here|Sex][$sex.current = "sex", $sex.givingEntity = $npc.adults[0], $sex.receivingEntity = $player, $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
-		'Sex, penis (vaginal): [[Go Here|Sex][$sex.current = "sex", $sex.givingEntity = $player, $sex.receivingEntity = $npc.adults[0], $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
-		'Sex, anal: [[Go Here|Sex][$sex.current = "anal", $sex.givingEntity = $npc.adults[0], $sex.receivingEntity = $player, $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
-		'Sex, penis (anal): [[Go Here|Sex][$sex.current = "anal", $sex.givingEntity = $player, $sex.receivingEntity = $npc.adults[0], $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]']
+		'Sex, vaginal: [[Go Here|New Sex][$sex.current = "sex", $sex.gE = $npc.adults[0], $sex.rE = $player, $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
+		'Sex, penis (vaginal): [[Go Here|New Sex][$sex.current = "sex", $sex.gE = $player, $sex.rE = $npc.adults[0], $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
+		'Sex, anal: [[Go Here|New Sex][$sex.current = "anal", $sex.gE = $npc.adults[0], $sex.rE = $player, $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]',
+		'Sex, penis (anal): [[Go Here|New Sex][$sex.current = "anal", $sex.gE = $player, $sex.rE = $npc.adults[0], $sex.stage = "intro", $sex.modifier = "sensual", $sex.passage = "Debug - Menu"]]']
 	},
 	{
 		id: "Test: Event System",

@@ -1,5 +1,30 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
+0.18.0
+
+0.17.1
+- Fixed the dead end in Unlucky Fella intro.
+- Replaced all instances of the old sex system with the new one.
+- Fixed the dead link during Questions with Linus.
+- Fixed the dead link when waking up during "The Unlucky Fella".
+- Fixed the dead link caused by moving the Auction House.
+- Fixed a few buggy dreams that returned 0.
+- Fixed E-Hooking bug that didn't allow you to start it outside of debug console.
+- Fixed the Gloria Lane not showing up in the Lobby & Foyer.
+- Fixed a few parsing bugs with the sex system.
+
+0.17.0
+- Changed triggers with action buttons in the pod.
+- Added the Gloria Lane, which will have Gloria Gals services.
+- Added the Gloria Hotel, which will be the main area to interact influential people.
+- Moved the Auction House to the Gloria Lane.
+- Added Incident: E-Hooking Rich Client
+- Added Incident: E-Hooking Abusive Client
+- Added Incident: E-Hooking No Clients
+- Added Incident: E-Hooking Lust Check
+- Added Incident: E-Hooking Mind Check
+- A few bug fixes related to sex.
+
 0.16.0
 - Added Story Incident: Sluttia Orc Slut
 - The Sluttia Story incident will currently happen during regular Sluttia event, but are planned to take part in the Vernere story route.

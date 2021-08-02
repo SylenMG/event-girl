@@ -7,18 +7,13 @@ You find yourself in the eVentia Foyer & Lobby. There is a constant influx of ne
 !!!Receptionist Desk & Event Board
 -------------------------------------
 You can see the receptionist desk and event board. <<= setup.social("receptionist desk", "eVentia - Lobby & Foyer")>>
-<span class='lbb'><<button "Check Event Board">>
-	<<goto "eVentia - Event Board">>
-<</button>></span>
 
+<<= setup.button("Check Event Board", "eVentia - Event Board")>>
 !!!Pod Hall
 -------------------------------------
 You can see the entrance to the pod hall.
 
-<span class='lbb'><<button "Enter Pod Hall">>
-	<<goto "eVentia - Pod Hall">>
-<</button>></span>
-
+<<= setup.button("Enter Pod Hall", "eVentia - Pod Hall")>>
 !!!Event Girl Shop
 -------------------------------------
 You can see the entrance to the eVentia Event Girl Shop.
@@ -38,17 +33,11 @@ You can see the entrance to the eVentia Psyche Clinic. <<= setup.social("psyche 
 	<</if>>
 <</button>></span>
 
-!!!Auction House
+!!!Gloria Lane
 -------------------------------------
-You can see the entrance to the eVentia Auction House.
+You can see the entrance to the Gloria Lane, paved with luxury and home to the more extravagant.
 
-<span class='lbb'><<button "Enter Auction House">>
-	<<if hasVisited("eVentia - Auction House")>>
-		<<goto "eVentia - Auction House">>
-	<<else>>
-		<<goto "Event Auction - Intro 1">>
-	<</if>>
-<</button>></span>
+<<= setup.button("Enter the Gloria Lane.", "Gloria Lane")>>
 
 !!!Fashion Strip
 -------------------------------------

@@ -6,5 +6,3 @@ Exiting the pod hall, you turn at least a few heads as you make your way towards
 You reach the strip and walk up towards E-Royale Line, standing at the working line. Not even a minute goes by before you've attracted at least a few wolf-whistles.
 <<= setup.speak($player, "Come on boys, come get it!")>>
 With stretched legs, you move your upper body down, only to toss your hair back and arching your back as you come back up.
-
-<<= setup.button("Continue.", "Event - Main")>>

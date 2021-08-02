@@ -1,0 +1,18 @@
+:: E-Hooking Mind Check - Main
+Staring down the line, you shift your weight unto your right leg, leaning against the wall. The spiking pain in your temples that have bothering you ever since you woke up has only gotten worse.
+<<= setup.speak($player, "Ugh... I should see Dr. Linus or something... this headache...")>>
+You take another long stare down the line, busy Event Girls reeling in the johns for a quick one. Your vision begins to blur as your legs weaken.
+<<= setup.speak($npc.eventgirls[0], "Uuuuh... are you okay?")>><<= setup.speak($player, "I-... I´m fine-")>>
+Gravity pulls you down and a sharp pain spreads across your head as the darkness claims you.
+
+:: E-Hooking Mind Check - Continue
+A light pierces you as you open your eyes. A cough escapes you from your hoarse throat, and you lift your head from the sticky surface. 
+<<= setup.speak($player, "Ugh...")>>
+Your legs tremble as you try to stand, your clothes disheveled and nearly torn off, you stumble as you stand.
+<<= setup.speak($player, "W-what? Where am I?")>>
+Looking around, you realize that you're in an unlocked free room. You cough again, as you put your stained clothes back in order. 
+<<= setup.speak($player, "Fuck sake... I need a shower.")>>
+The brunt of the pain now gone, you leave the room and head for the pod showers.
+<<run setup.bonus($player, setup.random(500))>><<run setup.count("receivedGroping", 10)>><<run setup.count("givenBlowjobs", 5)>><<run setup.count("receivedVaginal", 5)>><<run setup.count("receivedAnal")>>
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+

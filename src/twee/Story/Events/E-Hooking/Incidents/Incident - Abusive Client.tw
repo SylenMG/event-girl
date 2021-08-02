@@ -1,0 +1,37 @@
+:: E-Hooking Abusive Client - Main
+You shift the weight from one heel to the other, looking down the busy line. Flicking your ass to the left and pushing out your tits, you give off a seductive smile into the crowd, hoping to catch a horny patron.
+<<= setup.speak($player, "Grab a much more enjoyable lunch, right here!", "smile")>>
+A single guy breaks off the crowd and stumbles towards you. His gait makes him tumble around and the stench of alcohol is retch as he closes in on you.
+<<= setup.speak($npc.adults[0], "Ooooh... hehe... nice tits girl.", "smile")>><<= setup.speak($npc.eventgirls[0], "Piss off you drunk fool!", "angry")>>
+The drunk sets his eyes on you, moving steadily towards you. A shiver shoots up your as he grabs unto your ass and presses you against the wall.
+<<= setup.speak($npc.adults[0], "Hello there beautiful... why don´t we get more acquainted?", "smile")>>
+His hand grabbing and squeezing your ass, you think about what to do.
+
+:: E-Hooking Abusive Client - Push Him Away
+Planting your heels firmly on the cold hard floor, you muster all of your strength and push.
+<<= setup.speak($player, "Get off me! You creep!","angry")>>
+The man clearly too inebriated to keep his balance is pushed back, landing on his ass.
+<<= setup.speak($npc.adults[0], "Ahhh! Look what you did?! Whore! I´ll fucking-", "angry")>><<= setup.speak($characters.eventiaguard, "You will fucking what?")>><<= setup.speak($npc.adults[0], "Oh-... oh shit!", "surprised")>>
+Quickly getting back up on his feet, he stumbles another time as he dashes into the crowd, running out of sight.
+<<= setup.speak($player, "Thanks.")>><<= setup.speak($characters.eventiaguard, "Don´t mention it. You tell me if that idiot comes back.")>>
+You smile at the guard and return to standing at the line.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Abusive Client - Slap Him
+Raising your arm and letting it drop as hard as you can, a sharp pain spreads at the palm of your hand as it connects with the guys cheek.
+<<= setup.speak($npc.adults[0], "AAaaaah! Shit!","surprised")>><<= setup.speak($player, "Get fucked!", "angry")>>
+Stumbling backwards and falling unto his ass, he whimpers in defeat.
+<<= setup.speak($npc.adults[0], "What the hell is wrong with you?!","surprised")>><<= setup.speak($player, "Me?! What the fuck is wrong with you?! You drunk fuck!", "angry")>>
+Tears welling up in his eyes, he quickly gets back up on his feet and disappears into the crowd.
+<<= setup.speak($player, "Pfft what a joke.", "angry")>>
+You clench your fist and stomp the cold hard ground.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Abusive Client - Follow Him
+Your cunt moistening at his constant groping, you just cant stop him from enjoying your lush body.
+<<= setup.speak($player, "Oh my~... aren´t you just an eager one?","smile")>>
+Grabbing your hand he begins to drag you towards the free rooms.
+<<= setup.speak($npc.adults[0], "Come with me beautiful... I *hick*... gotta unload!", "smile")>><<= setup.speak($player, "I can see that big boy... let´s do something about it.", "smile")>>
+You follow him towards the free rooms, collecting disgusted stares from the other event girls.
+<<run setup.bonus($player, setup.random(1000))>>
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'blowjob-giving', $sex.gE = $player, $sex.rE = $npc.adults[0], $sex.passage = 'Event - Finish', $event.current = 'E-Hooking', $event.return = 'Pod - Main'>>")>>

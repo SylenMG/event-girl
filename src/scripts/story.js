@@ -120,7 +120,7 @@ setup.loadStory = function () {
 	}];
 	return entries;
 }
-
+/*
 setup.loadTriggers = function () {
 	let triggers = [
 	{
@@ -171,7 +171,7 @@ setup.triggerStory = function (entity, time) {
 	}
 	return returnTrigger;
 }
-
+*/
 setup.completeEntry = function (id) {
 	let foundEntry = false;
 	let sEntries = setup.loadStory();

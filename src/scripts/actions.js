@@ -39,7 +39,7 @@ setup.speak = function (speaker, message, expression, nobreak) {
 			let pHaircolor = speaker.body.hair.color;
 			speakerPortrait = "images/portraits/player/" + expression + "/" + pMakeup + "-" + pHairstyle + "-" + pHaircolor + ".png";
 		} else {
-			speakerPortrait = "images/portraits/player/" + expression + ".png";
+			speakerPortrait = "images/portraits/player-male/" + expression + ".png";
 		}
 	} else {
 		speakerName = speaker.name;

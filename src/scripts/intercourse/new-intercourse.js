@@ -458,7 +458,7 @@ setup.newSex = function (sex) {
 		for (let i = 0; i < sObject.climax.length; i++) {
             let nameArr = sObject.climax[i].name.length;
             let randomName = setup.random(nameArr);
-			returnSex = returnSex + "<span class='lbb'><<button '" + sObject.climax[i].name[randomName] + "'>><<set $sex.count = 0>><<replace '#scene-" + sex.count + "'>>" + sObject.climax[i].passage + sObject.effects + "<br><br>" + setup.button("Continue.", sex.passage) + "<</replace>><</button>></span>";
+			returnSex = returnSex + "<span class='lbb'><<button '" + sObject.climax[i].name[randomName] + "'>><<replace '#scene-" + sex.count + "'>>" + sObject.climax[i].passage + sObject.effects + "<br><br>" + setup.button("Continue.", sex.passage, "<<set $sex.count = 0>>") + "<</replace>><</button>></span>";
 		}
 	}
     if (sex.count == 0) {

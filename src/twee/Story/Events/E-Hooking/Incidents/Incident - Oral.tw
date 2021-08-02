@@ -1,5 +1,5 @@
 :: E-Hooking Oral - Main
-Standing around the E-Royale Line, you toss your hair back and arch your back at the passing clients. Shaking the goods once or twice, you hear at least a few cat-calls and wolf-whistles, most of them coming from men, but also some from women.
+Standing around the E-Royale Line, you toss your hair over your shoulder and arch your back at the passing clients. Shaking the goods once or twice, you hear at least a few cat-calls and wolf-whistles, most of them coming from men, but also some from women.
 <<= setup.speak($player, "Come on boys, all fresh and ready to go!", "smile")>>
 Blowing a few kisses towards them, you lure them with your finger as they stop to consider your offer.
 <<= setup.speak($npc.adults[0], "Ahhh... shit, alright then, what´s the price on that mouth?", "smile")>><<= setup.speak($player, "You want these lips around that rod of yours?")>>

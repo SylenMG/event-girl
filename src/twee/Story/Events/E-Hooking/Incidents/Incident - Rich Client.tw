@@ -1,0 +1,67 @@
+:: E-Hooking Rich Client - Main
+Standing around the E-Royale Line, you toss your hair over your shoulder and arch your back at the passing clients. However, as much as you shake, the line is rather dull and absent with clients.
+<<= setup.speak($player, "Tsk... where did all the johns go?")>>
+Taking a look down the line, you spot a single guy dressed in a neon suit. It´s obvious that he´s loaded, as all of the other girls are practically flashing their tits, just to reel him in.
+<<= setup.speak($npc.executives[0], "Nay-nay, not today girls!", "smile")>><<= setup.speak($npc.eventgirls[0], "Come on daddy! Bend me over! You know you want it!", "smile")>>
+You decide to try your luck as well.
+
+:: E-Hooking Rich Client - Flash Tits (Fail)
+As he comes closer, you prepare the goods and loosen up your top.
+<<= setup.speak($player, "Oh my daddy! Don´t you want to play with these babies?!","smile")>>
+Just as he passes you, you open your top. The cool air grazing your nipples make them erect, as your tits fly free for everyone to see.
+<<= setup.speak($npc.executives[0], "Nice tits darling. Not quite my size, though.", "smile")>><<= setup.speak($player, "W-what?!.", "angry")>>
+He chuckles as he continues down the line.
+<<= setup.speak($player, "Tsk... asshole.", "surprised")>>
+You take a look down, biting your lips. The guard standing by the line also letting out a light chuckle. Perhaps it´s time for an upgrade?
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Rich Client - Tell Joke (Fail)
+With a smirk on your cheeks, you think of something... ugh... clever to say...
+<<= setup.speak($player, "Uuuuh! Hey, you! What did one butt cheek say to the other?!", "smile")>>
+The guy turns, a wrinkle on his forehead he stops.
+<<= setup.speak($player, "Together we can stop this shit!", "smile")>>
+A grimace spreads on his face as his mind looks violated.
+<<= setup.speak($npc.executives[0], "Ugh... that´s disgusting!","surprised")>>
+He turns and continues down the line, leaving your dumbfounded. 
+<<= setup.speak($player, "Damn it... what a shitty joke...", "angry")>>
+You clench your fist and stomp the cold hard ground.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Rich Client - Fake Disinterest (Fail)
+Instead of demeaning yourself or trying to catch his attention, you decide to play hard to get. Leaning against the wall, you make sure not to acknowledge his existence, instead playing on your beauty and allure to sell the goods.
+
+He casts at least a few glances at you as he passes, admiring your posture and seductive charisma. However, you don't seem to be enough to reel him in, let alone make him stop.
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("E-Hooking", "Pod - Main")>><</replace>><</button>></span>
+:: E-Hooking Rich Client - Flash Tits (Success)
+As he comes closer, you prepare the goods and loosen up your top.
+<<= setup.speak($player, "Oh my daddy! Don´t you want to play with these babies?!","smile")>>
+Just as he passes you, you open your top. The cool air grazing your nipples make them erect, as your tits fly free for everyone to see.
+<<= setup.speak($npc.executives[0], "Woah! Those babies are huge!", "smile")>><<= setup.speak($player, "Mhmhmm... Why don´t you come over her and have a taste?", "smile")>>
+Walking towards you, your stomach drops as you anticipate his big hands squeezing your tits, pinching and pulling them. The thought of it turning you moist.
+<<= setup.speak($npc.executives[0], "Alright, you come with me and let me play with those babies. You also give me a quick suck, for say, 5000 units?", "smile")>><<= setup.speak($player, "That´s a deal daddy!", "smile")>>
+Letting your tits fly free, you follow him towards the free rooms, collecting jealous stares and snarls from the other event girls.
+<<run setup.bonus($player, 5000)>>
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'blowjob-giving', $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.passage = 'Event - Finish', $event.current = 'E-Hooking', $event.return = 'Pod - Main'>>")>>
+:: E-Hooking Rich Client - Tell Joke (Success)
+With a smirk on your cheeks, you quickly think of something funny to say.
+<<= setup.speak($player, "What´s the difference between your job and a dead prostitute?", "smile")>>
+The guy turns, a wrinkle on his forehead he stops.
+<<= setup.speak($player, "Your job still sucks!", "smile")>>
+The guy bursts into laughter, the event girl standing next to you and the guard patrolling the line also struggling to contain their chuckles.
+<<= setup.speak($npc.executives[0], "O-oh god... ahaha!","smile")>>
+Walking towards you, you smile as you know you got him.
+<<= setup.speak($player, "So... what will it be, sugar daddy?", "smile")>><<= setup.speak($npc.executives[0], "Alright, you seem like a fun lass, you keep me entertained for a bit and also give me a quick suck, for say, 5000 units?", "smile")>><<= setup.speak($player, "That´s a deal daddy!", "smile")>>
+You follow him towards the free rooms, collecting jealous stares and snarls from the other event girls.
+<<run setup.bonus($player, 5000)>>
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'blowjob-giving', $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.passage = 'Event - Finish', $event.current = 'E-Hooking', $event.return = 'Pod - Main'>>")>>
+:: E-Hooking Rich Client - Fake Disinterest (Success)
+With a smirk on your cheeks, you quickly think of something funny to say.
+<<= setup.speak($player, "What´s the difference between your job and a dead prostitute?", "smile")>>
+Instead of demeaning yourself or trying to catch his attention, you decide to play hard to get. Leaning against the wall, you make sure not to acknowledge his existence, instead playing on your beauty and allure to sell the goods.
+
+He stops, casting his gaze from the top to the bottom, eating you with his eyes. Seeing his interest, you break the facade and go in for the kill.
+<<= setup.speak($player, "Like what you see? It could be all yours baby.", "smile")>><<= setup.speak($npc.executive[0], "God damn... you´re beyond beautiful. What do you say you keep me entertained for a bit and also give me a quick suck, for say, 5000 units?", "smile")>><<= setup.speak($player, "Suits me just fine.", "smile")>>
+You follow him towards the free rooms, collecting jealous stares and snarls from the other event girls.
+<<run setup.bonus($player, 5000)>>
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'blowjob-giving', $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.passage = 'Event - Finish', $event.current = 'E-Hooking', $event.return = 'Pod - Main'>>")>>
+

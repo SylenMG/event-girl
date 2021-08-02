@@ -691,5 +691,6 @@ setup.getSexComment = function (entity, stage, act, modifier, isPlayer) {
             break;
         }
     }
+
 	return setup.speak(entity, comments, portrait);
 }

@@ -43,7 +43,22 @@ setup.loadPodActions = function (player) {
             requirements: []
         }
     ];
-    return podActions;
+    let storyActions = [
+        {
+            name: "Vernon Dinner",
+            buttonName: "Go have dinner with Mr. Venere.",
+            passage: "Storyline - Vernon Dinner",
+            requirements: [{id: 'Vernon-Dinner-00', type: 'story-active', level: 0},{id: 'Time', type: 'day', level: 5},{id: 'Time', type: 'time', level: 2}]
+        },
+        {
+            name: "Amanda Meet Up",
+            buttonName: "An eventia guard stands by your pod.",
+            passage: "Storyline - Amanda Meet Up",
+            requirements: [{id: 'Amanda-Meeting-00', type: 'story-incomplete', level: 0},{id: 'Vernon-Dinner-00', type: 'story-completed', level: 0},{id: 'Time', type: 'time', level: 0}]
+        }
+    ];
+    let actions = storyActions.concat(podActions);
+    return actions;
 }
 
 setup.displayPodActions = function (player) {
@@ -58,7 +73,7 @@ setup.displayPodActions = function (player) {
                 returnActions = setup.speak(player, "I need to put on some clothes! There´s no way that i´m leaving like this!", "angry") + "<br>";
             break;
             case 1:
-                returnActions = setup.speak(player, "I can\'t leave like this... I gotta show some kind of modesty...!", "surprised") + "<br>";
+                returnActions = setup.speak(player, "I can´t leave like this... I gotta show some kind of modesty...!", "surprised") + "<br>";
             break;
             case 2:
                 returnActions = setup.speak(player, "I should probably at least wear something before leaving...", "smile") + "<br>";

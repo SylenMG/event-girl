@@ -8,9 +8,9 @@ setup.loadDreamsLib = function () {
 		'<<= setup.speak($characters.palmer, "Of course, except for $player.maleName, he\'s not even a real man! Just a little sissy-woman!")>>' + 
 		'<<= setup.eventText("The class erupts in laughter, pointing fingers at you. You try to cover yourself, only to realize that your cock is gone and you have tits! Holy shit!")>>' + 
 		'<<= setup.speak($characters.jake, "Dude! You\'re a fucking girl! And a hot one at that! FUCK!", "bruh")>>' + 
-		'<<= setup.speak($characters.malePlayer, "No-no-no! I\'m NOT a woman! I\'m a man! I SWEAR!", "male-terrified")>>' + 
+		'<<= setup.speak($characters.malePlayer, "No-no-no! I\'m NOT a woman! I\'m a man! I SWEAR!", "surprised")>>' + 
 		'<<= setup.speak($characters.jessica, "Hey! $player.femaleName, we should like, totally go shopping for some clothes! You like-Totally need some, and a makeover!")>>' + 
-		'<<= setup.speak($characters.malePlayer, "No! NOT ANOTHER MAKEOVER! NO!", "male-terrified")>>' + 
+		'<<= setup.speak($characters.malePlayer, "No! NOT ANOTHER MAKEOVER! NO!", "surprised")>>' + 
 		'<<= setup.eventText("You get up and try to run for the exit of the classroom, but for some reason you\'re not getting anywhere.")>>' + 
 		'<<run setup.psyche($player, "Feminine", 2, 2)>><br>',
 		requirements: [{id: 'Feminine', type: 'psyche-max', level: 2}]
@@ -26,7 +26,7 @@ setup.loadDreamsLib = function () {
 		'<<= setup.eventText("The whole class gathers around you, pointing fingers and laughing at your silly girly clothes and attitude.")>>' + 
 		'<<= setup.speak($player, "Wait? I\'m not supposed to be a girl? Oh... Oh no... OH SHIT! I\'m a fucking girl?!", "surprised")>>' + 
 		'<<= setup.speak($characters.jessica, "Well... It\'s okay I suppose... Want to be BFF\'s?")>>' + 
-		'<<= setup.speak($characters.malePlayer, "NoooOOOoooo!!!", "male-terrified")>>' + 
+		'<<= setup.speak($characters.malePlayer, "NoooOOOoooo!!!", "surprised")>>' + 
 		'<<run setup.psyche($player, "Feminine", 2, 2)>><br>',
 		requirements: [{id: 'Feminine', type: 'psyche-min', level: 2},{id: 'Feminine', type: 'psyche-max', level: 3}]
 		},
@@ -113,10 +113,10 @@ setup.loadDreamsLib = function () {
 		passage: '<<= setup.eventText("You feel the soft bed sheets and the heat rising. You touch her plush bum, giving it a lovely squeeze. You feel her hot breath on your face, her moaning getting the better of you.")>>' + 
 		'<<= setup.eventText("Her hands trail along your rock hard abs, slowly reaching your groin.")>>' + 
 		'<<= setup.speak($characters.jessica, "Mmmmh, take me $player.maleName... Fuck me hard!")>>' + 
-		'<<= setup.speak($characters.malePlayer, "I certainly intend to!", "male-smile")>>' + 
+		'<<= setup.speak($characters.malePlayer, "I certainly intend to!", "smile")>>' + 
 		'<<= setup.eventText("However, as you feel hand finally reaching your crotch, they begin to look for something, that\'s not there, no... Her fingers slither up through your wet pussy lips, exploring you gently.")>>' + 
 		'<<= setup.speak($characters.jessica, "Oh, what a surprise, my man\'s not a man it seems, but a little girly-boy!")>>' + 
-		'<<= setup.speak($characters.malePlayer, "Wait! No! I\'m a man I swear, it was right there a moment ago!", "male-terrified")>>' + 
+		'<<= setup.speak($characters.malePlayer, "Wait! No! I\'m a man I swear, it was right there a moment ago!", "surprised")>>' + 
 		'<<= setup.speak($characters.jessica, "It\'s okay, I have a surprise for you too!", "smile")>>' + 
 		'<<= setup.eventText("The sheets covering her hips and mound begin to bulge and grow...")>>' + 
 		'<<run setup.psyche($player, "Slut", 2, 2, 2)>><br>',
@@ -127,7 +127,7 @@ setup.loadDreamsLib = function () {
 		passage: '<<= setup.eventText("You feel the soft bed sheets and the heat rising. The lush softness enveloping your raw cock and her lewd juices covering your manhood whilst her pussy clenches around it.")>>' + 
 		'<<= setup.speak($characters.jessica, "Oh shit! $player.maleName...! Give it to me!", "smile")>>' + 
 		'<<= setup.eventText("You grab her hips and just go at it giving your everything.")>>' + 
-		'<<= setup.speak($characters.malePlayer, "Ahhh fuck! You\'re tight.", "male-smile")>>' + 
+		'<<= setup.speak($characters.malePlayer, "Ahhh fuck! You\'re tight.", "smile")>>' + 
 		'<<= setup.speak($characters.jessica, "Uuuuuh what do you mean?")>>' + 
 		'<<= setup.speak($characters.malePlayer, "I mean you feel amazing around my cock!")>>' + 
 		'<<= setup.speak($characters.jessica, "Sweetie it\'s the other way around? I\'m inside you!", "smile")>>' + 
@@ -143,7 +143,7 @@ setup.loadDreamsLib = function () {
 		passage: '<<= setup.eventText("Everything is darkness and there you stand in it.")>>' + 
 		'<<= setup.eventText("A floating penis suddenly pops out of nowhere, staring at you menacingly even though it has no eyes.")>>' + 
 		'<<= setup.eventText("You lick your lips... Maybe a taste?")>>' + 
-		'<<= setup.speak($characters.malePlayer, "No-no! NO! I am NOT a cock-sucker! NO! Only women suck cocks!", "male-terrified")>>' + 
+		'<<= setup.speak($characters.malePlayer, "No-no! NO! I am NOT a cock-sucker! NO! Only women suck cocks!", "surprised")>>' + 
 		'<<= setup.eventText("You try to close your eyes, but it doesn\'t help. Looking down you notice you have changed.")>>' + 
 		'<<= setup.speak($player, "W-what? I\'m a woman now?! NO! I\'m a man! Or am i?", "angry")>>' + 
 		'<<= setup.eventText("The cock grows two funny legs and begins to tap-dance and an echo begins to sound in the howling void surrounding you.")>>' + 
@@ -162,7 +162,7 @@ setup.loadDreamsLib = function () {
 		'<<= setup.eventText("A floating penis suddenly pops out of nowhere, staring at you menacingly even though it has no eyes.")>>' + 
 		'<<= setup.eventText("You lick your lips... Maybe a taste?")>>' + 
 		'<<= setup.speak($player, "Mmmh.. I suppose it wouldn\'t hurt?", "smile")>>' + 
-		'<<= setup.eventText("You invitingly open your mouth to welcome the veiny thick ' + setup.pickNoun(penis) + ' and it floats closer, until you taste it\'s salty pre-cum on your tongue.")>>' + 
+		'<<= setup.eventText("You invitingly open your mouth to welcome the veiny thick cock and it floats closer, until you taste it\'s salty pre-cum on your tongue.")>>' + 
 		'<<= setup.eventText("You feel it slowly glacing your tongue with it\'s juices as it gracefully rocks back and forth.")>>' + 		
 		'<<= setup.speak($player, "Mmmh.. Cocks taste good! I- Wait... Am I really a... A cock-sucker?", "surprised")>>' + 
 		'<<= setup.eventText("Before you can answer your own question that floating cock rams itself down your throat and fills it with it\'s thick delicious seed. You feel the trembling from it\'s pumping veins in it\'s mouth as it dumps it\'s dreamy load into your gagging mouth.")>>' + 
@@ -204,9 +204,9 @@ setup.loadDreamsLib = function () {
 		name: "Harassment (metro, non-slutty)",
 		passage: '<<= setup.eventText("There you are, taking the metro as you always do, sandwiched between several burly men all trying to fit in the close compartment of the tube.")>>' + 
 		'<<= setup.eventText("Their masculine scent rubbing off on you and their strong bodies pushed against you.")>>' + 
-		'<<= setup.eventText("Your clothes are almost non-existent today, just a top and way too tight leggings giving easy access to yout lush moneymaker. Surely enough, access they get, as you feel a firm hand begin to rub your booty.")>>' + 
+		'<<= setup.eventText("Your clothes are almost non-existent today, just a top and way too tight leggings giving easy access to your lush moneymaker. Surely enough, access they get, as you feel a firm hand begin to rub your booty.")>>' + 
 		'<<= setup.speak($player, "Hey! Hands off!", "angry")>>' + 
-		'<<= setup.eventText("You feel another hand begin to caress and rub your pert ' + setup.pickNoun(tits)>> + ' and before you know it you feel their strong graps all over your body, manhandling your body from all directions.")>>' + 
+		'<<= setup.eventText("You feel another hand begin to caress and rub your pert tits and before you know it you feel their strong grabs all over your body, manhandling your body from all directions.")>>' + 
 		'<<= setup.speak($player, "Oh god! Stop this!", "surprised")>>' + 
 		'<<= setup.eventText("Trying to keep your balance you accidentally touch them as well, falling completely into their embrace giving them full access to your lush wet goods.")>>' + 
 		'<<= setup.speak($player, "Ooooh fuck!", "pleasure")>>' + 
@@ -217,9 +217,9 @@ setup.loadDreamsLib = function () {
 		name: "Harassment (metro, slutty)",
 		passage: '<<= setup.eventText("There you are, taking the metro as you always do, sandwiched between several burly men all trying to fit in the close compartment of the tube.")>>' + 
 		'<<= setup.eventText("Their masculine scent rubbing off on you and their strong bodies pushed against you.")>>' + 
-		'<<= setup.eventText("Your clothes are almost non-existent today, just a top and way too tight leggings giving easy access to yout lush moneymaker. Surely enough, access they get, as you feel a firm hand begin to rub your booty.")>>' + 
+		'<<= setup.eventText("Your clothes are almost non-existent today, just a top and way too tight leggings giving easy access to your lush moneymaker. Surely enough, access they get, as you feel a firm hand begin to rub your booty.")>>' + 
 		'<<= setup.speak($player, "Mmmmh you looking to play handsome?", "smile")>>' + 
-		'<<= setup.eventText("You feel another hand begin to caress and rub your pert ' + setup.pickNoun(tits)>> + ' and before you know it you feel their strong graps all over your body, manhandling your body from all directions.")>>' + 
+		'<<= setup.eventText("You feel another hand begin to caress and rub your pert tits and before you know it you feel their strong grabs all over your body, manhandling your body from all directions.")>>' + 
 		'<<= setup.speak($player, "Oh my, you big boy!", "surprised")>>' + 
 		'<<= setup.eventText("Trying to keep your balance you accidentally touch them as well, falling completely into their embrace giving them full access to your lush wet goods.")>>' + 
 		'<<= setup.speak($player, "Ooooh fuck!", "pleasure")>>' + 
@@ -231,8 +231,8 @@ setup.loadDreamsLib = function () {
 		passage: '<<= setup.eventText("A sharp light blinds you as you feel your body lie on the rough pillows of a doctor\'s chair.")>>' + 
 		'<<= setup.eventText("You try to look around, but your head is fastened tightly.")>>' + '<<= setup.speak($characters.malePlayer, "Uuuuh, hello?")>>' + 
 		'<<= setup.speak($characters.secret, "sssh... ze operation will commence zoon.")>>' + 
-		'<<= setup.speak($characters.malePlayer, "What operation?! What are you talking about?!", "male-terrified")>>' + 
-		'<<= setup.speak($characters.secret, "You shall have ze most beautiful and vol-up-tuous bosom in ze whole world! Big tatas! Haha!")>>' + 
+		'<<= setup.speak($characters.malePlayer, "What operation?! What are you talking about?!", "surprised")>>' + 
+		'<<= setup.speak($characters.secret, "You shall have ze most beautiful and voluptuous bosom in ze whole world! Big tatas! Haha!")>>' + 
 		'<<= setup.eventText("You feel your chest begin to expand as you grow tits, the chair holding you tight and keeping you in place. You try to scream, but cannot.")>>' + 
 		'<<= setup.speak($player, "No-no-no! NO!", "surprised")>>' + 
 		'<<= setup.eventText("The chair sends shockwaves down your whole body as you feel yourself lock into your new body.")>>' + 
@@ -269,7 +269,7 @@ setup.loadDreamsLib = function () {
 		'<<= setup.eventText("A pressure builds at your lotus stamen, as the man lays claim to your fertile lands and conquers your virginity.")>>' + 
 		'<<= setup.speak($characters.secret, "Aaaah! Take it you succubus!")>>' + 
 		'<<= setup.eventText("You feel his cock fill you out completely, plugging you like a-")>>' + 
-		'<<= setup.speak($characters.malePlayer, "AAAAAAAAAAAAAAAAAAAAAH!", "male-terrified")>>' + 
+		'<<= setup.speak($characters.malePlayer, "AAAAAAAAAAAAAAAAAAAAAH!", "surprised")>>' + 
 		'<<run setup.psyche($player, "Slut", 2, 2, 2)>><br>',
 		requirements: [{id: 'receivedVaginal', type: 'stat-max', level: 1}]
 		},
@@ -309,5 +309,6 @@ setup.dream = function (entity) {
 			break;
 		}
 	}
+	console.log(returnDream);
 	return returnDream + "<span class='lbb'><<button 'Wake Up'>><<if $player.body.face.makeup >= 1 and $player.body.face.isStamped is false>><<set $player.body.face.isSmeared to true>><</if>><<goto 'Pod - Report'>><</button>></span>";
 };

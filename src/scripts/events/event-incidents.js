@@ -405,7 +405,7 @@ setup.loadEvents = function () {
 			'<<= setup.eventText("You take him towards a secluded corner in the hall.")>>' + 
 			'<<run setup.psyche($player, "Slut", 10, 20)>>' + 
 			'<<run setup.rating($player, 10)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<goto "Sex">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.elderly[0], $sex.modifier = "sensual", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<goto "New Sex">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.elderly[0], $sex.modifier = "sensual", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><</button>></span>',
 			requirements: [{id: 'Bimbo', type: 'psyche-min', level: 3},{id: 'Mind', type: 'psyche-min', level: 3}]
 		},
 		{
@@ -493,7 +493,7 @@ setup.loadEvents = function () {
 			'<<run setup.psyche($player, "Lust", 50, 25)>>' + 
 			'<<run setup.psyche($player, "Slut", 5, 5, 3)>>' + 
 			'<<run setup.rating($player, 10)>><<run setup.bonus($player, 350, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
 		},
 		{
@@ -546,7 +546,7 @@ setup.loadEvents = function () {
 			'<<run setup.psyche($player, "Lust", 50, 25)>>' + 
 			'<<run setup.psyche($player, "Slut", 5, 5)>>' + 
 			'<<run setup.rating($player, 15)>><<run setup.bonus($player, 350, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -589,7 +589,7 @@ setup.loadEvents = function () {
 			'<<run setup.psyche($player, "Lust", 75, 75)>>' + 
 			'<<run setup.psyche($player, "Slut", 5, 5)>>' + 
 			'<<run setup.rating($player, 20)>><<run setup.bonus($player, 350, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -1663,7 +1663,7 @@ setup.loadEvents = function () {
 			'<<run setup.psyche($player, "Lust", 75, 75)>>' + 
 			'<<run setup.psyche($player, "Slut", 10, 15)>>' + 
 			'<<run setup.rating($player, 25)>><<run setup.bonus($player, 500, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.adults[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.adults[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -2132,8 +2132,8 @@ setup.loadEvents = function () {
 			'<<= setup.eventText("You follow him towards the backstage and his office.")>>' + 
 			'<<= setup.speak($characters.hotstripesrep, "I got zis in here, come along now, you little minx.")>>' + 
 			'<<run setup.psyche($player, "Lust", 5, 75)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "sex", $sex.givingEntity = $characters.hotstripesrep, $sex.receivingEntity = $player, ' + 
-			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "sex", $sex.gE = $characters.hotstripesrep, $sex.rE = $player, ' + 
+			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -2207,8 +2207,8 @@ setup.loadEvents = function () {
 			'<<= setup.speak($player, "Uuuuh? Dat mean yes?", "pleasure")>>' + 
 			'<<= setup.eventText("He grabs you and drags you towards the restroom.")>>' + 
 			'<<run setup.rating($player, 1)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.adults[3], ' + 
-			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Girlfriend", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.adults[3], ' + 
+			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Girlfriend", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		}]
 	}
@@ -2244,7 +2244,7 @@ setup.loadEvents = function () {
 			'<<run setup.psyche($player, "Lust", 50, 25)>>' + 
 			'<<run setup.psyche($player, "Slut", 1, 1, 2)>>' + 
 			'<<run setup.bonus($player, 150, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.cool[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Girlfriend", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.cool[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Girlfriend", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -2358,8 +2358,8 @@ setup.loadEvents = function () {
 			'<<= setup.eventText("You begin to walk towards a secluded location at the con, and he follows you vigorously.")>>' + 
 			'<<= setup.speak($npc.adults[3], "Of course! OH BOY! It´s really happening!", "surprised")>>' + 
 			'<<run setup.bonus($player, 100, "Social")>>' + 
-			'<<run setup.bonus($player, 1000)>>' + '<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.adults[3], ' + 
-			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Sluttia", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<<run setup.bonus($player, 1000)>>' + '<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.adults[3], ' + 
+			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Sluttia", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -2398,7 +2398,7 @@ setup.loadEvents = function () {
 			'<<= setup.speak($npc.adults[3], "Really going all the way there! Never in all of my years!", "surprised")>>' + 
 			'<<= setup.speak($npc.adults[2], "AAAAH! TAKE IT YOU SLUTTY BARBARINA!!!!", "pleasure")>>' + 
 			'<<run setup.bonus($player, 50, "Blowjob")>>' + 
-			'<<run setup.bonus($player, 50, "Sex")>>' + 
+			'<<run setup.bonus($player, 50, "New Sex")>>' + 
 			'<<run setup.bonus($player, 50, "Anal")>>' + 
 			'<<run setup.bodyNote($player, "vagina")>><<run setup.bodyNote($player, "asshole")>>' + 
 			'<<run setup.count("receivedVaginal", setup.random(100))>><<run setup.count("givenBlowjobs", setup.random(100))>><<run setup.count("receivedAnal", setup.random(100))>>' + 
@@ -2430,7 +2430,7 @@ setup.loadEvents = function () {
 			'<<= setup.speak($npc.elderly[0], "Sweet mother marie! Save my soul!", "surprised")>>' + 
 			'<<= setup.speak($npc.adults[1], "AAAAH! TAKE IT YOU SLUTTY BARBARINA!!!!", "pleasure")>>' + 
 			'<<run setup.bonus($player, 50, "Blowjob")>><<run setup.experience($player, "Blowjob", 50, 50)>>' + 
-			'<<run setup.bonus($player, 50, "Sex")>><<run setup.experience($player, "Sex", 50, 50)>>' + 
+			'<<run setup.bonus($player, 50, "New Sex")>><<run setup.experience($player, "New Sex", 50, 50)>>' + 
 			'<<run setup.bonus($player, 50, "Anal")>><<run setup.experience($player, "Anal", 50, 50)>>' + 
 			'<<run setup.bodyNote($player, "vagina")>><<run setup.bodyNote($player, "asshole")>>' + 
 			'<<run setup.count("receivedVaginal", setup.random(100))>><<run setup.count("givenBlowjobs", setup.random(100))>><<run setup.count("receivedAnal", setup.random(100))>>' + 
@@ -2632,8 +2632,8 @@ setup.loadEvents = function () {
 			'<<run setup.psyche($player, "Lust", 75, 75)>>' + 
 			'<<run setup.psyche($player, "Slut", 5, 5)>>' + 
 			'<<run setup.rating($player, 20)>><<run setup.bonus($player, 550, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.givingEntity = $player, $sex.receivingEntity = $npc.elderly[0], ' + 
-			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Stripper", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.elderly[0], ' + 
+			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Stripper", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -2669,9 +2669,9 @@ setup.loadEvents = function () {
 			'<<= setup.eventText("He clumsily pulls down his pants, his cock flopping around as he gets comfortable.")>>' + 
 			'<<run setup.psyche($player, "Lust", 75, 75)>>' + 
 			'<<run setup.psyche($player, "Slut", 10, 15)>>' + 
-			'<<run setup.rating($player, 25)>><<run setup.bonus($player, 750, "Sex")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "sex", $sex.givingEntity = $npc.elderly[0], $sex.receivingEntity = $player, ' + 
-			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Stripper", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<<run setup.rating($player, 25)>><<run setup.bonus($player, 750, "New Sex")>>' + 
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "sex", $sex.gE = $npc.elderly[0], $sex.rE = $player, ' + 
+			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Stripper", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -2708,8 +2708,8 @@ setup.loadEvents = function () {
 			'<<run setup.psyche($player, "Lust", 75, 75)>>' + 
 			'<<run setup.psyche($player, "Slut", 10, 15)>>' + 
 			'<<run setup.rating($player, 30)>><<run setup.bonus($player, 950, "Anal")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "anal", $sex.givingEntity = $npc.elderly[0], $sex.receivingEntity = $player, ' + 
-			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Stripper", $event.return = "Pod - Main">><<goto "Sex">><</button>></span>',
+			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "anal", $sex.gE = $npc.elderly[0], $sex.rE = $player, ' + 
+			'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Stripper", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
 			requirements: []
 		},
 		{
@@ -2860,7 +2860,7 @@ setup.loadEvents = function () {
 	let ehookingOral = {
 		name: 'E-Hooking Incident - Oral',
 		passageText: '<<include "E-Hooking Oral - Main">>',
-		requirements: [],
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 2}],
 		options: [
 		{
 			buttonText: '2000 units.',
@@ -2896,7 +2896,7 @@ setup.loadEvents = function () {
 	let ehookingSex = {
 		name: 'E-Hooking Incident - Sex',
 		passageText: '<<include "E-Hooking Sex - Main">>',
-		requirements: [],
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 2}],
 		options: [
 		{
 			buttonText: '2000 units.',
@@ -2932,7 +2932,7 @@ setup.loadEvents = function () {
 	let ehookingAnal = {
 		name: 'E-Hooking Incident - Anal',
 		passageText: '<<include "E-Hooking Anal - Main">>',
-		requirements: [],
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 2}],
 		options: [
 		{
 			buttonText: '2000 units.',
@@ -2962,6 +2962,96 @@ setup.loadEvents = function () {
 		{
 			buttonText: 'Decline.',
 			resultText: '<<include "E-Hooking Anal - Decline">>',
+			requirements: []
+		}]
+	}
+	let ehookingAbusive = {
+		name: 'E-Hooking Incident - Abusive Client',
+		passageText: '<<include "E-Hooking Abusive Client - Main">>',
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 2}],
+		options: [
+		{
+			buttonText: 'Push him away.',
+			resultText: '<<include "E-Hooking Abusive Client - Push Him Away">>',
+			requirements: [{id: 'Bimbo', type: 'score-max', level: 3}]
+		},
+		{
+			buttonText: 'Slap him.',
+			resultText: '<<include "E-Hooking Abusive Client - Slap Him">>',
+			requirements: [{id: 'Bimbo', type: 'score-max', level: 2}]
+		},
+		{
+			buttonText: 'Follow him.',
+			resultText: '<<include "E-Hooking Abusive Client - Follow Him">>',
+			requirements: []
+		}]
+	}
+	let ehookingRich = {
+		name: 'E-Hooking Incident - Rich Client',
+		passageText: '<<include "E-Hooking Rich Client - Main">>',
+		requirements: [],
+		options: [
+		{
+			buttonText: 'Flash your tits.',
+			resultText: '<<include "E-Hooking Rich Client - Flash Tits (Success)">>',
+			requirements: [{id: 'tits-size', type: 'score-min', level: 4}]
+		},
+		{
+			buttonText: 'Flash your tits.',
+			resultText: '<<include "E-Hooking Rich Client - Flash Tits (Fail)">>',
+			requirements: [{id: 'tits-size', type: 'score-max', level: 3}]
+		},
+		{
+			buttonText: 'Fake disinterest.',
+			resultText: '<<include "E-Hooking Rich Client - Fake Disinterest (Success)">>',
+			requirements: [{id: 'beauty', type: 'score-min', level: 2}]
+		},
+		{
+			buttonText: 'Fake disinterest.',
+			resultText: '<<include "E-Hooking Rich Client - Fake Disinterest (Fail)">>',
+			requirements: [{id: 'beauty', type: 'score-max', level: 1}]
+		},
+		{
+			buttonText: 'Tell joke.',
+			resultText: '<<include "E-Hooking Rich Client - Tell Joke (Success)">>',
+			requirements: [{id: 'Cool', type: 'skill-min', level: 1}]
+		},
+		{
+			buttonText: 'Tell joke.',
+			resultText: '<<include "E-Hooking Rich Client - Tell Joke (Fail)">>',
+			requirements: [{id: 'Cool', type: 'skill-max', level: 0}]
+		}]
+	}
+	let ehookingNoClient = {
+		name: 'E-Hooking Incident - No Clients',
+		passageText: '<<include "E-Hooking No Clients - Main">>',
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 2}],
+		options: [
+		{
+			buttonText: 'Continue.',
+			resultText: '<<include "E-Hooking No Clients - Continue">>',
+			requirements: []
+		}]
+	}
+	let ehookingMindCheck = {
+		name: 'E-Hooking Incident - Mind Check',
+		passageText: '<<include "E-Hooking Mind Check - Main">>',
+		requirements: [{id: 'Mind', type: 'psyche-min', level: 3}],
+		options: [
+		{
+			buttonText: 'Continue.',
+			resultText: '<<include "E-Hooking Mind Check - Continue">>',
+			requirements: []
+		}]
+	}
+	let ehookingLustCheck = {
+		name: 'E-Hooking Incident - Lust Check',
+		passageText: '<<include "E-Hooking Lust Check - Main">>',
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 2},{id: 'Lust', type: 'psyche-min', level: 3}],
+		options: [
+		{
+			buttonText: 'Continue.',
+			resultText: '<<include "E-Hooking Lust Check - Continue">>',
 			requirements: []
 		}]
 	}
@@ -3724,7 +3814,7 @@ setup.loadEvents = function () {
 	let sluttiaIncidents = [sluttiaGangbang1,sluttiaGangbang2,sluttiaCosplayFuck,sluttiaGreatjob,sluttiaBimboCheck,sluttiaMindCheck,sluttiaOrcSlut];
 	let girlfriendIncidents = [girlCoffeeDate1,girlCoffeeDate2,girlBimboCheck,girlSkimpyCheck,girlSlutCheck];
 	let gangbangIncidents = [gangbangStandard];
-	let ehookingIncidents = [ehookingOral,ehookingSex,ehookingAnal];
+	let ehookingIncidents = [ehookingOral,ehookingSex,ehookingAnal,ehookingAbusive,ehookingRich,ehookingNoClient,ehookingMindCheck,ehookingLustCheck];
 	let boothbabeIncidents = [boothbabeGreatJob,boothbabeMindCheck,boothbabeLustCheck,boothbabeBimboCheck,boothbabeGrope,boothbabeHarass,boothbabeHardSell];
 	let gloryholeIncidents = [gloryholeBlowjob1,gloryholeBlowjob2];
 	let punishmentIncidents = [punishGloryhole1,punishGloryhole2,punishFreeUse1,punishFreeUse2,punishEXBunny,punishVizLizMannequin];
@@ -3791,7 +3881,7 @@ setup.loadEvents = function () {
 	'<<= setup.speak($characters.vernon, "Off you go then.", "smile")>>' + 
 	'<<= setup.eventText("You head back towards your pod.")>>' + 
 	'<<run setup.psyche($player, "Feminine", 50, 50)>><<run setup.psyche($player, "Slut", 50, 50)>><<run setup.experience($player, "Blowjob", 25, 25)>><<run setup.experience($player, "Handjob", 25, 25)>>' + 
-	'<<run setup.experience($player, "Sex", 25, 25)>><<run setup.experience($player, "Anal", 25, 25)>>' + '<<run setup.psycheHard($player, "Lust", 0)>>' + 
+	'<<run setup.experience($player, "New Sex", 25, 25)>><<run setup.experience($player, "Anal", 25, 25)>>' + '<<run setup.psycheHard($player, "Lust", 0)>>' + 
 	'<<run setup.earningsEvent("Gangbang", $player)>>';
 	let cindanarFinish = '<<= setup.eventText("With your feet sore from standing all day you slowly drag yourself back towards your pod.")>>' + 
 	'<<= setup.eventText("Your hips are slightly worn from the copious amounts of hands that have been resting on it, and some even just outright grabbing it.' + 
@@ -3894,11 +3984,11 @@ setup.loadEvents = function () {
 		name: "E-Hooking",
 		outfit: "none",
 		start: "<<include 'E-Hooking - Start'>>",
-		intro: {
+		intro: [{
 			passageText: '<<include "E-Hooking - Start">><<run setup.story("Event-Girl-00", "complete")>>',
 			buttonText: 'Continue.',
 			next: '1'
-		},
+		}],
 		incidents: ehookingIncidents,
 		finish: "<<include 'E-Hooking - Finish'>>"
 	}

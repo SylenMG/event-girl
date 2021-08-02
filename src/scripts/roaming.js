@@ -1002,8 +1002,8 @@ setup.loadClientComLib = function () {
 	cock_worship_0 = [
 		{
 		passageText: '<<= setup.speak($eventgirlList[0], "Will you let me?!", "smile")>>' + 
-		'<span class="lbb"><<button "Let them play with your Cyberdong">><<set $sex.current = "sex", $sex.givingEntity = $player, $sex.receivingEntity = $eventgirlList[0], ' + 
-		'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Pod - Main">><<goto "Sex - Main">><</button>></span>',
+		'<span class="lbb"><<button "Let them play with your Cyberdong">><<set $sex.current = "sex", $sex.gE = $player, $sex.rE = $eventgirlList[0], ' + 
+		'$sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Pod - Main">><<goto "New Sex">><</button>></span>',
 		modifiers: ["cock-worship","cock-worship-comment"],
 		requirements: []
 		}

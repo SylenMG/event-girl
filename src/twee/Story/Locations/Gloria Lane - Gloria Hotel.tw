@@ -1,0 +1,10 @@
+:: Gloria Lane - Gloria Hotel
+!Gloria Lane - Gloria Hotel
+-------------------------------------
+You find yourself at the Gloria Hotel. The floors are carpeted in red, and the walls golden-inlaid, with delicate sculptures presented along them.
+
+!Gloria Lounge
+-------------------------------------
+The lounge is filled black chairs and tables, with red cushions.<<= setup.social("the gloria lounge", "eVentia - Gloria Hotel")>>
+
+<<= setup.button("Back to Gloria Lane", "Gloria Lane")>>

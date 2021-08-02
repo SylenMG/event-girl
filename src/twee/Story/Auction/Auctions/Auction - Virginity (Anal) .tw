@@ -16,4 +16,4 @@ He pulls at your hair, smelling it first, before dragging you towards the bed an
 <<= setup.speak($npc.bidders[0], ["Fuck! I can´t wait to shove it inside your virgin ass.","Damn, I gotta break in that behind now. I can´t wait any longer.","Fuck me, I gotta tear that ass up."], "pleasure")>>
 His clothes drop to the ground and soon after, your own does as well.
 
-<<= setup.button("Continue.","Sex","<<set $sex.current = 'anal', $sex.givingEntity = $npc.bidders[0], $sex.receivingEntity = $player, $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>
+<<= setup.button("Continue.","New Sex","<<set $sex.current = 'anal', $sex.gE = $npc.bidders[0], $sex.rE = $player, $sex.stage = 'intro', $sex.modifier = 'sensual', $sex.passage = 'Event Auction - Aftermath'>>")>>
