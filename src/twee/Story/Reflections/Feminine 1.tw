@@ -18,15 +18,3 @@ Turning around, you move your hands behind the back of your head, resting.
 Twisting and turning, your grimace only grows worse as you scoff at your soft and plump body not aligning with you at all.
 
 <<run setup.psycheHard($player, "Feminine", 1)>><<run setup.completeRef($player, "refFeminine1")>><<= setup.displayReflections($player)>><</replace>><</button>></span>
-:: Reflect - Feminine 2
-placeholder 2 <<run setup.psycheHard($player, "Feminine", 2)>>
-<<run setup.completeRef($player, "refFeminine2")>>
-<<= setup.displayReflections($player)>>
-:: Reflect - Feminine 3
-placeholder 3 <<run setup.psycheHard($player, "Feminine", 3)>>
-<<run setup.completeRef($player, "refFeminine3")>>
-<<= setup.displayReflections($player)>>
-:: Reflect - Feminine 4
-placeholder 4 <<run setup.psycheHard($player, "Feminine", 4)>>
-<<run setup.completeRef($player, "refFeminine4")>>
-<<= setup.displayReflections($player)>>

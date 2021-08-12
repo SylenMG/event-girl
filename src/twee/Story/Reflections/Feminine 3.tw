@@ -1,0 +1,16 @@
+:: Reflect - Feminine 3
+Sitting up inside of your pod, you examine yourself through the pod mirror. The woman staring back, now more familiar to you than the face that you had before.
+<<= setup.speak($player, "I can barely remember how I looked like before...")>>
+Rubbing your face and making some grimaces, you let out a sigh.
+<<= setup.speak($player, "Is he really gone in there...?")>>
+You take a closer look in the mirror, almost as if you´re looking for something.
+
+<span id="choice"><span class='lbb'><<button "You´re a woman.">><<replace "#choice">>Nodding to the woman in the mirror, you take a deep breath.
+<<= setup.speak($player, "Too late to turn back now. I am what I am.", "smile")>>
+You retreat from the mirror, leaning back into the soft pillow.
+
+<<run setup.psycheHard($player, "Feminine", 3)>><<run setup.psyche($player, "Feminine", 10)>><<run setup.completeRef($player, "refFeminine3")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Let go.">><<replace "#choice">>You retreat from the mirror, leaning back into the soft pillow.
+<<= setup.speak($player, "Ugh... I need to stop thinking about this.")>>
+Rubbing your eyes you think about something else.
+
+<<run setup.psycheHard($player, "Feminine", 3)>><<run setup.completeRef($player, "refFeminine3")>><<= setup.displayReflections($player)>><</replace>><</button>></span>

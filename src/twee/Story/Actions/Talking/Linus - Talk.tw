@@ -1,0 +1,40 @@
+:: Socials - Linus - Main
+You smile towards Dr. Linus as you approach her.
+<<= setup.speak($player, "Hey Dr. Linus, got a moment?")>>
+He looks at you pensively, eyeing you up and down.
+<<= setup.speak($characters.drlinus, "Of course... what´s troubling the young lass?")>>
+You think about what to say.
+
+:: Socials - Linus - Ask About Year
+Scratching your chin and having forgotten the details of the current year, you decide to ask Dr. Linus.
+<<= setup.speak($player, "Was hoping your could remind me what year it was?")>>
+He lights up and smiles as he answers.
+<<= setup.speak($characters.drlinus, "The year is still 2206, so, remember to keep a leveled head!")>><<= setup.speak(player, "Right...")>>
+You sigh at the prospects of more futuristic surprises of questionable consent.
+<<= setup.speak($characters.drlinus, "Don´t forget! My clinic here is always open to make yourself more used to the future!", "smile")>>
+He smiles as he points at you, with his hands formed like finger-guns.
+
+:: Socials - Linus - Event Girl Debt Question
+You ask him to elaborate on your debt situation.
+<<= setup.speak($player, "So... How did the whole debt thing work again?")>>
+He looks down and sighs.
+<<= setup.speak($characters.drlinus, "As you know, you have indeed accumulated quite the debt. The details of how you gain the units are irrelevant, just pay back what you owe to the company. Or else they might... squeeze it out of you... Which would be less than ideal.")>><<= setup.speak($player, "What do you mean exactly? Squeeze...?")>>
+A chill runs down your spine as you ask him.
+<<= setup.speak($characters.drlinus, "I wouldn´t think too much about it, just don´t get behind on your weekly payment requirements.")>><<= setup.speak($player, "Hmph, I see.")>>
+Letting out a sigh, you look down towards the floor.
+
+:: Socials - Linus - Headache Quest Begin
+<<= setup.newEntry("Headache-00")>>Rubbing your forehead and placing a hand on your hip, you ask Dr. Linus about your headache.
+<<= setup.speak($player, "I´ve been having these headaches... any idea what it could be?")>><<= setup.speak($characters.drlinus, "Ah, yes. It could be your mind is undergoing too rapid of a change. Tends to make things a little mushy, you know?", "smile")>>
+He chuckles lightly.
+<<= setup.speak($player, "Mushy? What do you mean?...*agh*... and is there something I can do about it?","surprised")>><<= setup.speak($characters.drlinus, "Of course there is. Go to the Commercial Strip and buy some of the Blue Pills. They should help with the headaches.")>><<= setup.speak($player, "Right, I´ll try that. Thanks.")>>
+You turn to leave.
+
+:: Socials - Linus - Headache Quest Complete
+<<= setup.completeEntry("Headache-00")>><<= setup.newEntry("Headache-01")>>Having returned to Linus, you inquire about the pills.
+<<= setup.speak($player, "So those pills will make sure my brain doesn´t turn to mush?")>><<= setup.speak($characters.drlinus, "Indeed! If you haven´t tried them yet, you should. There are more ways to deal with your problem, however.", "smile")>>
+You raise a brow at him, placing your hands at your hips.
+<<= setup.speak($player, "Really now? Spill it then.", "smile")>><<= setup.speak($characters.drlinus, "Good old meditation. You should try that. All you do is sit or lie still. And think of nothing. Relax and so on. Allowing your mind to heal.")>>
+Sighing you turn around to leave.
+<<= setup.speak($player, "Pfft... sounds like bullshit if you ask me.")>><<= setup.speak($characters.drlinus, "Well, you´ll never know if you don´t try!")>>
+Leaving you think about his advice... maybe there was something about it?

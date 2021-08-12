@@ -1,0 +1,20 @@
+:: Reflect - Feminine 2
+Resting your head on your hands behind the back of your head, you look up to the ceiling of your pod. Your legs crossed over each other, you've gotten more accustomed to the extra weight on your chest.
+<<= setup.speak($player, "I can´t really believe it... here I am... still a woman...")>>
+Looking down along your chest, you notice your hourglass figure sinking into the bedsheets of the pod.
+<<= setup.speak($player, "One might even conclude that i´ve gotten used to it at this point... *sigh*...")>>
+A slight drop in your stomach, turning into flutters make you move a hand to it, squeezing your soft tummy.
+
+<span id="choice"><span class='lbb'><<button "Accept your new body.">><<replace "#choice">>A sigh escapes you as you rub your tummy, only to lie back again, humming softly. Even your voice is more pleasant now.
+<<= setup.speak($player, "Honestly starting to think that I don´t even want to go back...", "smile")>>
+A giggle escapes you as you think about the burdens of manhood having been lifted from your shoulders.
+
+<<run setup.psycheHard($player, "Feminine", 2)>><<run setup.psyche($player, "Feminine", 60)>><<run setup.completeRef($player, "refFeminine2")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Deny your new self.">><<replace "#choice">>You tap your tummy, only to clench your fist, throwing it into the pod wall. 
+<<= setup.speak($player, "I need to get out of here... more importantly, I need to figure out how to stay a man... mentally.", "angry")>>
+Retracting your hand, you rub the soft pliant, but now bruised skin of your fist.
+
+<<run setup.psycheHard($player, "Feminine", 2)>><<run setup.psyche($player, "Slut", -50)>><<run setup.psyche($player, "Bimbo", -50)>><<run setup.completeRef($player, "refFeminine2")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Ignore it.">><<replace "#choice">>You tap your tummy, only to rub it, sighing at the prospects of becoming a full-fledged woman.
+<<= setup.speak($player, "Whatever... not like it matters I guess.")>>
+Placing your hand once more behind the back of your head, you hum a soft melody as you check your E-Pal for any progress.
+
+<<run setup.psycheHard($player, "Feminine", 2)>><<run setup.completeRef($player, "refFeminine2")>><<= setup.displayReflections($player)>><</replace>><</button>></span>

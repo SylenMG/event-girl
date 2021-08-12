@@ -3,6 +3,144 @@
 //Requires:
 //by Sylen
 
+setup.loadTalking = function (entity, player) {
+	let comments = setup.loadCommentLib('socials');
+	let talks = [];
+	switch(entity.name) {
+		case("Brenda"):
+		talks = [
+		{
+			id: "start",
+			passageText: "<<include 'Socials - Brenda - Main'>>",
+			buttonText: "",
+			modifiers: [],
+			options: ["event-girl-ask-00","end-00"],
+			requirements: []
+		},
+		{
+			id: "event-girl-ask-00",
+			passageText: "<<include 'Socials - Brenda - Ask About Event Girl'>>",
+			buttonText: "Ask about becoming an Event Girl.",
+			modifiers: ["start", "non-repeatable"],
+			options: ["event-girl-ask-01","event-girl-ask-02"],
+			requirements: []
+		},
+		{
+			id: "event-girl-ask-01",
+			passageText: "<<include 'Socials - Brenda - Event Girl Debt Question'>>",
+			buttonText: "Are all Event Girls in debt?",
+			modifiers: [],
+			options: ["event-girl-ask-02","end-01"],
+			requirements: []
+		},
+		{
+			id: "event-girl-ask-02",
+			passageText: "<<include 'Socials - Brenda - Event Girl Why Question'>>",
+			buttonText: "Why did you become an Event Girl?",
+			modifiers: [],
+			options: ["event-girl-ask-01","end-01"],
+			requirements: []
+		},
+		{
+			id: "end-00",
+			passageText: "",
+			buttonText: "On second thought.",
+			modifiers: ["end"],
+			options: [],
+			requirements: []
+		},
+		{
+			id: "end-01",
+			passageText: "",
+			buttonText: "That was all.",
+			modifiers: ["end"],
+			options: [],
+			requirements: []
+		}];
+		break;
+		case("Dr. Linus"):
+		console.log("Found: Dr. Linus.");
+		talks = [
+		{
+			id: "start",
+			passageText: "<<include ''>>",
+			buttonText: "",
+			modifiers: [],
+			options: ["linus-ask-00","linus-ask-01","end-00"],
+			requirements: []
+		},
+		{
+			id: "linus-ask-00",
+			passageText: "",
+			buttonText: "Ask what year it is.",
+			modifiers: ["start"],
+			options: ["linus-ask-01","end-01"],
+			requirements: []
+		},
+		{
+			id: "linus-ask-01",
+			passageText: "",
+			buttonText: "Can you explain the whole debt thing again?",
+			modifiers: ["start"],
+			options: ["linus-ask-00","end-01"],
+			requirements: []
+		},
+		{
+			id: "end-00",
+			passageText: "",
+			buttonText: "On second thought.",
+			modifiers: ["end"],
+			options: [],
+			requirements: []
+		},
+		{
+			id: "end-01",
+			passageText: "",
+			buttonText: "That was all.",
+			modifiers: ["end"],
+			options: [],
+			requirements: []
+		}];
+		break;
+		case("Lily"):
+		console.log("Found: Lily.");
+		talks = [
+		{
+			id: "start",
+			passageText: "You approach Lily" + 
+			setup.comment(entity, comments, 'talking', 'intro', 'greeting', 'break') + 
+			"She asks without even looking at you." + 
+			setup.comment(player, comments, 'talking', 'intro', 'greeting', 'break') + 
+			"You think about what to say.",
+			buttonText: "",
+			modifiers: [],
+			options: ["end-00"],
+			requirements: []
+		},
+		{
+			id: "end-00",
+			passageText: "",
+			buttonText: "On second thought.",
+			modifiers: ["end"],
+			options: [],
+			requirements: []
+		},
+		{
+			id: "end-01",
+			passageText: "",
+			buttonText: "That was all.",
+			modifiers: ["end"],
+			options: [],
+			requirements: []
+		}];
+		break;
+		default:
+		console.log("Tried to load talking, but failed...");
+		break;
+	}
+	return talks;
+}
+
 setup.talkOptions = function (optionId, talks, entity, player) {
 	let doneTalks = SugarCube.State.variables.social.doneTalks;
 	let returnOptions = "";

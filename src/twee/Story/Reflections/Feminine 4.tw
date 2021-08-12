@@ -1,0 +1,10 @@
+:: Reflect - Feminine 4
+Browsing through your wardrobe you clench your fist and grit your teeth. Looking through the various catalogues for something new and exciting to wear.
+<<= setup.speak($player, "Tsk... What to wear... oh, that one is real cute~", "smile")>>
+Stopping for a moment, you close the terminal. Turning around you take a look in the mirror.
+<<= setup.speak($player, "W-what... have I become?")>>
+You gulp for a moment and your stomach drops as the last remnant of your masculinity is snuffed out of existence. Looking back at the mirror, you realize that you were smiling, a tear trailing along your cheek. Touching the mirror, a wave of excitement rushes over you.
+<<= setup.speak($player, "Something... beautiful. Perfection. I am finally what I was always meant to be.", "smile")>>
+You retreat from the mirror, leaning back into the soft pillow.
+
+<<run setup.psycheHard($player, "Feminine", 4)>><<run setup.completeRef($player, "refFeminine4")>><<= setup.displayReflections($player)>>

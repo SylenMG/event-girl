@@ -1,0 +1,10 @@
+//Requirements
+
+{id: 'Quest-ID', type: 'story-incomplete', level: 0}
+*story-incomplete - If the quest is incomplete
+*story-complete - If the quest is complete
+*story-active - If the quest is active
+
+//Quests
+<<= setup.completeEntry("Quest-ID")>> - Completes the entry if it's active.
+<<= setup.newEntry("Quest-ID")>> - Activates the entry if it exists.

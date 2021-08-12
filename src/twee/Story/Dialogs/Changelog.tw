@@ -1,6 +1,15 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
 0.18.0
+- Added all Feminine Reflection passages (instead of placeholders).
+- Fixed "undefined" showing up for some comments during sex.***
+- Improved upon some existing dialogue when talking to Brenda, Dr. Linus, Lily.
+- You can now properly talk to Dr. Linus when you've cleared your debt to trigger an ending.
+- Some characters will now give you quests.
+- Brenda Quest: Store Pick-up (Intro to Clothes)
+- Dr. Linus Quest: Blue Pills Pick-up (Intro to Mind)
+- Dr. Linus Quest: Learning Meditation (Intro to Mind)
+- Dr. Linus Quest: E-Hooking License (Intro to Hooking)
 
 0.17.1
 - Fixed the dead end in Unlucky Fella intro.

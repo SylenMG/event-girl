@@ -13,10 +13,16 @@ setup.loadPodActions = function (player) {
             requirements: [{id: 'Masturbation', type: 'skill-min', level: 0},{id: 'Time', type: 'not-time', level: 3}]
         },
         {
+            name: "Meditation First Time",
+            buttonName: "Try Meditating for the first time.",
+            passage: "Meditation First Time",
+            requirements: [{id: 'Headache-01', type: 'story-active', level: 0},{id: 'Time', type: 'not-time', level: 3}]
+        },
+        {
             name: "Meditation",
             buttonName: "Meditate.",
             passage: "Meditation",
-            requirements: [{id: 'Meditation', type: 'skill-min', level: 0},{id: 'Time', type: 'not-time', level: 3}]
+            requirements: [{id: 'Headache-01', type: 'story-complete', level: 0},{id: 'Time', type: 'not-time', level: 3}]
         },
         {
             name: "Travel",
