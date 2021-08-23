@@ -1,5 +1,5 @@
 :: Storyline - Amanda Meet Up
-<<run setup.newEntry("Amanda-Meeting-00")>><<run setup.completeEntry("Amanda-Meeting-00")>>Entering the foyer, a rather stocky and broad-shouldered woman clad in grey-plated millitary clothes move in front of you.
+<<run setup.story("Amanda-Meeting-00", "start")>><<run setup.story("Amanda-Meeting-00", "complete")>>Entering the foyer, a rather stocky and broad-shouldered woman clad in grey-plated millitary clothes move in front of you.
 <<= setup.speak($player, "Uuuh, blocking my way for any particular reason?")>>
 She places her hands behind her back and seperates her legs, resulting in a confident pose with an arched back. 
 <<= setup.speak($characters.sandra, "Are you $player.femaleName? You have been summoned by the VP. I´m here to extract you.")>><<= setup.speak($player, "The VP? What do you mean?")>><<= setup.speak($characters.sandra, "The Vice President of Eventia. Now... make things easy, and come along willingly. Necessary force will be applied if needed.","smile")>><<= setup.speak($player, "Sheesh... sure, I´ll come...")>>

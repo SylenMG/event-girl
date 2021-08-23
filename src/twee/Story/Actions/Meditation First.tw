@@ -1,4 +1,4 @@
 :: Meditation First
-<<= setup.meditationFirst($player, $passage)>>
+<<= setup.meditationFirst($player, $settings.sPassage)>>
 
 

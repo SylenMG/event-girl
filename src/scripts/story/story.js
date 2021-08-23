@@ -61,7 +61,7 @@ setup.completeEntry = function (id) {
 	let sEntries = setup.loadStory();
 	if (SugarCube.State.variables.story.cEntries.includes(id)) {
 		foundEntry = true;
-		console.log("FAILED: Completing " + id + ", as story log entry is already completed.");
+		//console.log("FAILED: Completing " + id + ", as story log entry is already completed.");
 	} else {
 		for (let i = 0; i < SugarCube.State.variables.story.nEntries.length; i++) {
 			if (id == SugarCube.State.variables.story.nEntries[i]) {
@@ -81,7 +81,7 @@ setup.completeEntry = function (id) {
 		}
 	}
 	if (foundEntry == false) {
-		console.log("FAILED: Completing " + id + ", as story log does not exist.");
+		//console.log("FAILED: Completing " + id + ", as story log does not exist.");
 	}
 }
 

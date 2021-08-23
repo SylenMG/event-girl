@@ -147,6 +147,6 @@ Reaching a hall with large container-like pods stacked on top of each other, you
 <<= setup.speak($player,"I´m... Supposed to stay here?")>><<= setup.speak($characters.drlinus, "For now... Please, take your time to process all this. I made sure that your first week of interest is already paid, so you have time to get into things. Don´t hesitate on visiting me, for anything really. But for now, I imagine that you must be weary and need rest.")>><<= setup.speak($player,"Thanks... I guess.")>><<= setup.speak($characters.drlinus, "I´ll leave you to it then.")>>
 The guard and Dr. Linus both part ways, leaving you all alone. You crawl inside, lying in the bed.
 
-<<= setup.button("Continue.", "Reflection", "<<set $settings.introMode to false>><<run setup.story('Event-Girl-01', 'start')>>")>>
+<<= setup.button("Continue.", "Reflection", "<<set $settings.introMode to false>><<run setup.story('Event-Girl-01', 'start')>><<run setup.story('Debt-00', 'start')>>")>>
 	
 

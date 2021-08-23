@@ -63,27 +63,51 @@ setup.loadTalking = function (entity, player) {
 		talks = [
 		{
 			id: "start",
-			passageText: "<<include ''>>",
+			passageText: "<<include 'Socials - Linus - Main'>>",
 			buttonText: "",
 			modifiers: [],
-			options: ["linus-ask-00","linus-ask-01","end-00"],
+			options: ["linus-ask-00","linus-ask-01","linus-ask-mind-quest","linus-ask-meditation-quest","linus-debt-complete","end-00"],
 			requirements: []
 		},
 		{
 			id: "linus-ask-00",
-			passageText: "",
+			passageText: "<<include 'Socials - Linus - Ask About Year'>>",
 			buttonText: "Ask what year it is.",
 			modifiers: ["start"],
-			options: ["linus-ask-01","end-01"],
+			options: ["linus-ask-00","linus-ask-01","linus-ask-mind-quest","linus-ask-meditation-quest","linus-debt-complete","end-01"],
 			requirements: []
 		},
 		{
 			id: "linus-ask-01",
-			passageText: "",
+			passageText: "<<include 'Socials - Linus - Event Girl Debt Question'>>",
 			buttonText: "Can you explain the whole debt thing again?",
 			modifiers: ["start"],
-			options: ["linus-ask-00","end-01"],
+			options: ["linus-ask-00","linus-ask-01","linus-ask-mind-quest","linus-ask-meditation-quest","linus-debt-complete","end-01"],
 			requirements: []
+		},
+		{
+			id: "linus-ask-mind-quest",
+			passageText: "<<include 'Socials - Linus - Headache Quest Begin'>>",
+			buttonText: "I have this insane headache, any idea what it is?",
+			modifiers: ["start", "non-repeatable"],
+			options: ["linus-ask-00","linus-ask-01","linus-ask-mind-quest","linus-ask-meditation-quest","linus-debt-complete","end-01"],
+			requirements: [{id: 'Mind', type: 'psyche-min', level: 1}]
+		},
+		{
+			id: "linus-ask-meditation-quest",
+			passageText: "<<include 'Socials - Linus - Headache Quest Complete'>>",
+			buttonText: "Alright, I know about Pixie Pharmaceuticals.",
+			modifiers: ["start", "non-repeatable"],
+			options: ["linus-ask-00","linus-ask-01","linus-ask-mind-quest","linus-ask-meditation-quest","linus-debt-complete","end-01"],
+			requirements: [{id: 'Headache-00', type: 'story-completed', level: 1}]
+		},
+		{
+			id: "linus-debt-complete",
+			passageText: "<<include 'Socials - Linus - Debt Complete'>>",
+			buttonText: "Alright, I have completed my debt, what happens now?",
+			modifiers: ["start", "non-repeatable"],
+			options: [],
+			requirements: [{id: 'Debt-01', type: 'story-active', level: 1}]
 		},
 		{
 			id: "end-00",

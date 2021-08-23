@@ -39,6 +39,13 @@ setup.loadStory = function () {
 			entryInfo: "Learn more about eVentia Corp.",
 			trigger: false,
 			passages: []
+		},
+		{
+			id: "Debt-00",
+			entryName: "The Debt.",
+			entryInfo: "Pay off your debt to eVentia.",
+			trigger: false,
+			passages: []
 		}
 	];
 	let auctionEntries = [
@@ -156,7 +163,7 @@ setup.loadStory = function () {
 			passages: []
 		},
 		{
-			id: "Debt-00",
+			id: "Debt-01",
 			entryName: "Freedom Awaits.",
 			entryInfo: "Talk to Dr. Linus about having paid your debts.",
 			trigger: false,

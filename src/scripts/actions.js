@@ -62,7 +62,7 @@ setup.loadActionScene = function (name, player, passage) {
 			scenes: [{
 				scene: 'You try and sit down as Dr. Linus instructed... trying to clear your mind of all troubles, escaping into a serene mindset.' + 
 					'<<= setup.speak($player, "Pfft... this is stupid. But whatever... Let´s try it.")>>' + 
-					'<<run setup.completeEntry("Headache-01")>><<run setup.psyche($player, "Mind", -15, -15)>><<run setup.psyche($player, "Lust", -15, -15)>>' + 
+					'<<run setup.story("Headache-01", "complete")>><<run setup.psyche($player, "Mind", -15, -15)>><<run setup.psyche($player, "Lust", -15, -15)>>' + 
 					'After some time, you find yourself letting go... relaxing. You let out a sigh as you feel your mind clean up.' + 
 					'<<= setup.speak($player, "Huh... guess it worked... kind of.")>>' + 
 					'<br><span class="lbb"><<button "Continue">><<goto "' + passage + '">><</button>></span>',

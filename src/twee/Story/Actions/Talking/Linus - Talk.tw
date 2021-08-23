@@ -9,7 +9,7 @@ You think about what to say.
 Scratching your chin and having forgotten the details of the current year, you decide to ask Dr. Linus.
 <<= setup.speak($player, "Was hoping your could remind me what year it was?")>>
 He lights up and smiles as he answers.
-<<= setup.speak($characters.drlinus, "The year is still 2206, so, remember to keep a leveled head!")>><<= setup.speak(player, "Right...")>>
+<<= setup.speak($characters.drlinus, "The year is still 2206, so, remember to keep a leveled head!")>><<= setup.speak($player, "Right...")>>
 You sigh at the prospects of more futuristic surprises of questionable consent.
 <<= setup.speak($characters.drlinus, "Don´t forget! My clinic here is always open to make yourself more used to the future!", "smile")>>
 He smiles as he points at you, with his hands formed like finger-guns.
@@ -24,17 +24,31 @@ A chill runs down your spine as you ask him.
 Letting out a sigh, you look down towards the floor.
 
 :: Socials - Linus - Headache Quest Begin
-<<= setup.newEntry("Headache-00")>>Rubbing your forehead and placing a hand on your hip, you ask Dr. Linus about your headache.
+<<= setup.story("Headache-00", "start")>>Rubbing your forehead and placing a hand on your hip, you ask Dr. Linus about your headache.
 <<= setup.speak($player, "I´ve been having these headaches... any idea what it could be?")>><<= setup.speak($characters.drlinus, "Ah, yes. It could be your mind is undergoing too rapid of a change. Tends to make things a little mushy, you know?", "smile")>>
 He chuckles lightly.
 <<= setup.speak($player, "Mushy? What do you mean?...*agh*... and is there something I can do about it?","surprised")>><<= setup.speak($characters.drlinus, "Of course there is. Go to the Commercial Strip and buy some of the Blue Pills. They should help with the headaches.")>><<= setup.speak($player, "Right, I´ll try that. Thanks.")>>
 You turn to leave.
 
 :: Socials - Linus - Headache Quest Complete
-<<= setup.completeEntry("Headache-00")>><<= setup.newEntry("Headache-01")>>Having returned to Linus, you inquire about the pills.
+<<= setup.story("Headache-00", "complete")>><<= setup.story("Headache-01", "start")>>Having returned to Linus, you inquire about the pills.
 <<= setup.speak($player, "So those pills will make sure my brain doesn´t turn to mush?")>><<= setup.speak($characters.drlinus, "Indeed! If you haven´t tried them yet, you should. There are more ways to deal with your problem, however.", "smile")>>
 You raise a brow at him, placing your hands at your hips.
 <<= setup.speak($player, "Really now? Spill it then.", "smile")>><<= setup.speak($characters.drlinus, "Good old meditation. You should try that. All you do is sit or lie still. And think of nothing. Relax and so on. Allowing your mind to heal.")>>
 Sighing you turn around to leave.
 <<= setup.speak($player, "Pfft... sounds like bullshit if you ask me.")>><<= setup.speak($characters.drlinus, "Well, you´ll never know if you don´t try!")>>
 Leaving you think about his advice... maybe there was something about it?
+
+:: Socials - Linus - Debt Complete
+You stand with your arched back full of pride and a smirk on your face as you break the news to him.
+<<= setup.speak($player, "I did it... I´ve paid my debt. In full." "smile")>>
+He raises a brow and scratches his chin, only to look at his monitor by his desk.
+<<= setup.speak($characters.drlinus, "Hmph, right, it appears so. Of course, that only means you´re debt-free. So, what now you might ask?")>>
+He clears his throat as he begins to list your options.
+<<= setup.speak($characters.drlinus, "What happens now is really up to you. I can sign you up for a bio-morph program, with a paid citizenship. That would put you into debt again, but you would be able to work it off with us, and then enter the program once completed.")>><<= setup.speak($player, "Bio-morph, you mean turning me back to a man?")>>
+He nods as he continues.
+<<= setup.speak($characters.drlinus, "Yes, exactly. You would also be signed up for citizen-stimulus package, a home, which comes with universal basic income. Everything a new citizen needs to become an upstanding member of society. It doesn´t come cheap though.", "smile")>>
+You think about the offer for a moment, weighing the options before you.
+
+Accepting the offer - (Coming soon).
+<<= setup.button("Embrace feminity and freedom.", "Ending - Uncertain Future")>>

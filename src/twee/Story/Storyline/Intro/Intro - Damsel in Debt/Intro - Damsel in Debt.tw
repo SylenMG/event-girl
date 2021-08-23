@@ -64,9 +64,9 @@ Turning around you spot your pod designation number.
 You swipe your wrist over the holo-lock, which promptly slides the pod open with a soft click. A single bed with a foldable table awaits you. You spot at least several other monitors and other modules for wardrobe-management and storing things.
 <<= setup.speak($player, "Is this it? That´s... old as heck...")>><<= setup.speak($characters.eventiaguard, "That´s it miss. You can maybe upgrade it for a penny or two when one of the newer ones becomes available.")>>
 The guard tosses in your baggage and takes a step back.
-<<= setup.speak($characters.eventiaguard, "You can report to the reception tommorrow if you so desire. I´ll be leaving now. Good evening to you, miss.")>>
+<<= setup.speak($characters.eventiaguard, "You can report to the reception tomorrow if you so desire. I´ll be leaving now. Good evening to you, miss.")>>
 You nod at the guard and begin to unpack your things.
 
-<<= setup.button("Continue.", "Pod - Main","<<set $settings.introMode = false>>")>>
+<<= setup.button("Continue.", "Pod - Main","<<set $settings.introMode = false>><<run setup.story('Debt-00', 'start')>>")>>
 
 

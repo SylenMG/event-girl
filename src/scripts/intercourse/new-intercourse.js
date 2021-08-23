@@ -59,7 +59,7 @@ setup.newSexLib = function (perspective) {
 					passage: "<<include 'Blowjob - Receiving - Facial'>>"
 					}
 				],
-                effects: "<<run setup.satsify($player)>><<run setup.incStat($player, 'receivedBlowjobs', 1)>>"
+                effects: "<<run setup.satisfy($player)>><<run setup.incStat($player, 'receivedBlowjobs', 1)>>"
 			};
 		break;
         case "cunnilingus-giving":
@@ -113,7 +113,7 @@ setup.newSexLib = function (perspective) {
 					passage: "<<include 'Cunnilingus - Receiving - Climax'>>"
 					}
 				],
-                effects: "<<run setup.satsify($player)>><<run setup.incStat($player, 'receivedCunnilingus', 1)>>"
+                effects: "<<run setup.satisfy($player)>><<run setup.incStat($player, 'receivedCunnilingus', 1)>>"
 			};
 		break;
 		case "vaginal-sex":
@@ -138,7 +138,7 @@ setup.newSexLib = function (perspective) {
 					passage: "<<include 'Vaginal - Sex - Doggy'>>"
 					},
 					{
-					name: ["Wrap your legs around <<= setup.hisher($sex.rE)>> back.","Lie on your back.","Get pressed like a bitch."],
+					name: ["Wrap your legs around <<= setup.hisher($sex.gE)>> back.","Lie on your back.","Get pressed like a bitch."],
 					passage: "<<include 'Vaginal - Sex - Press'>>"
 					}
 				],

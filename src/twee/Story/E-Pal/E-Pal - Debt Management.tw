@@ -6,7 +6,7 @@ Debt: $player.debt units
 Interest: $player.interest
 Repaid: $player.weeklyRepay
 Demand: $player.weeklyDemand
-</span><<if $debt >= 0>><<goto "Debt - Repaid">><</if>><span id="text-error"></span>
+</span><span id="text-error"></span>
 <<textbox "$misc.repayAmount" $misc.repayAmount>><<button "Repay">>
 	<<set $misc.repayAmount to Number($misc.repayAmount)>>
 	<<if !Number.isInteger($misc.repayAmount)>>
@@ -22,12 +22,13 @@ Demand: $player.weeklyDemand
 			<<set $player.weeklyRepay += $misc.repayAmount>>
 			<<set $player.units -= $misc.repayAmount>>
 			<<replace "#unit-values">>
-Units: $player.units units
-Debt: $player.debt units
-Interest: $player.interest
-Repaid: $player.weeklyRepay
-Demand: $player.weeklyDemand
-<</replace>>
+			<<if $player.debt <= 0>><<run setup.story("Debt-00", "complete")>><<run setup.story("Debt-01", "start")>><</if>>
+			Units: $player.units units
+			Debt: $player.debt units
+			Interest: $player.interest
+			Repaid: $player.weeklyRepay
+			Demand: $player.weeklyDemand
+			<</replace>>
 		<</if>>
 	<</if>>
 <</button>>

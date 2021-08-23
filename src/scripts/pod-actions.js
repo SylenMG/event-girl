@@ -22,7 +22,7 @@ setup.loadPodActions = function (player) {
             name: "Meditation",
             buttonName: "Meditate.",
             passage: "Meditation",
-            requirements: [{id: 'Headache-01', type: 'story-complete', level: 0},{id: 'Time', type: 'not-time', level: 3}]
+            requirements: [{id: 'Headache-01', type: 'story-completed', level: 0},{id: 'Time', type: 'not-time', level: 3}]
         },
         {
             name: "Travel",

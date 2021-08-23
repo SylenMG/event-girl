@@ -6,7 +6,7 @@ You find yourself in Pixie Pharmaceuticals.
 !!!Products
 -------------------------------------
 There´s a druggie solution to every problem.
-
+<<run setup.story("Headache-00", "complete")>>
 <<= setup.vendor("items", "pharma", "eVentia - Pixie Pharmaceuticals")>>
 
 <span class='lbb'><<button "Back to Commercial Strip">>
