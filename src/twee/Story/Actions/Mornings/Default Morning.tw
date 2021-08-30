@@ -1,0 +1,12 @@
+:: Morning - Default
+You roll and turn in your bed, as you´re slowly waking up from your slumber...
+
+<<= setup.newComment($player, 'morning', 'morning', 'first', 'player-only')>>
+
+Opening your eyes, you stretch your body, feeling reinvigorated to take on a new day. Your mind and thoughts are a bit more clear, but an itch has clearly build over the night as well. Moving towards the mirror, you yawn and scratch your hair.
+
+<<= setup.newComment($player, 'morning', 'morning', 'second', 'player-only')>> 
+
+You get ready for the day ahead, making your final preparations. 
+<<= setup.dailyExpenses($player, $time.currentDay)>><<run setup.rollEvents($eventStats)>><<run setup.psyche($player, 'Mind', -15, -5)>><<run setup.psyche($player, 'Lust', 10, 5)>>
+<<= setup.button("Continue.", "Pod - Main")>>

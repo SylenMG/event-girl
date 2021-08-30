@@ -54,7 +54,7 @@ setup.speak = function (speaker, message, expression, nobreak) {
 }
 
 setup.loadActionScene = function (name, player, passage) {
-	let mComments = setup.loadCommentLib('morning');	
+	//let mComments = setup.loadCommentLib('morning');	
 	let returnScene = "";
 	let actionScenes = [
 		{
@@ -110,17 +110,16 @@ setup.loadActionScene = function (name, player, passage) {
 		},
 		{
 			name: "Morning",
-			scenes: [{
-				scene: 'You roll and turn in your bed, as you\'re slowly waking up from your slumber...' + 
-					setup.comment(player, mComments, 'morning', 'first', 'player-only', 'break') + 
-					'You open your eyes, now fully rested and ready to take on another day. Your mind and thoughts are a bit more clear, but an itch has clearly build over the night as well...' + 
-					'You move towards the mirror...' + 
-					setup.comment(player, mComments, 'morning', 'second', 'player-only', 'break') + 
-					'You get ready for the day ahead, making your final preparations.' + 
-					"<<= setup.dailyExpenses($player, $time.currentDay)>><<run setup.rollEvents($eventStats)>><<run setup.psyche($player, 'Mind', -15, -5)>><<run setup.psyche($player, 'Lust', 10, 5)>>" + 
-					'<br><br><span class="lbb"><<button "Continue">><<goto "' + passage + '">><</button>></span>',
+			scenes: [
+				{
+				scene: '<<include "Morning - Default">>',
 				requirements: []
-			}]
+				},
+				{
+				scene: '<<include "Morning - Amanda Meeting 01">>',
+				requirements: [{id: 'Amanda-Meeting-00', type: 'story-completed', level: 0},{id: 'Amanda-Meeting-01', type: 'story-incomplete', level: 0},{id: 'Amanda-Meeting-01', type: 'story-inactive', level: 0}]
+				}
+			]
 		}
 	];
 	for (let i = 0; i < actionScenes.length; i++) {

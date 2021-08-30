@@ -1003,6 +1003,19 @@ setup.comPortrait = function (commenter, portrait) {
 //Sex: commenter(the one making comment), group(comments), stage(intro, ongoing, climax or outro(active/passive)), type (current sex act), modifier(sensual, rough, etc)
 //Combat: commenter(the one making comment), group(comments), stage(combat stage(typically standard)), type (attack, defense), modifier(typically racial)
 //setup.comment(givingEntity, comments, 'blowjob-giving', sex.modifier, 'virgin')
+setup.newComment = function (commenter, comments, stage, type, modifier, br) {
+	let commentLib = setup.loadCommentLib('morning');
+	switch(comments){
+	case "morning":
+	commentLib = setup.loadCommentLib('morning');
+	break;
+	default:
+	commentLib = setup.loadCommentLib('morning');
+	break;
+	}
+	return setup.comment(commenter, commentLib, stage, type, modifier, br);
+}
+
 setup.comment = function (commenter, comments, stage, type, modifier, br) {
 	let comFound = false;
 	let comName = commenter.name;
@@ -1074,7 +1087,6 @@ setup.comment = function (commenter, comments, stage, type, modifier, br) {
 	} else {
 		return "<br><br>" + returnCom + "<br><br>";
 	}
-	
 }	
 
 setup.stripperCheer = function (commenters, modifier) {

@@ -1,0 +1,6 @@
+:: Maid - Start
+<<run setup.equipOutfit($player, "maid", "stash")>>Approaching Brenda sitting by the receptionist desk, you wave and smile at her.
+<<= setup.speak($characters.brenda, "Another day of cleaning I suppose?")>>
+You nod and pass her going into the backroom, where you find your maid outfit and promptly wear it.
+
+Strutting back out you prepare for another day as the face of eVentia, cleaning client hotel rooms. 

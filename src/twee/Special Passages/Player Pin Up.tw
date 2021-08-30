@@ -2,7 +2,7 @@
 <<if $showPinup is true>>
 <<if $settings.zoomMode == true>><div class="pinup-outer-container" id="pinup-outer-container"
 onmouseover="document.getElementById('pczoom-bar').style.display = 'block';document.getElementById('pczoom-bar').innerHTML = setup.pinupModel();" onmouseout="document.getElementById('pczoom-bar').style.display = 'none';">
-<<= setup.displayTime()>>
+<<= setup.displayTime($time)>>
 <br>
 <div id="pinup-inner-container">
 <div class="imgEnlarge">
@@ -27,7 +27,7 @@ onmouseover="document.getElementById('pczoom-bar').style.display = 'block';docum
 <<include "Units">>
 <br>
 <<else>>
-<<= setup.displayTime()>>
+<<= setup.displayTime($time)>>
 <br>
 <div id="pinup-inner-container">
 <div class="imgEnlarge">

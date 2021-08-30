@@ -1,6 +1,6 @@
 :: StoryInit {"position":"50,47","size":"100,100"}
 <<set $settings = {
-	gameVersion: 17,
+	gameVersion: 19,
 	patreonVersion: true,
 	debugMode: false,
 	mapMode: true,
@@ -38,6 +38,14 @@
 	roaming: [],
 	showActive: true,
 	showCompleted: false,
+	flags: {
+		fuckedJessica: false,
+		vernonHelp: false,
+		amandaHelp: false,
+		knowsAboutEventia: false,
+		knowsAboutAunt: false,
+		knowsAuntIsDead: false
+	},
 	fuckedJessica: false,
 	vernonHelp: false,
 	hasReflected: false

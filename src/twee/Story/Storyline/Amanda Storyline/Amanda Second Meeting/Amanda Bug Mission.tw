@@ -1,0 +1,88 @@
+:: Storyline - Amanda Motive Explanation
+Leaning back into her black leather chair, her gaze flickers all over you once more.
+<<= setup.speak($characters.amanda, "Here´s the deal. You and I have a lot to gain from each other.", "smile")>><<= setup.speak($characters.amanda, "Whilst your current situation is unfavorable to you, it just so happens to be favorable to me. Vice versa. If you decide to cooperate with me.")>><<= setup.speak($player, "How so?")>>
+She slides her hand over her sleek office desk, and with a soft click a small compartment opens. Rummaging in the compartment she takes out a cigarette, lights it with a zippo and places it at the end of a cigarette holder. Smiling at you, she takes in one long whiff, only to blow it out slowly.
+<<= setup.speak($characters.amanda, "Allow me to explain. I am in a position of power. I could pull some strings and maybe manage to clear you for the status of Proto-Woman. Which would make you able to inherit.")>><<= setup.speak($player, "I see, putting it as bluntly as you can?")>>
+Nodding she inhales once more whilst suckling the tip of her cigarette holder.
+<<= setup.speak($characters.amanda, "Not something that I would do for free. You being an Event Girl, could come very handy to me indeed.", "smile")>><<= setup.speak($player, "Because I can´t inherit, making you inherit it... yadda-yadda... I get it.")>><<= setup.speak($characters.amanda, "No. Imbecile. I was elected for this position. In truth, I have little interest of owning or managing this company. I have my own to manage.")>><<= setup.speak($player, "Like what?")>><<= setup.speak($characters.amanda, "The Viz Liz Lingerie-line and Hot Stripes. Yes. Eventia is not exactly... my kind of deal. What matters to me, is that this company does *not* end in the *wrong* hands.")>>
+Leaning back into your chair, you throw her a sceptic glare.
+
+<<= setup.button("Continue.", "Storyline - Amanda Bug Mission")>>
+:: Storyline - Amanda Bug Mission
+Taking another whiff of smoke and blowing it out slowly, she continues.
+<<= setup.speak($characters.amanda, "Listen. It suits me just fine if you end up running or owning this dung heap of an organization.", "smile")>><<= setup.speak($characters.amanda, "What I need to know first though, is if I can trust you. Therefore, you need to do something for me first.")>><<= setup.speak($player, "Mhmph, like what? Let me guess. Not your ordinary trust exercise.")>>
+Shaking her head, she spins slightly in her chair, leaning back and throwing one leg over the other.
+<<= setup.speak($characters.amanda, "Not exactly legal either. But that matters little. You´re an Event Girl, which means no one will be suspecting you.")>><<= setup.speak($player, "And what would you want an Event Girl like me do?")>>
+She chuckles lightly.
+<<= setup.speak($characters.amanda, "I want you to work as a Maid, and place a few bugs in a few key meeting rooms. Discreetly, of course.", "smile")>><<= setup.speak($player, "I do this, and you will help me?")>>
+Nodding softly, she once more opens the compartment in her desk, only to put out her cigarette in it.
+<<= setup.speak($characters.amanda, "Yes. A simply task for someone like you. Even if you get caught, all you gotta do is play dumb. Girls like you get mind-wiped all the time. Just drool and play stupid.")>>
+A shiver runs down your spine, but nonetheless, you scratch your chin considering her proposition.
+<<= setup.speak($characters.amanda, "This could be the beginning of a very fruitful relationship. Think of the possibilities. I get the information I want from these assholes, and you get this company. A success-story in itself.")>>
+She slides forward six black button-like devices.
+
+<<= setup.button("Take the button-like devices (Accept).", "Storyline - Amanda Bug Mission (Accept)")>>
+<<= setup.button("Shake your head (Decline).", "Storyline - Amanda Work Decline")>>
+:: Storyline - Amanda Bug Mission (Accept)
+<<run setup.story("Amanda-Quest-00", "start")>>You reach out to grab the six black button-like devices and nod.
+<<= setup.speak($player, "Alright then. Sounds easy enough. All I gotta do is take on some work as a Maid and naturally slip these into... which meeting rooms?")>><<= setup.speak($characters.amanda, "I won´t be able to send you the details. Too traceable. So remember these serials: E-001 to E-006. All six of them.")>><<= setup.speak($player, "I´ll get it done. I bet it´s just like in the spy movies right? I just place these under the table right?", "smile")>>
+Tilting her head, she nods slowly.
+<<= setup.speak($characters.amanda, "Place them underneath the desk. Press hard on them. They should burrow themselves into the table itself and disappear.", "smile")>>
+You clutch the six devices and turn to leave.
+<<= setup.speak($player, "I´ll let you know when it´s done.")>><<= setup.speak($characters.amanda, "I´m counting on it.", "smile")>>
+Leaving Amanda´s office you enter the gardens.
+
+<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>
+:: Storyline - Bugging Rooms
+<<run setup.story("Amanda-Quest-00", "complete")>><<run setup.story("Amanda-Meeting-02", "start")>>Entering the Gloria Hotel, you take the elevator to the conference rooms. Pushing your trolley along the red-carpeted hallway, you cross the first room labeled E-001.
+<<= setup.speak($player, "This gotta be it.")>>
+You take a look around to access your surroundings, only to grab your duster and the six-black devices. Opening the door you enter the room. Despite the cleanliness, you give the various chairs a light touch with your duster, only to slip in one of the black devices beneath the table.
+<<= setup.speak($player, "That should do it, let´s check.", "smile")>>
+Bowing down to check, you cant see the device at all, almost as if it has vanished from thin air.
+<<= setup.speak($player, "Easy. Now the other rooms.")>>
+You move along the other rooms, unscrupulously placing the devices beneath the various tables of the conference rooms. Even room E-006 proved easy, as you place the last of the black devices underneath the conference table.
+<<= setup.speak($player, "That´s it-!")>>
+@@.bold;CLICK CLICK@@... the door to the room opens, making your heart drop into your stomach. In comes several men wearing neon business suits, all of them chatting and laughing at each others jokes.
+<<= setup.speak($npc.executives[0], "-And then she just stood there, cum all over her face! Should have seen her!", "smile")>><<= setup.speak($npc.executives[1], "Oh man I gotta try myself one of them girls. Speaking of which... Ooolala!", "smile")>>
+You gulp as you´re almost immediately spotted.
+
+:: Storyline - Bugging Rooms - Make a run for it
+Your eyes lock with the exit, as you make a dash for it, almost stumbling in your heels.
+<<= setup.speak($npc.executives[1], "Oh... Hey! Where you going babe!", "surprised")>><<= setup.speak($npc.executives[0], "Fuck sake Jeff, you scared the chick away!", "smile")>>
+With your heart racing like hell, you exit the room and immediately grab your trolley. Pushing it with every fiber in your muscle towards the elevator.
+<<= setup.speak($player, "Fuck-fuck-fuck!", "surprised")>><<= setup.speak($npc.executives[1], "Oui! Babygirl! Come back!", "surprised")>>
+Entering the elevator, you quickly push the buttons for the lobby. You look back and let out a sigh as you realize that they didn´t pursue you.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("Maid", "Pod - Main")>><</replace>><</button>></span>
+:: Storyline - Bugging Rooms - Act dumb and slutty
+You freeze for a moment, but quickly remember that you have every reason to be here. They have no idea and no reason to suspect anything. Arching your back to make your booty pop, you twirl your hair to look as floozy as possible.
+<<= setup.speak($player, "Oh my... Looks like I didn´t get it all clean in time.", "smile")>><<= setup.speak($npc.executives[1], "Oh-hoho... what a naughty girl indeed. You should be punsished!", "smile")>>
+A soft moan escapes you as a mild pain spreads in your ass cheeks. The slap catches the attention of the rest of the men.
+<<= setup.speak($player, "Teehee~ I´ve been such a bad girl.", "pleasure")>><<= setup.speak($npc.executives[0], "Hell yeah you have sweetcheeks. But daddy and his friends don´t have time to play now.", "smile")>><<= setup.speak($npc.executives[1], "Go on, get out of here. The big boys gotta talk.", "smile")>>
+Swaying your booty back and forth, you strut towards the exit. The wolf-whistles filling your ears coming to a sudden stop as the door to the conference closes behind you. A smile spreads on your face, as your heart stops racing.
+<<= setup.speak($player, "Smooth and easy. Idiots.", "smile")>>
+You grab your trolley and continue cleaning the other conference rooms.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("Maid", "Pod - Main")>><</replace>><</button>></span>
+:: Storyline - Bugging Rooms - Play it off cool
+You freeze for a moment, but quickly remember that you have every reason to be here. They have no idea and no reason to suspect anything. You lock eyes with the men and crack a smile.
+<<= setup.speak($player, "I thought I had more time to clean. But you guys just keep making such a mess in here.", "smile")>><<= setup.speak($npc.executives[1], "Yeah-yeah. Quit your yapping. It´s clean enough ain´t lads?", "smile")>><<= setup.speak($npc.executives[0], "I´d say so. Got something else you could clean too right here though.", "smile")>>
+The guy points towards his crotch.
+<<= setup.speak($player, "Sorry darling, I don´t lick cunts.", "smile")>>
+The room bursts into laughter, with the guy standing there with his mouth wide open. Throwing your hair to the side, you give your booty a light sway as you strut towards the exit.
+<<= setup.speak($npc.executives[0], "O-oui-oui! She can´t just-", "surprised")>><<= setup.speak($npc.executives[1], "AHAHAHAHAHAHA! She called you a cunt!", "smile")>>
+The rowdy laughter filling your ears comes to a sudden stop as the door to the conference closes behind you. A smile spreads on your face, as your heart stops racing.
+<<= setup.speak($player, "Tsk-tsk. Maybe don´t throw punches if you can´t take a little yourself, bitch.", "smile")>>
+You grab your trolley and continue cleaning the other conference rooms.
+
+<span class="lbb"><<button "Continue.">><<replace "#event-main">><<= setup.eventFinish("Maid", "Pod - Main")>><</replace>><</button>></span>
+:: Storyline - Amanda Bug Mission (Complete)
+<<run setup.addUnits($player, "Bonus", 5000)>><<run setup.story("Amanda-Meeting-02", "complete")>>Returning to Amanda, you once more stand before her office desk. With her back towards you, she appears to be watching cryptic patterns on a white screen displayed along the walls.
+<<= setup.speak($player, "All done. I did as you asked. What now?")>><<= setup.speak($characters.amanda, "Now we wait. Smooth handling, by-the-by.")>>
+She chuckles lightly, only to spin around to face you.
+<<= setup.speak($player, "Yeah, so what. We wait for what then? I did my part, now you do yours.")>><<= setup.speak($characters.amanda, "Yes... I do my part. Here´s a bonus.", "smile")>>
+Your E-Pal vibrates as you see 5000 units being logged into it.
+<<= setup.speak($player, "Units? That´s not what we agreed to.")>><<= setup.speak($characters.amanda, "I know. Like I said. A bonus. You´re an accomplice now, and at the bottom of the pecking order. I´ll have more use for you later.", "smile")>><<= setup.speak($player, "So you´re going to fuck me, is that it?","angry")>><<= setup.speak($characters.amanda, "No. I made a promise. I intend to keep it. But for now we wait, as you helped yourself even. The ones I intend to spy on are also the ones we might need to remove from the equation. Don´t be stupid now.")>><<= setup.speak($player, "Sure, we´ll see about that.","angry")>><<= setup.speak($characters.amanda, "Stay in touch now.", "smile")>>
+You groan as you turn around to leave her office.
+
+<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>

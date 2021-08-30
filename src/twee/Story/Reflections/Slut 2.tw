@@ -1,0 +1,28 @@
+:: Reflect - Slut 2
+Tapping your feet against the snug pod-wall, you stare into the ceiling as you ponder. The thoughts of other men lusting for your body, placing their hands on your hips and shoving their cocks inside of you sends shivers down your spine.
+<<= setup.speak($player, "Fuck... Why does it make me feel that way?")>>
+The idea of actually having sex with a cock inside of your new female genitalia was still somewhat alien to you. Even considering everything that has happened thus far.
+<<= setup.speak($player, "I suppose there really is no way around it.")>>
+Slowly trailing your hands along your stomach, they reach your slightly moist slit. You hum as you think about it, a playful, but dirty idea invades your mind.
+<<= setup.speak($player, "Why put a lid on the supply... if there is a demand? I could get rich with this.")>>
+A jolt of pleasure shoots through your stomach, as you press down on your clit.
+
+<span id="choice"><span class='lbb'><<button "Mhm, fuck yeah I gotta thot it up.">><<replace "#choice">>A moan escapes you as you massage the top of your pussy. You smile like a dirty slut whilst playing with yourself to the thought of turning pleasure into raw cash.
+<<= setup.speak($player, "Damn... Why even think so hard about it? It feels good.", "pleasure")>>
+Retracting your hand, you take a quick lick tasting your own juices.
+<<= setup.speak($player, "Mhm. Fuck it. Better to turn the situation into a profitable one.", "smile")>>
+You chuckle as you move your hand back down to explore your money-maker some more.
+
+<<run setup.psycheHard($player, "Slut", 2)>><<run setup.psyche($player, "Slut", 65)>><<run setup.completeRef($player, "refSlut2")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Sex is good, but not a whore.">><<replace "#choice">>Quickly taking your hand back you grimace.
+<<= setup.speak($player, "I´m not a fucking whore. For sure.")>>
+However, your loins itching and your hips grinding themselves against the sheets almost involuntarily almost suggests otherwise.
+<<= setup.speak($player, "Pfft... but I guess there is nothing wrong with sex. Even if it´s with a man. Nothing wrong when I´m a woman I guess.", "smile")>>
+You smile to yourself, thinking about how to go about having sex with other men. Letting your fantasy run wild with whom you could try to seduce.
+
+<<run setup.psycheHard($player, "Slut", 2)>><<run setup.completeRef($player, "refSlut2")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "This has to stop.">><<replace "#choice">>Yanking your hand back, you cross your arms and turn around.
+<<= setup.speak($player, "Fuck THAT. I am not... a slut!", "angry")>>
+You twist and turn as you fight against the invading thoughts of exploring your deep dark fantasies... with other men.
+<<= setup.speak($player, "I´m not going to do it. Keep it together, idiot.", "angry")>>
+Turning around your burrow your face into your only pillow, screaming in frustration.
+<<run setup.psyche($player, "Slut", -25)>><<run setup.psyche($player, "Mind", 55, 25)>>
+<<= setup.displayReflections($player)>><</replace>><</button>></span>

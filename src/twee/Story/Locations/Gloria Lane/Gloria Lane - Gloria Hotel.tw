@@ -1,0 +1,16 @@
+:: Gloria Lane - Gloria Hotel
+!Gloria Lane - Gloria Hotel
+-------------------------------------
+You find yourself at the Gloria Hotel. The floors are carpeted in red, and the walls golden-inlaid, with delicate sculptures presented along them.
+
+!!!Black elevator
+-------------------------------------
+An elevator with black-marble doors stands indiscriminately in the lobby, seemingly leading to the more luxuriously suites.
+<<if not hasVisited("Gloria Lane - Waller Gardens")>>
+<<= setup.button("Enter Elevator (Amanda Waller).", "Gloria Lane - Waller Gardens")>><</if>>
+
+!!!Gloria Lounge
+-------------------------------------
+The lounge is filled black chairs and tables, with red cushions. <<= setup.social("the gloria lounge", "eVentia - Gloria Hotel")>>
+
+<<= setup.button("Back to Gloria Lane.", "Gloria Lane")>>

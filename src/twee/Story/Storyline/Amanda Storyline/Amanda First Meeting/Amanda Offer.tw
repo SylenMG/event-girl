@@ -1,0 +1,70 @@
+:: Storyline - Amanda Offer
+The woman slides the light tablet in front of you. A document with the heading @@.bold;INH-009 Transfer@@ is displayed with lots of super small, hard to read text. The document seems to be at least over 200 pages long.
+<<= setup.speak($characters.amanda, "I know this is sudden, but- Eventia would like to make up for it´s mistakes. This is the opportunity for a new beginning.")>><<= setup.speak($characters.amanda, "Your debt, your body and most importantly, your demeaning civil status. Eventia stands prepared to redeem everything that you have lost, that is within our power to restore. All you need to do, is sign the document.")>><<= setup.speak($characters.sandra, "Right here, miss.")>>
+The other woman points towards a finger-scan on the tablet.
+<<= setup.speak($player, "Right there?")>><<= setup.speak($characters.sandra, "Yes. Oh-... and don´t forget the contractual voice confirmation.")>><<= setup.speak($characters.sandra, "Repeat after me; I hereby sign this document of my own free will. Or something like that.")>>
+You look the document over and gulp. Shifting yourself in the chair your eyes flick back and forth between the document, the woman smiling in front of you and the bowl of candy right next to her.
+<<= setup.speak($player, "This is it, huh? No tricks? You will fix it all?","smile")>><<= setup.speak($characters.amanda, "You have more than just the contract before you. You have my word.")>>
+A wave of uneasiness rolls over you, making you grit your teeth as you decide.
+
+<<if $story.flags.vernonHelp is true>><<= setup.button("Sign the document.", "Storyline - Amanda Interrupt")>>
+<<= setup.button("Politely decline.", "Storyline - Amanda Interrupt")>>
+<<= setup.button("Refuse.", "Storyline - Amanda Interrupt")>>
+<<= setup.button("Tell her to go fuck herself.", "Storyline - Amanda Interrupt")>><<else>><<= setup.button("Sign the document.", "Ending - Dark Bliss")>>
+<<= setup.button("Politely decline.", "Storyline - Amanda Leave Alone (No vernon, no knockout)")>>
+<<= setup.button("Refuse.", "Storyline - Amanda Leave Alone (No vernon)")>>
+<<= setup.button("Tell her to go fuck herself.", "Storyline - Amanda Leave Alone (No vernon)")>><</if>>
+:: Storyline - Amanda More Info
+<<set $story.flags.knowsAboutEventia to true>>You look towards Amanda, then towards the two guys. Shifting your posture, you smirk.
+<<= setup.speak($player, "I think... I want to hear more. Tell me then, what happens when I sign? I want to know.")>><<= setup.speak($characters.amanda, "Well, girl. I see no reason to leave you in the dark anymore. You are... Or you were, the heir of Eventia Incorporated.", "smile")>><<= setup.speak($player, "Uuuuh... what? I´m supposed to own this shit?")>><<= setup.speak($characters.amanda, "Yes and no... What you hold is a dead claim, just as much in stasis as your body was before. I would see it fit to let Marcus explain this one. After all, he is a government representative and the acting president of the company. Are you not, Marcus?", "smile")>>
+You shift your focus unto Marcus whom simply smiles.
+<<= setup.speak($characters.marcus, "That I am! Allow me to explain this... rather, complicated mess! I´m the Acting President of Eventia. The current President, Master Morris has been lying in a coma for 12 years now.")>><<= setup.speak($player, "So, It was you! You were the one that did all of this! Right?! Or wait... maybe that Master Morris guy!")>><<= setup.speak($characters.marcus, "Aha... I see you´re jumping to conclusions... Now that your mind is racing to make sense of all of this. I, personally, have no stake in this.")>><<= setup.speak($characters.marcus, "I merely represent the government interest of making sure that Eventia remains a stable supplier of hands where they are need. Not only at home, but also at the front. Master Morris? He has been gone for 12 years. I doubt he even knew you existed.")>>
+With that Vernon weighs in, pointing his finger accusingly at Amanda.
+<<= setup.speak($characters.vernon, "I´d say it´s more obvious that Amanda did it! She was trying to make you sign it all away! As the VP, she would inherit Eventia when Master Morris finally passes away! Even so, all of Morris relatives disappeared under mysterious circumstances too!", "smile")>><<= setup.speak($characters.amanda, "I knew you would blame me, you fool! I´m trying to save this woman! I want to null her debt and shield her from you vultures. I mean, surely you would know about that $player.femaleName, right? Did he not try to turn you into some cumdumpster? Hmph?!", "smile")>>
+Her stare pierces you reading your every thought and surprised expression.
+<<= setup.speak($characters.amanda, "See?! I knew I was right. I swear, if you go with them, or go at it alone, then you will be disappeared too! Either by them or whomever it truly is that could be behind it all. Let me protect you. I´ll get you out as an Event Girl, permanently.")>>
+You eye the contract, knowing that it could contain anything. You pick it up and show it to Marcus.
+<<= setup.speak($player, "You said you were a government representative. This contract, is it... legit?")>><<= setup.speak($characters.marcus, "Looks like a standard Inheritance Transfer to me. Just read the summary in small right there... Yep... Nothing shady about this one.", "smile")>>
+You put the contract back down and begin contemplating your choices.
+
+<<= setup.button("Sign the contract (Accept).", "Storyline - Amanda Accept")>>
+<<= setup.button("Go at it alone (Reject the contract).", "Storyline - Amanda Leave Alone")>>
+:: Storyline - Amanda Accept 
+You place your finger over the light tablet.
+<<= setup.speak($player, "I hereby consent to signing this...")>>
+A soft ding registers the action, and the light tablet closes.
+<<= setup.speak($characters.vernon, "Ugh... You really have made a terrible mistake here $player.femaleName... Well... If that´s what you want.")>><<= setup.speak($player, "I don´t care what you think, Vernon.")>><<= setup.speak($characters.marcus, "Well, with that, I consider this issue solved. I´ll be going then.", "smile")>><<= setup.speak($player, "Right...")>>
+You look back towards Amanda, whom leans back in her chair, smiling.
+<<= setup.speak($characters.amanda, "Mmmmh... You made the right choice girl. I will of course, keep my word. I gave it to you, after all.", "smile")>><<= setup.speak($player, "Well... I sure hope so.")>>
+
+<<= setup.button("Continue.", "Ending - Accept the Deal")>>
+:: Storyline - Amanda Leave Alone
+You shake your head.
+<<= setup.speak($player, "I´m not signing this... I´ll find a way to get to the bottom of this. I already lost everything. I have nothing to lose now, but everything to gain.")>><<= setup.speak($characters.amanda, "You really are a dim-witted gal if you think you can tango with the shadows of this corp. Well, so be it then. Get out of my office.", "angry")>>
+You turn around to Mr. Venere and Marcus.
+<<= setup.speak($characters.vernon, "Let´s go doll.", "smile")>><<= setup.speak($characters.amanda, "All you need to know, is that you made a huge mistake today.", "angry")>><<= setup.speak($player, "Whatever... hag.")>>
+You follow Mr. Venere and Marcus out of the office, entering the humid garden once again.
+<<= setup.speak($characters.vernon, "I think you handled that well $player.femaleName, now, what comes next is figuring out who gave the order to change your civilian status!", "smile")>><<= setup.speak($player, "Vernon, as far as I know, Marcus has no stake in this. But, you? What do you have to gain here?")>><<= setup.speak($characters.vernon, "I uuuh, well, I´m obviously here for the business! You work for me, I´m happy. You become the next President of Eventia? Well! That´s a good favor to have if I say so myself!", "smile")>><<= setup.speak($player, "Right...")>>
+Entering the elevator once more, you cross your arms and think to yourself.
+<<= setup.speak($player, "So... I get my civilian status changed to Proto-Woman before Master Morris dies, and gotta figure out who did this to me...")>><<= setup.speak($characters.vernon, "Sounds like a plan to me!", "smile")>><<= setup.speak($player, "Hmph... wait. You´re pretty wealthy, right? Why can´t you just buy me the status chan-?")>><<= setup.speak($character.marcus, "A-a-a! That is a no-can-do, If I´ve ever heard one. The UNC takes civilian status change very seriously. Those units gotta be earned, the hard way. Anything else would be Nepotism, or even worse, Corruption! You really don´t want to go to court for that one.")>><<= setup.speak($characters.vernon, "Yeah, that´s a big no from me as well. Listen, I might be a bastard, but I´m an honest bastard!... I suppose I could ease up on your cut though, if you work for me.", "smile")>>
+Marcus sends Vernon a concerned stare as the elevator opens.
+<<= setup.speak($characters.vernon, "Right-right... I know...")>><<= setup.speak($character.marcus, "With that one outta the way. I got a meeting to attend! You owe me on Vernon... and you gal, hope it works out for ya! Ciao!")>><<= setup.speak($characters.vernon, "Yeah, that´s a big no from me as well. Listen, I might be a bastard, but I´m an honest bastard!... I suppose I could ease up on your cut though, if you work for me.", "smile")>><<= setup.speak($characters.vernon, "Yeah... Uuuh, me too.... hehe, well $player.femaleName, just hang in there! We´ll catch up when I figure out more!")>>
+And with that they both leave you there in the foyer, more enlightened than ever, yet also more confused.
+
+<<= setup.button("Continue.", "eVentia - Lobby & Foyer")>>
+:: Storyline - Amanda Leave Alone (No vernon)
+You shake your head.
+<<= setup.speak($player, "I´m not signing this... ")>><<= setup.speak($characters.amanda, "You really are a dim-witted gal if you think you can tango with the shadows of this corp. Well, so be it then. Get out of my office.", "angry")>>
+You shrug at her threats, as you look towards the guardswoman frowning.
+<<= setup.speak($player, "Whatever... hag.")>>
+Rising from the chair you head towards the humid garden once again, but before you even get close a loud *THUNK* and a shooting pain in the back of your head makes everything go dark.
+
+<<= setup.button("Continue.", "Ending - Dark Bliss")>>
+:: Storyline - Amanda Leave Alone (No vernon, no knockout)
+You shake your head.
+<<= setup.speak($player, "I´ll be... politely declining this. Not signing something that I have no idea what is.")>><<= setup.speak($characters.amanda, "Pfft... have it your way then.")>>
+You shrug at her insisting demeanor.
+<<= setup.speak($player, "I think I´ll be going then, if you don´t mind.")>><<= setup.speak($characters.amanda, "Sure. If you have to.")>>
+Rising from the chair you head towards the humid garden once again. Your nose acts out again making you sneeze. You reach the elevator which once again takes you back to the lobby and foyer.
+
+<<= setup.button("Continue.", "eVentia - Lobby & Foyer")>>

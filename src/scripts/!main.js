@@ -19,7 +19,7 @@ $('<div id="notification-bar"></div>').insertAfter("#story");
 $('<div id="background-left"></div>').insertBefore("#story");
 
 Config.history.maxStates = 10;
-Config.saves.autoload = "prompt";
+Config.saves.autoload = false;
 Config.saves.autosave = ["autosave"];
 
 predisplay["Menu Return"] = function (taskName) {

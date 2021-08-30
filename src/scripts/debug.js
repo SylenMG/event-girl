@@ -9,7 +9,7 @@ var debug = [
 		options: ['[[Refresh|Debug - Menu]]','[[Masturbation][$passage = "Debug - Menu"]]','[[Meditation][$passage = "Debug - Menu"]]','[[Sleep][$passage = "Debug - Menu"]]',
 		'[[Advance Day|Debug - Menu][$time.currentDayTime = 4]]','[[Advance Time|Debug - Menu][$time.currentDayTime += 1]]','Get Cash: <<= setup.displayUnits($player)>> - [[Get Units|Debug - Menu][$player.units += 10000]]','Get Debt: $player.debt (Refresh) - [[Get Debt|Debug - Menu][$player.debt += 10000]]','Set Name: <<link "Press Me">><<SetName>><</link>>',
 		'Print Scores (to console): <<link "Press Me">><<= setup.printScores($player)>><</link>>',
-		'Simulate Fresh Start(The Unlucky Fella): <<link "Press Me">><<set $settings.introMode to false>><<run setup.story("Event-Girl-01", "start")>><<run setup.story("Debt-00", "start")>><</link>> - @@.red;Allows you to gain the starting quests if you entered the debug console straight away.@@',
+		'Simulate Fresh Start(The Unlucky Fella): <<link "Press Me">><<set $player.modifiers.push("Unlucky")>><<set $settings.introMode to false>><<run setup.story("Event-Girl-01", "start")>><<run setup.story("Debt-00", "start")>><</link>> - @@.red;Allows you to gain the starting quests if you entered the debug console straight away.@@',
 		'Body Morphing: <<link "Press Me">><<BodyMorph>><</link>><<if $player.body.torso.bodyType == 1>> - @@.red;Playing the game with the male bodytype WILL break the game. Genderbending to female is advised.@@<</if>>',
 		'Stash Outfit: <<link "Press Me">><<set $stashedOutfit = setup.stashOutfit($player)>><</link>>','Wear Stashed Outfit: <<link "Press Me">><<= setup.equipOutfit($player, "stashedOutfit", "nostash")>><</link>>',
 		'Get All Clothes: <<link "Enter">><<= setup.debugGetClothes()>><</link>>']

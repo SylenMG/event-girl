@@ -131,7 +131,29 @@ setup.loadStory = function () {
 			entryInfo: "You attended the meeting and rejected the deal.",
 			trigger: false,
 			passages: []
-		}
+		},
+		{
+			id: "Amanda-Meeting-01",
+			entryName: "The Re-Introduction.",
+			entryInfo: "Return to the Gloria Hotel and visit Amanda Waller.",
+			trigger: false,
+			passages: []
+		},
+		{
+			id: "Amanda-Meeting-02",
+			entryName: "Bugs Planted.",
+			entryInfo: "Talk to Amanda Waller.",
+			trigger: false,
+			passages: []
+		},
+		{
+			id: "Amanda-Quest-00",
+			entryName: "Nasty Bugs.",
+			entryInfo: "Whilst working as a Maid, plant the bugs in the meeting rooms.",
+			trigger: false,
+			passages: []
+		},
+
 	];
 	let linusEntries = [
 		{

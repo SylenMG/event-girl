@@ -93,7 +93,7 @@ His eyes are practically dollar signs... although, the dollar is long gone.
 <<= setup.button("Alright.", "Storyline - Vernon Dinner Accept")>>
 <<= setup.button("Fuck no.", "Storyline - Vernon Dinner Early End")>>
 :: Storyline - Vernon Dinner Accept
-<<run setup.eventDone("Gangbang", 1)>><<run setup.story("Vernon-Gangbang-Event", "start")>><<set $story.vernonHelp to true>><<= setup.speak($player, "Alright then, I accept.")>><<= setup.speak($characters.vernon, "Atta girl! A toast! To a successful deal! I´m going to make you a star!")>>
+<<run setup.eventDone("Gangbang", 1)>><<run setup.story("Vernon-Gangbang-Event", "start")>><<set $story.flags.vernonHelp to true>><<= setup.speak($player, "Alright then, I accept.")>><<= setup.speak($characters.vernon, "Atta girl! A toast! To a successful deal! I´m going to make you a star!")>>
 You stare into the glowing red liquid in your wineglass, contemplating what you just did... was it the right choice?
 <<= setup.speak($characters.vernon, "I see our food is arriving, you´ll love this! Nano-noodles! Quite oriental! Just like the good ol´days!", "smile")>><<= setup.speak($player, "Right.")>>
 The evening proceeds rather uneventful, with Vernon constantly repeating himself about how much money you´re going to make, occasionally hinting at the mountain of cocks you will be cleaning... 

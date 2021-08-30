@@ -1,0 +1,32 @@
+:: Storyline - Amanda Re-Introduction
+<<run setup.story("Amanda-Meeting-01", "complete")>>Once more you stand before the black marble doors. With a sudden crack they open on their own, sending an ominous shiver down your spine. The garden well-spring is left behind you as you enter the familiar white office. Your eyes immediately fixate upon Amanda´s slender, but regal posture. She smiles at you, as she slowly let´s her hand drop openly, gesturing towards the chair before her desk. You let out an easy sigh, as you realize that the female guard from before is absent.
+<<= setup.speak($characters.amanda, "Please, have a seat.", "smile")>>
+You gulp, but shake off your uncertainty. Moving towards the chair almost robotically, you place your rump into the soft leather, as does she in her chair.
+<<= setup.speak($characters.amanda, "I believe that the two of us have come off on the wrong end. I´d like to remedy that. Let´s start over, shall we?")>><<= setup.speak($player, "I uuuh... suppose so.")>>
+Leaning back into your chair, you let her continue.
+<<= setup.speak($characters.amanda, "My name is Amanda. The acting VP and close business associate of Eventia, and by extension of that, Gloria Gals and the likes of those.")>>
+She leans back into her chair, eyeing you up and down as a cold silence claims the room for a while
+<<= setup.speak($player, "Uuuuh... oh right. I would be... $player.femaleName!")>><<= setup.speak($characters.amanda, "A pleasure to meet you. Now let´s talk business. Your current predicament is of a... let´s say, an artificial sort. Has Vernon told you yet?")>><<= setup.speak($player, "Told me? Told me what?")>>
+You asked curiously as you waited for the worst.
+<<= setup.speak($characters.amanda, "Well... let me just reiterate, as you might already know. Eventia as a whole, as a company. Has no CEO or owner. The majority share is sort of held in legal stasis.")>><<= setup.speak($player, "Yes... and?")>><<= setup.speak($characters.amanda, "The current legal owner, a relative of yours, is neither alive nor dead. Which complicates things.")>>
+<<if $story.flags.knowsAboutEventia is false>>Zoning out for a brief moment, you ask her to repeat herself. Thinking hard about what she just told you, a sense of shock takes hold of you. You didn´t have any relatives back in the past. Only one comes to mind.
+<<= setup.speak($player, "Wait... I just gotta digest that. You´re telling me, that a relative of mine owns... uuuh, Eventia? The company that I´m currently paying off debt in?")>><<= setup.speak($characters.amanda, "That is correct. A company that I and many others would like to acquire as well. I was not involved in this whole... conundrum of yours. But I´ll be willing to help. If you help me.")>>
+You lean back into your chair, considering your options.
+<<= setup.speak($player, "Wait... I just gotta digest that. You´re telling me, that a relative of mine owns... uuuh, Eventia? The company that I´m currently paying off debt in?")>><<= setup.speak($characters.amanda, "That is correct. A company that I and many others would like to acquire as well. I was not involved in this whole... conundrum of yours. But I´ll be willing to help. If you help me.")>>
+You lean back into your chair, considering your options.<<else>><<= setup.speak($player, "Told me? Told me what? Something new?")>>
+You asked curiously as you waited for the worst.
+<<= setup.speak($characters.amanda, "Well... let me just reiterate, as you might already know. Eventia as a whole, as a company. Has no CEO or owner. The majority share is sort of held in legal stasis.")>><<= setup.speak($player, "Yes... and?")>><<= setup.speak($characters.amanda, "The current legal owner, a relative of yours, is neither alive nor dead. Which complicates things.")>>
+You nod, leaning forward towards her.
+<<= setup.speak($player, "I´m aware, and I obviously cannot inherit it because of legal bullshit.")>><<= setup.speak($characters.amanda, "That is correct. A company that I and many others would like to acquire as well. I was not involved in this whole... conundrum of yours. But I´ll be willing to help. If you help me.")>>
+You lean back into your chair, considering your options.<</if>>
+
+<<= setup.button("Alright. I need more information though.", "Storyline - Amanda Motive Explanation")>>
+<<= setup.button("Hell no. No way I´m working with you.", "Storyline - Amanda Work Decline")>>
+:: Storyline - Amanda Work Decline
+You look down, shaking your head in disapproval.
+<<= setup.speak($player, "Going to have to disappoint you on that one.")>>
+Amanda sighs, her piercing gaze penetrating you completely, almost as if she is seeing straight through you, observing something behind you. She spins to the side in her chair, facing away from you.
+<<= setup.speak($characters.amanda, "If that is how you want it. Going at it alone. I won´t be in your way. Come crawling back, anytime though.")>>
+You get up from the chair and head towards the exit.
+
+<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>

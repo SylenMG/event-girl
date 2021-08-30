@@ -1,0 +1,13 @@
+:: Reflect - Slut 4
+Biting your finger, you quiver and tremble as you squeeze your thighs together and push down on your wanton mound. The hollowness in your snatch growing completely out of control, sending you into a near frenzy. You almost gargle in your own drool as you moan. Imagining a hundred men lining up to tear into your hungry flesh.
+<<= setup.speak($player, "Mhmmmm... fuck, just destroy me please!", "pleasure")>>
+Your mind drifts off completely, with your hands going wild with pure lust, exploring every inch of your body.
+
+<span id="choice"><span class='lbb'><<button "Let it consume you.">><<replace "#choice">>You let out another broken moan... now even deeper and more wild than before.
+<<= setup.speak($player, "Uuuuh please! I can´t take i-...!", "pleasure")>>
+*BANG* *BANG* *BANG*
+<<= setup.speak($characters.secret, "Keep quiet in there! Trying to sleep!")>>
+You startle as your heart jumps, the banging taking you out of your trance. Were you really that loud?
+<<= setup.speak($characters.secret, "That´s better. Fucking fifth time in a row.")>><<= setup.speak($player, "S-sorry!", "surprised")>>
+A sudden silence takes hold, and your cheeks turn red and warm from embarrassment.
+<<run setup.psycheHard($player, "Slut", 4)>><<run setup.completeRef($player, "refSlut4")>><<= setup.displayReflections($player)>><</replace>><</button>></span></span>

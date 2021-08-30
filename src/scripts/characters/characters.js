@@ -39,6 +39,19 @@ setup.loadCharacters = function () {
 		days: ["All"],
 		place: "secret rape lab"
 	}];
+	let amandaLocations = [
+		{
+			type: "Office",
+			time: ["Afternoon","Evening"],
+			days: ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+			place: "amanda office"
+		},
+		{
+			type: "Default",
+			time: ["All"],
+			days: ["All"],
+			place: "brain bank"
+		}];
 	
 	let characters = {
 		jake: {
@@ -137,7 +150,7 @@ setup.loadCharacters = function () {
 				ass: 3,
 				asshole: 2
 			},
-			worldLocation: "unknown"
+			worldLocation: amandaLocations
 		},
 		sandra: {
 			name: "Sandra",

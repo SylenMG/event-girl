@@ -8,3 +8,10 @@
 //Quests
 <<run setup.story("Quest-ID", "complete")>> - Completes the entry if it's active.
 <<run setup.story("Quest-ID", "start")>> - Activates the entry if it exists.
+
+
+//Story Notes
+Vernon Venere - President of Gloria Gals
+Marcus - Acting President, temporary
+Master Morris - In stasis coma, the President of Eventia
+Amanda Waller - Vice President of Eventia, Owner of Hot Stripes, Viz Liz Lingerie and several other business ventures

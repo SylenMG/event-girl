@@ -1,0 +1,22 @@
+:: Reflect - Slut 3
+Twirling your hair and biting your lip, you think about several hands groping and touching your body. The over-flowing lust making you moan, as they whip out their cocks to violate you. Your stomach jumps as you dream about them running a train on your. Cock after cock, all of them filling you up with their seed.
+<<= setup.speak($player, "Mhmmm... maybe it´s not so bad to be used by a lot of guys?")>>
+You chuckle as you think about them all laying claim to your body, completely lost to their desires and whatever they want to do to you.
+
+<span id="choice"><span class='lbb'><<button "Let go.">><<replace "#choice">>The many hands pass you around as you´re filled brim full with their manhood. The shafts grinding against your smooth skin, eagerly waiting their turn to ravage you.
+<<= setup.speak($player, "Mhmmm... fuck. I just want to be used.", "pleasure")>>
+Tears trail down your cheeks as you playfully squeeze your tits and press your ass against the sheets.
+<<= setup.speak($player, "Just fuck me up. P-please.", "pleasure")>>
+Letting your thoughts run wild for a little while longer... you eventually open your eyes in disappointment. A hollowness taking place in your stomach... and your behind. You need to fill it.
+
+<<run setup.psycheHard($player, "Slut", 3)>><<run setup.psyche($player, "Slut", 15)>><<run setup.completeRef($player, "refSlut3")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Maybe one is enough.">><<replace "#choice">>You slowly open your eyes in a daze. Fighting off the intoxicating thoughts that invade your mind. Maybe that is a little excessive?
+<<= setup.speak($player, "I gotta get my shit together. This is... dangerous. What will they think of me?")>><<= setup.speak($player, "One guy is fine... but two... three? More? That´s just... Ugh.")>>
+You twist around, looking at the clock and checking your E-Pal to try and distract your further from the thought. The need from your wanton slit ever-looming in the background.
+
+<<run setup.psycheHard($player, "Slut", 3)>><<run setup.completeRef($player, "refSlut3")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Stop.">><<replace "#choice">>You open your eyes bluntly. What has become of you? Lying there, sweating in your sheets, thinking about making cock after cock cum all over you... and inside of you.
+<<= setup.speak($player, "Maybe... that´s taking it a little too far.")>>
+A sigh escapes you, and a worrying thought of you losing control.
+<<= setup.speak($player, "I can´t let that happen.")>>
+You lie on your back... gulping, as you try your best to keep the bad thoughts at bay.
+<<run setup.psyche($player, "Slut", -15)>><<run setup.psyche($player, "Mind", 55)>>
+<<= setup.displayReflections($player)>><</replace>><</button>></span>

@@ -1,0 +1,55 @@
+:: Storyline - Amanda Meet Up
+<<run setup.story("Amanda-Meeting-00", "start")>><<run setup.story("Amanda-Meeting-00", "complete")>>Entering the foyer, a rather stocky and broad-shouldered woman clad in grey-plated military clothes moves in front of you.
+<<= setup.speak($player, "Uuuh, blocking my way for any particular reason?")>>
+She places her hands behind her back and separates her legs, ending in a confident pose with an arched back. 
+<<= setup.speak($characters.sandra, "Are you $player.femaleName? You have been summoned by the VP. I´m here to extract you.")>><<= setup.speak($player, "The VP? What do you mean?")>><<= setup.speak($characters.sandra, "The Vice President of Eventia. Now... make things easy, and come along willingly. Necessary force will be applied if needed.","smile")>><<= setup.speak($player, "Sheesh... sure, I´ll come...")>>
+The woman waves for you to follow, spins and walks briskly towards the main elevator. A drop of sweat trails down your forehead and your stomach drops. This couldn´t possibly be a good sign... right?
+
+You reach the main elevator and the woman stops. With a soft click the door slides open and her piercing gaze follows, almost commanding you directly to enter. After entering the elevator, she slides her wrist over the console, which changes color and text; @@.bold;Location: Penthouse@@.
+<<= setup.speak($player, "So... What is this about again?")>><<= setup.speak($characters.sandra, "You´ll see when we arrive.","smile")>>
+The soft click resonates once more and the elevator door slides open. You follow along once more into a garden of sorts. The familiar chirping of birds fill your ears and the pleasant, but disruptive scent of roses and lilacs blast your nostrils. You spot a bonsai tree and a fountain with a cupid on top. The humidity and tropical air is immediately noticeable and in stark contrast to where you just came from.
+<<= setup.speak($player, "Wow. That is certainly strong.")>>
+You say whilst holding in a sneeze.
+<<= setup.speak($characters.sandra, "Hmph? I was told you would be familiar with such an environment. The VP has gone to great lengths to replicate a pre-war accurate western temperate environment. It´s a great place to meditate. Get on her good side, and she might allow you.")>><<= setup.speak($player, "Really? Not exactly what I would call temperate... or western.")>>
+You reach a black marble double door, with golden inlaid patterns of swirling roses and cryptic symbols.
+<<= setup.speak($characters.sandra, "Wait here.")>>
+The woman opens and enters only to return a minute after.
+<<= setup.speak($characters.sandra, "Alright, the VP will see you now. Don´t do anything stupid now.", "smile")>>
+
+<<= setup.button("Continue.", "Storyline - Amanda Meeting")>>
+:: Storyline - Amanda Meeting
+You pass through the black marble doors and enter a near-white office with a rectangular desk in the middle. The whole room is in stark contrast to the garden outside it, and the air much more dry. Behind the desk you see a black-haired woman, her head held high and her eyes vigorously scanning your every move. With her hands easily resting on her desk, you approach.
+<<= setup.speak($characters.amanda, "Please, sit.")>>
+She nods towards the smaller, yet comfy-looking chair in front of her white desk.
+<<= setup.speak($characters.sandra, "As you requested. Standing by.")>><<= setup.speak($characters.amanda, "Very good Sandra, at ease.")>><<= setup.speak($player, "So uh-... If this is about my debt-")>><<= setup.speak($characters.amanda, "Please... No need to jump to conclusions. My name is Amanda Waller. I´m the Vice President of Eventia Incorporated.")>><<= setup.speak($player, "Well uuuh, nice to meet you, I´m-")>>
+You get up and place your hand forward for a shake, but she simply looks at it confused.
+<<= setup.speak($characters.amanda, "Oh uuuuuh... we don´t do that here.")>><<= setup.speak($player, "Right... so uuuh... whatever you do to greet someone I guess.")>><<= setup.speak($characters.amanda, "It´s fine, the gesture is accepted. It must be frightening to be so far from home. Which is also why we should get down to business.")>><<= setup.speak($player, "So... did I do something wrong?")>><<= setup.speak($characters.amanda, "You´re not here because you´ve done anything wrong. Quite the contrary. Would you like a treat?")>>
+She pushes a small bowl filled with pink-wrapped candy towards you.
+
+<<= setup.button("Take a piece of candy.", "Storyline - Amanda Candy Accept")>>
+<<= setup.button("Ignore the candy.", "Storyline - Amanda Candy Ignore")>>
+:: Storyline - Amanda Candy Accept
+<<run setup.psyche($player, "Lust", 50, 0)>><<run setup.psyche($player, "Mind", 150, 50)>>
+You dart your eyes back and forth between her gaze and the candy. You do your best poker-face smile and grab one piece of the pink candy. Unwrapping it you quickly put it into your mouth, where it almost instantly dissolves upon contact with your saliva. A sweet sugary rush fills you, going straight into your loins. A moan escapes you and for a moment you completely forget your current situation.
+<<= setup.speak($characters.amanda, "I see you like those. I have plenty more. But that is not why you´re here.")>><<= setup.speak($player, "Uuuh? *drools*", "smile")>>
+A smile spreads on her cheeks as she leans back in her chair.
+<<= setup.speak($characters.amanda, "You see, I would like to let you know that Eventia as a corporation. Is deeply embarrassed by the way that you have been treated in our custody. You can consider this... a formal apology.", "smile")>>
+You look up... shaking your pink-filled head to properly digest what she just said.
+<<= setup.speak($player, "A-an apology? W-wait? Really?")>><<= setup.speak($characters.amanda, "Yes. Eventia is ready to nullify your debt. In full.")>>
+She sits back up, once against resting her arms on her desk.
+<<= setup.speak($characters.amanda, "All you would have to do is sign this document. And all of your troubles will go away. This has all been a misunderstanding, after all.")>><<= setup.speak($characters.sandra, "Right here, miss.")>>
+The other woman places a light tablet unto the table, pointing towards a finger-scan. The title of the document displayed is blurry.
+<<= setup.speak($player, "I-... just put my finger here?")>><<= setup.speak($characters.sandra, "Yes. Oh-... and don´t forget the contractual voice confirmation.")>><<= setup.speak($characters.sandra, "Repeat after me; I hereby sign this document of my own free will. Or something like that.")>><<= setup.speak($player, "Oh... Okay... I guess so.")>>
+
+<<if $story.flags.vernonHelp is true>><<= setup.button("Sign the document.", "Storyline - Amanda Interrupt")>><<else>><<= setup.button("Sign the document.", "Ending - Dark Bliss")>><</if>>
+
+:: Storyline - Amanda Candy Ignore
+You shake your head.
+<<= setup.speak($player, "I think I´m going to pass on that one.")>><<= setup.speak($characters.sandra, "Tsk! You would reject the VP-!")>><<= setup.speak($characters.amanda, "Calm down Sandra, I´m sure our guest simply does not fancy sweet things. It is of no issue. Well then, let´s get to it.", "smile")>><<= setup.speak($characters.amanda, "Do you have any idea why you´re here? $player.femaleName...")>><<= setup.speak($player, "No? Uuuuh... not really.")>><<= setup.speak($characters.amanda, "Well, obviously you´re here because of our little misunderstanding. I was never told of your... predicaments... during your legal revival.")>>
+An eased sigh escapes you as you let up. Letting go, you slide back into the chair.
+<<= setup.speak($player, "Finally... I-... I really had a hard time believing that this was not some huge mistake.")>><<= setup.speak($characters.amanda, "Indeed, and on behalf of Eventia, I apologize for all of this. I was also told that your... body was changed? Not uncommon, but... I am surprised that you also changed your legal gender? To that of a woman?")>>
+You scratch your chin as she smiles back at you.
+<<= setup.speak($player, "I-... Uuuuh? What now? I did not consent to that at all.")>><<= setup.speak($characters.amanda, "Well, according to the report that I received, it was your own wish to go through with that. Perhaps another mistake? No matter... such things can simply be changed. Please, bring it here Sandra.")>>
+The other woman takes out a light tablet and places it on the table.
+
+<<= setup.button("Continue.", "Storyline - Amanda Offer")>>

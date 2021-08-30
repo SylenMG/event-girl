@@ -1,5 +1,20 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
+0.19.0
+- Added all Slut Reflection passages (instead of placeholders).
+- Added Quest: Amanda Meeting 2
+- Added Quest: Amanda Bug Mission
+- Added Location: Waller Gardens (with an Elevator in the Gloria Hotel leading to it)
+- Added Location: Amanda´s Office
+- Added Amanda Waller location schedule.
+- Added some default lines for her for now.
+- Made it more clear that you need to pass Feminine before you can reflect on Slut, and Slut before Bimbo.
+- Added a huge "NEW GAMES ONLY" message at the start.
+- Fixed the error for "Time" that would show up if the player refreshed/updated the game in-browser.
+- Rewrote the first meeting with Amanda to more fit her newly expanded Character Arc.
+- Fixed a lot of typos/grammar.
+- Fixed a dead end in the first meeting with Amanda.
+
 0.18.0
 - Added all Feminine Reflection passages (instead of placeholders).
 - You can discourage your feminine transformation, or simply embrace it.

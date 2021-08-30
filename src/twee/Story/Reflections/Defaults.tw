@@ -22,7 +22,7 @@ You touch your feet and your tender heels. They really have been shortened, givi
 Standing before the nearby mirror, you admire yourself and your figure. You for sure are really kinda... Hot. A warm feeling spreads from your lower body, for moment, completely forgetting that the person standing infront of you, is you...
 
 You trail your hand along your stomach, feeling the absence between your legs. A jolt of heat and pleasure shoots through you, and you pant lightly as you grace your new lips.
-<<run setup.completeRef($player, "refBody")>>
+<<run setup.experience($player, "Masturbation", 0, 0)>><<run setup.completeRef($player, "refBody")>>
 <<= setup.displayReflections($player)>>
 :: Reflect - Explore
 You continue touching yourself, feeling your pussy tingle, already wet from excitement. Shocks of heated pleasure shoots through your stomach and your loins as you rub your clitty.

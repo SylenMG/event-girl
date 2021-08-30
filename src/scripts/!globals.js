@@ -3,8 +3,8 @@
 //Requires: therapy.js -loaded after
 //by Sylen
 
-setup.displayTime = function () {
-	let time = SugarCube.State.variables.time;
+setup.displayTime = function (time) {
+	//let time = SugarCube.State.variables.time;
 	if (time.currentDay < 0) {
 		time.currentDay = 0;
 	} else if (time.currentDay > 6) {
@@ -194,6 +194,12 @@ setup.checkStory = function (requirements, req, player) {
 			returnCheck = true;
 		} else {
 			returnCheck = false;
+		}
+	} else if (requirements[req].type == "story-inactive") {
+		if (activeLog.includes(requirements[req].id)) {
+			returnCheck = false;
+		} else {
+			returnCheck = true;
 		}
 	} else {
 		////story-active

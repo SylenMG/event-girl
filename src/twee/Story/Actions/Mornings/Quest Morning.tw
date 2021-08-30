@@ -1,0 +1,12 @@
+:: Morning - Amanda Meeting 01
+A sudden beeping sound shakes you awake.
+
+<<= setup.speak($player, "W-woah?! What?... Ugh.", "surprised")>>
+
+Rolling over you check your E-Pal. A stark message is displayed; @@.bold;"We may have come off on the wrong end. Meet me in my office. - Amanda Waller, VP."@@
+
+<<= setup.speak($player, "Tsk... Her again? Better see what she wants.")>> 
+
+You get ready for the day ahead, making your final preparations. 
+<<run setup.story("Amanda-Meeting-01", "start")>><<= setup.dailyExpenses($player, $time.currentDay)>><<run setup.rollEvents($eventStats)>><<run setup.psyche($player, 'Mind', -15, -5)>><<run setup.psyche($player, 'Lust', 10, 5)>>
+<<= setup.button("Continue.", "Pod - Main")>>

@@ -28,15 +28,3 @@ A single tear trails down your left cheek.
 You lie back down, turning unto your stomach and hiding your face in your single pillow.
 <<run setup.psyche($player, "Slut", -45)>><<run setup.psyche($player, "Mind", 15)>>
 <<= setup.displayReflections($player)>><</replace>><</button>></span>
-:: Reflect - Slut 2
-placeholder 2 <<run setup.psycheHard($player, "Slut", 2)>>
-<<run setup.completeRef($player, "refSlut2")>>
-<<= setup.displayReflections($player)>>
-:: Reflect - Slut 3
-placeholder 3 <<run setup.psycheHard($player, "Slut", 3)>>
-<<run setup.completeRef($player, "refSlut3")>>
-<<= setup.displayReflections($player)>>
-:: Reflect - Slut 4
-placeholder 4 <<run setup.psycheHard($player, "Slut", 4)>>
-<<run setup.completeRef($player, "refSlut4")>>
-<<= setup.displayReflections($player)>>

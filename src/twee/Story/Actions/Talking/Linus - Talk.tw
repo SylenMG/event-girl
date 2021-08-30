@@ -1,5 +1,5 @@
 :: Socials - Linus - Main
-You smile towards Dr. Linus as you approach her.
+You smile towards Dr. Linus as you approach him.
 <<= setup.speak($player, "Hey Dr. Linus, got a moment?")>>
 He looks at you pensively, eyeing you up and down.
 <<= setup.speak($characters.drlinus, "Of course... what´s troubling the young lass?")>>
@@ -31,7 +31,7 @@ He chuckles lightly.
 You turn to leave.
 
 :: Socials - Linus - Headache Quest Complete
-<<= setup.story("Headache-00", "complete")>><<= setup.story("Headache-01", "start")>>Having returned to Linus, you inquire about the pills.
+<<run setup.story("Headache-00", "complete")>><<run setup.story("Headache-01", "start")>>Having returned to Linus, you inquire about the pills.
 <<= setup.speak($player, "So those pills will make sure my brain doesn´t turn to mush?")>><<= setup.speak($characters.drlinus, "Indeed! If you haven´t tried them yet, you should. There are more ways to deal with your problem, however.", "smile")>>
 You raise a brow at him, placing your hands at your hips.
 <<= setup.speak($player, "Really now? Spill it then.", "smile")>><<= setup.speak($characters.drlinus, "Good old meditation. You should try that. All you do is sit or lie still. And think of nothing. Relax and so on. Allowing your mind to heal.")>>

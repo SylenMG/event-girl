@@ -1,0 +1,16 @@
+:: Gloria Lane - Waller Gardens
+!Gloria Lane - Waller Gardens
+-------------------------------------
+The familiar chirping of birds fill your ears and the pleasant, but disruptive scent of roses and lilacs blast your nostrils. You spot the familiar bonsai tree, with the fountain with a cupid on top.
+
+!!!Black Marble Doors
+-------------------------------------
+The Black Marbled-Doors stand before you with golden-inlaid rose patterns and cryptic symbols.
+
+<<= setup.button("Enter Amanda´s Office.", "Gloria Lane - Amanda´s Office")>>
+
+!!!Black Elevator
+-------------------------------------
+The Black Elevator taking you to the lobby of the Gloria Hotel.
+
+<<= setup.button("Enter Elevator.", "Gloria Lane - Gloria Hotel")>>

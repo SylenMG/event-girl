@@ -3806,6 +3806,28 @@ setup.loadEvents = function () {
 			requirements: []
 		}]
 	}
+	let storyMaidBugMission = {
+		name: 'Maid Bug Mission',
+		passageText: '<<include "Storyline - Bugging Rooms">>',
+		modifiers: ["Maid"],
+		requirements: [{id: 'Mind', type: 'psyche-max', level: 2},{id: 'Amanda-Quest-00', type: 'story-incomplete', level: 0}],
+		options: [
+		{
+			buttonText: 'Make a run for it.',
+			resultText: '<<include "Storyline - Bugging Rooms - Make a run for it">>',
+			requirements: []
+		},
+		{
+			buttonText: 'Act dumb and slutty.',
+			resultText: '<<include "Storyline - Bugging Rooms - Act dumb and slutty">>',
+			requirements: [{id: 'Slut', type: 'psyche-min', level: 2}]
+		},
+		{
+			buttonText: 'Play it off cool.',
+			resultText: '<<include "Storyline - Bugging Rooms - Play it off cool">>',
+			requirements: [{id: 'Cool', type: 'psyche-min', level: 1}]
+		}]
+	}
 	
 	let receptionistIncidents = [recGroping,recHarassment,recBlowjob1,recBlowjob2,recBlowjob3,recBlowbangES,recUpskirt1,recUpskirt2,recUpskirt3,recSkirtPromo1,recSkirtPromo2,recComicCon,recStripClub1,recStripClub2,recDrool,recPantiePurchase1,recPantiePurchase2,recBimboDream,recExecutiveMeeting1,recExecutiveMeeting2,recGreatJob];
 	let maidIncidents = [maidDirtyRoom1,maidDirtyRoom2,maidAfterparty,maidHallway,maidVoyeur,maidSpanking,maidPantiePromo,maidCinema,maidDrool,maidSex1,maidSex2,maidBimbo,maidCollectionRoom1,maidCollectionRoom2,maidBoardRoom,maidLuxurySuite,maidGreatJob];
@@ -3818,7 +3840,7 @@ setup.loadEvents = function () {
 	let boothbabeIncidents = [boothbabeGreatJob,boothbabeMindCheck,boothbabeLustCheck,boothbabeBimboCheck,boothbabeGrope,boothbabeHarass,boothbabeHardSell];
 	let gloryholeIncidents = [gloryholeBlowjob1,gloryholeBlowjob2];
 	let punishmentIncidents = [punishGloryhole1,punishGloryhole2,punishFreeUse1,punishFreeUse2,punishEXBunny,punishVizLizMannequin];
-	let storyIncidents = [storyHypernetAccess1,storyHypernetAccess2,storyMaidVernonEncounter1];
+	let storyIncidents = [storyHypernetAccess1,storyHypernetAccess2,storyMaidVernonEncounter1,storyMaidBugMission];
 	
 	let receptionistFinish = '<<= setup.eventText("After a long day of dealing with confused clients, answering questions about eventia, their venues, event girls and other lucrative offers. You sigh as it reaches it conclusion.")>>' + 
 	'<<= setup.eventText("Your feet are sore from strutting around in heels all day and your skin slightly tender from the tight attire.")>><<run setup.experience($player, "High Heels", 5, 5)>>' + 
@@ -3911,10 +3933,10 @@ setup.loadEvents = function () {
 	let eventMaid = {
 		name: "Maid",
 		outfit: "maid",
-		start: maidStart,
+		start: "<<include 'Maid - Start'>>",
 		intro: maidIntro,
 		incidents: maidIncidents,
-		finish: maidFinish
+		finish: "<<include 'Maid - Finish'>>"
 	}
 	let eventStripper = {
 		name: "Stripper",
