@@ -1,0 +1,12 @@
+:: Reflect - Bimbo 3
+A deep haze claims you as you feel something long, thick and warm stretch your throat. You try to moan, but only manage to gag and retch in pure pleasure. Wave after wave of orgasmic bliss flows through your lower abdomen as someone is hammering away at your pussy and ass.
+<<= setup.speak($player, "Mhmmmmm! Take me! Make me your cumdumpster!", "pleasure")>>
+You try to yell, but only manage to think loudly. The grunting of several men fills your ears, as you're passed around from cock to cock. The jizz and spunk landing on your skin and filling your slutty holes, makes you quiver with hungering need.
+<<= setup.speak($player, "Mhmmm... give it to me... I want it all!", "pleasure")>>
+The hands holding unto your hips pull you in tighter and tighter, as they unload inside of you.
+
+<span id="choice"><span class='lbb'><<button "Give in.">><<replace "#choice">>You awaken in your bed to a banging on your pod.
+<<= setup.speak($characters.secret, "Girl! Keep it down in there! Trying to rest before my shift!")>><<= setup.speak($player, "Mhm-... sure, sorry!", "smile")>>
+You roll around in your bed, smirking, as you drift off once more to "Cock & Cum"-land.
+
+<<run setup.psycheHard($player, "Bimbo", 3)>><<run setup.satisfy($player)>><<run setup.completeRef($player, "refBimbo3")>><<= setup.displayReflections($player)>><</replace>><</button>></span>

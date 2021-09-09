@@ -1,0 +1,22 @@
+:: Reflect - Bimbo 1
+You find yourself suddenly lying in your pod bed, blinking and a trail of drool running down your chin. When did you get here?
+<<= setup.speak($player, "Huh...? Weird...")>>
+Looking around, you see that at least an hour has passed.
+<<= setup.speak($player, "W-what the hell?")>>
+A sudden thought crosses your mind... what if you had a big fat cock to wrap your lush lips around, right now? Pushing your tongue out, you lick the air, imagining yourself bobbing your head back and forth. 
+<<= setup.speak($player, "Mmmmmphhh...", "pleasure")>>
+Your loins fill with heat, as a gagging sound escapes you. Trailing your hand along stomach, you begin to play with yourself.
+
+<span id="choice"><span class='lbb'><<button "Give in to your desires.">><<replace "#choice">>A blissful wave of ecstasy washes over you as you climax to the thought of a bulging cock stretching out your throat. The idea of hot thick spunk being dumped directly into your stomach, pushes you over the edge.
+<<= setup.speak($player, "Aaaaah! Mmmmmmmmmh.", "pleasure")>>
+The sheets now soaked in your sweat and juices, stick to your skin as you let out. Panting and out of breath, you can hardly believe that you just got yourself off to something like that.
+<<= setup.speak($player, "G-god... I really should suck some more cocks!", "smile")>>
+You stretch yourself as you lie in your pod bed, giggling to yourself.
+
+<<run setup.psycheHard($player, "Bimbo", 1)>><<run setup.satisfy($player)>><<run setup.completeRef($player, "refBimbo1")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Resist with everything you got.">><<replace "#choice">>You grit your teeth and clench your fist, as you use every muscle in your body to keep you from taking things further.
+<<= setup.speak($player, "S-stop! I gotta stop!", "surprised")>>
+Sweat trickles down your forehead as you pant from exhaustion.
+<<= setup.speak($player, "I-... I need to fight this! It´s wrong!", "angry")>>
+You turn around in your pod bed, almost crawling around to get into a better position... what the hell are you to do now?
+
+<<run setup.psyche($player, "Lust", 100, 50)>><<run setup.psyche($player, "Mind", 100, 50)>><<run setup.psyche($player, "Bimbo", -90)>><<= setup.displayReflections($player)>><</replace>><</button>></span>

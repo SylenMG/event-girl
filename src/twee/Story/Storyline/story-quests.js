@@ -147,12 +147,26 @@ setup.loadStory = function () {
 			passages: []
 		},
 		{
+			id: "Amanda-Meeting-03",
+			entryName: "Ex-Affairs.",
+			entryInfo: "Talk to Amanda Waller about another job.",
+			trigger: false,
+			passages: []
+		},
+		{
 			id: "Amanda-Quest-00",
 			entryName: "Nasty Bugs.",
 			entryInfo: "Whilst working as a Maid, plant the bugs in the meeting rooms.",
 			trigger: false,
 			passages: []
 		},
+		{
+			id: "Amanda-Quest-01",
+			entryName: "Play-virus.",
+			entryInfo: "Whilst attending the party, infect the playboy with a virus.",
+			trigger: false,
+			passages: []
+		}
 
 	];
 	let linusEntries = [

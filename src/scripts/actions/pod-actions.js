@@ -73,6 +73,18 @@ setup.loadPodActions = function (player) {
             buttonName: "Go to meet Amanda.",
             passage: "Storyline - Amanda Bug Mission (Complete)",
             requirements: [{id: 'Amanda-Meeting-02', type: 'story-incomplete', level: 0},{id: 'Amanda-Meeting-02', type: 'story-active', level: 0}]
+        },
+        {
+            name: "Amanda Meet Up 03",
+            buttonName: "Go to meet Amanda.",
+            passage: "Storyline - Amanda Seduction Mission Intro",
+            requirements: [{id: 'Amanda-Meeting-02', type: 'story-complete', level: 0},{id: 'Amanda-Meeting-03', type: 'story-incomplete', level: 0}]
+        },
+        {
+            name: "Amanda Seduction Mission",
+            buttonName: "Meet Amanda in the lounge.",
+            passage: "Storyline - Amanda Seduction Party Begin",
+            requirements: [{id: 'Amanda-Meeting-03', type: 'story-complete', level: 0},{id: 'Amanda-Quest-01', type: 'story-incomplete', level: 0}]
         }
     ];
     let actions = storyActions.concat(podActions);

@@ -1,0 +1,22 @@
+:: Reflect - Bimbo 4
+The stark emptiness takes hold of your very being. Nothing, but the pitch black abyss surrounds you. Who are you? What´s your name? What´s you purpose?
+<<= setup.speak($characters.malePlayer, "H-hello?")>>
+You call out into the dark void. From the abyss you see a woman approaching you. Her naked tits swaying lightly from side to side as she struts towards you, a wicked smile on her lips.
+<<= setup.speak($player, "My-my... look what we have here? This is where you´ve been hiding?", "smile")>><<= setup.speak($characters.malePlayer, "W-who are you again? G-god damn you are hot!", "smile")>>
+She smirks, placing a hand on your shoulder as she trails around you.
+<<= setup.speak($player, "Why? I am you. Of course. I´ve come to claim what is mine.", "smile")>><<= setup.speak($characters.malePlayer, "Pfft... yeah right! You´re still hot! Where are we though?", "smile")>><<= setup.speak($player, "This is your mind. Your psyche even. Look upon, and revel in it´s emptiness. A perfect canvas... for something new.", "smile")>>
+You gulp at her comment, as a shiver runs down your spine.
+<<= setup.speak($characters.malePlayer, "Surely you´re kidding, right?")>><<= setup.speak($player, "This is your mind. Your psyche even. Look upon it and revel in it´s emptiness. A perfect canvas... for something new.", "smile")>>
+A sharp pain pierces right through your back, forcing itself through stomach. You scream and writhe in agony as you look down, only to see the tip of a pink dagger peak out from your abdomen.
+<<= setup.speak($characters.malePlayer, "Aaaaah?! W-what are you d-doing to me?!", "surprised")>><<= setup.speak($player, "Taking what is mine.", "pleasure")>>
+The lids over your eyes grow heavy and you slump unto the plush skin of the woman. Lying there in her embrace, a soothing calmness flows over you, as you accept your end.
+
+<span id="choice"><span class='lbb'><<button "Death claims you.">><<replace "#choice">>You yank yourself awake, heaving for air, panting as if you had just been thrashed through the very pits of hell itself. 
+<<= setup.speak($player, "U-ugh...! W-whatsies?!", "pleasure")>>
+A mixture of pain and pleasure vibrates through your very being as you spasm out in your sheets, soaking them in your bodily fluids.
+<<= setup.speak($player, "A-a-a-ahahahahaha!", "pleasure")>>
+The pod is filled with your manic giggling as the change completes. You were always a woman. There never was any change at all. You have been cured. A familiar calmness takes hold of you and the spasm stops. Your breathing slows down and you once more stare blankly upon the ceiling of your pod... as you´ve done so many times before.
+<<= setup.speak($player, "Finally. Is about time! Teehee~!", "pleasure")>>
+Giggling to yourself, you turn over, content on the new you. You´re finally what you were always meant to be! It´s time to go out there and experience the world as you were meant to! *giggles*
+
+<<run setup.psycheHard($player, "Bimbo", 4)>><<run setup.satisfy($player)>><<run setup.completeRef($player, "refBimbo3")>><<= setup.displayReflections($player)>><</replace>><</button>></span>

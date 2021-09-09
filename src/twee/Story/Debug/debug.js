@@ -31,6 +31,11 @@ var debug = [
 		options: ['<<= setup.debugStats($debuggedExperience, $debuggedPsyche)>>']
 	},
 	{
+		id: "Test: Reflections",
+		shown: 0,
+		options: ['<<= setup.debugReflections($player)>>']
+	},
+	{
 		id: "Test: Sex System",
 		shown: 0,
 		options: ['Statistics: <<link "Print to Console">><<= setup.printStatistics($player)>><</link>>',
@@ -69,7 +74,6 @@ setup.debug = function () {
 }
 
 
-
 setup.debugStats = function (debuggedExperience, debuggedPsyche) {
 	let debuggedStats = "@@.boldtext;Experience@@<br><<= setup.showExperience($player)>><br>@@.boldtext;Psyche@@<br><<= setup.showPsyche($player)>>";
 	let returnDebugged = "";
@@ -88,6 +92,23 @@ setup.debugGetClothes = function () {
 		console.log("Adding " + clothes[i].name + " to the Wardrobe.")
 		setup.acquireItem(clothes[i].name, "clothes");
 	}
+}
+
+setup.debugReflections = function (entity) {
+	let refs = setup.loadReflectionLib();
+	let returnDebug = "";
+	let returnCheck = "@@.red;ERROR@@ (Error in requirements)";
+	for (let i = 0; i < refs.length; i++) {
+		let requirements = refs[i].requirements;
+		let check = setup.checkReq(requirements, entity);
+		if (check == true) {
+			returnCheck = "@@.lightgreen;Pass@@ (Requirements Met)";
+		} else {
+			returnCheck = "@@.red;Fail@@ (Requirements Not Met)";
+		}
+		returnDebug = returnDebug + refs[i].passage + ": [[Test|" + refs[i].passage + "]] - " + returnCheck + "<br>";
+	}
+	return returnDebug;
 }
 
 setup.eventDebug = function (entity) {

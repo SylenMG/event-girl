@@ -1,0 +1,20 @@
+:: Reflect - Bimbo 2
+You twiddle your toes in the pink milky-like water. Looking around you, the pink bubbles floating in the air make you giggle with pleasure.
+<<= setup.speak($player, "Mhm.... teehee... *giggles*", "pleasure")>>
+Popping the bubbles fills you with an overwhelming need to let go and let other men rent your holes out, like a wanton whore sucking johns for cash to fill her pimps pockets.
+<<= setup.speak($player, "P-please fuck me! I gotta pay off my debtsies! Hehe!", "pleasure")>>
+A hand caresses your tits, cupping them lightly, squeezing them as well. Another grabs your ass, filling the pink mists with your giggly moans.
+<<= setup.speak($player, "Mmmmmphhh...A-aaaaaaaaaaah!", "surprised")>>
+You awaken in your pod bed, drenched in your own sweat, panting as if you had just run an entire marathon.
+
+<span id="choice"><span class='lbb'><<button "That was the best dream evah! Teehee!.">><<replace "#choice">>The pod is filled with your giggles as you throw yourself back unto your bed. You gotta return to that dream! Pink is good! Maybe they have pink cummies as well? 
+<<= setup.speak($player, "Do they? I want to find out!", "pleasure")>>
+You close your eyes as you allow yourself to sink back into the bubbly abyss, letting it claim you completely.
+
+<<run setup.psycheHard($player, "Bimbo", 2)>><<run setup.satisfy($player)>><<run setup.completeRef($player, "refBimbo2")>><<= setup.displayReflections($player)>><</replace>><</button>></span><br><span class='lbb'><<button "Focus on keeping the bad thoughts at bay.">><<replace "#choice">>Placing your hands at your temples, you crouch into a fetal position, repeating to yourself.
+<<= setup.speak($player, "Go away. Go away. Go away. Go away. Go away!", "surprised")>>
+After some time, you find yourself having regained at least some modicum of your sense.
+<<= setup.speak($player, "T-this is going too far... w-what the hell is going on!", "angry")>>
+You sit back up in your bed, clenching a pillow as you try your best to keep your senses.
+
+<<run setup.psyche($player, "Mind", 100, 50)>><<run setup.psyche($player, "Bimbo", -90)>><<= setup.displayReflections($player)>><</replace>><</button>></span>

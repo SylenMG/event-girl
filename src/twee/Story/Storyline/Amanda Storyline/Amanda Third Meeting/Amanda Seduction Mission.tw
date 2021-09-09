@@ -1,0 +1,76 @@
+:: Storyline - Amanda Seduction Mission Intro
+You enter the white office, seeing Amanda sitting upright in her black leather chair. Her finger filling the room with an incessant tapping as she leers at you.
+<<= setup.speak($characters.amanda, "You´re late... by five minutes.", "angry")>><<= setup.speak($player, "I am?")>><<= setup.speak($characters.amanda, "Nevermind. We have something to discuss. I need you to install a virus in one of my... acquaintances. You will be invited to a party this evening, as an event girl.")>>
+Pointing at her, you grit your teeth.
+<<= setup.speak($player, "Wait! You said that all I needed to do was a favor. I´ve done that now!", "angry")>><<= setup.speak($characters.amanda, "Yes? You´ve done one job. Did you really think that was enough?")>><<= setup.speak($player, "So what now? I just do your bidding or what?!")>>
+Amanda looks at you amused as she chuckles lightly.
+<<= setup.speak($characters.amanda, "For now you do. But worry not. I will keep my end of the bargain.", "smile")>><<= setup.speak($player, "Pfft. Sure. When is this party then?")>><<= setup.speak($characters.amanda, "Tonight.")>><<= setup.speak($player, "As in tonight-tonight?", "surprised")>><<= setup.speak($characters.amanda, "Yes. You should wear something nice for the event.", "smile")>>
+Scratching your chin, you think about it. 
+
+<<= setup.button("Continue.", "Storyline - Amanda Seduction Mission Explained")>>
+:: Storyline - Amanda Seduction Mission Explained
+You gulp, but nod to Amanda. You´re in too deep now to refuse anyway. Might as well see what things lead to.
+<<= setup.speak($player, "Alright then. So what´s the deal? What do I gotta do?")>><<= setup.speak($characters.amanda, "The task is simple. I will upload a virus to your E-Pal. Then you spread it to him.", "smile")>><<= setup.speak($player, "Wait wait... A virus? And that wont affect me?", "angry")>>
+You stand up from your chair, planting both hands flatly unto her desk.
+<<= setup.speak($characters.amanda, "Nope. Not to you. It would simply monitor and record everything you do. All information I can access anyway.", "smile")>> 
+Whilst the logic is sound, your stomach still drops. A single drop of sweat trickles down your forehead, as you lock eyes with her. Her warm smile reeling you in like a serpent.
+<<= setup.speak($characters.amanda, "All you gotta do is get in close to the guy, and swipe your E-Pal close to his own pad. Easy.")>><<= setup.speak($player, "And what if they catch me?", "angry")>><<= setup.speak($characters.amanda, "You´re insured on that front. Event Girls are infected with all manner of malware and spyware all the time. Nothing suspicious about it at all.", "smile")>>
+Letting out a sigh, you sit back into your chair.
+<<= setup.speak($player, "Alright then. Let´s do it.")>><<= setup.speak($characters.amanda, "Good. I´ll upload the virus to you now. Get yourself into a nice dress, and meet with me in the evening.", "smile")>>
+You get up and turn for the exit, thinking about what to wear for the event.
+
+<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>
+:: Storyline - Amanda Seduction Party Begin
+Standing there in the mirror that you've extended outside your pod. Your eyes trail you from top to bottom.
+<<= setup.speak($player, "I hope this will do...")>>
+You bite your lip, almost too much as your E-Pal finally vibrates with a voice message.
+<<= setup.speak($characters.amanda, "Alright $player.femaleName. Meet me in the lounge. We will go to the event separately, but I will lead you to your vehicle.")>>
+Entering the lounge in your chosen attire of party clothes. You meet the judgemental gaze of Amanda and her security guard.
+<<= setup.speak($characters.sandra, "Is this what passes for clothes to you?")>><<= setup.speak($characters.amanda, "Come now Sandra, don´t kill the mood. Are you ready?")>>
+She asks you with a reassuring tone in her voice. You nod and force out a smile.
+<<= setup.speak($characters.sandra, "Follow me then. No funny business. Your vehicle is outside. See you there, boss.", "smile")>>
+Following Sandra, you exit the main, arching entrance of eVentia. The huge logo putting a stark emphasis on the V in the name is left behind you as you leave the main building. The tapping of the rain hits the thin glass above you, as your eyes lay upon the roaring skyline of tall grey buildings. The black clouds are washed over by the blinding mish-mash of countless ads and neon signs, selling the most bizarre of products. From neon-pink tans, to hyperlight suits and phase-clocked dildos. The miasma of spectral colors put you in a light daze, that you only escape from by Sandra´s light tap on your forehead.
+<<= setup.speak($characters.sandra, "Wake up, newbie. We got a schedule to keep!", "smile")>>
+She marched off, prompting you to follow her. You reach the last sliding glass-door and enter unto a form of helipad. A black vehicle awaits, the doors to it sliding open as well, as you approach.
+<<= setup.speak($characters.sandra, "Get in. Don´t break anything. Or I´ll break you. I expect only the best, as the mistress wills it! Copy that?", "smile")>><<= setup.speak($player, "Uuuuh... Copy?")>>
+A slight drop in your stomach startles you as the vehicle takes off. You´re just able to spot Sandra saluting you as the doors slide shut.
+
+<<= setup.button("Continue.", "Storyline - Amanda Seduction Party Arrival")>>
+:: Storyline - Amanda Seduction Party Arrival
+The vehicle suddenly begins to descend. Pressing your nose against the window, you spot the landing path beneath. The pad was decorated with bright red lights and purple plants that seemed to emit bioluminescent light. With a bump, the vehicle connected with the pad, and the door slid open. You crawled outside, almost immediately gasping as the strong wind blew your hair. Looking around, you noticed that there were other pads along the building, and that yours were much more discrete.
+
+You spotted the entrance before you, and walked towards it. The doors sliding open as you entered, the chatting and bustling intrigue going on around you immediately filled your ears. The warmth washing away the cold outdoors, you sighed in relief as you entered. The whole place stood out as one grand luxurious bar & nightclub of sorts. The deep red light filling the room, gave it an aristocratic air. The scent of deep roses filled your nostrils and shot through your entire torso, ending in your loins.
+<<= setup.speak($characters.amanda, "I see your landing was soft. Now let´s get down to business. The guy is your typical playboy, so I would start by the dancefloor and lounges.")>>
+Amanda´s presence becomes immediately apparent behind you, as she struts around. Stopping at your side she holds out her wrist, showing an image of a middle-aged man.
+<<= setup.speak($characters.amanda, "This would be the man. Get close. Swipe your wrist against his. Done deal.", "smile")>><<= setup.speak($player, "Got it.")>>
+You nod and feel her grip tighten around your shoulder, just for a moment, only to be let go.
+<<= setup.speak($characters.amanda, "Like I said, Playboy. Look for someone that has clearly brough... your kind. I´ll let you get to then.")>>
+She struts off, leaving you in the lobby to the bustling of arriving guests.
+
+<<= setup.button("Continue.", "Storyline - Amanda Seduction Party Continued")>>
+:: Storyline - Amanda Seduction Party Continued
+Entering the main hall, you´re greeted by a lush electronic-like symphony, almost as if played by a techno-like orchestra. However, looking around, you cannot quite gauge the origin of the music. The crowd of people almost ignore you entirely, seemingly being a tightly knit collection of people that all know each others. Almost everywhere you go, a new pair of voices have a hearty reunion, almost going straight to arm-rubbing and asking for favors amongst themselves.
+<<= setup.speak($player, "Hmph... Still no dice. What if I tried the tables by the dance-floor.")>>
+You move towards the dancefloor, and although you cannot see where the music comes from, it increases in volume. Strutting along the booths embedded into the side wall, you suddenly spot a man in the distance, sitting squarely in the middle of one of the booths. A champagne bottle on the table and two scandily-clad girls wrapped around each arm, there is no doubt this would be the guy.
+<<= setup.speak($player, "Now think... how to approach this?", "smile")>>
+
+<<= setup.button("Attempt to seduce your way to him.", "Storyline - Amanda Seduction Party (Seduction)")>>
+<<= setup.button("Pretend to be the third girl he hired.", "Storyline - Amanda Seduction Party (Blunder)")>>
+<<= setup.button("Be blunt and tell him you want to fuck.", "Storyline - Amanda Seduction Party (Slutty)")>>
+:: Storyline - Amanda Seduction Party (Seduction)
+
+<<= setup.button("Continue.", "Amanda Seduction Party (Completion)")>>
+:: Storyline - Amanda Seduction Party (Blunder)
+
+<<= setup.button("Continue.", "Amanda Seduction Party (Completion)")>>
+:: Storyline - Amanda Seduction Party (Slutty)
+
+<<= setup.button("Continue.", "Amanda Seduction Party (Completion)")>>
+:: Storyline - Amanda Seduction Party (Completion)
+The vehicle suddenly descended and at the top of eVentia, just beside what you could only assume was Amanda's ride. Stepping outside, you felt the biting cold wind rip at your hair. The tropical embrace soothed and warmed you once again, as you entered the Waller Gardens from the helipad. As you entered the white office, you were met by a satisfied smile from Amanda herself.
+<<= setup.speak($characters.amanda, "Well done. Well done indeed. So you managed to upload it. I can now see everything.")>><<= setup.speak($player, "Great... It just struck. Who is this guy again? Why is he important to bug?")>><<= setup.speak($characters.amanda, "Oh this guy? Not anyone important. Just my ex-husband. I need some dirt on him. That´s it.", "smile")>>
+You hold up a finger, as if about to protest, but quickly lower it again. Gritting your teeth, you not to Amanda and turn to leave.
+<<= setup.speak($player, "Let me know when it´s time for you to keep up your end...")>><<= setup.speak($characters.amanda, "Oh I will! Don´t you worry darling! Thanks again!")>>
+Stomping back out into the gardens you rush to the elevator, practically slamming the buttons in, only to cross your arms and pout in disappointment.
+
+<<= setup.button("Continue.", "Gloria Lane - Gloria Hotel")>>
