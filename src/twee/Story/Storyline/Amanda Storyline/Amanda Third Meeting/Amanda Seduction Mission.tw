@@ -55,9 +55,22 @@ You move towards the dancefloor, and although you cannot see where the music com
 <<= setup.speak($player, "Now think... how to approach this?", "smile")>>
 
 <<= setup.button("Attempt to seduce your way to him.", "Storyline - Amanda Seduction Party (Seduction)")>>
-<<= setup.button("Pretend to be the third girl he hired.", "Storyline - Amanda Seduction Party (Blunder)")>>
-<<= setup.button("Be blunt and tell him you want to fuck.", "Storyline - Amanda Seduction Party (Slutty)")>>
+Pretend to be the third girl he hired. (Coming Soon)
+Be blunt and tell him you want to fuck. (Coming Soon)
 :: Storyline - Amanda Seduction Party (Seduction)
+You decide that your best cause of action is to probably rely on your skill at seduction. All you need to do is to get in close and swipe your wrist close to his, after all. Moving with a certain degree of confidence towards the booth, you lock eyes with him as you approach. Standing before the booth table, you clear your throat.
+<<= setup.speak($player, "Got room for one more?", "smile")>>
+The man´s eyes flicker all over your body, almost eating you raw.
+<<= setup.speak($characters.executive1, "Ohoho... surely madam, we can make room. Go on then girls, make room!", "smile")>><<= setup.speak($characters.eventgirl1, "Really? You want to make room for... that?", "surprised")>><<= setup.speak($characters.eventgirl2, "Yeah! Don´t you have everything you need right here?", "surprised")>><<= setup.speak($characters.executive1, "Girls-girls! Come now! Go grab us some drinks!", "smile")>>
+The two girls stared daggers at you as they left the booth, seemingly to fetch drinks. Now was your chance. Smiling at him, you sat by the edge of the booth and slid in to sit next to him.
+<<= setup.speak($characters.executive1, "Mhmhm... You look stunning girl! What do they call you?", "smile")>><<= setup.speak($player, "Oh me? $player.femaleName, and you?", "smile")>>
+You´re almost startled as he reaches out to grab your wrist, which makes your uplink say a soft sound notifying you of the upload. For just a moment, you were wondering if you were the only that heard that. The man's carelessness told you otherwise, as his lips grazed your hand.
+<<= setup.speak($characters.executive1, "Mhm... Please. Call me Antonio. I have many names though.", "smile")>><<= setup.speak($player, "Ah, right? What do you do then, Antonio?")>>
+Looking around the club and dancefloor, you notice it slowly filling up with people. Did it upload? Are you done? How do you get rid of him again? Your E-Pal suddenly vibrates, making an unfamiliar voice appear in your E-Pal.
+<<= setup.speak($characters.secret, "Miss $player.femaleName, you´re needed in the lobby.")>><<= setup.speak($characters.executive1, "Whose that?", "smile")>><<= setup.speak($player, "Oh that? Probably my friends. You´ll like them.", "smile")>><<= setup.speak($characters.executive1, "Ah! Yes! Please bring your friends! It will be a whole gathering.", "smile")>>
+With that you exit the booth and strut towards the lobby. As you enter the lobby, your E-Pal vibrates once more.
+<<= setup.speak($characters.secret, "Did you lose him?")>><<= setup.speak($player, "Yes. I´m in the lobby. What now?")>><<= setup.speak($characters.secret, "Get in your ride. Pad 27. I´ll see you later back at Eventia.")>>
+The voice cuts out, prompting you to move to pad 27 and take the ride home.
 
 <<= setup.button("Continue.", "Amanda Seduction Party (Completion)")>>
 :: Storyline - Amanda Seduction Party (Blunder)

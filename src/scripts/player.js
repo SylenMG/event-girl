@@ -1,5 +1,5 @@
 var skillLevel = ["Abysmal","Pathetic","Average","Decent","Professional"];
-var psycheFeminine = ["Masculine","Curious","Conflicted","Feminine","Hyper-Feminine"];
+var psycheFeminine = ["Masculine","Curious","Conflicted","Feminine","Hyper-Feminine","Born Female"];
 var psycheSlut = ["Chaste","Modest","Uninhibited","Slutty","Shameless"];
 var psycheMind = ["Clear","Foggy","Daze","Blanked-Out","Mind-Broken"];
 var psycheBimbo = ["Floozy","Ditzy","Bimbo","Cocks!... And Cummies!","Giggles"];

@@ -1,0 +1,17 @@
+:: Meditation
+<<= setup.meditation($player, $settings.sPassage)>>
+
+:: Meditation - Default
+<<run setup.psyche($player, "Mind", -15, -15)>><<run setup.psyche($player, "Lust", -15, -15)>>You sit down to clear your mind of all troubles, escaping into a serene mindset.
+
+After some time, having cleansed yourself, you feel more ready than ever.
+
+<<= setup.button("Continue.", "Pod - Main")>>
+
+:: Meditation - First Time
+<<run setup.story("Headache-01", "complete")>><<run setup.psyche($player, "Mind", -15, -15)>><<run setup.psyche($player, "Lust", -15, -15)>>You try and sit down as Dr. Linus instructed... trying to clear your mind of all troubles, escaping into a serene mindset.
+<<= setup.speak($player, "Alright... relax.")>>
+After some time, you find yourself letting go... relaxing. You let out a sigh as you feel your mind clean up.
+<<= setup.speak($player, "Huh... guess it worked... kind of.")>>
+You smile, feeling a little more ready to overcome your challenges ahead.
+<<= setup.button("Continue.", "Pod - Main")>>

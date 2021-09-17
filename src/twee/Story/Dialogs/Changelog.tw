@@ -1,5 +1,18 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
+0.20.1
+- Fixed errors popping up during some sex scenes X
+- Fixed climax images simply replacing already unfolded images.
+- Fixed Amanda's missions being available straight away
+- Fixed Reflections getting stuck with Female start (now receives special 'Born Female' stat instead).
+- Fixed Reflections for Unlucky Fella showing up for Damsel in Debt.
+- Fixed player not knowing how to masturbate as a woman during Damsel in Debt.
+- Fixed/changed the way meditating for the first time operates
+- Fixed jessica/angry.png not being available.
+- Fixed one of the body rental conclusions not actually counting intercouse properly.
+- Even though it was intended, have changed it so the Hypernet Access event will repeat until all options are experienced.
+- Added Shortcuts to "Psyche Clinic" and "Gloria Lane" to the map.
+
 0.20.0
 - Added all Bimbo Reflection passages (instead of placeholders).
 - Added Quest: Amanda Meeting 3

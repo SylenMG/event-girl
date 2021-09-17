@@ -3735,7 +3735,7 @@ setup.loadEvents = function () {
 			'<<run setup.story("Cryo-Mystery-03", "complete")>>' + 
 			'<<run setup.story("Cryo-Mystery-00", "complete")>>' + 
 			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Cryo-Mystery-03', type: 'story-active', level: 0}]
+			requirements: [{id: 'Cryo-Mystery-03', type: 'story-active', level: 0},{id: 'Cryo-Mystery-05', type: 'story-completed', level: 0}]
 		},
 		{
 			buttonText: 'Search for "Jessica and Jake".',

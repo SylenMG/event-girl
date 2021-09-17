@@ -1,4 +1,0 @@
-:: Meditation {"position":"50,675","size":"100,100"}
-<<= setup.meditation($player, $settings.sPassage)>>
-
-

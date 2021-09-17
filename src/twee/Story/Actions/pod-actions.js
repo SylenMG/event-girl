@@ -15,7 +15,7 @@ setup.loadPodActions = function (player) {
         {
             name: "Meditation First Time",
             buttonName: "Try Meditating for the first time.",
-            passage: "Meditation First Time",
+            passage: "Meditation",
             requirements: [{id: 'Headache-01', type: 'story-active', level: 0},{id: 'Time', type: 'not-time', level: 3}]
         },
         {
@@ -78,13 +78,13 @@ setup.loadPodActions = function (player) {
             name: "Amanda Meet Up 03",
             buttonName: "Go to meet Amanda.",
             passage: "Storyline - Amanda Seduction Mission Intro",
-            requirements: [{id: 'Amanda-Meeting-02', type: 'story-complete', level: 0},{id: 'Amanda-Meeting-03', type: 'story-incomplete', level: 0}]
+            requirements: [{id: 'Amanda-Meeting-02', type: 'story-completed', level: 0},{id: 'Amanda-Meeting-03', type: 'story-incomplete', level: 0}]
         },
         {
             name: "Amanda Seduction Mission",
             buttonName: "Meet Amanda in the lounge.",
             passage: "Storyline - Amanda Seduction Party Begin",
-            requirements: [{id: 'Amanda-Meeting-03', type: 'story-complete', level: 0},{id: 'Amanda-Quest-01', type: 'story-incomplete', level: 0}]
+            requirements: [{id: 'Amanda-Meeting-03', type: 'story-completed', level: 0},{id: 'Amanda-Quest-01', type: 'story-incomplete', level: 0}]
         }
     ];
     let actions = storyActions.concat(podActions);

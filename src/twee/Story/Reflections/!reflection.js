@@ -6,7 +6,7 @@ setup.loadReflectionLib = function () {
 		buttonText: 'Reflect on Accident.',
 		preRefs: [],
 		preMessage: "",
-		requirements: []
+		requirements: [{id: 'Story-Unlucky', type: 'story-type', level: 0}]
 		},
 		{
 		id: "refWomanhood",
@@ -14,7 +14,7 @@ setup.loadReflectionLib = function () {
 		buttonText: 'Reflect on Womanhood.',
 		preRefs: [],
 		preMessage: "",
-		requirements: [{id: 'Feminine', type: 'psyche-max', level: 1}]
+		requirements: [{id: 'Feminine', type: 'psyche-max', level: 1},{id: 'Story-Unlucky', type: 'story-type', level: 0}]
 		},
 		{
 		id: "refBody",
@@ -22,7 +22,7 @@ setup.loadReflectionLib = function () {
 		buttonText: 'Reflect on Body.',
 		preRefs: [],
 		preMessage: "",
-		requirements: []
+		requirements: [{id: 'Story-Unlucky', type: 'story-type', level: 0}]
 		},
 		{
 		id: "refExplore",

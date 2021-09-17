@@ -1,5 +1,5 @@
 :: Intro - Arriving at eVentia [city-1]
-<<run setup.psycheHard($player, "Feminine", 3)>><<run setup.experienceHard($player, "High Heels", 2)>>The Eventia logo towers above you as you look out the window from the holo-taxi. The largest entertainment center in sector A-01, you double check your N-Face to see if it´s the correct designation.
+<<run setup.psycheHard($player, "Feminine", 5)>><<run setup.experienceHard($player, "High Heels", 2)>><<run setup.experienceHard($player, "Masturbation", 1)>>The Eventia logo towers above you as you look out the window from the holo-taxi. The largest entertainment center in sector A-01, you double check your N-Face to see if it´s the correct designation.
 <<= setup.speak($player, "This is it... where I´ll pay off that stupid debt.")>>
 The door to the holo-taxi slides open and the bustling sound of the surrounding metropolis hits you. The stench of the nearby sewer making you retch, you quickly jump out of the taxi and grab your bags from the trunk. The taxi simply hovers off as your N-Face vibrates, telling you that you´re at least 200 units lighter in your wallet.
 <<= setup.speak($player, "Ugh... let´s see... that over there would be the main entrance. E-01, should be close to that guys clinic.")>>
@@ -67,6 +67,6 @@ The guard tosses in your baggage and takes a step back.
 <<= setup.speak($characters.eventiaguard, "You can report to the reception tomorrow if you so desire. I´ll be leaving now. Good evening to you, miss.")>>
 You nod at the guard and begin to unpack your things.
 
-<<= setup.button("Continue.", "Pod - Main","<<set $settings.introMode = false>><<run setup.story('Debt-00', 'start')>>")>>
+<<= setup.button("Continue.", "Pod - Main","<<set $settings.introMode = false>><<run setup.story('Debt-00', 'start')>><<run setup.completeRef($player, 'refFeminine1')>><<run setup.completeRef($player, 'refFeminine2')>><<run setup.completeRef($player, 'refFeminine3')>><<run setup.completeRef($player, 'refFeminine4')>>")>>
 
 

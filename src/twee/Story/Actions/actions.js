@@ -58,26 +58,17 @@ setup.loadActionScene = function (name, player, passage) {
 	let returnScene = "";
 	let actionScenes = [
 		{
-			name: "Meditation-First",
-			scenes: [{
-				scene: 'You try and sit down as Dr. Linus instructed... trying to clear your mind of all troubles, escaping into a serene mindset.' + 
-					'<<= setup.speak($player, "Pfft... this is stupid. But whatever... Let´s try it.")>>' + 
-					'<<run setup.story("Headache-01", "complete")>><<run setup.psyche($player, "Mind", -15, -15)>><<run setup.psyche($player, "Lust", -15, -15)>>' + 
-					'After some time, you find yourself letting go... relaxing. You let out a sigh as you feel your mind clean up.' + 
-					'<<= setup.speak($player, "Huh... guess it worked... kind of.")>>' + 
-					'<br><span class="lbb"><<button "Continue">><<goto "' + passage + '">><</button>></span>',
-				requirements: []
-			}]
-		},
-		{
 			name: "Meditation",
-			scenes: [{
-				scene: 'You sit down to clear your mind of all troubles, escaping into a serene mindset.' + 
-					'<<run setup.psyche($player, "Mind", -15, -15)>><<run setup.psyche($player, "Lust", -15, -15)>>' + 
-					'After some time, having cleansed yourself, you feel more ready than ever.' + 
-					'<br><span class="lbb"><<button "Continue">><<goto "' + passage + '">><</button>></span>',
-				requirements: []
-			}]
+			scenes: [
+				{
+				scene: '<<include "Meditation - Default">>',
+				requirements: [{id: 'Headache-01', type: 'story-completed', level: 0}]
+				},
+				{
+				scene: '<<include "Meditation - First Time">>',
+				requirements: [{id: 'Headache-01', type: 'story-incomplete', level: 0}]
+				}
+			]
 		},
 		{
 			name: "Masturbation",
@@ -139,12 +130,6 @@ setup.loadActionScene = function (name, player, passage) {
 
 setup.meditation = function (player, passage) {
 	let returnScene = setup.loadActionScene("Meditation", player, passage);
-	setup.passTime();
-	return returnScene;
-}
-
-setup.meditationFirst = function (player, passage) {
-	let returnScene = setup.loadActionScene("Meditation-First", player, passage);
 	setup.passTime();
 	return returnScene;
 }

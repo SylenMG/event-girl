@@ -65,5 +65,21 @@ Quick Access to locations discovered.<br>
 	<</script>>
 <</button>></span>
 <</if>></span>
+<<if hasVisited("eVentia - Psyche Clinic")>>
+<span class='lbb'><<button "Psyche Clinic">>
+	<<goto "eVentia - Psyche Clinic">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>></span>
+<<if hasVisited("Gloria Lane")>>
+<span class='lbb'><<button "Gloria Lane">>
+	<<goto "Gloria Lane">>
+	<<script>>
+	Dialog.close();
+	<</script>>
+<</button>></span>
+<</if>></span>
 
 

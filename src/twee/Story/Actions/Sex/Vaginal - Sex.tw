@@ -28,7 +28,7 @@ With <<= setup.hisher($sex.gE)>> hands gripping you and directing you to turn ar
 :: Vaginal - Sex - Creampie
 <<= setup.heshe($sex.gE, "B")>> grunts loudly, as <<= setup.hisher($sex.gE)>> cock twitches wildly inside your cunt. 
 <<= setup.getSexComment($sex.rE, "outro", "vaginal-sex")>><<= setup.getSexComment($sex.gE, "outro", "penis-sex")>>
-The relentless pounding gaining momentum, and the grip on your hips tightening. <<= setup.displayVisual("A rush of heat takes hold of you, spreading throughout your body as your broken moans turn into lustful screams.", "image-climax" + $sex.count, $sex.gE, "climax", "vaginal-creampie")>> Pure orgasmic bliss takes hold of you as your eyes roll back into your skull. 
+The relentless pounding gaining momentum, and the grip on your hips tightening. <<= setup.displayVisual("A rush of heat takes hold of you, spreading throughout your body as your broken moans turn into lustful screams.", "climax-" + $sex.count, $sex.gE, "climax", "vaginal-creampie")>> Pure orgasmic bliss takes hold of you as your eyes roll back into your skull. 
 <<= setup.getSexComment($sex.rE, "climax", "vaginal-sex")>>
 A warm expanding sensations spreads inside of your womb as <<= setup.heshe($sex.gE)>> dumps <<= setup.hisher($sex.gE)>> seed deep inside of your cunt. 
 <<= setup.getSexComment($sex.gE, "climax", "penis-sex")>>
@@ -37,7 +37,7 @@ The cum overflows from your now used pussy and trails down along your inner thig
 :: Vaginal - Sex - Outside
 <<= setup.heshe($sex.gE, "B")>> grunts loudly, as <<= setup.hisher($sex.gE)>> cock twitches wildly inside your cunt. 
 <<= setup.getSexComment($sex.rE, "outro", "vaginal-sex")>><<= setup.getSexComment($sex.gE, "outro", "penis-sex")>>
-The relentless pounding gaining momentum, and the grip on your hips tightening. <<= setup.displayVisual("A rush of heat takes hold of you, spreading throughout your body as your broken moans turn into lustful screams.", "image-climax" + $sex.count, $sex.gE, "climax", "vaginal-cover")>> Pure orgasmic bliss takes hold of you as your eyes roll back into your skull. 
+The relentless pounding gaining momentum, and the grip on your hips tightening. <<= setup.displayVisual("A rush of heat takes hold of you, spreading throughout your body as your broken moans turn into lustful screams.", "climax-" + $sex.count, $sex.gE, "climax", "vaginal-cover")>> Pure orgasmic bliss takes hold of you as your eyes roll back into your skull. 
 <<= setup.getSexComment($sex.rE, "climax", "vaginal-sex")>>
 The pounding suddenly stops, with an emptiness spreading inside of your cunt as <<= setup.heshe($sex.gE)>> pulls out. 
 <<= setup.getSexComment($sex.gE, "climax", "penis-sex")>>

@@ -171,6 +171,8 @@ setup.checkStory = function (requirements, req, player) {
 	console.log("Story Requirement Found (" + requirements[req].id + "): Level(" + requirements[req].level + "): Type(" + requirements[req].type + ").");
 	console.log("Story Requirement Found...");
 	let returnCheck = false;
+	
+
 	if (requirements[req].type == "story-completed") {
 		if (completedLog.includes(requirements[req].id)) {
 			returnCheck = true;
@@ -200,6 +202,12 @@ setup.checkStory = function (requirements, req, player) {
 			returnCheck = false;
 		} else {
 			returnCheck = true;
+		}
+	} else if (requirements[req].type == "story-type") {
+		if (player.modifiers.includes("Unlucky") && requirements[req].id == "Story-Unlucky") {
+			returnCheck = true;
+		} else {
+			returnCheck = false;
 		}
 	} else {
 		////story-active
@@ -284,7 +292,7 @@ setup.checkReq = function (requirements, player) {
 			returnCheck = setup.checkStats(requirements, req, player);
 		} else if (requirements[req].type == "owned") {
 			returnCheck = setup.checkClothes(requirements, req, player);
-		} else if (requirements[req].type == "story-completed" || requirements[req].type == "story-active" || requirements[req].type == "story-incomplete") {
+		} else if (requirements[req].type == "story-completed" || requirements[req].type == "story-active" || requirements[req].type == "story-incomplete" || requirements[req].type == "story-type") {
 			returnCheck = setup.checkStory(requirements, req, player);
 		} else if (requirements[req].id == "Time") {
 			returnCheck = setup.checkTime(requirements, req, player);
