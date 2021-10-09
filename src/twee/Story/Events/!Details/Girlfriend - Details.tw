@@ -1,0 +1,10 @@
+:: Girlfriend - Details
+Dynamo Dating is looking for stand-in girls to be user fodder in an ever-growing business venture. Dynamo Dating guarantees a date with a hot young gal near your location and intends to honor that guarantee! You will become that guarantee at Dynamo Dating! All you need to do is to put on a convincing smile, dress like a cute or sexy gal and let the boys have a fun time at Dynamo Dating!
+<<= setup.roaming($player, $characters, "opinion", "girlfriend")>>
+@@.boldtext;Outfit:@@ Going-out Style.
+@@.boldtext;Base Pay:@@ 2000.
+@@.boldtext;Contractor:@@ Dynamo Dating. 
+@@.boldtext;Duration:@@ Afternoon to Evening.
+@@.boldtext;Service Number:@@ S005612.
+@@.boldtext;Type:@@ S099631.
+@@.boldtext;Requirements:@@ Applicant must bring their own convincing dating clothes.

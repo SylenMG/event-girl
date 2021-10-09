@@ -1,0 +1,15 @@
+:: Receptionist - Details
+eVentia is always in need of more receptionists to receive clients, organize events on the venue and be the face of eVentia as a whole. You will be expected to work from 9:00 AM to 5:00 PM.
+
+You will be expected to wear the eVentia standard receptionist attire and be competent enough to organize events/conferences on the venue or similar.
+
+On top of this you will be the face of eVentia and therefore have to always be ready to greet, welcome and direct clients, patrons and customers.
+
+You will be required to notify company personnel of visitor arrivals if needed.
+<<= setup.roaming($player, $characters, "opinion", "receptionist")>>
+@@.boldtext;Outfit:@@ Provided (May Vary).
+@@.boldtext;Base Pay:@@ 115 (Bonus may be added).
+@@.boldtext;Contractor:@@ eVentia.
+@@.boldtext;Duration:@@ Morning to Evening.
+@@.boldtext;Service Number:@@ S003452.
+@@.boldtext;Type:@@ Recurring.

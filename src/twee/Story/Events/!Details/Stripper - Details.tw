@@ -1,0 +1,11 @@
+:: Stripper - Details
+Gloria Gals is looking for a quick erotic dancer and stripper to fill in for some of our girls that had to call in sick.
+
+You´re required to be at least somewhat competent on a stage and willing to show partial nudity.
+<<= setup.roaming($player, $characters, "opinion", "stripper")>>
+@@.boldtext;Outfit:@@ Provided (May Vary).
+@@.boldtext;Base Pay:@@ 250 (Bonus may be added).
+@@.boldtext;Contractor:@@ Gloria Gals.
+@@.boldtext;Duration:@@ Evening to Night.
+@@.boldtext;Service Number:@@ S007081.
+@@.boldtext;Type:@@ Recurring.

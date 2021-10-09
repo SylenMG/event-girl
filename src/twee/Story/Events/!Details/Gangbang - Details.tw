@@ -1,0 +1,8 @@
+:: Gangbang - Details
+Hey, it´s me, Vernon, I got myself another gig for you, lotsa guys and lotsa money to be made. The event will take place in the Gloria Halls. Wear something nice for the lads eh, they like it that way.
+<<= setup.roaming($player, $characters, "opinion", "gangbang")>>
+@@.boldtext;Outfit:@@ Promotion Top and Hotpants.
+@@.boldtext;Base Pay:@@ 5000.
+@@.boldtext;Contractor:@@ Vernon Venere.
+@@.boldtext;Duration:@@ Morning to Night.
+@@.boldtext;Requirements:@@ Promotion Top and Hotpants.

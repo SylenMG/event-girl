@@ -1,0 +1,10 @@
+:: Car Show - Details
+Hot Stripes is looking for a hot body to complement their hot holo-vehicles. Put on a hot smile for a hot day of hot sales at Hot Stripes!
+<<= setup.roaming($player, $characters, "opinion", "hotstripes")>>
+@@.boldtext;Outfit:@@ Provided (May Vary).
+@@.boldtext;Base Pay:@@ 800 (Bonus may be added).
+@@.boldtext;Contractor:@@ Hot Stripes.
+@@.boldtext;Duration:@@ Evening to Night.
+@@.boldtext;Service Number:@@ S003452.
+@@.boldtext;Type:@@ S027182.
+@@.boldtext;Requirements:@@ Applicant must be able to deal with crowds of people and possess proficiency in very high high-heels.

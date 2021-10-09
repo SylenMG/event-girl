@@ -1,0 +1,8 @@
+:: Gloryhole - Details
+Gloria Girls are always looking for more mouths to fill our booths and serve our eager line of pent-up customers!
+<<= setup.roaming($player, $characters, "opinion", "gloryhole")>>
+@@.boldtext;Outfit:@@ Any.
+@@.boldtext;Base Pay:@@ 500.
+@@.boldtext;Contractor:@@ Gloria Girls.
+@@.boldtext;Duration:@@ Evening to Night.
+@@.boldtext;Requirements:@@ Applicant must possess a mouth and two hands.

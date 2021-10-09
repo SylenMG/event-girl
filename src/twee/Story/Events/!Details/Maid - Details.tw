@@ -1,0 +1,11 @@
+:: Maid - Details
+eVentia is always in need of more maids to clean up and keep eVentia neat and presentable. This includes all eVentia facilities, client rooms as well as venues, restrooms, baths and so on. You will be expected to work from 9:00 AM to 5:00 PM.
+
+You will be expected to wear the eVentia standard maid attire. On top of this you will be the face of eVentia whilst cleaning, which includes doing it with a smile.
+<<= setup.roaming($player, "opinion", "maid")>>
+@@.boldtext;Outfit:@@ Provided (May Vary).
+@@.boldtext;Base Pay:@@ 95 (Bonus may be added).
+@@.boldtext;Contractor:@@ eVentia.
+@@.boldtext;Duration:@@ Morning to Evening.
+@@.boldtext;Service Number:@@ S003451.
+@@.boldtext;Type:@@ Recurring.
