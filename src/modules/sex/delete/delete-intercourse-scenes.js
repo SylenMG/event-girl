@@ -2,7 +2,7 @@
 //v0.01
 //Requires: intercourse.js -loaded after
 //by Sylen
-
+/*
 setup.flair = function (entity, object) {
 	let objectSize = setup.getBodypartSize(entity, object);
 	let nounLength = setup.random(object.nouns.length);
@@ -1507,3 +1507,4 @@ setup.loadSexScenes = function (givingEntity, receivingEntity, perspective) {
 	
 
 
+*/

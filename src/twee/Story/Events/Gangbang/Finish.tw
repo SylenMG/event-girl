@@ -1,0 +1,15 @@
+:: Gangbang - Finish
+<<nobr>>
+<<run setup.psyche($player, "Feminine", 50, 50)>>
+<<run setup.psyche($player, "Slut", 50, 50)>>
+<<run setup.experience($player, "Blowjob", 25, 25)>>
+<<run setup.experience($player, "Handjob", 25, 25)>>
+<<run setup.experience($player, "Sex", 25, 25)>>
+<<run setup.experience($player, "Anal", 25, 25)>>
+<<run setup.satisfy($player)>>
+<<run setup.earningsEvent("Gangbang", $player)>>
+<</nobr>>With your loins aching, your jaw, pussy and ass sore. It finally seems to come to an end. The last stops, only to tremble a little as your cunt is stuffed for the last time.
+<<= setup.speak($characters.vernon, "My god, what a star! A splendid performance! I-I´ll get right to it, making arrangements for another! Ahahaha!", "smile")>><<= setup.speak($player, "Wa-..I-i need to rest...")>>
+You slump unto the floor, the salty taste of cum lingering on your tongue, you rest for a while. The soft familiar ding of your E-Pal wakes you up once again.
+<<= setup.speak($characters.vernon, "Ah, awake? I thought I would let ya rest a little.", "smile")>> <<= setup.speak($player, "Right... I better get back.")>><<= setup.speak($characters.vernon, "Off you go then.", "smile")>>
+You head back towards your pod.

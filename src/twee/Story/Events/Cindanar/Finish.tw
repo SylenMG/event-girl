@@ -1,0 +1,8 @@
+:: Cindanar - Finish
+<<nobr>>
+<<run setup.equipOutfit($player, "stashedOutfit")>>
+<<run setup.experience($player, "Social", 15, 5)>>
+<<run setup.earningsEvent("Cindanar Booth Babe", $player)>>
+<</nobr>>With your feet sore from standing all day you slowly drag yourself back towards your pod. Your hips are slightly worn from the copious amounts of hands that have been resting on it, and some even just outright grabbing it. Even your ass is a little red and sore from some of the more daring venue-goers that have slapped it and maybe taken things a little too far.
+<<= setup.speak($player, "*yawn* I need a long nights rest...", "smile")>>
+As you enter your pod the soft fabrics of your bed immediately embrace you, making you almost forgetting to lock your pod.

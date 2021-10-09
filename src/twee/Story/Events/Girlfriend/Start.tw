@@ -1,0 +1,4 @@
+:: Girlfriend - Start
+You show up ready and waiting at the entrance to Dynamo Dating. The interior of the bar is sleek and simplistic in design, black and white with neon lights. The air is heavy with incense and makes your loins heat up.
+<<= setup.speak($characters.housespeaker, "Are you here to sign up for a date?", "smile")>><<= setup.speak($player, "Yeah. Where do I go and whose the lucky guy?", "smile")>><<= setup.speak($characters.housespeaker, "Let me check sister, hmmm, ah. The details should be attached to your E-Pal! Have fun!")>>
+You check your E-Pal and prepare yourself for the worst.

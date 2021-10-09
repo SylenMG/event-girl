@@ -1,4 +1,4 @@
-setup.getSexComment = function (entity, stage, act, modifier, isPlayer) {
+setup.getSexComment = function (entity, stage, act, modifier) {
     let virgin = [
         {
         id: "virgin-blowjob-receiving",

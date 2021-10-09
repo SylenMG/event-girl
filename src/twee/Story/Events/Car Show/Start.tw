@@ -1,0 +1,4 @@
+:: Car Show - Start
+<<run setup.equipOutfit($player, "carshow", "stash")>>You walk down towards the venue preparing yourself for another day of leaning against vibrating holo-bikes and holo-cars, strutting your ass in front of onlookers and spectators.
+<<= setup.speak($characters.hotstripesrep, "I zee-a zexy familiar face to compliment my linez of vehicles! Welcome back!", "smile")>>
+When you enter the backroom, you put on the wet look top and leggings. The top clenches and pronounces your tips obscenely and the leggings tightening your ass giving it a near-lewd globular shape.")>>

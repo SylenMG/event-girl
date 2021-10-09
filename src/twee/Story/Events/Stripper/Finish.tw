@@ -1,0 +1,11 @@
+:: Stripper - Finish
+<<nobr>>
+<<run setup.experience($player, "High Heels", 5, 5)>>
+<<run setup.experience($player, "Dancing", 5, 5)>>
+<<run setup.earningsEvent("Stripper", $player)>>
+<<run setup.equipOutfit($player, "stashedOutfit")>>
+<</nobr>>
+You put on your clothes again and head for the exit. As you enter the show floor again, you spot the manager standing by the bar chatting with the bartender. Your feet sore from strutting around in heels all day whilst working the floor. He notices you as you approach him and smiles.
+<<= setup.speak($characters.manager, "It was a pleasure to have you miss. Your pay has already been forwarded.", "smile")>>
+You sign off with your E-Pal which promptly processes your earnings and E-Rating.
+<<= setup.speak($player, "Alright, then I´ll be going then.")>>

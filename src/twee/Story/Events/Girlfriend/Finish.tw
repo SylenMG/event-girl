@@ -1,0 +1,8 @@
+:: Girlfriend - Finish
+<<nobr>>
+<<run setup.equipOutfit($player, "stashedOutfit")>>
+<<run setup.experience($player, "Social", 15, 5)>>
+<<run setup.earningsEvent("Girlfriend", $player)>>
+<</nobr>>Entering your pod, you toss your aching body unto it.
+<<= setup.speak($player, "Well... I guess that wasn´t too bad. Being courted like that and all.", "smile")>>
+With the day still young you wonder what else you can get up to. Even though you feel a little spent from being so social and putting on a bit of a poker face. 

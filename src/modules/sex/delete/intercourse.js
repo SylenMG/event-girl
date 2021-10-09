@@ -7,7 +7,7 @@
 //Received means entity was passive partner. If vagina/ass means entities vagina/ass orifice was the one being penetrated
 
 
-
+/*
 setup.countSexStat = function (givingEntity, receivingEntity, givenCount, receivedCount, givenAmount, receivedAmount) {
 	if (givenAmount == undefined) {
 		givenAmount = 1;
@@ -331,4 +331,4 @@ setup.sex = function (sex) {
 		}
 	}
 	return rScene + rAdd + rOptions;
-}
+}*/

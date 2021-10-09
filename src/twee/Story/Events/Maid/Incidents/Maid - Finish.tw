@@ -1,4 +1,0 @@
-:: Maid - Finish
-<<run setup.experience($player, "High Heels", 5, 5)>><<run setup.equipOutfit($player, "stashedOutfit")>><<run setup.experience($player, "Cleaning", 5, 5)>><<run setup.earningsEvent("Maid", $player)>>A sigh escapes you, wiping sweat off your forehead from a long day of cleaning. Your muscles sore after making beds and taking out trash from various hallways, client hotel rooms and whatever else needed cleaning. Even your feet are sore from strutting around in heels all day whilst doing heavy-duty maid cleaning.
-<<= setup.speak($characters.lily, "Alright, I think it´s time to finally clean the last thing for today... me!", "smile")>><<= setup.speak($characters.brenda, "See ya next time newbie.", "smile")>><<= setup.speak($player, "Alright, see ya.")>>
-You both sign off with your E-Pals which promptly processes your earnings and E-Rating.

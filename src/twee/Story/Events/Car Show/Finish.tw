@@ -1,0 +1,9 @@
+:: Car Show - Finish
+<<nobr>>
+<<run setup.experience($player, "High Heels", 5, 5)>>
+<<run setup.equipOutfit($player, "stashedOutfit")>>
+<<run setup.experience($player, "Social", 5, 5)>>
+<<run setup.earningsEvent("Car Show Girl", $player)>>
+<</nobr>>After a long sweaty day of leaning against various holo-vehicles and being the face and body of all manners of racing magazines. You retreat to the backroom and put on your clothes again. Entering the backroom you´re greeted by the Hot-Stripes Representative. Your feet sore from strutting around in heels all day slicking it on cars and working the venue.
+<<= setup.speak($characters.hotstripesrep, "Great performance, you really know how to zell-a zat ass of yourz! Hah!", "smile")>>
+He gives you a thumbs up and leaves the backroom before you even get a chance to respond. Shortly after, you hear your E-Pal make a soft familiar ding as it updates.

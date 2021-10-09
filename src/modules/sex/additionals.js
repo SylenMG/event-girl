@@ -15,7 +15,7 @@ setup.getAdditionals = function (entity, type, modifier) {
 		addText: ["Your stomach curls as you think about the fact that you have been filled with cum for the first time in your life."],
 		tags: ["vaginal-creampie","virgin"],
 		requirements: [{id: 'receivedVaginalCreampie', type: 'stat-max', level: 0}]		
-		},
+		}
 	];
     if (entity.modifiers.includes("player")) {
         for (let i = 0; i < additionals.length; i++) {

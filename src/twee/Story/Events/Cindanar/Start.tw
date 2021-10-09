@@ -1,0 +1,6 @@
+:: Cindanar - Start
+<<run setup.equipOutfit($player, "cindanar", "stash")>>You admire your naked body in the mirror, currently using the sorry excuse for a changing room that they gave you. The pink sportswear fights your physique, clinging tightly around your curves, displaying them in an almost obscene way. 
+
+How this could be sportswear or be the most practical thing that they could come up with, is a mystery to you. You take one last look in the mirror. The sportsbra does little to contain any jiggle, in fact, you suspect it only enhances it.
+<<= setup.speak($characters.secret, "Are you ready in there? They are opening the venue soon!")>>
+You sigh, letting yourself unto the forces at play, and exit unto the venue.

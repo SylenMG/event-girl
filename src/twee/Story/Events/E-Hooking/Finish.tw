@@ -1,0 +1,10 @@
+:: E-Hooking - Finish
+<<nobr>>
+<<run setup.experience($player, "High Heels", 5, 5)>>
+<<run setup.experience($player, "Cool", 5, 5, 2)>>
+<<run setup.earningsEvent("E-Hooking", $player)>>
+<</nobr>>After a long day of standing around, hooking in johns on the line and trying to squeeze them for every unit in their possession. You strut away from the E-Royale Line, with a half sway of your booty as you strut down the Adult Strip, heading towards the pod halls.
+
+Entering the pod halls, you enter the baths for a quick clean up, tossing your heels off and stretching out under the cold, but refreshing stream of water.
+
+After the shower, you beeline for your pod and sigh in relief as you throw yourself unto your pod bed.

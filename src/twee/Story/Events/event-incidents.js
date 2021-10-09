@@ -14,13 +14,7 @@ setup.loadEvents = function () {
 	//goth = setup.getInteractables("Goth");
 	//eventgirls = setup.getInteractables("Event Girls");
 	
-	let receptionistStart = '<<= setup.eventText("You approach Brenda sitting by the receptionist desk.")>>' + 
-	'<<= setup.speak($characters.brenda, "Ready for another day gurl?")>>' + 
-	'<<= setup.speak($player, "Sure am.")>>' + 
-	'<<= setup.eventText("You put on your receptionists´ outfit in the backroom, feeling it´s familiar tightening around your body, exposing your curves and mid-riff.")>>' + 
-	'<<= setup.eventText("Strutting back out you prepare for another day as the face of eVentia, receiving clients, organizing event girls and answering questions from whomever might need them.")>>' + 
-	'<<run setup.equipOutfit($player, "receptionist", "stash")>>'; 
-		
+	let receptionistStart = '<<include "Receptionist - Start">>';
 	let maidStart = '<<= setup.eventText("You approach Brenda sitting by the receptionist desk.")>>' + 
 	'<<= setup.speak($characters.brenda, "Another day of cleaning I suppose?")>>' + 
 	'<<= setup.eventText("You nod and pass her going into the backroom, where you find your maid outfit and promptly wear it. ")>>' + 
@@ -3925,10 +3919,10 @@ setup.loadEvents = function () {
 	let eventReceptionist = {
 		name: "Receptionist",
 		outfit: "receptionist",
-		start: receptionistStart,
+		start: "<<include 'Receptionist - Start'>>",
 		intro: receptionistIntro,
 		incidents: receptionistIncidents,
-		finish: receptionistFinish
+		finish: "<<include 'Receptionist - Finish'>>"
 	}
 	let eventMaid = {
 		name: "Maid",

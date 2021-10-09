@@ -1,7 +1,18 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
+0.21.0
+- Cleaned up a lot of the code structure (had put this on hold for a long time)
+- Fixed up the boink system, so that it behaves more like a module.
+- Fixed up the noun system, so that it behaves more like a module.
+- Finished Quest: Amanda Seduction Mission
+- Added the Conclusion for the Amanda Storyline (Intended to have Several Endings)
+- Amanda will have more missions added to her (which will be required in the future)
+- Added Amanda Good Ending.
+- 
+
+
 0.20.1
-- Fixed errors popping up during some sex scenes X
+- Fixed errors popping up during some sex scenes
 - Fixed climax images simply replacing already unfolded images.
 - Fixed Amanda's missions being available straight away
 - Fixed Reflections getting stuck with Female start (now receives special 'Born Female' stat instead).
@@ -16,7 +27,7 @@
 0.20.0
 - Added all Bimbo Reflection passages (instead of placeholders).
 - Added Quest: Amanda Meeting 3
-- Added Quest: Amanda Seduction Mission *
+- Added Quest: Amanda Seduction Mission
 - Added Reflections to the debug menu (for testing)
 - Fixed the bug with the Meditation mission.
 

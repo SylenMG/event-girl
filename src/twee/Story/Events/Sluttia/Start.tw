@@ -1,0 +1,4 @@
+:: Sluttia - Start
+<<run setup.equipOutfit($player, "sluttia", "stash")>>You enter the expo already wearing your skimpy cosplay costume. The straps tightening the fabric gripping around your tits make them jiggle as you strut past the leering convention goers.
+<<= setup.speak($characters.executive1, "Ah! I see my Sluttia stand-in has arrived.", "smile")>><<= setup.speak($player, "That´s me alright.", "smile")>><<= setup.speak($characters.executive1, "Well, booths over here, trust you know what to do by now.")>><<= setup.speak($player, "No worries.")>>
+You stand by the booth and a line of hungry convention-goers quickly form at your booth. All of them ready to meet Sluttia, the busty barbarina.

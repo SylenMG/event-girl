@@ -1,0 +1,4 @@
+:: Stripper - Start
+<<run setup.equipOutfit($player, "stripper", "stash")>>You walk towards the corner in the adult strip and reach the Gloria Girls strip club. As you approach you´re greeted by the manager standing by the entrance chatting with the bouncer.
+<<= setup.speak($characters.manager, "Ah! My new favorite girl! Please! Come on right in!", "smile")>>
+You strut past him and walk inside. As you move past the sound-proof barrier you´re welcomed by the seductive thumping of the electronic bass music and lush atmosphere. When you enter the backroom, you put on your regular school girl costume and prepare for another night as a lusty stripper.
