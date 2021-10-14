@@ -1,0 +1,31 @@
+:: Maid - Intro 1
+<<run setup.story("Event-Girl-00", "complete")>>You take note of the service number and walk over to Brenda sitting by the eventia desk.
+<<= setup.speak($characters.brenda, "Hey there $player.femaleName! Looking to apply somewhere?")>><<= setup.speak($player, "Yeah, just looking to do some cleaning, sounds easy enough you know.")>><<= setup.speak($characters.brenda, "Oh? Applying for the position of maid I see? Alright, just give me the service number.")>>
+You pass on the service number, which Brenda promptly types into her computer.
+<<= setup.speak($player, "I guess so... Do you need the service number?")>><<= setup.speak($characters.brenda, "Okay then! That´s all done. Follow me, I´ll get yo ass lookin´ like a real maid worthy of eVentia.")>>
+You follow her swaying booty, hoping the outfit you´re going to be wearing is not too obscene.")>>' + 
+
+:: Maid - Intro 2
+<<run setup.equipOutfit($player, "maid", "stash")>>She leads you into the backroom and down to a closet hidden away in the back. After rummaging around for a while she drags out a classical french maid dress.
+<<= setup.speak($characters.brenda, "Ah, think this one should fit ya.")>>
+As she holds it folded out in front of you, you freak out a little.
+<<= setup.speak($player, "Wait-wait. You can´t be serious right? An actual french maid dress? This sends all types of wrong messages!", "surprised")>><<= setup.speak($characters.brenda, "What do ya mean? French? It´s a completely standard maid dress, silly!")>>
+You hesitate for a moment, but eventually break.
+<<= setup.speak($player, "Right. Whatever, I´ll try it on.")>>
+You groan as you put on the dress. The black thong that follows and frilly stockings only making you feel even more exposed than without. After putting on the dress, you check out yourself in the mirror. The short cut, coupled with the duster really hits it home, making you look like someone took you out from a terrible porn skit.
+
+:: Maid - Intro 3
+Brenda smiles as she checks you out in the maid outfit.
+<<= setup.speak($characters.brenda, "You look fabulous girl! Anyway. I´ll be assigning you to a floor, which you´ll then be tasked to be cleaning with. Since this is your first time, you will be assisting a more senior maid.")>><<= setup.speak($player, "Okay, sounds good I guess.")>>
+You follow Brenda back out of the backroom. You step back out into public view, as if you were going on a stage. Brenda picks up her transparent desk tablet and calls someone.
+<<= setup.speak($characters.brenda, "I´ll just be calling Lily, she´s a cutie, and real great with the new ones.", "smile")>><<= setup.speak($player, "Sure...")>>
+After some time you spot a blonde beauty dressed in a matching french maid outfit, strutting with a fierce pace towards the desk.
+<<= setup.speak($characters.lily, "Really Brenda? You´re dropping another newbie on my ass?! I TOLD YOU! NO MORE NEWBS!", "angry")>><<= setup.speak($characters.brenda, "Come on gurl, got no one better than yo´ ass.", "smile")>><<= setup.speak($characters.lily, "Fine! Whatever! YOU! Don´t slack behind. Get moving.")>><<= setup.speak($characters.brenda, "Better follow her lead gurl.")>>
+Brenda waves at you, whilst the blonde maid turns around, leaving the desk. You promptly follow her.
+
+:: Maid - Intro 4
+You stroll through the lobby and reach an elevator. After entering and pressing the designated floor, she huffs.
+<<= setup.speak($characters.lily, "Alright newbie. Names Lily, got any questions? Ask, but you probably won´t need to. Jobs real simple. Use that maid duster of yours, clean up their rooms for general trash, make their bed and so on. You got it?")>><<= setup.speak($player, "Yeah, I think I got it.")>>
+The elevator makes a ding, and the door opens. You enter a classical hotel corridor, with a completely different feel and atmosphere than the otherwise busy lobby. The walls are a comfortable deep brown, and the carpet bright red. The cleaning trolley is waiting for the both of you just by the elevetor.
+<<= setup.speak($characters.lily, "I´ll do the even numbered rooms on this side, you can do the uneven ones. Sound good?")>>
+You clench your maid duster and nod.

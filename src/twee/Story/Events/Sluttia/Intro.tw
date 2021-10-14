@@ -1,0 +1,15 @@
+:: Sluttia - Intro 1
+<<run setup.story("Event-Girl-00", "complete")>><<run setup.equipOutfit($player, "sluttia", "stash")>>You take another look in the mirror after wearing the Sluttia Cosplay. The straps are incredibly tight and cup your tits in thin fabric that make them jiggle and bounce in an obscene fashion when you walk or even turn. The threat of them snapping or slipping is constantly on your mind. However, they pale in comparison to the minuscule amounts skin that the loincloth hides. A simple thin string underneath that barely covers your mound completely and exposes your ass fully. The little armor that there actually is, is only present in places where they wouldn´t obscure the view of your goods. 
+
+You finally muster the courage to leave your pod and head for the convent.
+<<= setup.speak($player, "Oh god... will the jiggle ever stop...")>>
+You reach the convention floor and enter, heads turning all around you and turn silent.
+<<= setup.speak($player, "This was a terrible idea...")>>
+A few whispers here and there. Only the casual convention rabble in the background.
+
+:: Sluttia - Intro 2
+You walk towards the convention checkpoint, hoping for some pointers as to where to show up, when you´re immediately greeted by a guy in a radiant business suit
+<<= setup.speak($characters.executive1, "If it is not Sluttia herself! I see you! Been waiting for you! Your booth is ready!", "smile")>><<= setup.speak($player, "Right-right, I was wondering where to show myself...")>><<= setup.speak($characters.executive1, "Come along now, let me show you where. Any other questions? This your first rodeo with horny nerds from all around the world?")>><<= setup.speak($player, "I´m supposed to just stand there right? And let them take pictures with me and let them purchase light comics?")>><<= setup.speak($characters.executive1, "You got it! And don´t get surprised if any of them get a little handsy! That´s all part of the show! Hahahaha!", "smile")>>
+You force a smile as you reach the booth. A stand with light comics depicting the so-called Sluttia wrestling with some kind of tentacle monster.
+<<= setup.speak($player, "That´s Sluttia?")>><<= setup.speak($characters.executive1, "Nope. That´s you! Ahahaha! About to get rowdy with a bunch of tentacles! Ahaha! Got it?- Man, I still got it! And you got this! Right? Good luck!", "smile")>>
+A line of guys, and some girls even quickly forms up. All of them eagerly waiting their turn to get a chance at Sluttia... or you that is.

@@ -1,0 +1,20 @@
+:: Car Show - Intro 1
+<<run setup.story("Event-Girl-00", "complete")>>You take note of the service number and walk over to Brenda sitting by the eventia desk.
+<<= setup.speak($characters.brenda, "Hey there $player.femaleName! Anything exciting you want to apply to?")>><<= setup.speak($player, "Yes, uhm... This one.")>><<= setup.speak($characters.brenda, "Show girl huh? We´ll you are quite the show aren´t ya?")>>
+You pass on the service number, which Brenda promptly types into her computer.
+<<= setup.speak($characters.brenda, "I trust you know where the outer venue is? Just further down really.")>>
+You nod and head towards the open venue.
+
+:: Car Show - Intro 2
+Approaching the venue you hear the distant humming sound similar to cars and bikes going off, as if revving up for a race. Although, way more low and more rhythmic beat, still familiar enough for you to recognize it.
+
+You reach the outer venue and spot the many neon-light low riders and bikes as if coming straight out of some sci-fi movie. The door of one of the holo-cars opens horizontally, and a bearded hipster-looking guy comes out, smiling as he approaches you.
+<<= setup.speak($characters.hotstripesrep, "Ahhh! You must-a be ze new girl! I already like-a what I zee! Haha!", "smile")>><<= setup.speak($player, "Yes I´m sure you do...")>><<= setup.speak($characters.hotstripesrep, "You have-a any experience with ziz beastz? Zey hum and roar! No need-a to be afraid! Come wiz me, I´ll show you ze outfit for ze venue. Ze... What her name-a? Brenda? Tell me ze size? Will be good, I promize.", "smile")>>
+He leads you towards a shared backroom and pulls out a pair of wet look leather leggigs and top.
+<<= setup.speak($characters.hotstripesrep, "Zis should properly pronounce your body, bring real attention to ze vehicle. You-a good with ze people? I hopse so! Zey here to zee holo too, not only ze titz, Aha-haha!", "smile")>><<= setup.speak($player, "I uuuh.... Not really, it´s my first time.")>><<= setup.speak($characters.hotstripesrep, "Is alright! Just zhake a-lil, but not too much, zey here to buy ze vehicle, not you after all! A-hahahaa!", "smile")>>
+You smile nervously as he leaves you to put on the outfit.
+
+:: Car Show - Intro 3
+<<run setup.equipOutfit($player, "carshow", "stash")>>You take off your clothes and put on the wet look leggings and top, which gives little in the comfort of modesty. Your midriff is completely exposed, your bosom constrained and pushed up obscenely and your ass tightened to give perfect view of it´s form. Beside the make-up table you spot a pair of black pumps which would go neatly with the outfit.
+<<= setup.speak($player, "Well, let´s get to it I guess...")>>
+You head towards the exit and walk out unto the venue. A few whistles and a cheer can be heard as some guys spot you. You can´t help but smile a little as you move unto the venue towards the holo-cars.

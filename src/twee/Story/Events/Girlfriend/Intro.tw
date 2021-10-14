@@ -1,0 +1,6 @@
+:: Girlfriend - Intro 1
+<<run setup.story("Event-Girl-00", "complete")>>You scout out the location of the Dynamo Dating bar at the Commercial Strip in the entertainment center. The bar has a fancy exterior with a large neon sign advertising it´s services. You enter the bar and are immediately overwhelmed with the pungent and heavily incensed air. You feel a heat spread as you take in the pleasant aroma. The interior of the bar is sleek and simplistic in design, black and white.' + 
+
+Approaching the bar, you greet the bartender.
+<<= setup.speak($player, "Hello there... I´m here to stand-in for a date?")>><<= setup.speak($characters.housespeaker, "Welcome to Dynamo Dating! We were expecting your arrivel. Your date is waiting patiently. Let me send you the details.")>><<= setup.speak($player, "Just like that? Uhm? What do I do exactly?", "smile")>><<= setup.speak($characters.housespeaker, "You go on a date silly. That´s it. You will be compensated for your time. You are not bound by anything other than the experience of dating.")>><<= setup.speak($player, "Doesn´t sound bad at all...", "smile")>>
+You check your E-Pal and prepare yourself for the worst.")>>

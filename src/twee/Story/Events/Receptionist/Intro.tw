@@ -1,0 +1,24 @@
+:: Receptionist - Intro 1
+<<run setup.story("Event-Girl-00", "complete")>>You take note of the service number and walk over to Brenda sitting by the eventia desk.
+<<= setup.speak($characters.brenda, "Hey there $player.femaleName! Looking to apply somewhere?")>><<= setup.speak($player, "Yeah, actually... I was looking to apply as a receptionist? You know, like you and all that?")>><<= setup.speak($characters.brenda, "Oh, that´s great! Can´t wait to work with ya, sister!")>>
+A chill runs down your spine as she calls you ´sister´.
+<<= setup.speak($player, "I guess so... Do you need the service number?")>><<= setup.speak($characters.brenda, "Nah that´s fine, follow me darling. Let´s get ya something to wear.")>>
+You follow her, observing her swaying booty from behind. She´s wearing a short black skirt and a business-like vest, not even long enough to cover her mid-riff.
+
+Then it hits you... You´re probably going to be wearing the same thing.
+
+:: Receptionist - Intro 2
+<<run setup.equipOutfit($player, "receptionist", "stash")>>She leads you into the backroom which has selection of various similar outfits in varying sizes.
+<<= setup.speak($characters.brenda, "Hmph, let me check ya bust and yo ass.")>>
+Before you can react, she´s already sampled your goods, weighing them in her palms.
+<<= setup.speak($player, "Hey! Come on, hands off!", "angry")>><<= setup.speak($characters.brenda, "It´s alright, we definitely got yo size, girl!", "smile")>>
+She takes out a similar outfit, seemingly in your size.
+<<= setup.speak($characters.brenda, "Go on girl, try it on.")>><<= setup.speak($player, "Right-right, just give me a second.")>>
+You try on the outfit. It tightens around your body, showing of every curve, accentuating your figure.
+<<= setup.speak($characters.brenda, "Damn girl! Yo look sexy and professional as hell! Let´s get going, clients are probably waiting!")>>
+You both exit the backroom.
+
+:: Receptionist - Intro 3
+You feel exposed in your new attire, almost naked. Your ass involuntarily swaying behind you, you almost feel like a glorified pornstar.
+<<= setup.speak($characters.brenda, "So...! You will be standing here by the desk with me and the others, occasionally tidying up the lobby & foyer. Here´s a manual yo ass probably should read. It contains a lot of common answers that our clients and customers ask about eVentia and the entertainment center as a whole.")>><<= setup.speak($player, "Okay, I think I got it.")>><<= setup.speak($characters.brenda, "If you have any other questions, you can always ask me. But if in doubt, just remember that you represent eVentia. At eVentia the needs of the client and customers come first and foremost, always!", "smile")>><<= setup.speak($player, "Right...")>>
+After getting a bit more briefing from Brenda, you start your first day as an eVentia receptionist. Helping clients and customers with all sorts of things like navigation, answering questions, event organisation and so on.

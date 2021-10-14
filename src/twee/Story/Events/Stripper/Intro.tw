@@ -1,0 +1,22 @@
+:: Stripper - Intro 1
+<<run setup.story("Event-Girl-00", "complete")>>You note of the service number and walk over to Brenda sitting by the eventia desk.
+<<= setup.speak($characters.brenda, "Hey there $player.femaleName! Anything exciting you want to apply to?")>><<= setup.speak($player, "I was thinking I would give this a try.")>><<= setup.speak($characters.brenda, "Really now, gurl! You going ta´ shake dat´ ass on a stage! You got some spirit alright, let me just put it in the system for ya.")>>
+You pass on the service number, which Brenda promptly types into her computer.
+<<= setup.speak($characters.brenda, "Gloria Girls should be just right down on the corner by the Adult strip, have fun!")>>
+You head towards the adult strip, not really sure what you´ve signed up for.
+
+:: Stripper - Intro 2
+As you arrive by the adult strip, you´re taken by an entourage of blinding lights and bright red flashing signs, selling all sorts of adult experiences.
+
+You look towards the corner and rightly so spot the Gloria Girls logo. As you walk towards the entrance, you´re quickly approached by a man in a business suit of sorts.
+<<= setup.speak($characters.manager, "Ah! You must be $player.femaleName? I´m the manager here, let me just show you inside, we´ve been looking forward to adding a new girl to our family here at Gloria Girls, I´m sure you´ll love it!", "smile")>><<= setup.speak($player, "Let´s just take it slow at first, right?")>><<= setup.speak($characters.manager, "Of course! Of course!", "smile")>>
+The manager leads you inside and through the sound-proof door. Your ears are immediately filled with sleek low bass electronica and dempened lights, creating a seductive atmosphere.
+
+Walking through the showfloor you see the stage where a girl is currently rocking the stripper pole to several patrons sitting around the floor in their comfortable red chairs.")>>',
+
+:: Stripper - Intro 3
+<<run setup.equipOutfit($player, "stripper", "stash")>>You´re taken towards the backroom which is filled with various costumes and several make up tables with mirrors. You almost bump into the various lightly dressed girls trafficking through the backroom and the show floor.
+<<= setup.speak($characters.manager, "You´ll be doing your first strip tease on the big stage in about an hour or so, so get ready!", "smile")>><<= setup.speak($player, "Wait just like that?! I´m not completely ready yet!", "surprised")>><<= setup.speak($characters.manager, "Time to get ready then, see ya in an hour or so!")>>
+Your stomach drops as you quickly try to gather your thoughts. Hitting the big stage already? In front of all these horny men with little to no prep at all? How the hell will you manage?!
+
+You start looking around the backroom for a costume of some sort, and end up putting together a naughty school girl outfit. You make sure everything looks great before moving towards the stage from the backroom.
