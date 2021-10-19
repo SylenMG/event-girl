@@ -1,0 +1,68 @@
+:: Receptionist - Upskirt
+<<nobr>>
+<<run setup.count("receivedHarassment")>>
+<</nobr>>Walking across the foyer you´re suddenly startled by a bright flash coming from somewhere. At first you think nothing of it, but looking around after a few more bright flashes you spot some guy kneeling not far from you with a camera of some sort.
+
+At first you don´t pay much attention to it, until it suddenly hits you.
+<<= setup.speak($player, "Wait... Is this guy trying to get a fucking upskirt pic?!", "angry")>>
+He sees that you´ve noticed him, but keeps on snapping a few more pics, making you instinctively shield your face with your hand.
+<<= setup.speak($player, "What the hell do you think you´re doing?!", "angry")>>
+He stops and immediately darts off towards the adult strip, leaving you puzzled.
+
+:: Receptionist - Mind-Blank Upskirt
+<<nobr>>
+<<run setup.count("receivedHarassment")>>
+<</nobr>>Standing in the foyer, you mind is off to wonderland as you´re suddenly startled by a bright flash coming from somewhere. Not really paying much attention to anything you just stand there... mumbling about cocks and cum...
+<<= setup.speak($player, "Mmmmh... cockies and cummies...", "smile")>>
+The flashes come closer, and you look down, seeing some guy with what supposedly looks like a camera pointing directly up your skirt.
+
+:: Receptionist - Upskirt Chase 1
+<<nobr>>
+<<run setup.experience($player, "High Heels", 5, 5)>>
+<</nobr>>You quickly forget that you´re wearing heels and in no shape to actually run. You stumble almost immediately and fall face first unto the foyer floor.
+<<= setup.speak($player, "Ow! God damn it! Stupid fucking heels!", "angry")>>
+The guy that took the pictures notice and come back, taking advantage of your humiliating situation. The bright flashes continues as you try to regain your composure, your skirt having hiked up exposing your panties and your top almost coming off, you´re giving the guy everything he wants.
+<<= setup.speak($player, "Stop taking pictures you idiot!", "angry")>>
+He quickly stops however, seemingly having spotted something in the distance he once again darts off.
+<<= setup.speak($characters.brenda, "Yeah! You better run fool! RUN!", "angry")>>
+What he spotted was nothing else than Brenda coming to the rescue, trying to chase the guy down. After a while she comes back and helps you up.
+<<= setup.speak($characters.brenda, "I tried, but couldn´t catch him darling...")>><<= setup.speak($player, "It´s alright... You tried...")>>
+
+:: Receptionist - Upskirt Chase 1.1
+<<nobr>>
+<<run setup.experience($player, "High Heels", 15, 15)>>
+<</nobr>><<= setup.eventText("You run after the guy, trying to chase him down, but are at an obvious disadvantage. There´s just no way you´re going to be able to catch him whilst being handicapped by your high heels.")>><<= setup.speak($player, "God damn it!", "angry")>>' + 
+You give up after losing sight of him, biting your lip in defeat.
+<<= setup.speak($player, "Who knows what that pervert will do with those pictures...")>>
+
+:: Receptionist - Upskirt Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Feminine", 5, 5)>>
+<</nobr>>The guy is rather fast and already out of sight.
+<<= setup.speak($player, "If only I could run in these damned heels!", "angry")>>
+You clench your fist in rage over having your privacy violated like this, but eventually sigh and decide that it´s more trouble than what it´s worth to chase him down.
+<<= setup.speak($player, "Who knows what that pervert will do with those pictures...")>>
+
+:: Receptionist - Upskirt Standard 2
+<<nobr>>
+<<run setup.psyche($player, "Feminine", 5, 5)>>
+<</nobr>>You let the guy do his thing, trying your best to just ignore him.
+<<= setup.speak($player, "Just more weirdos and perverts... Nothing unusual.")>>
+
+:: Receptionist - Upskirt Slutty 1
+<<nobr>>
+<<run setup.experience($player, "Social", 5, 5)>>
+<<run setup.rating($player, 5)>>
+<</nobr>>You bite your lip as a devious idea infests your mind...
+<<= setup.speak($player, "Why not give him his money´s worth?", "smile")>>
+You confidently place your legs apart and hike your skirt up slowly, giving him a seductive glance. He begins to furiously snap away as you give him plain view of your panties.
+<<= setup.speak($player, "Like what you see?", "smile")>>
+Looking around you notice a few onlookers and decide to get back to work, the lewd photographer also having gotten what he wanted. 
+
+Your notice a distinct beep as your E-Rating increases.")>>' + 
+<<= setup.speak($player, "He knew who I was?... Oh....", "smile")>>
+
+:: Receptionist - Upskirt Mind 1
+You simply drool as he continues to expand his personal portfolio with your panty-shots.
+<<= setup.speak($player, "Hehe... bright flashes... Mmmmgh...")>>
+Eventually the flashes stop and you return to your normal self with a pounding headache.

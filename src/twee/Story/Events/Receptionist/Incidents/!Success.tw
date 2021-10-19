@@ -1,0 +1,54 @@
+:: Receptionist - Success Check
+<<nobr>>
+<</nobr>>As the day comes to a close, you sigh and once again adjust your skirt creeping up. You spot Brenda in the distance coming towards you.
+<<= setup.speak($characters.brenda, "Sup gurl! I got some good news!", "smile")>><<= setup.speak($player, "Oh really?")>><<= setup.speak($characters.brenda, "Hells yeah... some important CEO slided a good word through to us! Your ass and my ass gettin´ a bonus!", "smile")>>
+Her warmth embraces you as she swoops in for a hug. Her tits pushing against yours.
+<<= setup.speak($characters.brenda, "Just what I needed.")>>
+You´re taken a bit back at her sudden approach, but unsure of how to react.
+
+:: Receptionist - Success Check Standard 1
+<<nobr>>
+<<run setup.bonus($player, 250, "Social")>>
+<<run setup.rating($player, 50)>>
+<</nobr>>You clear your throat.
+<<= setup.speak($player, "Woah, getting a little close there.", "smile")>>
+She giggles and lets go.
+<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>
+You both check your E-Pals as they register the bonus.
+<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>
+
+:: Receptionist - Success Check Standard 2
+<<nobr>>
+<<run setup.bonus($player, 250, "Social")>>
+<<run setup.rating($player, 50)>>
+<</nobr>>You both giggle before letting go.
+<<= setup.speak($player, "What kind of bonus?")>>
+<<= setup.speak($characters.brenda, "The good kind! Raw units baby!", "smile")>>
+You both check your E-Pals as they register the bonus.
+<<= setup.speak($characters.brenda, "And there it is! Awesome!")>>
+
+:: Receptionist - Success Check No Cock
+<<nobr>>
+<<run setup.bonus($player, 250, "Social")>>
+<<run setup.rating($player, 50)>>
+<</nobr>>You feel your cock harden as she presses her tits against you.
+<<= setup.speak($player, "Damn girl control those honkers")>>
+She giggles and lets go.
+<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>
+You both check your E-Pals as they register the bonus.
+<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>
+You quickly dig your hand underneath your skirt, you swear... you could have felt something grow... almost as if you still had your cock.
+<<= setup.speak($characters.brenda, "Uuuuh... what are you doing?")>><<= setup.speak($player, "Nothing, just had to check something.")>><<= setup.speak($characters.brenda, "Like... what?")>><<= setup.speak($player, "Don´t worry about it.")>><<= setup.speak($characters.brenda, "Uhu...")>>
+
+:: Receptionist - Success Check Have Cock
+<<nobr>>
+<<run setup.bonus($player, 250, "Social")>>
+<<run setup.rating($player, 50)>>
+<</nobr>>You feel your cock harden as she presses her tits against you.
+<<= setup.speak($player, "Damn girl control those honkers")>>
+She giggles and lets go.
+<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>
+You both check your E-Pals as they register the bonus.
+<<= setup.speak($characters.brenda, "And there it is! Awesome!")>>
+
+

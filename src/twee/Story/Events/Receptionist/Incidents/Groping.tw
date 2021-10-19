@@ -1,0 +1,94 @@
+:: Receptionist - Groping
+<<nobr>>
+<<run setup.count("receivedGroping")>>
+<</nobr>>Right after showing a couple the location of the fashion strip, an old man approaches you.
+<<= setup.speak($npc.elderly[0], ["Excuse me miss... Can you help an old man in need?","If you could help me, it would be much appreciated.","Miss-miss... please help me."])>><<= setup.speak($player, ["Of course, what do you need help with?","Uuuuuuuh, what do you need help with?","Yes?.... With?","Alright, what do you need help with?"])>>
+He moves closer to you and you feel his hand rest on your hip, grabbing you for support.
+<<= setup.speak($npc.elderly[0], ["It´s been a long day and i´m lost, I need someone to help me towards the gloria hotel entrance.","My nephew... he´s gone missing! He´s probably at the adult strip. If you could take me there, then it would help a lot.","I need to find the psyche clinic and pick up my daughter. Can you lead me there?","I want to attend the auctions... If you could lead me to the Auction House, then that would be great!","I need new diapers. Where is the fashion strip? Can you take me there?","I just want to go home...I don´t know where the exit is. Can you take me there?"], "smile")>>
+His grasp on your hip grows tighter.
+
+:: Receptionist - Groping Standard 1
+<<nobr>>
+<<run setup.rating($player, -10)>>
+<<run setup.psyche($player, "Slut", -5, -5)>>
+<</nobr>>You slap his hand away, expecting him to fall, but he easily regroups.
+<<= setup.speak($player, ["The fuck is wrong with you, old pervert! FUCK OFF!","Ugh! Don´t touch me you old fart! Get the fuck off me!","Leave me the fuck alone gramps. Fucking pervert!"], "angry")>>
+At first he looks shocked, but his expression quickly changes.
+<<= setup.speak($npc.elderly[0], ["What the hell?! No respect for the elderly?! Fucking eventia whores, you lot! Youth today!","What?! You can NOT be serious young woman! Ugh!","What in the-... how dare you! Do you have no respect for veterans?! Tramp!"], "angry")>>
+He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Groping Standard 2
+<<nobr>>
+<<run setup.psyche($player, "Feminine", 1, 2, 3)>>
+<<run setup.rating($player, 5)>>
+<</nobr>>
+You put a hand around his shoulder to support him and lead him towards his destination.
+<<= setup.speak($player, ["Right this way! Let me lead you sir.","Should be this sir... let me lead you.","Hold on, and then I´ll take you to where you need to go."], "smile")>>
+As you move along the entertainment center. His grip grows tighter and slowly slips down, resting on your ass. Looking around, you notice that at least a few are taking notice of his hand on your ass. Eventually, you reach the destination.
+<<= setup.speak($player, "Alright, this is it. Have a nice evening and thank you for staying with eVentia!", "smile")>><<= setup.speak($npc.elderly[0], "Yes-yes thank you too, sweet thing.", "smile")>>
+You almost yelp and jump as the old man pinches your ass before heading towards his destination.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Groping Masculine 1
+<<nobr>>
+<<run setup.rating($player, -10)>>
+<<run setup.psyche($player, "Feminine", -5, -5)>>
+<</nobr>>You slap his hand away, expecting him to fall, but he easily regroups.
+<<= setup.speak($player, ["Hey! Get your hands off! I´m not some kinda miss or lady!","What the fuck are you doing?! I´m not a lady you idiot! Stop touching me!"], "angry")>>
+At first he looks shocked, but his expression quickly changes.
+<<= setup.speak($npc.elderly[0], ["What the hell?! No respect for the elderly?! Fucking eventia whores, you lot! Youth today!","What?! You can NOT be serious young woman! Ugh!","What in the-... how dare you! Do you have no respect for veterans?! Tramp!"], "angry")>>
+He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Groping Bimbo 1
+<<nobr>>
+<<run setup.psyche($player, "Slut", 10, 20)>>
+<<run setup.rating($player, 10)>>
+<</nobr>>You put out your tongue like a wanton whore begging to suck his cock.
+<<= setup.speak($player, ["Oooh my! You need sucky now? Me very good suck!","Mmmmh...*drools*, want me to suck your cock mister?","Aaaah, sucky-sucky now! I can suck your cock, please?"], "pleasure")>><<= setup.speak($npc.elderly[0], "Uuuh, I uuuh, god damn it... I´m getting too old for this shit.... Alright then, I´ll give you the privilege to suck this old man.")>>
+You take him towards a secluded corner in the hall.
+
+<<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.gE = $player, $sex.rE = $npc.elderly[0], $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
+:: Receptionist - Groping Slut 1
+<<nobr>>
+<<run setup.psyche($player, "Slut", 5, 5)>>
+<<run setup.rating($player, 10)>>
+<<run setup.bonus($player, 150, "Blowjob")>>
+<</nobr>>You send the old geezer a cheeky smile and wink at him. His attention is instantly taken by you.
+<<= setup.speak($player, ["You know, I could help with a lot. If you catch my drift?","How about I help you out with this instead?","Going places? How boring. Want me to do this to you instead?"], "smile")>>
+You jerk your closed fist back and forth next to your mouth, whilst pushing your tongue against your cheek, making a cock-sucking motion. The old man gasps, looking around a little worried, but quickly gets a smirk of his own.
+<<= setup.speak($npc.elderly[0], "Well... Aren´t you a nasty little slut! Alright. We can figure something out.")>>
+You take him towards a secluded corner in the hall.
+
+<<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.gE = $player, $sex.rE = $npc.elderly[0], $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
+:: Receptionist - Groping Social 1
+<<nobr>>
+<<run setup.rating($player, 5)>>
+<<run setup.bonus($player, 25, "Social")>>
+<</nobr>>You smile at the old man to put him at ease. 
+<<= setup.speak($player, ["Of course sir, Right this way! Let me lead you.","Let me take you to your destination, sir. It´s not far from here."], "smile")>>
+You place your hand around his shoulder, leading him on. His grip grows tighter and slowly slips down, resting on your ass. However, you simply move your left hand down to take his hand back up.
+<<= setup.speak($player, "Alright, this is it. Have a nice evening and thank you for staying with eVentia!", "smile")>><<= setup.speak($npc.elderly[0], "Yes-yes thank you too, sweet thing.", "smile")>>
+The old man smiles and waves at you, before you turn around and move back to the receptionist desk.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Groping Cool 1
+<<nobr>>
+<<run setup.psyche($player, "Cool", 1, 4)>>
+<<run setup.rating($player, -15)>>
+<</nobr>>You smile widely at the old man, chuckling to yourself. 
+<<= setup.speak($player, ["Sure thing geezer, I´ll get you there in one-two!","Lost old man? No worries. I got you!"], "smile")>><<= setup.speak($npc.elderly[0], "W-wah?!", "surprised")>>
+You grab his hand and brazenly begin to walk towards the old man's destination, ignoring his cries. When you arrive, you let go and turn to see a panting, sweaty old mess.
+<<= setup.speak($player, "Shit man. Walking is this tough on you? You gotta work out more gramps!", "smile")>><<= setup.speak($npc.elderly[0], "Y-you!...*pant*... you nearly killed me you stupid bitch!", "angry")>><<= setup.speak($player, "Pffft! Whatever you say geezer!")>>
+The old man´s complains drown out behind you as you walk back to the receptionist desk with a fat smile on your face.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Groping Mind 1
+<<nobr>>
+<<run setup.rating($player, -10)>>
+<</nobr>>A sudden cloudy haze overtakes you and robs you off your mind. You stand there with blank eyes, as your mind having overloaded some time ago making you wander off to some faraway happyland.
+<<= setup.speak($player, ["Ehehe..*drools*.....","Mmmmh...*drools*....."], "pleasure")>><<= setup.speak($npc.elderly[0], "You there young one? Hello?... Errh... Youth today....")>>
+He takes a closer look at your ass, eyeing you up and down inspecting you before leaving you. You simply stand there mumbling to yourself, having completely forgotten someone needed your attention.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>

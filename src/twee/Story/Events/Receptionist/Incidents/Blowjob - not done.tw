@@ -1,0 +1,44 @@
+:: Receptionist - Blowjob (Executive)
+<<nobr>>
+<</nobr>>Standing around the desk you yawn as the day is rather slow. With Brenda gone to manage some Event Planning you´re all alone, although, not that it´s a problem. A rather sleek-looking guy approaches you briskly, he eyes you up and down with a smug grin scratching his chin
+<<= setup.speak($npc.executives[0], "Hey... You know I´m gettin´ waaay too pent up waiting for that meeting. I was wondering if you could do somethin´ about that kitty-kat.", "smile")>><<= setup.speak($player, "Kitty-kat? Really?... Ugh...", "angry")>><<= setup.speak($npc.executives[0], "What?... I see a kitty-kat I call it a kitty-kat, doll... Haha!", "smile")>>
+Gathering every ounce of self-control that you possess you crack the most forced smile ever and blurt out the standard response
+<<= setup.speak($player, "...Whatever...Bro-...Sir, Eventia offers many delights by the Café and Restaurants.", "smile")>><<= setup.speak($npc.executives[0], "Not what I meant sweet-cheeks, I need a quick suck, and-you eventia girls do anything for the right price right? I got fat stacks and a big load to-unload, if ya know what I mean! Haha!", "smile")>><<= setup.speak($player, "WHAT?! YOU WANT ME-... TO WHAT?!.... Really?!", "angry")>>
+You clench your first in furious anger, almost forgetting your current predicament
+<<= setup.speak($npc.executives[0], "So what do ya-say eh? I pay good, you suck even better. Win-win eh?", "smile")>>
+
+:: Receptionist - Blowjob Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 50, 25)>>
+<<run setup.psyche($player, "Slut", 5, 5, 3)>>
+<<run setup.rating($player, 10)>>
+<<run setup.bonus($player, 350, "Blowjob")>>
+<</nobr>>You grit your teeth, perfectly aware of the fact that you need the money more than ever. Clenching your fist, you almost can´t believe the words escaping your mouth
+<<= setup.speak($player, "A-alright.")>>
+Snapping his fingers you see his grin turn into a wide perverted smile as he realizes he won you over
+<<= setup.speak($npc.executives[0], "Well then kitty-kat, come along to my suite...", "smile")>>
+You follow him towards the Gloria Hotel, and after entering the elevator you feel a warm grip on your hips
+<<= setup.speak($npc.executives[0], "Man look at these hips, if I had time for more I´d smash that puss too you know.", "smile")>><<= setup.speak($player, "H-hands off! We only agreed to a blowjob!", "surprised")>>
+You exit the elevator and arrive at his room
+
+
+			buttonText: Decline the offer,
+			resultText: Maintaining your composure, you eloquently tell him off
+			<<= setup.speak($player, "Sorry, but I will have to decline that offer, sir
+			<<= setup.speak($npc.executives[0], "Pfft! Whatever, stuck up whore.", "angry")>>
+			He turns around, seemingly returning to wait for whatever meeting he was waiting for
+			<<run setup.psyche($player, "Lust", 5, 5)>>
+			<<run setup.psyche($player, "Feminine", 2, 3, 2)>>
+			<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>,
+			requirements: []
+		},
+		{
+			buttonText: Freak out,
+			resultText: You clench your fist, fueled by rage and almost on the verge of attacking him
+			<<= setup.speak($player, "Definitely NOT sucking your digusting cock bro! NOW FUCK OFF!", "angry")>>
+			<<= setup.speak($npc.executives[0], "Holy shit?! WHAT THE HELL? Fucking eventia whores acting up again?!", "angry")>>
+			Looking visibly upset and rejected he turns around spitting on the floor marching away
+			<<run setup.rating($player, -10)>>
+			<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>,
+			requirements: [{id: Feminine, type: psyche-max, level: 2}]
+		}]

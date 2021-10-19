@@ -1,0 +1,36 @@
+:: Receptionist - Skirt Promo
+<<nobr>>
+<</nobr>>As you near the exit however, Brenda barges into the backroom.")>> 
+<<= setup.speak($characters.brenda, "Hey gurl... So, I just talked to the manager! And guess what? We gonna have a short skirt promo today!", "smile")>> <<= setup.speak($player, "Wait what? What does that fucking mean?")>><<= setup.speak($characters.brenda, "Bonus pay! And all yo ass gotta do is put on this!", "smile")>> 
+She hands you a comically short micro-skirt.
+<<= setup.speak($player, "You can´t be serious?! This is outragous!")>><<= setup.speak($characters.brenda, "Not at all gurl! Just think of it as a little excitement!", "smile")>><<= setup.speak($player, "How am I supposed to pick anything up?! I would flash everything with this on!")>> 
+You stand there contemplating what to do.
+
+:: Receptionist - Skirt Promo Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 50, 25)>> 
+<<run setup.psyche($player, "Slut", 5, 5, 2)>> 
+<<run setup.rating($player, 10)>>
+<<run setup.bonus($player, 200, "Social")>>
+<<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>
+<</nobr>>You slip on the extremely short micro-skirt. 
+<<= setup.speak($player, "Alright whatever, let´s do this.")>><<= setup.speak($characters.brenda, "Looking like a real money-making slut there gurl! Ahaha!", "smile")>> 
+You both laugh it off as you enter the foyer, the micro-skirt forcing you to strut more to avoid it creeping up exposing your g-string. 
+<<= setup.speak($npc.adults[0], "Holy shit dude, check it out! Them eVentia girls slutting it up! Hell yeah!", "surprised")>><<= setup.speak($npc.executives[0], "Nice bro!", "smile")>> 
+You receive copious amounts of stares and even a few perverts trying to hike a peek under your skirt. 
+<<= setup.speak($player, "This really does give you some attention, huh?")>><<= setup.speak($characters.brenda, "Well, you a good looking gal, no doubt!", "smile")>> 
+You breathe lightly as the shift comes to an end with nothing else, but a few lewd remarks and extra attention.
+ 
+:: Receptionist - Skirt Promo Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Feminine", -5, -5)>> 
+<<run setup.psyche($player, "Slut", -5, -5)>>
+<<run setup.rating($player, 10)>>
+<<run setup.bonus($player, 200, "Social")>>
+<<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>
+<</nobr>>
+Brenda chuckles as she puts on her micro-skirt. 
+<<= setup.speak($player, "Yeah I think I´m gonna pass on this one.")>><<= setup.speak($characters.brenda, "Suit yerself gurl, this ass here gonna shake that money-maker!", "smile")>> 
+As the day goes on it quickly becomes apparent that you´re one of if not the only eVentia Receptionist not doing the promo.
+<<= setup.speak($player, "Tsk... Whatever.")>> 
+The day goes by normally otherwise.

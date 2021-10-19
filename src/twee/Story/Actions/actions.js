@@ -1,29 +1,9 @@
-setup.speak = function (speaker, message, expression, nobreak) {
-	let isArray = Array.isArray(message);
-    let speakerName = "Speaker";
-    let speakerPortrait = "images/portraits/unknown/default.png";
-	if (isArray == true) {
-        console.log("isArray: " + isArray);
-        let speakInt = 0;
-        if (speaker.modifiers.includes("player")) {
-            let slutLevel = setup.getPsyche(speaker, "Slut");
-            let bimboLevel = setup.getPsyche(speaker, "Bimbo");
-            if (bimboLevel >= 2) {
-                speakInt = setup.getRandomArbitrary(6, 8);
-            } else if (slutLevel >= 2) {
-                speakInt = setup.getRandomArbitrary(3, 5);
-            } else {
-                speakInt = setup.getRandomArbitrary(0, 2);
-            }
-            var speakerText = message[speakInt];
-        } else {
-            speakInt = message.length;
-            var speakRandom = setup.random(speakInt);
-            var speakerText = message[speakRandom];
-        }
-	} else {
-		var speakerText = message;
-	}
+
+setup.speechBubble = function (speaker, message, expression) {
+	//Default name and portrait
+	let speakerName = "Speaker";
+	let speakerPortrait = "images/portraits/unknown/default.png";
+	//Check for defined expression portrait
 	if (expression == undefined) {
 		expression = "default";
 	}
@@ -33,11 +13,9 @@ setup.speak = function (speaker, message, expression, nobreak) {
 		} else {
 			speakerName = speaker.maleName;
 		}
+		//Default to male body portrait or use female portrait?
 		if (speaker.body.torso.bodyType == 0) {
-			let pMakeup = speaker.body.face.makeup;
-			let pHairstyle = speaker.body.hair.styleName;
-			let pHaircolor = speaker.body.hair.color;
-			speakerPortrait = "images/portraits/player/" + expression + "/" + pMakeup + "-" + pHairstyle + "-" + pHaircolor + ".png";
+			speakerPortrait = "images/portraits/player/" + expression + "/" + speaker.body.face.makeup + "-" + speaker.body.hair.styleName + "-" + speaker.body.hair.color + ".png";
 		} else {
 			speakerPortrait = "images/portraits/player-male/" + expression + ".png";
 		}
@@ -45,7 +23,46 @@ setup.speak = function (speaker, message, expression, nobreak) {
 		speakerName = speaker.name;
 		speakerPortrait = "images/portraits/" + speaker.portraitName + "/" + expression + ".png";
 	}
-	let returnSpeak = "<div class='speaker-container'><div class='speaker-portrait'><img src='" + speakerPortrait + "' style='border-radius:0.8em;' width=100% height=100%></div><div class='speaker-text'><div class='speaker-header'>" + speakerName + "</div><div class='speaker-text'>" + speakerText + "</div></div></div>";
+	return {
+		name: speakerName,
+		portrait: speakerPortrait,
+		message: message,
+		messageInt: 0,
+		isArray: false,
+		speechText: "Error: No text found.",
+		expression: expression
+	};
+}
+setup.speak = function (speaker, message, expression, nobreak) {
+	let speech = setup.speechBubble(speaker, message, expression);
+	speech.isArray = Array.isArray(speech.message);
+	//Check if speech is varied (multiple outcomes) or not
+	if (speech.isArray == true) {
+        console.log("isArray: " + speech.isArray);
+        if (speaker.modifiers.includes("player")) {
+			if (speech.message.length == 8) {
+				let slutLevel = setup.getPsyche(speaker, "Slut");
+				let bimboLevel = setup.getPsyche(speaker, "Bimbo");
+				if (bimboLevel >= 2) {
+					speech.messageInt = setup.getRandomArbitrary(6, 8);
+				} else if (slutLevel >= 2) {
+					speech.messageInt = setup.getRandomArbitrary(3, 5);
+				} else {
+					speech.messageInt = setup.getRandomArbitrary(0, 2);
+				}
+				speech.speechText = speech.message[speech.messageInt];
+			} else {
+				speech.messageInt = setup.random(speech.messageInt.length - 1);
+				speech.speechText = speech.message[speech.messageInt];
+			}
+        } else {
+            speech.messageInt = setup.random(speech.messageInt.length - 1);
+			speech.speechText = speech.message[speech.messageInt];
+        }
+	} else {
+		speech.speechText = speech.message;
+	}
+	let returnSpeak = "<div class='speaker-container'><div class='speaker-portrait'><img src='" + speech.portrait + "' style='border-radius:0.8em;' width=100% height=100%></div><div class='speaker-text'><div class='speaker-header'>" + speech.name + "</div><div class='speaker-text'>" + speech.speechText + "</div></div></div>";
 	if (nobreak != undefined) {
 		return returnSpeak;
 	} else {

@@ -1,0 +1,20 @@
+:: Receptionist - Blowbang Schedule
+<<nobr>>
+<<run setup.count("receivedHarassment")>>
+<</nobr>>The day starts off fairly hectic as event after event has to be scheduled and taken care off. One tech giant event reserving the north venue for a tech demonstration ordering as many showgirls as possible to present their product.
+
+Which would be fine if not only another company, some aero-something taking the southern venue and requesting the exact same thing.
+<<= setup.speak($characters.brenda, "Not every day we run into a shortage, my lord in heaven!")>>
+You both seem to manage with the Receptionists as the events go on however. A young skimpy-clad woman walks up to you and begins to file in a new event.
+<<= setup.speak($characters.subject17A, "Hey there, I´m looking to file in a new event-so-like this one is going to be real special.")>><<= setup.speak($player, "Okay, name and type of the Event? And pay? We also have a form if you´re familiar with the procedure?")>><<= setup.speak($characters.subject17A, "Uuuuh no, this one gonna cost to participate, we´re having a blowbang in suite-6 at the Gloria Hotel! I´m gonna suck so many cocks!", "smile")>>
+
+:: Receptionist - Blowbang Schedule Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<<run setup.psyche($player, "Feminine", 1, 2, 3)>>
+<</nobr>>You´re slightly taken aback by her abrupt statement.
+<<= setup.speak($player, "I´m sorry... What? That´s not really how it works...", "smile")>>
+You´re both quickly interrupted by Dr. Linus running towards the both of you, completely out of breath.
+<<= setup.speak($characters.drlinus, "Ah! There you are! Sorry about this mess! One of my younger test-su-... Clients ran off-")>><<= setup.speak($characters.subject17A, "I´m trying to suck so many cocks! Like you told me to! I love cock! Mmmh~!")>><<= setup.speak($characters.drlinus, "Yes-no! Just follow me now, back to the la-errr... The office, yes. Let´s just go back, come along now.", "smile")>><<= setup.speak($characters.subject17A, "Daddy Linus commands! I obey!", "smile")>><<= setup.speak($characters.drlinus, "Don-... Whatever, just follow me!", "angry")>>
+You stand there in awe as Linus escorts his companion back to his clinic.
+

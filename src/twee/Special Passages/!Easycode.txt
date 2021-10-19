@@ -9,6 +9,11 @@
 <<run setup.story("Quest-ID", "complete")>> - Completes the entry if it's active.
 <<run setup.story("Quest-ID", "start")>> - Activates the entry if it exists.
 
+//Event Notes
+<<run setup.bonus($player, 50, "Social")>>
+
+//Player Skill Notes
+Blowjob
 
 //Story Notes
 Vernon Venere - President of Gloria Gals

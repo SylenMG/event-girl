@@ -1,15 +1,22 @@
 :: Changelog {"position":"679,300","size":"100,100"}
 <div style="height: 30em; overflow:auto;">
 0.21.0
-- Cleaned up a lot of the code structure (had put this on hold for a long time)
-- Fixed up the boink system, so that it behaves more like a module.
-- Fixed up the noun system, so that it behaves more like a module.
+//Check on roaming for new comment/speak system
+Story Content:
 - Finished Quest: Amanda Seduction Mission
 - Added the Conclusion for the Amanda Storyline (Intended to have Several Endings)
 - Amanda will have more missions added to her (which will be required in the future)
 - Added Amanda Good Ending.
+Event Content:
+- Added 3 new outcomes to Receptionist Groping Incident (Slutty, Cool, Social).
 - 
-
+Code:
+- Cleaned up a lot of the code structure (had put this on hold for a long time)
+- Fixed up the boink system, so that it behaves more like a module.
+- Fixed up the noun system, so that it behaves more like a module.
+- Moved a lot of javascript around, so that it's easier to navigate in the future.
+- Changed the way that speaking works code-wise and added comments.
+- Changed the way that events work.
 
 0.20.1
 - Fixed errors popping up during some sex scenes

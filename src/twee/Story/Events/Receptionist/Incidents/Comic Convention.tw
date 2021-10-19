@@ -1,0 +1,18 @@
+:: Receptionist - Comic Convention
+<<nobr>>
+<</nobr>>As you head towards Brenda in the lobby, your ears are filled with busy chatter and loud commotion of visitors.
+<<= setup.speak($player, "Any reason for all the people?")>><<= setup.speak($characters.brenda, "Yep, a comic convention is going on, you and me have been called in to oversee some of the booths, so strap up gurl! Should be a small bonus in it for us too!")>>
+You both move down to the venue in question and reach your assigned booth, selling some form of drive with a light-comic featuring a renowned heroine. You take a quick peek and realize it´s bordering on softcore porn.
+
+:: Receptionist - Comic Convention Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.experience($player, "Social", 5, 15)>>
+<<run setup.rating($player, 2)>>
+<<run setup.bonus($player, 150, "Social")>>
+<</nobr>>You arrive with Brenda at your supposedly assigned booth. You pick up an issue of the light comics and immediately lay your eyes on some bimbo heroine in an obscene leotard, her tits spilling out and hips putting pressure on the integrity of the comics shape.
+<<= setup.speak($player, "Honestly not surprised....")>>
+Putting the comic down you´re greeted by the near-splitting image of said heroine. Not nearly as busty as drawn, but close, her blonde her spilling out, but doing nothing to cover her lewd cleavage.
+<<= setup.speak($characters.subject17A, "Hey there! Your body model for the fan shoots is here! Let´ts get to it?", "smile")>><<= setup.speak($player, "Right sure... of course...")>><<= setup.speak($npc.adults[0], "Hey look everyone! It´s Sexia-Supreme!", "surprised")>>
+The commotion of the venue is suddenly directed towards your booth as a line forms. Brenda almost instinctively flips out a camera and directs it at the eager fans surrounding their wet dream. You notice that at least a dusin of them are extremely handsy and almost outright grabbing her ass and feeling her up.
+<<= setup.speak($characters.subject17A, "Mmmh! Sexia has time for all of her fans! Haha!")>>

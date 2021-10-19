@@ -1,0 +1,24 @@
+:: Receptionist - Mind Check
+<<nobr>>
+<</nobr>>They both continue towards the Adult Strip, only stopping to stare at other working girls.
+
+You power through the fog, catching yourself drooling at times, you try to do your best just standing by the desk. 
+
+Every now and then, you realize someone is groping you, for how long? Could you even make them stop if you wanted to?
+
+Mmmmmh... What´s even going on?
+
+You feel a rough *SMACK* connect with your cheek. Then another and another...
+
+Was that a penis? Where are you even? Is this the real world?
+
+:: Receptionist - Mind Check Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 10, 25)>>
+<<run setup.rating($player, -100)>>
+<</nobr>>You hear a faint snapping of fingers. Their constant clicking almost dragging you out of your trance... but just almost.
+<<= setup.speak($characters.brenda, "Uuuuh you awake? Geez, this is kinda bad.")>><<= setup.speak($player, "*drools*........", "pleasure")>><<= setup.speak($characters.brenda, "I don´t think I can cover you on this one gurl....")>>
+The day passes with you slipping in and out of a drooling trance. Your head pounding like mad whenever you're at your senses.
+
+
+

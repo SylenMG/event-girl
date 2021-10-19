@@ -1,0 +1,18 @@
+:: Receptionist - Guidance
+<<nobr>>
+<</nobr>>As the day goes by the lobby empties out giving you a much needed break. Leaning over the desk, a couple of guys show up approaching you.
+<<= setup.speak($npc.adults[0], "Hey there honey, can ya point us towards the nearest Strip Club?", "smile")>><<= setup.eventText("The other guy turns around, his eyes landing on your chest.")>><<if $player.body.tits.size <= 2>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, you flat as all hell girl!", "angry")>><<= setup.speak($player, "Oh really? That´s rich, why don´t you just piss off bro?!", "angry")>>
+You look down towards your bee-stings... He´s right though...<<elseif $player.body.tits.size == 3>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, she barely makes the cut!", "angry")>><<= setup.speak($player, "Oh really? That´s rich, why don´t you just piss off bro?!", "angry")>>
+You look down towards your tits... Even though they´re there, maybe they could be bigger?<<else>><<= setup.speak($npc.executives[0], "Holy shit! Look at the tits on this one bro!", "surprised")>><<= setup.speak($npc.adults[1], "Oh my! Mammarinas! You gonna work at the Strip Club honey? How much for a lap-dance on my cock?", "surprised")>><<= setup.speak($player, "I´m not for sale bro! What the fuck is wrong with you?!", "angry")>>
+You look down towards your massive tits... Are they too big? You look like a fucking bimbo.<</if>>
+<<= setup.speak($npc.executives[0], "Maaaan! Whatever, just point us towards the Strip Club.", "smile")>><<= setup.speak($npc.adults[0], "Yeah, the Strip Club man, need myself some tits in my face, come on baby!", "smile")>>
+You think about what to say.
+
+:: Receptionist - Guidance Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.experience($player, "Social", 5, 5, 2)>>
+<<run setup.rating($player, 2)>>
+<</nobr>>You turn your client screen around showing them a path towards the Adult Strip.
+<<= setup.speak($player, "Gloria Girls is by the Adult Strip, should be just by the corner.")>><<= setup.speak($npc.adults[0], "Thanks babe, you´re still hot though, I´d fuck ya anytime.", "smile")>>
+They both continue towards the Adult Strip, only stopping to stare at other working girls.

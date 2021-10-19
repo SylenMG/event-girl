@@ -1,0 +1,70 @@
+:: Receptionist - Pantie Purchase
+<<nobr>>
+<</nobr>>As you finish showing a young couple the direction to the adult strip, you´re approached by a new figure.")>>
+<<= setup.speak($npc.adults[0], "Hey... uuuh, how much for yer panties?")>><<= setup.speak($player, "Excuse me? Could you repeat that?")>><<= setup.speak($npc.adults[0], "Your panties... I uuuh, I want to purchase them.", "smile")>><<= setup.speak($player, "MY WHAT?!", "angry")>>
+You grit your teeth and clench your fist, almost raising your fist to attack him. Yet, you´re quickly reminded of your current predicament.
+<<= setup.speak($player, "Ahem... they are obviously not for sale.")>><<= setup.speak($npc.adults[0], "Come on baby-girl, just name yer price!", "smile")>>
+You think about it for a second.
+
+:: Receptionist - Pantie Purchase Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<</nobr>>Raising a fist at them, you frown.
+<<= setup.speak($player, "Hell no! Piss off already!", "angry")>><<= setup.speak($npc.adults[0], "Geez, whatever... Fucking whore.", "angry")>>
+You quickly make your way back to the receptionist desk, avoiding any visitor that looks like a creep along the way. As you approach the desk, you spot Brenda.")>>
+<<= setup.speak($characters.brenda, "Your ass looking awfully flustered, gurl. Something wrong?")>><<= setup.speak($player, "Some creep wanted to buy my damn panties!", "angry")>><<= setup.speak($characters.brenda, "Ya didn´t sell em? What a loss. Buying spares are cheap you know. You can easily make a lot just selling them nice and wet ones to them creeps I tell ya.")>>
+You cringe a little on the inside.
+<<= setup.speak($player, "Really?")>><<= setup.speak($characters.brenda, "Ya, of course gurl!", "smile")>>
+You think about the incident. Maybe you could have made a lot of units after all?
+
+:: Receptionist - Pantie Purchase Standard 2
+<<nobr>>
+<<run setup.psyche($player, "Lust", 75, 50)>>
+<<run setup.rating($player, 25)>>
+<<run setup.bonus($player, 100, "Hard")>>
+<<run setup.logEPal("Sold Panties", 100, 0)>>
+<</nobr>>Raising a fist at them, you frown.
+<<= setup.speak($player, "Hell no! Piss off already!", "angry")>><<= setup.speak($npc.adults[0], "Geez, whatever... Fucking whore.", "angry")>>
+You quickly make your way back to the receptionist desk, avoiding any visitor that looks like a creep along the way. As you approach the desk, you spot Brenda.")>>
+<<= setup.speak($characters.brenda, "Your ass looking awfully flustered, gurl. Something wrong?")>><<= setup.speak($player, "Some creep wanted to buy my damn panties!", "angry")>><<= setup.speak($characters.brenda, "Ya didn´t sell em? What a loss. Buying spares are cheap you know. You can easily make a lot just selling them nice and wet ones to them creeps I tell ya.")>>
+You cringe a little on the inside.
+<<= setup.speak($player, "Really?")>><<= setup.speak($characters.brenda, "Ya, of course gurl!", "smile")>>
+You think about the incident. Maybe you could have made a lot of units after all?
+
+You look around the foyer for a small place you can go to to take off your panties.
+<<= setup.speak($player, "Alright... 100 units and they´re yours.", "smile")>><<= setup.speak($npc.adults[0], "Sold baby! Haha! Jackpot!", "smile")>>
+You spot a column that looks hidden well enough.
+<<= setup.speak($player, "One moment, let me just get them off.")>><<= setup.speak($npc.adults[0], "Sure.")>>
+Heading towards the column, you hide behind it. Your heart pounding madly, you slip up your skirt and flick the string underneath you thumb. Clumsily you let your g-string trail along your soft loins.
+
+Picking up the g-string you feel the moist damp panties in your hand. You return to the man and give him the thin fabric soaked in your juices.")>>
+<<= setup.speak($player, "And my pay?")>><<= setup.speak($npc.adults[0], "Sure, hera ya go.", "smile")>>
+You feel your E-Pal vibrate as it registers the units going in.
+
+:: Receptionist - Pantie Purchase Standard 2
+<<nobr>>
+<<run setup.psyche($player, "Lust", 75, 50)>>
+<<run setup.bonus($player, 500, "Hard")>>
+<<run setup.logEPal("Sold Panties", 500, 0)>>
+<</nobr>>You look around the foyer for a small place you can go to to take off your panties.
+<<= setup.speak($player, "Alright... 100 units and they´re yours.", "smile")>><<= setup.speak($npc.adults[0], "Sold baby! Haha! Jackpot!", "smile")>>
+You spot a column that looks hidden well enough.
+<<= setup.speak($player, "One moment, let me just get them off.")>><<= setup.speak($npc.adults[0], "Sure.")>>
+Heading towards the column, you hide behind it. Your heart pounding madly, you slip up your skirt and flick the string underneath you thumb. Clumsily you let your g-string trail along your soft loins.
+
+Picking up the g-string you feel the moist damp panties in your hand. You return to the man and give him the thin fabric soaked in your juices.")>>
+<<= setup.speak($player, "And my pay?")>><<= setup.speak($npc.adults[0], "Sure, hera ya go.", "smile")>>
+You feel your E-Pal vibrate as it registers the units going in.
+
+:: Receptionist - Pantie Purchase Standard 3
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<</nobr>>
+You look around the foyer for a small place you can go to to take off your panties.
+<<= setup.speak($player, "Alright... 1000 units and they´re yours.", "smile")>><<= setup.speak($npc.adults[0], "Ugh! Another whore with an inflated idea of her worth!", "angry")>><<= setup.speak($player, "Fuck you too!", "angry")>>
+You quickly make your way back to the receptionist desk, avoiding any visitor that looks like a creep along the way. As you approach the desk, you spot Brenda.")>>
+<<= setup.speak($characters.brenda, "Your ass looking awfully flustered, gurl. Something wrong?")>><<= setup.speak($player, "Some creep wanted to buy my damn panties!", "angry")>><<= setup.speak($characters.brenda, "Ya didn´t sell em? What a loss. Buying spares are cheap you know. You can easily make a lot just selling them nice and wet ones to them creeps I tell ya.")>>
+You cringe a little on the inside.
+<<= setup.speak($player, "I already tried selling them for 1000 units.")>>
+<<= setup.speak($characters.brenda, "WOW! That is a little on the steep side gurl. I´d part with mine at 300. Maybe try a little lower?", "smile")>>
+You think about the incident. Maybe you should try a little lower the next time?
