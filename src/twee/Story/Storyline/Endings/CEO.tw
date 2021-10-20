@@ -1,0 +1,18 @@
+:: Ending - CEO (Female)
+The lush leather of your new chair comforts your back as you lean against. You gaze out at the exotic landscape. The many pink elephants grazing along the savannah fills you with a humorous chuckle. You wonder how they could get that one wrong? Or maybe, it was on purpose? You turn off the holo-projection and the windows change to the stark grey view. A complete opposite of before. Nothing, but towering skyscrapers and dead clouds hanging in the distance. Perhaps another rain of acid was forecasted?
+<<= setup.speak($player, "No reason to think of that. I should prepare for my next meeting.", "smile")>>
+You think to yourself, as you spin around in your chair. Placing your hands on the clean desk, you call your security guard.
+<<= setup.speak($player, "Benny. It´s time to go. Prepare my departure.", "smile")>><<= setup.speak($character.secret, "Understood. It will be here in a minute.")>>
+A smile spreads on your cheeks as you get up from your chair. Looking around your office, you exhale with a certain degree of satisfaction. This is all you ever wanted. All you ever needed. Yet, there´s something hollow within. A craving for more. Maybe you were cheated? Maybe something is missing? It´s at the tip of your mind, but you just can´t stop trying to think about it. Whenever you do, this silly smile of yours forces itself forward.
+
+Your Nyxline Uplink informs you that your ride is here. You quickly grab one of the white pills at your desk and swallow it down with a glass of 100% pure water. A luxury that few can afford. The pill is necessary. You love the pill. It loves you too.
+
+With everything finally under control, you grab your fancy jacket and head towards your ride. The board-members and shareholders will certainly be pleased tonight.
+
+@@.italics;Thank you for playing Event Girl.
+
+I hope you enjoyed the experience and are looking forward to more content.
+
+If you wish to continue playing the game, simply press continue.@@
+
+<<= setup.button("Continue (Return to pod).", "Pod - Main")>>

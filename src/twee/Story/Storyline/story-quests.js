@@ -1,17 +1,5 @@
-//Event Girl - Story
-//v0.01
-//Requires:
-//by Sylen
-
-//Example: <<= setup.story("Event-Girl-01", "start")>>
 setup.loadStory = function () {
-	//Story Routes
-	//Main Route: eVentia Corp Mystery > Solving Timeline
-	//Brenda Route: Get to know Brenda > ???
-	//Lily Route: Get to know Lily > Lily whoring herself (help or doom her to the free-use blocks)
-	//Dr. Linus Route: Get to know Linus > Become the Perfect Superfuck Doll
-
-	let introEntries = [
+let introEntries = [
 		{
 			id: "Event-Girl-00",
 			entryName: "Your first event!",
@@ -164,6 +152,13 @@ setup.loadStory = function () {
 			id: "Amanda-Quest-01",
 			entryName: "Play-virus.",
 			entryInfo: "Whilst attending the party, infect the playboy with a virus.",
+			trigger: false,
+			passages: []
+		},
+		{
+			id: "Amanda-Final-Wager",
+			entryName: "The Final Wager",
+			entryInfo: "You met with Amanda for the final time.",
 			trigger: false,
 			passages: []
 		}

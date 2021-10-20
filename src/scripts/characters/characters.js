@@ -1,58 +1,5 @@
 
 setup.loadCharacters = function () {
-	let brendaLocations = [
-	{
-		type: "Work",
-		time: ["Morning","Afternoon","Evening"],
-		days: ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-		place: "receptionist desk"
-	},
-	{
-		type: "Default",
-		time: ["All"],
-		days: ["All"],
-		place: "pod 009"
-	}];
-	let lilyLocations = [
-	{
-		type: "Bar",
-		time: ["Night"],
-		days: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
-		place: "the bar"
-	},
-	{
-		type: "Default",
-		time: ["All"],
-		days: ["All"],
-		place: "pod 012"
-	}];
-	let linusLocations = [
-	{
-		type: "Work",
-		time: ["Morning","Afternoon","Evening","Night"],
-		days: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
-		place: "psyche clinic"
-	},
-	{
-		type: "Default",
-		time: ["All"],
-		days: ["All"],
-		place: "secret rape lab"
-	}];
-	let amandaLocations = [
-		{
-			type: "Office",
-			time: ["Afternoon","Evening"],
-			days: ["Monday","Tuesday","Wednesday","Thursday","Friday"],
-			place: "amanda office"
-		},
-		{
-			type: "Default",
-			time: ["All"],
-			days: ["All"],
-			place: "brain bank"
-		}];
-	
 	let characters = {
 		jake: {
 			name: "Jake",
@@ -150,7 +97,20 @@ setup.loadCharacters = function () {
 				ass: 3,
 				asshole: 2
 			},
-			worldLocation: amandaLocations
+			worldLocation: [
+				/*{
+					type: "Office",
+					time: ["Afternoon","Evening"],
+					days: ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+					place: "amanda office"
+				},*/
+				{
+					type: "Default",
+					time: ["All"],
+					days: ["All"],
+					place: "brain bank"
+				}
+			]
 		},
 		sandra: {
 			name: "Sandra",
@@ -206,7 +166,20 @@ setup.loadCharacters = function () {
 				ass: 3,
 				asshole: 0
 			},
-			worldLocation: linusLocations
+			worldLocation: [
+				{
+					type: "Work",
+					time: ["Morning","Afternoon","Evening","Night"],
+					days: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+					place: "psyche clinic"
+				},
+				{
+					type: "Default",
+					time: ["All"],
+					days: ["All"],
+					place: "secret rape lab"
+				}
+			]
 		},
 		brenda: {
 			name: "Brenda",
@@ -220,7 +193,20 @@ setup.loadCharacters = function () {
 				ass: 3,
 				asshole: 1
 			},
-			worldLocation: brendaLocations
+			worldLocation: [
+				{
+					type: "Work",
+					time: ["Morning","Afternoon","Evening"],
+					days: ["Monday","Tuesday","Wednesday","Thursday","Friday"],
+					place: "receptionist desk"
+				},
+				{
+					type: "Default",
+					time: ["All"],
+					days: ["All"],
+					place: "pod 009"
+				}
+			]
 		},
 		lily: {
 			name: "Lily",
@@ -234,7 +220,20 @@ setup.loadCharacters = function () {
 				ass: 3,
 				asshole: 2
 			},
-			worldLocation: lilyLocations
+			worldLocation: [
+				{
+					type: "Bar",
+					time: ["Night"],
+					days: ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+					place: "the bar"
+				},
+				{
+					type: "Default",
+					time: ["All"],
+					days: ["All"],
+					place: "pod 012"
+				}
+			]
 		},
 		manager: {
 			name: "Michael",

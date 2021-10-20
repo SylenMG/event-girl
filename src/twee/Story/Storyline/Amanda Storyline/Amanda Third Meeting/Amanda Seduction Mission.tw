@@ -5,7 +5,7 @@ Pointing at her, you grit your teeth.
 <<= setup.speak($player, "Wait! You said that all I needed to do was a favor. I´ve done that now!", "angry")>><<= setup.speak($characters.amanda, "Yes? You´ve done one job. Did you really think that was enough?")>><<= setup.speak($player, "So what now? I just do your bidding or what?!")>>
 Amanda looks at you amused as she chuckles lightly.
 <<= setup.speak($characters.amanda, "For now you do. But worry not. I will keep my end of the bargain.", "smile")>><<= setup.speak($player, "Pfft. Sure. When is this party then?")>><<= setup.speak($characters.amanda, "Tonight.")>><<= setup.speak($player, "As in tonight-tonight?", "surprised")>><<= setup.speak($characters.amanda, "Yes. You should wear something nice for the event.", "smile")>>
-Scratching your chin, you think about it. 
+Scratching your chin, you think about it.
 
 <<= setup.button("Continue.", "Storyline - Amanda Seduction Mission Explained")>>
 :: Storyline - Amanda Seduction Mission Explained

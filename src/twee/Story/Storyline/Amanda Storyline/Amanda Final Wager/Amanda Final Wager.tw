@@ -1,0 +1,13 @@
+:: Storyline - The Final Wager
+<<run setup.story("Amanda-Final-Wager", "start")>><<run setup.story("Amanda-Final-Wager", "complete")>>You stand before her. The woman that has brought you this far into some corporate conspiracy. Her piercing gaze sends a shiver down your spine, making you gulp, as you wait for her to break the silence.
+<<= setup.speak($characters.amanda, "So it has been done then. You did the little errands I made you do.", "smile")>><<= setup.speak($player, "I did. What comes now?")>><<= setup.speak($characters.amanda, "Well, it´s as simple as the fact that I have already gotten the certificate ready. You will receive your Proto-woman License. And with that. You will be promoted.")>>
+A drop of sweat trickles down the back of your head.
+<<= setup.speak($player, "Wait... that was it? What about... training? I´m not sure I can run a full-scale company!", "surprised")>><<= setup.speak($characters.amanda, "Girl. Do you really think those baboons out there can too? Most things are automated these days. Just enjoy the ride.")>><<= setup.speak($player, "Wait-wait. You´re for real? I get to inherit this whole thing, just like that?")>>
+Amanda looks at you slightly amused. She gets up from her chair and trails along her desk.
+<<= setup.speak($characters.amanda, "Yes. It makes no difference to me. I had fun playing with you.", "smile")>><<= setup.speak($player, "Alright, so, where do I sign?")>><<= setup.speak($characters.amanda, "It´s not needed. It never really was. It´s just amusing to see what choices people make when they´re given an ounce of control.")>><<= setup.speak($player, "Wait... what about the wh-", "surprised")>>
+Her finger lands on your lips, as she comes in closer.
+<<= setup.speak($characters.amanda, "Ssssh. Like I said. Enjoy the ride. This world is filled with loopholes within loopholes. It´s just how it is.", "smile")>>
+With that she moves towards the exit, her hand held high as she waves.
+<<= setup.speak($characters.amanda, "My assistant will send you the details. Read them carefully. Or not.")>>
+
+<<= setup.button("Continue.", "Ending - CEO (Female)")>>

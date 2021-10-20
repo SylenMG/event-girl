@@ -28,27 +28,37 @@ setup.speechBubble = function (speaker, message, expression) {
 		portrait: speakerPortrait,
 		message: message,
 		messageInt: 0,
-		isArray: false,
+		speechArray: false,
 		speechText: "Error: No text found.",
+		expressionArray: false,
 		expression: expression
 	};
 }
 setup.speak = function (speaker, message, expression, nobreak) {
 	let speech = setup.speechBubble(speaker, message, expression);
-	speech.isArray = Array.isArray(speech.message);
+	speech.speechArray = Array.isArray(speech.message);
 	//Check if speech is varied (multiple outcomes) or not
-	if (speech.isArray == true) {
-        console.log("isArray: " + speech.isArray);
+	if (speech.speechArray == true) {
+        //console.log("speechArray: " + speech.speechArray);
         if (speaker.modifiers.includes("player")) {
 			if (speech.message.length == 8) {
 				let slutLevel = setup.getPsyche(speaker, "Slut");
 				let bimboLevel = setup.getPsyche(speaker, "Bimbo");
 				if (bimboLevel >= 2) {
 					speech.messageInt = setup.getRandomArbitrary(6, 8);
+					if (speech.expressionArray == true) {
+						speech.speakerPortrait = "images/portraits/player/" + expression[2] + "/" + speaker.body.face.makeup + "-" + speaker.body.hair.styleName + "-" + speaker.body.hair.color + ".png";
+					}
 				} else if (slutLevel >= 2) {
 					speech.messageInt = setup.getRandomArbitrary(3, 5);
+					if (speech.expressionArray == true) {
+						speech.speakerPortrait = "images/portraits/player/" + expression[1] + "/" + speaker.body.face.makeup + "-" + speaker.body.hair.styleName + "-" + speaker.body.hair.color + ".png";
+					}
 				} else {
 					speech.messageInt = setup.getRandomArbitrary(0, 2);
+					if (speech.expressionArray == true) {
+						speech.speakerPortrait = "images/portraits/player/" + expression[0] + "/" + speaker.body.face.makeup + "-" + speaker.body.hair.styleName + "-" + speaker.body.hair.color + ".png";
+					}
 				}
 				speech.speechText = speech.message[speech.messageInt];
 			} else {
