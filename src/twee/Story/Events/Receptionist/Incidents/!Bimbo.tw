@@ -1,15 +1,15 @@
 :: Receptionist - Bimbo Check
 <<nobr>>
 <</nobr>>Standing around the foyer, you feel your loins moisten and your nipples harden. The day has been long and dull, with no cocks-... or err, men to guide around the entertainment center.
-<<= setup.speak($player, "Oooh fuck. This is too boring.")>>
+<<= setup.speak($player, ["Oooh fuck. This is too boring.","Fuck this... I´m so fucking bored.","*sigh*.... this is just... snooze-inducing."])>>
 You absent-mindedly begin to feel yourself up, your hand hiking up along your short skirt.
-<<= setup.speak($player, "Mmmh.. fuck, I need a cock inside me soon.", "smile")>> +
+<<= setup.speak($player, ["Mmmh.. fuck, I need a cock inside me soon.","If only there was some cock around...","W-where is the cock exactly? It should be here any moment."], "smile")>>
 Suddenly you feel a hand placed on your ass and some hot guys getting real close and handsy.
-<<= setup.speak($npc.adults[0], "Holy shit, this bitch is ready to go boys!", "smile")>><<= setup.speak($player, "Oh my! Are you guys going to fuck me?! Here for everyone to watch?!", "surprised")>><<= setup.speak($npc.executives[0], "Hell yeah bitch, get on your knees! Suck me.", "smile")>><<= setup.speak($player, "Yummy!", "smile")>>
+<<= setup.speak($npc.adults[0], ["Holy shit, this bitch is ready to go boys!","Free meat boys! Let´s show this bitch a good time!","Holy fuck! Time to rip and tear this slut!"], "smile")>><<= setup.speak($player, ["Oh my! Are you guys going to fuck me?! Here for everyone to watch?!","Ooooh no! These men are gonna stuff me full of their cocks! *giggles*","Mhmmmm give it to me handsome. I need something to stuff me up!"], "pleasure")>><<= setup.speak($npc.executives[0], ["Hell yeah bitch, get on your knees! Suck me.","Damn girl, get down there and work for it. Just blow me already.","Fuuuuuck! Suck me you stupid slut!"], "smile")>><<= setup.speak($player, ["Yummy!","Ooooh! Time to eat!","Yay! Cock!"], "smile")>>
 You get on your knees, the group of men quickly becoming a small gang. You hear zippers being undone all around you as you´re promptly shoved into someones crotch. The musk of cock quickly fills your nostrils.
-<<= setup.speak($npc.adults[1], "Don´t forget me too, bitch!", "smile")>>
+<<= setup.speak($npc.adults[1], ["Don´t forget me too, bitch!","Look over here you dirty whore. Suck me too.","Fuck me, don´t forget me man, I need my cock cleaned too!"], "smile")>>
 Before you know it, you have a cock shoved down your throat, as well as one in each hand. Several onlookers begin to take out their phones filming your whorish act in the middle of the foyer.
-<<= setup.speak($player, "*gluck*..*gluck*..*cough*...mmmh fuck my throa-..*gluck*", "pleasure")>><<= setup.speak($npc.adults[1], "Damn this bitch is goo-...oooh!", "pleasure")>>
+<<= setup.speak($player, "*gluck*..*gluck*..*cough*...mmmh fuck my throa-..*gluck*", "pleasure")>><<= setup.speak($npc.adults[1], ["Damn this bitch is goo-...oooh!","OOOOOOOOOOOOOH!","AAAAAAAH! FUCK ME!"], "pleasure")>>
 *SLAP*
 
 :: Receptionist - Bimbo Check Standard 1
@@ -17,7 +17,7 @@ Before you know it, you have a cock shoved down your throat, as well as one in e
 <<run setup.psyche($player, "Lust", 10, 25)>>
 <<run setup.psyche($player, "Bimbo", 1, 4)>>
 <</nobr>>You open your eyes, only to see Brenda.
-<<= setup.speak($characters.brenda, "You awake gurl?! Dang gurl! Your ass can´t be sleepin´ on the job! Your rating is gonna tank!")>><<= setup.speak($player, "Uuuh... Cocks... mmmh...WHAT?! Where was I?!", "surprised")>><<= setup.speak($characters.brenda, "Cocks... Really? You sit here day-dreaming about cocks?")>><<= setup.speak($player, "Sorry-sorry! It was just a dream!", "surprised")>>
+<<= setup.speak($characters.brenda, ["You awake gurl?! Dang gurl! Your ass can´t be sleepin´ on the job! Your rating is gonna tank!","Shit-shit-shit! You´re finally awake! Stop sleeping on the job!","GURL! You can´t be sleeping on the job like this! They gonna slap our asses back to the stone age man!"])>><<= setup.speak($player, ["Uuuh... Cocks... mmmh...WHAT?! Where was I?!","Ooooh... cum... hehe...W-wait?! WHERE AM I?!","W-what the hell?! COCKS?! WHAT?!"], "surprised")>><<= setup.speak($characters.brenda, ["Cocks... Really? You sit here day-dreaming about cocks?","Tsk-tsk girl. Sitting there dreaming about cocks! What the hell the matter wit´ you?!","Cocks?! Again?! You got a problem girl!"])>><<= setup.speak($player, ["Sorry-sorry! It was just a dream!","Ah shit! Sorry! Won´t do it again! Promise!","Aww-...! What the hell! I-... I´ll do better!"], "surprised")>>
 Brenda chuckles at your flustered reaction.
 <<= setup.speak($characters.brenda, "Sure gurl, just-.. stay awake now. Can´t have you slippin´ back into your little cock dreams again on the job now can we?", "smile")>>
 You get a sudden feeling that Brenda will never live that down from now on.

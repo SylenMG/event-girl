@@ -8,9 +8,20 @@ Story Content:
 - Added the Conclusion for the Amanda Storyline (Intended to have Several Endings)
 - Added Amanda CEO Ending.
 - Removed Amanda from the world from now (as interactible).
+System Content:
+- Added 2 new Vaginal Scenes for when the player has 2 specific cybermods.
+- Added 2 new Blowjob Scenes for when the player has 2 specific cybermods.
 Event Content:
-- Added 3 new outcomes to Receptionist Groping Incident (Slutty, Cool, Social).
-- 
+- Altered some Receptionist events and retouched them all.
+- Added a new Event: Linus Schedule.
+- Added a new Event: Event Schedule.
+- Added 3 new outcomes to Groping Incident (Slutty, Cool, Social).
+- Added 2 new outcomes to Guidance Incident (Cool 1, Cool 2).
+- Added 2 new outcomes to Upskirt Photography Incident (Bimbo, Cool).
+- Added 3 new outcomes to Skirt Promo Incident (Bimbo, Cool, Mind).
+- Added 3 new outcomes to Comic Convention Incident (Slut, Cool, Mind).
+- Added 4 new outcomes to Harassment Incident (Slut, Bimbo, Masculine, Mind).
+- Receptionist is now considered complete as an Event (Next is Maid).
 Code:
 - Cleaned up a lot of the code structure (had put this on hold for a long time)
 - Fixed up the boink system, so that it behaves more like a module.

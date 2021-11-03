@@ -3,8 +3,8 @@
 <<run setup.count("receivedHarassment")>>
 <</nobr>>You stand around the receptionists desk, waiting for any visitors to come by asking for help.
 <<= setup.speak($npc.adults[0], ["Hey there beautiful, up to no good huh?","Shit woman, you got a god-damn tight ass on you! Make a spin for me!","Take a look at you darling. You were made for fucking!","Damn, you look like a nasty slut! How much you cost, eh?"], "smile")>><<= setup.speak($npc.adults[1], ["Holy shit! These babes really are as hot as they say!","Babe, all you gotta do is say the word. Me and the boys could use a set of warm holes!","Damn, could you flash those babies for us? Just want a quick look man!","Come on hotshot, let´s do the dirty somewhere quieter!"], "smile")>><<= setup.speak($player, ["Hey! Don´t get too close!","W-what?! What´s wrong with you two!","Are you serious?! Leave me the fuck alone, creeps!","Oh really? How much you willing to pay, huh?","Pfft, all talk boys. You ain´t got nothing to back it up!","Like what you see? Well, it ain´t coming cheap!","Oh my! You boys are hot too! Want to touch?","Oh! *giggles*, yeah, that´s me! Teehee~","You guys looking for some fun huh? Well I´m all about fun!"], ["angry","smile","pleasure"])>>
-They both move closer to sandwiching you right infront of the desk, not listening to you at all. The bigger one grabs your hips, pressing your plush ass towards his crotch. You feel his bursting erection between your cheeks, the thin fabric concealing almost nothing. 
-<<= setup.speak($npc.adults[0], ]"Hot damn, these are some quality goods.","Fuck me, You´re already getting me hard girl. Let´s do it already!",""] ,"surprised")>>
+They both move closer to sandwiching you right in front of the desk, not listening to you at all. The bigger one grabs your hips, pressing your plush ass towards his crotch. You feel his bursting erection between your cheeks, the thin fabric concealing almost nothing. 
+<<= setup.speak($npc.adults[0], ]"Hot damn, these are some quality goods.","Fuck me, You´re already getting me hard girl. Let´s do it already!","These thighs are soft as hell. Shiiiet...!"] ,"surprised")>>
 The other guy presses himself towards your front, fondling your tits.
 
 :: Receptionist - Harassment Standard 1
@@ -14,9 +14,9 @@ The other guy presses himself towards your front, fondling your tits.
 <</nobr>>You were just about to scream for help at the top of your lungs when you´re swiftly deafened by a roar coming from behind.
 <<= setup.speak($characters.brenda, "What the hell you boys doing to mah gurl?! GET OFF HER!", "angry")>>
 You see Brenda charging towards the two men with full speed, but before she could reach them they both let go.
-<<= setup.speak($npc.adults[1], "Ah shit, funs over!", "surprised")>>
-They both dash towards the fashion strip, leaving you behind with Brenda.
-<<= setup.speak($characters.brenda, "You okay gurl? I know, I know, they can get all handsy sometimes, gotta pack an attitude you know. Or better yet, avoid them entirely.")>><<= setup.speak($player, "Yes, I´m fine, they just came out of nowhere.")>>
+<<= setup.speak($npc.adults[1], ["Ah shit, funs over!","Oh-nononono! It´s her! Let´s bounce man!","Aaaah! She´s coming to get us man! Run for it!"], "surprised")>>
+They both dash towards the fashion strip leaving you behind with Brenda.
+<<= setup.speak($characters.brenda, "You okay gurl? I know, I know, they can get all handsy sometimes, gotta pack an attitude you know. Or better yet, avoid them entirely.")>><<= setup.speak($player, ["Yes, I´m fine, they just came out of nowhere.","What the hell is wrong with people... thanks...","Yes-yes... I´m fine. Don´t worry about me. Thanks."])>>
 You can´t help but feel a little turned on by how they manhandled your body. Your tits tingling from being massaged so roughly and your pussy wet and ready. Gritting your teeth you continue your day.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
@@ -26,23 +26,65 @@ You can´t help but feel a little turned on by how they manhandled your body. Yo
 <<run setup.psyche($player, "Slut", 3, 3, 2)>>
 <<run setup.psyche($player, "Feminine", 3, 2, 3)>>
 <<run setup.rating($player, 5)>>
-<</nobr>>Their fondling gets rougher and more courageous, as they notice you´re not struggling at all. One of them also sliding a hand between your skirt. He firmly presses on the wet fabric covering your pussy.
-<<= setup.speak($npc.adults[0], "Holy shit, this bitch is ready to go!", "smile")>>
-However, the rough, textured finger leaves your pussy as you spot Brenda charging towards you with full speed.
-<<= setup.speak($characters.brenda, "What the hell you boys doing to mah gurl?! GET OFF HER!", "angry")>><<= setup.speak($npc.adults[1], "Ah shit, funs over!", "surprised")>>
+<</nobr>>Their fondling gets rougher and more courageous as they notice you´re not struggling at all. One of them also sliding a hand between your skirt. He firmly presses on the wet fabric covering your pussy.
+<<= setup.speak($npc.adults[0], ["Holy shit, this bitch is ready to go!","Her pussy is moist bro, let´s take her some place quiet!","Alright girl, ya ready to suck some cock?"], "smile")>>
+However, the rough textured finger leaves your pussy as you spot Brenda charging towards you with full speed.
+<<= setup.speak($characters.brenda, "What the hell you boys doing to mah gurl?! GET OFF HER!", "angry")>><<= setup.speak($npc.adults[1], ["Ah shit, funs over!","Oh-nononono! It´s her! Let´s bounce man!","Aaaah! She´s coming to get us man! Run for it!"], "surprised")>>
 They both dash towards the fashion strip, leaving you behind with Brenda.
-<<= setup.speak($characters.brenda, "You okay gurl? I know, I know, they can get all handsy sometimes, gotta pack an attitude you know. Or better yet, avoid them entirely.")>><<= setup.speak($player, "Yes, I´m fine, they just came out of nowhere.")>>
+<<= setup.speak($characters.brenda, "You okay gurl? I know, I know, they can get all handsy sometimes, gotta pack an attitude you know. Or better yet, avoid them entirely.")>><<= setup.speak($player, ["Yes, I´m fine, they just came out of nowhere.","What the hell is wrong with people... thanks...","Yes-yes... I´m fine. Don´t worry about me. Thanks."])>>
 You can´t help but feel a little turned on by how they manhandled your body. You readjust your panties and brush off the odd look from the folk around you.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-
-:: Receptionist - Harassment Slut 1
+:: Receptionist - Harassment Slut Check
 <<nobr>>
 <<run setup.psyche($player, "Lust", 25, 25)>>
 <<run setup.psyche($player, "Slut", 5, 5)>>
 <<run setup.rating($player, 25)>>
-<</nobr>>Their fondling gets rougher and more courageous, as they notice you´re not struggling at all. One of them also sliding a hand between your skirt. He firmly presses on the wet fabric covering your pussy. You moan passionately against him like a wanton whore in heat.
-<<= setup.speak($npc.adults[0], "Holy shit, this bitch is ready to go!", "smile")>><<= setup.speak($player, "Mhm... boys, don´t you think it´s time to take this somewhere more private?", "smile")>>
+<</nobr>>Their fondling gets rougher and more courageous as they notice you´re not struggling at all. One of them also sliding a hand between your skirt. He firmly presses on the wet fabric covering your pussy. You moan passionately against him like a wanton whore in heat.
+<<= setup.speak($npc.adults[0], ["Holy shit, this bitch is ready to go!","Her pussy is moist bro, let´s take her some place quiet!","Alright girl, ya ready to suck some cock?"], "smile")>><<= setup.speak($player, ["Mhm... boys, don´t you think it´s time to take this somewhere more private?","How about we find a place that´s a little more quiet? I could do with a bit fun, you know.","So you wanna fuck, is that it? Alright, let´s go someplace more proper."], "smile")>>
+You grab the hand of one of the guys and drag them towards the restrooms. The worried and dumbfounded gaze of several patrons wash over you before and after entering the restrooms. With a nod to the accidental man simply trying to wash his fact, you kick open an empty stall door.
+<<= setup.speak($player, ["This should do nicely.","How about this? Private enough for me.","Alright, get your pants down. If anyone else needs release, form a line or something."], "smile")>><<= setup.speak($npc.adults[0], ["Fuck yeah baby.","Good enough for me too!","Let´s do this!"], "smile")>><<= setup.speak($npc.adults[3], ["Wait, really? Hmph...","Yuck... think I´ll pass.","Count me in too babe!"], "smile")>>
+Entering the stall, you sit on the toilet and get to work.
 
+<<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.gE = $player, $sex.rE = $npc.adults[0], $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
+:: Receptionist - Harassment Bimbo Check
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.psyche($player, "Bimbo", 5, 5)>>
+<<run setup.experience($player, "Blowjob", 15, 15)>>
+<<run setup.rating($player, 100)>>
+<<run setup.count("givenBlowjobs", 10)>>
+<</nobr>>Their fondling gets rougher and more courageous as they notice you´re not struggling at all. One of them also sliding a hand between your skirt. He firmly presses on the wet fabric covering your pussy. You moan passionately against him like a wanton bimbo-slut in heat.
+<<= setup.speak($npc.adults[0], ["Holy shit, this bitch is ready to go!","Her pussy is moist bro, let´s take her some place quiet!","Alright girl, ya ready to suck some cock?"], "smile")>><<= setup.speak($player, ["Mhm... get your dicks out for me! Please!","Okay! Time to fuck and suck! Teehee~!","I was destined for cock! Please give me your cock, sir!"], "pleasure")>>
+You kneel down before them and begin to unzip their pants. They gasp as your hungrily lick your lips and get out their cocks, swallowing them whole almost immediately.
+<<= setup.speak($player, ["Mhm! Tasty! Give it to me!","Your cock is tasty, sir!","You! Get over here! I want more cocks and cummies around me!"], "smile")>><<= setup.speak($npc.adults[0], ["Fuck yeah baby.","Oh god... please...have mercy on my cock!","Suck it man... hell yeah!"], "smile")>><<= setup.speak($npc.adults[3], ["Wait, really? Hmph...","Yuck... think I´ll pass.","Count me in too babe!"], "smile")>><<= setup.speak($npc.adults[4], ["I guess I could use some dick-cleaning.","Oui... that´s a nice looking lass!"], "smile")>>
+A circle of guys form around you as you get to work.
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Harassment Mind Check
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<</nobr>>Their fondling gets rougher and more courageous as they notice you´re not struggling at all. One of them also sliding a hand between your skirt. He firmly presses on the wet fabric covering your pussy. You moan absent-mindedly, as a fog clouds your mind and leaves you helpless in their grasp.
+<<= setup.speak($npc.adults[0], ["Holy shit, this bitch is ready to go!","Her pussy is moist bro, let´s take her some place quiet!","Alright girl, ya ready to suck some cock?"], "smile")>><<= setup.speak($player, ["Uuuuh... what?","W-what´s going on?","W-who are you? What´s going on?"], "pleasure")>><<= setup.speak($characters.secret, "What the hell you boys doing to mah gurl?! GET OFF HER!")>><<= setup.speak($npc.adults[1], ["Ah shit, funs over!","Oh-nononono! It´s her! Let´s bounce man!","Aaaah! She´s coming to get us man! Run for it!"], "surprised")>>
+A familiar voice roars through the foyer, making the hands fondling and grasping you let go. You yelp as you fall to the floor, only to be caught mid-air. With bated breath, your gaze locks on to Brenda, making you smile.
+<<= setup.speak($characters.brenda, "You okay gurl? I know, I know, they can get all handsy sometimes, gotta pack an attitude you know. Or better yet, avoid them entirely.")>><<= setup.speak($player, ["Wh-what? My head was all fuzzy... thanks.","I... I just lost it for a second there. Thanks though.","I just... I almost fainted. Thank you."])>>
+You can´t help but feel a little turned on by how they manhandled your body. Your tits tingling from being massaged so roughly and your pussy wet and ready.
+
+With Brenda's help, you find yourself back on your feet.
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Harassment Masculine Check
+<<nobr>>
+<<run setup.psyche($player, "Feminine", -10, -10)>>
+<<run setup.psyche($player, "Slut", -10, -10)>>
+<<run setup.experience($player, "Slapping", 5, 5)>>
+<<run setup.rating($player, -10)>>
+<</nobr>>You frown with a grimace, placing one leg behind you. With your hand raised above your head, you let it drop unto one of the guys cheeks.
+
+@@.bold;*SLAP*@@
+
+The guy almost falls backwards from the sheer force.
+<<= setup.speak($npc.adults[0], ["W-what the hell man?! YOU´RE CRAZY!","Aaaaah! SHE´S GONNA KILL ME MAN! RUN!","Aw! M-mommy?! She hit me!"], "surprised")>><<= setup.speak($player, ["GET THE HELL AWAY FROM ME, CREEP!","What the fuck do you think this is?! HUH?! Come at me bitch-boy!","Fight me, bro!"], "angry")>><<= setup.speak($npc.adults[1], ["Oh fuck, oh shit! We didn´t mean it man! Please don´t hurt us!","Let´s bounce man! Come on! She´s fucking crazy!","Forget it bro! Let´s go!"], "surprised")>>
+The both of them back up as your puff up your chest, giving them the death stare. With one of them stumbling over the other, they run towards the exit in panic.
+<<= setup.speak($player, ["That´ll teach them...","Pfft... Pussies."])>>
+Turning around, you continue the day with a fat smile and renewed confidence.
 <<= setup.button("Continue.", "Receptionist - Finish")>>

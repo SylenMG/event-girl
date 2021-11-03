@@ -1,0 +1,17 @@
+:: Receptionist - Event Schedule
+<<nobr>>
+<</nobr>>
+You slouch over the receptionist table, eyeing the next visitor walking towards it. 
+<<= setup.speak($npc.adults[0], ["Hello there. I need an Event Girl for a bachelors party. You got one of them forms?","Ay, I need one of them Eventia girls as a home maid for a few days. Give me one of them forms.","Hey there, could I get an Event Girl for one of my stalls? Form please?","Yo. Me and my buddies want a private girl. Just hit us with one of them forms baby.","I need at least four Event Girls. No questions asked. Just give me the form.","I need a girl for one of my convention venues. I was told you would have a form?"])>>
+Trailing your finger along the desk, you drag a form for the visitor to fill out.
+<<= setup.speak($player, ["Got one right here. Knock yourself out.","Sure, just fill this out.","Right here buddy."])>><<= setup.speak($npc.adults[0], ["Thanks, let me just fill this out.","Aight, got it.","That´s what I´m talking about."])>>
+He nods and begins to fill it out.
+
+:: Receptionist - Event Schedule Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<<run setup.psyche($player, "Social", 1, 4)>>
+<</nobr>>As he puts his signature on the form, he slides it back to you.
+<<= setup.speak($player, ["That should be it.","Right.","That´s it, we´ll see if we can find what you need."], "smile")>><<= setup.speak($npc.adults[0], ["Thanks, have a nice day.","Great stuff.","Thank you. Have a great day!"])>>
+With a smile on his chin, he turns to leave.
+

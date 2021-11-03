@@ -1,18 +1,62 @@
 :: Receptionist - Comic Convention
 <<nobr>>
-<</nobr>>As you head towards Brenda in the lobby, your ears are filled with busy chatter and loud commotion of visitors.
-<<= setup.speak($player, "Any reason for all the people?")>><<= setup.speak($characters.brenda, "Yep, a comic convention is going on, you and me have been called in to oversee some of the booths, so strap up gurl! Should be a small bonus in it for us too!")>>
-You both move down to the venue in question and reach your assigned booth, selling some form of drive with a light-comic featuring a renowned heroine. You take a quick peek and realize it´s bordering on softcore porn.
+<</nobr>>As you head towards Brenda in the lobby, your ears are filled with the busy chatter and loud commotion of visitors.
+<<= setup.speak($player, ["Any reason for all the people?","That´s a lot of people roaming around, what´s the reason for that?","Wow! So many people running around!"])>><<= setup.speak($characters.brenda, "Yep, a comic convention is going on, you and me have been called in to oversee some of the booths, so strap up gurl! Should be a small bonus in it for us too!")>>
+You both move down to the venue in question and reach your assigned booth, selling some form of drive with a light-comic featuring a renowned heroine. You take a quick peek and realize it´s bordering on soft-core porn.
 
 :: Receptionist - Comic Convention Standard 1
 <<nobr>>
 <<run setup.psyche($player, "Lust", 25, 25)>>
 <<run setup.experience($player, "Social", 5, 15)>>
-<<run setup.rating($player, 2)>>
+<<run setup.rating($player, 5)>>
 <<run setup.bonus($player, 150, "Social")>>
 <</nobr>>You arrive with Brenda at your supposedly assigned booth. You pick up an issue of the light comics and immediately lay your eyes on some bimbo heroine in an obscene leotard, her tits spilling out and hips putting pressure on the integrity of the comics shape.
-<<= setup.speak($player, "Honestly not surprised....")>>
+<<= setup.speak($player, ["Honestly not surprised....","Does everything have to be sexualized?","Oh look... more tits and ass on display...","Tsh... Bet I could make a pretty unit here.","This really is the only thing that sells...","Sex sells I guess!","*giggles*... oooh! Her ass is pretty big!","Look at her tits! Huge! Teehee~","Where´s the manly super models?!"], ["default","smile","smile"])>>
 Putting the comic down you´re greeted by the near-splitting image of said heroine. Not nearly as busty as drawn, but close, her blonde her spilling out, but doing nothing to cover her lewd cleavage.
-<<= setup.speak($characters.subject17A, "Hey there! Your body model for the fan shoots is here! Let´ts get to it?", "smile")>><<= setup.speak($player, "Right sure... of course...")>><<= setup.speak($npc.adults[0], "Hey look everyone! It´s Sexia-Supreme!", "surprised")>>
-The commotion of the venue is suddenly directed towards your booth as a line forms. Brenda almost instinctively flips out a camera and directs it at the eager fans surrounding their wet dream. You notice that at least a dusin of them are extremely handsy and almost outright grabbing her ass and feeling her up.
-<<= setup.speak($characters.subject17A, "Mmmh! Sexia has time for all of her fans! Haha!")>>
+<<= setup.speak($characters.subject17A, ["Hey there! Your body model for the fan shoots is here! Let´ts get to it?","Right! So I´m like here! And ready to go!","Hey there gurls! I´m the body model you´ve been waiting for! Aren´t you just excited?! I know I am!"], "smile")>><<= setup.speak($player, ["Right sure... of course...","Alright, let´s do this.","I´m ready, let´s get it on."])>><<= setup.speak($npc.adults[0], ["Hey look everyone! It´s Sexia-Supreme!","Oooooh! Shit! It´s Megagirl!","Lads, there she is! Total Titty!"], "surprised")>><<= setup.speak($npc.adults[0], ["OMG! SHE´S AS HOT AS THOUGHT!","I think I can die a happy man now!","Those tits... that ass! I´m gonna- faint!"], "surprised")>>
+The commotion of the venue is suddenly directed towards your booth as a line forms. Brenda almost instinctively flips out a camera and directs it at the eager fans surrounding their wet dream. 
+<<= setup.speak($characters.subject17A, ["Mmmh! I has time for all of my fans! Haha!","Come closer! You can touch too! Do you want to touch?","Get over here and get a load of me! Or inside me! Teehee~!"])>>
+You notice that at least a dozen of them are extremely handsy and almost outright grabbing her ass and feeling her up.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Comic Convention Cool Check
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.experience($player, "Cool", 5, 15)>>
+<<run setup.rating($player, 5)>>
+<<run setup.bonus($player, 150, "Cool")>>
+<</nobr>>You arrive with Brenda at your supposedly assigned booth. You pick up an issue of the light comics and immediately lay your eyes on some bimbo heroine in an obscene leotard, her tits spilling out and hips putting pressure on the integrity of the comics shape.
+<<= setup.speak($player, ["Well... this has got to be a comedy!","Pfft! Who reads this shit.","That curve is definitely enhanced."], "smile")>>
+Putting the comic down you´re greeted by the near-splitting image of said heroine. Not nearly as busty as drawn, but close, her blonde her spilling out, but doing nothing to cover her lewd cleavage.
+<<= setup.speak($characters.subject17A, ["Hey there! Your body model for the fan shoots is here! Let´ts get to it?","Right! So I´m like here! And ready to go!","Hey there gurls! I´m the body model you´ve been waiting for! Aren´t you just excited?! I know I am!"], "smile")>><<= setup.speak($player, ["Got it sweetcheeks. Let´s get to it.","Alright, I´m ready to rev this up!","Cool it dolly, let´s take it nice and slow."], "smile")>><<= setup.speak($npc.adults[0], ["Hey look everyone! It´s Sexia-Supreme!","Oooooh! Shit! It´s Megagirl!","Lads, there she is! Total Titty!"], "surprised")>><<= setup.speak($npc.adults[0], ["OMG! SHE´S AS HOT AS THOUGHT!","I think I can die a happy man now!","Those tits... that ass! I´m gonna- faint!"], "surprised")>>
+The commotion of the venue is suddenly directed towards your booth as a line forms. Brenda almost instinctively flips out a camera and directs it at the eager fans surrounding their wet dream. 
+<<= setup.speak($characters.subject17A, ["Mmmh! I has time for all of my fans! Haha!","Come closer! You can touch too! Do you want to touch?","Get over here and get a load of me! Or inside me! Teehee~!"])>>
+You notice that at least a dozen of them are extremely handsy and almost outright grabbing her ass and feeling her up.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Comic Convention Slut Check
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.experience($player, "Slut", 5, 15)>>
+<<run setup.rating($player, 5)>>
+<<run setup.bonus($player, 150, "Slut")>>
+<</nobr>>You arrive with Brenda at your supposedly assigned booth. You pick up an issue of the light comics and immediately lay your eyes on some bimbo heroine in an obscene leotard, her tits spilling out and hips putting pressure on the integrity of the comics shape.
+<<= setup.speak($player, ["Maybe I should dress up too. Bet a lot of guys pay extra for having their favorite heroine blow ´em.","I wonder how much I could make whoring in a costume like that.","They could show some more ass... or tits. Easily."], "smile")>>
+Putting the comic down you´re greeted by the near-splitting image of said heroine. Not nearly as busty as drawn, but close, her blonde her spilling out, but doing nothing to cover her lewd cleavage.
+<<= setup.speak($characters.subject17A, ["Hey there! Your body model for the fan shoots is here! Let´ts get to it?","Right! So I´m like here! And ready to go!","Hey there gurls! I´m the body model you´ve been waiting for! Aren´t you just excited?! I know I am!"], "smile")>><<= setup.speak($player, ["Yeah-yeah, let´s get it over with.","So you´re the body? Good luck girl."], "smile")>><<= setup.speak($npc.adults[0], ["Hey look everyone! It´s Sexia-Supreme!","Oooooh! Shit! It´s Megagirl!","Lads, there she is! Total Titty!"], "surprised")>><<= setup.speak($npc.adults[0], ["OMG! SHE´S AS HOT AS THOUGHT!","I think I can die a happy man now!","Those tits... that ass! I´m gonna- faint!"], "surprised")>>
+The commotion of the venue is suddenly directed towards your booth as a line forms. Brenda almost instinctively flips out a camera and directs it at the eager fans surrounding their wet dream. 
+<<= setup.speak($characters.subject17A, ["Mmmh! I has time for all of my fans! Haha!","Come closer! You can touch too! Do you want to touch?","Get over here and get a load of me! Or inside me! Teehee~!"])>>
+You notice that at least a dozen of them are extremely handsy and almost outright grabbing her ass and feeling her up.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Comic Convention Mind Check
+<<nobr>>
+<<run setup.psyche($player, "Lust", 75, 75)>>
+<<run setup.rating($player, -25)>>
+<</nobr>>You arrive with Brenda at your supposedly assigned booth. However, before you even begin properly, a stinging pain spreads across your skull leaving you dizzy.
+<<= setup.speak($player, ["W-what...?","Oh Shi-....","Ach... my hea-"])>>
+With a stumble you find a chair to sit down, clutching a nearby stand tightly as your vision closes in a fog.
+<<= setup.speak($characters.secret, ["Uuuuh... hello?","You alright?","Hey, what´s goin on, you okay?"])>>
+After at least an hour, you scurry from the venue and return to the receptionist desk. The headache leaving you completely unable to function properly.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>

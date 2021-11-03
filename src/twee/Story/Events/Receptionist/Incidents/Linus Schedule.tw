@@ -1,0 +1,17 @@
+:: Receptionist - Linus Schedule
+<<nobr>>
+<</nobr>>
+With your head resting on your arm, supported by the receptionist desk, you spot Dr. Linus approaching you.
+<<= setup.speak($characters.drlinus, ["Ah! What a surprise. I need a girl... for something special","Oh, how good to see you. Just here to get myself a girl for the evening."])>>
+Trailing your finger along the desk, you drag a form for Linus to fill out.
+<<= setup.speak($player, ["Here you go. I expect you know how to sign this?","You know how to sign this, don´t ya?"])>><<= setup.speak($characters.drlinus, ["Oh, but I sure do!","You got it.","Of course I do."])>>
+He nods and begins to fill it out.
+
+:: Receptionist - Linus Schedule Standard 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<<run setup.psyche($player, "Social", 1, 4)>>
+<</nobr>>As he puts his signature on the form, he slides it back to you.
+<<= setup.speak($player, ["That should be it.","Right.","That´s it, we´ll see if we can find what you need."], "smile")>><<= setup.speak($characters.drlinus, ["Ah! Thanks! See you at the clinic sometime!","Good stuff, see you around, hopefully at the clinic!"])>>
+With a smile on his chin, he turns to leave.
+

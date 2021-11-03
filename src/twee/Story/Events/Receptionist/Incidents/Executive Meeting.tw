@@ -1,33 +1,34 @@
 :: Receptionist - Executive Meeting
 <<nobr>>
 <</nobr>>Your chat and coffee break with Brenda is suddenly interrupted as three men in sleek neon business suits present themselves at the desk.
-<<= setup.speak($player, "Welcome to eVentia! How-")>><<= setup.speak($characters.executive1, "Save it puppy. Conference Room 076. Escort us, would you doll?")>>
+<<= setup.speak($player, ["Welcome to Eventia! How-","Ah! How nice to see you, Wel-","Welcome to Ev-"], "smile")>><<= setup.speak($npc.executives[0], ["Save it puppy. Conference Room 076. Escort us, would you doll?","Zip it bunnygirl, we need Conference Room 011, and make it snappy.","No time for this. Conference Room 921. Need it now. Come on."])>>
 He snaps his fingers and waves his hand for you to follow.
-<<= setup.speak($player, "Excuse me... WHAT?!", "angry")>><<= setup.speak($characters.executive1, "Did I stutter? Conference Room 076. Move that ass, come on puppet.")>>
+<<= setup.speak($player, ["Excuse me... WHAT?!","Hey you can´t talk to me like that!","What in the hell?!","Uuuh, what? Repeat that?","I didn´t catch that, what?","Come again? You went a little fast there boy.","*drools*... what?","Teehee... okay! Uhm... but what did you just say?","*giggles* I didn´t hear any of that at all!"], ["angry","default","pleasure"])>><<= setup.speak($npc.executives[0], ["Did I stutter? Move that ass, come on puppet.",""])>>
 You clench your fist and grind your teeth.")>>
 
 :: Receptionist - Executive Meeting Check Standard 1
 <<nobr>>
 <<run setup.psyche($player, "Feminine", -1, -4)>>
 <<run setup.rating($player, -5)>>
-<</nobr>>You frown at him.
-<<= setup.speak($player, "Fuck you bro! I´m not your fucking puppet!", "angry")>>
-Brenda almost chokes on her coffee as all three executives just stand there, mouths dropped and frozen in shock.
-<<= setup.speak($characters.brenda, "Oh shi-*cough*! Uh! Sorry! She did NOT mean that! Let me take you there now!", "surprised")>>
+<</nobr>>You stomp the ground with your heels, almost losing your footing as you frown at him.
+<<= setup.speak($player, ["Fuck you bro! I´m not your fucking puppet!","Piss off you fat fuck! I ain´t jumping for you!","Shut the fuck up you piece of shit!"], "angry")>>
+Brenda almost chokes on her coffee as all three executives just stand there, jaws dropped and frozen in shock.
+<<= setup.speak($characters.brenda, ["Oh shi-*cough*! Uh! Sorry! She did NOT mean that! Let me take you there now!","Ah! A slight miscommunication! She is new! Let me take over for her!","Oh-nonono! Her tongue slipped! Sorry for that! Let me show you the room!"], "surprised")>>
 The executives all look visibly shaken, grasping for words as Brenda frantically drag them away from the desk.
-<<= setup.speak($characters.brenda, "Come now, this way!", "smile")>>
-She sends you a stern view of judgement before dissapearing around the corner, escorting the suits to their conference room.
+<<= setup.speak($characters.brenda, ["Come now, this way!","This way ya´ll. It´s right over here.","Follow me now!"], "smile")>>
+She sends you a stern view of judgement before disappearing around the corner, escorting the suits to their conference room.
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>
 :: Receptionist - Executive Meeting Check Standard 2
 <<nobr>>
-<<run setup.rating($player, 1)>>
+<<run setup.rating($player, 5)>>
 <</nobr>>You put down your coffee and move towards the conference rooms.
-<<= setup.speak($player, "Ugh, sure, whatever. Follow me then...")>><<= setup.speak($characters.executive1, "That would be sir, mind you.", "smile")>><<= setup.speak($player, "Of course... Sirs... This way.")>>
+<<= setup.speak($player, ["Ugh, sure, whatever. Follow me then...","Alrighty then, follow me!","If you´re that much in a hurry, follow me then!"])>><<= setup.speak($npc.executives[0], ["That would be sir, mind you.","Call me sir.","You will address me as, sir!"], "smile")>><<= setup.speak($player, ["Of course... Sirs... This way.","Sir.","Yeah sure... Sir. Come with me."])>>
 They follow you towards the conference rooms, an uncomfortable silence quickly taking hold. You arrive shortly after.
 <<= setup.speak($player, "Well... here it is... Sir.", "smile")>>
 He flicks at his wrist, which makes your E-Pal vibrate slightly.
-<<= setup.speak($characters.executive1, "What a dreadful performance girl. Barely merits the point.", "smile")>><<= setup.speak($characters.executive1, "Next time learn how to work those hips so me and the boys have something to take our minds off your insulting attitude.", "smile")>><<= setup.speak($player, "W-what?!", "angry")>>
+<<= setup.speak($npc.executives[0], "What a dreadful performance girl. Barely merits the point.", "smile")>><<= setup.speak($npc.executives[0], "Next time learn how to work those hips so me and the boys have something to take our minds off your insulting attitude.", "smile")>><<= setup.speak($player, "W-what?!", "angry")>>
 The three of them quickly enter the conference room, hanging you out to dry.
 
-
+<<= setup.button("Continue.", "Receptionist - Finish")>>
 

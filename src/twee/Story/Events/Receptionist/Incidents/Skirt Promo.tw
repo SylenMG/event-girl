@@ -1,9 +1,9 @@
 :: Receptionist - Skirt Promo
 <<nobr>>
-<</nobr>>As you near the exit however, Brenda barges into the backroom.")>> 
-<<= setup.speak($characters.brenda, "Hey gurl... So, I just talked to the manager! And guess what? We gonna have a short skirt promo today!", "smile")>> <<= setup.speak($player, "Wait what? What does that fucking mean?")>><<= setup.speak($characters.brenda, "Bonus pay! And all yo ass gotta do is put on this!", "smile")>> 
+<</nobr>>As you near the exit however, Brenda barges into the backroom.
+<<= setup.speak($characters.brenda, ["Hey gurl... So, I just talked to the manager! And guess what? We gonna have a short skirt promo today!","There you are! Been looking got you! Guess what day it is?! It´s short skirt promo day!","Hey-hey! Get over here gurl! Today is the day! It´s short skirt promo day!"], "smile")>><<= setup.speak($player, "Hmph? What did you say?")>><<= setup.speak($characters.brenda, ["Bonus pay! And all yo ass gotta do is put on this!","Here! Take this and put on! Gonna bust some bank!"], "smile")>> 
 She hands you a comically short micro-skirt.
-<<= setup.speak($player, "You can´t be serious?! This is outragous!")>><<= setup.speak($characters.brenda, "Not at all gurl! Just think of it as a little excitement!", "smile")>><<= setup.speak($player, "How am I supposed to pick anything up?! I would flash everything with this on!")>> 
+<<= setup.speak($player, ["You can´t be serious?! This is outragous!","Wait what?! That bare covers anything at all!","No way! That´s waaaay too short!","Oh? Is that it? Hmph...","Oh my, that surely is short. How naughty.","For real? That sure is short.","Yaaaay!","Mhmmm, just my size! SO tired of wearing long skirts!","Teehee, finally!"], ["angry","default","smile"])>><<= setup.speak($characters.brenda, ["This will finally help me pay down some of that debt.","Finally gonna kick that debt in the bucket.","A little extra on the side never hurt nobody."])>><<= setup.speak($player, ["How am I supposed to pick anything up?! I would flash everything with this on!","But-... I can´t even bend over with this thing on!","You gotta be kidding me!","Whatever.","I guess it´ll be fun.","This is gonna attract so many creeps.","*giggles*","*drools*","Gonna do my best! Teehee~"], ["surprised","smile","pleasure"])>> 
 You stand there contemplating what to do.
 
 :: Receptionist - Skirt Promo Standard 1
@@ -13,24 +13,56 @@ You stand there contemplating what to do.
 <<run setup.rating($player, 10)>>
 <<run setup.bonus($player, 200, "Social")>>
 <<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>
-<</nobr>>You slip on the extremely short micro-skirt. 
-<<= setup.speak($player, "Alright whatever, let´s do this.")>><<= setup.speak($characters.brenda, "Looking like a real money-making slut there gurl! Ahaha!", "smile")>> 
-You both laugh it off as you enter the foyer, the micro-skirt forcing you to strut more to avoid it creeping up exposing your g-string. 
-<<= setup.speak($npc.adults[0], "Holy shit dude, check it out! Them eVentia girls slutting it up! Hell yeah!", "surprised")>><<= setup.speak($npc.executives[0], "Nice bro!", "smile")>> 
+<</nobr>>You slip on the extremely short micro-skirt. The micro-skirt leaves little to the imagination, making it impossible to conceal your g-string, leaving it in clear view permanently. Even walking around hikes up the skirt, making you have to re-adjust all the time.
+<<= setup.speak($player, ["Alright whatever, let´s do this.","Better pay well.","Just another day working for Eventia I guess."])>><<= setup.speak($characters.brenda, ["Looking like a real money-making slut there gurl! Ahaha!","I think it makes you look like a cheap-dollar whore! Just like they want it!","Brain off. Time to make some cash!"], "smile")>> 
+You both laugh it off as you enter the foyer, the micro-skirt forcing you to strut more to avoid it creeping up and flashing your crotch completely.
+<<= setup.speak($npc.adults[0], ["Holy shit dude, check it out! Them eVentia girls slutting it up! Hell yeah!","Another skirt promo?! Hell yeah brother!","Look at them go! The sluts are being let out again!"], "surprised")>><<= setup.speak($npc.executives[0], ["Nice bro!","Hell yeah!","Woooooo! Shows us that ass girls!","Fuck yeah baby!"], "smile")>> 
 You receive copious amounts of stares and even a few perverts trying to hike a peek under your skirt. 
 <<= setup.speak($player, "This really does give you some attention, huh?")>><<= setup.speak($characters.brenda, "Well, you a good looking gal, no doubt!", "smile")>> 
 You breathe lightly as the shift comes to an end with nothing else, but a few lewd remarks and extra attention.
- 
-:: Receptionist - Skirt Promo Standard 1
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Skirt Promo Cool 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 50, 25)>> 
+<<run setup.psyche($player, "Cool", 5, 5)>> 
+<<run setup.rating($player, 5)>>
+<<run setup.bonus($player, 200, "Cool")>>
+<<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>
+<</nobr>>You slip on the extremely short micro-skirt. The micro-skirt leaves little to the imagination, making it impossible to conceal your g-string, leaving it in clear view permanently. Even walking around hikes up the skirt, making you have to re-adjust all the time.
+<<= setup.speak($player, ["I´m only doing it because the rest of ya´ll doing it. Doesn´t mean anything, got it?","I do it for the money, not cause I want to or like it, got it?","Just this once, got it?"])>><<= setup.speak($characters.brenda, "Yeah yeah gurl, whatever ya say! You still look like a slut though!", "smile")>> 
+You both laugh it off as you enter the foyer, the micro-skirt forcing you to strut more to avoid it creeping up and flashing your crotch completely.
+<<= setup.speak($npc.adults[0], ["Holy shit dude, check it out! Them eVentia girls slutting it up! Hell yeah!","Another skirt promo?! Hell yeah brother!","Look at them go! The sluts are being let out again!"], "surprised")>><<= setup.speak($npc.executives[0], ["Nice bro!","Hell yeah!","Woooooo! Shows us that ass girls!","Fuck yeah baby!"], "smile")>> 
+You receive copious amounts of stares and even a few perverts trying to hike a peek under your skirt. 
+<<= setup.speak($player, "This really does give you some attention, huh?")>><<= setup.speak($characters.brenda, "Well, you a good looking gal, no doubt!", "smile")>> 
+You breathe lightly as the shift comes to an end with nothing else, but a few lewd remarks and extra attention.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Skirt Promo Bimbo 1
+<<nobr>>
+<<run setup.psyche($player, "Lust", 50, 25)>> 
+<<run setup.psyche($player, "Bimbo", 5, 5)>> 
+<<run setup.rating($player, 30)>>
+<<run setup.bonus($player, 200, "Social")>>
+<<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>
+<</nobr>>You slip on the extremely short micro-skirt. The micro-skirt leaves little to the imagination, making it impossible to conceal your g-string, leaving it in clear view permanently. Even walking around hikes up the skirt, making you have to re-adjust all the time.
+<<= setup.speak($player, ["Teehee! I gonna do great!","Yaaaay! Short skirts!","Finally~ I can feel the air on my coochie! Hehe!"])>><<= setup.speak($characters.brenda, ["Looking like a real money-making slut there gurl! Ahaha!","I think it makes you look like a cheap-dollar whore! Just like they want it!","Brain off. Time to make some cash!"], "smile")>> 
+You both laugh it off as you enter the foyer, the micro-skirt forcing you to strut more to avoid it creeping up and flashing your crotch completely.
+<<= setup.speak($npc.adults[0], ["Holy shit dude, check it out! Them eVentia girls slutting it up! Hell yeah!","Another skirt promo?! Hell yeah brother!","Look at them go! The sluts are being let out again!"], "surprised")>><<= setup.speak($npc.executives[0], ["Nice bro!","Hell yeah!","Woooooo! Shows us that ass girls!","Fuck yeah baby!"], "smile")>> 
+You receive copious amounts of stares and even a few perverts trying to hike a peek under your skirt. 
+<<= setup.speak($player, ["Look at me! I´m being a super slut!","Please squuu-... eeeeh... *drools*","Come on guys! You can touch!"], "pleasure")>><<= setup.speak($characters.brenda, "Man, you going too far girl.")>> 
+You spend the rest of the day in a giggling bliss of hungry and horny stares as you do your part as a slutty receptionist.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Skirt Promo Standard 2
 <<nobr>>
 <<run setup.psyche($player, "Feminine", -5, -5)>> 
 <<run setup.psyche($player, "Slut", -5, -5)>>
-<<run setup.rating($player, 10)>>
-<<run setup.bonus($player, 200, "Social")>>
-<<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>
 <</nobr>>
 Brenda chuckles as she puts on her micro-skirt. 
-<<= setup.speak($player, "Yeah I think I´m gonna pass on this one.")>><<= setup.speak($characters.brenda, "Suit yerself gurl, this ass here gonna shake that money-maker!", "smile")>> 
+<<= setup.speak($player, ["Yeah I think I´m gonna pass on this one.","Not this time. Not like this... actually, fuck this entirely. Nah ah!","Nope. Not doing that. Fuck that. Not for me."])>><<= setup.speak($characters.brenda, ["Suit yerself gurl. This ass here gonna shake that money-maker!","Is gonna be awkward for ya! But whatever!","I gonna make sum moneh! Don´t get in my way choom!"], "smile")>> 
 As the day goes on it quickly becomes apparent that you´re one of if not the only eVentia Receptionist not doing the promo.
-<<= setup.speak($player, "Tsk... Whatever.")>> 
-The day goes by normally otherwise.
+<<= setup.speak($player, ["Tsk... Whatever.","For real? Is everyone a whore around here?","Are you kidding me? They all did it?"])>> 
+You shake your head in disbelief, yet, the day goes by normally otherwise.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>

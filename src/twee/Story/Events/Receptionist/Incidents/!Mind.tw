@@ -1,15 +1,13 @@
 :: Receptionist - Mind Check
 <<nobr>>
-<</nobr>>They both continue towards the Adult Strip, only stopping to stare at other working girls.
-
-You power through the fog, catching yourself drooling at times, you try to do your best just standing by the desk. 
-
+<</nobr>>You power through the fog, catching yourself drooling at times, you try to do your best just standing by the desk. 
+<<= setup.speak($player, ["*drools*........","Mhmmmmmm...","Who am I?","Oh?"], "pleasure")>>
 Every now and then, you realize someone is groping you, for how long? Could you even make them stop if you wanted to?
-
+<<= setup.speak($player, ["Whose that?","Who?","Wait..."], "pleasure")>>
 Mmmmmh... What´s even going on?
-
+<<= setup.speak($player, "*Uuuuuuuuuuuh....", "pleasure")>>
 You feel a rough *SMACK* connect with your cheek. Then another and another...
-
+<<= setup.speak($player, ["Hehehe-...","Oooooh....!","Ouchie..."], "pleasure")>>
 Was that a penis? Where are you even? Is this the real world?
 
 :: Receptionist - Mind Check Standard 1
@@ -20,5 +18,6 @@ Was that a penis? Where are you even? Is this the real world?
 <<= setup.speak($characters.brenda, "Uuuuh you awake? Geez, this is kinda bad.")>><<= setup.speak($player, "*drools*........", "pleasure")>><<= setup.speak($characters.brenda, "I don´t think I can cover you on this one gurl....")>>
 The day passes with you slipping in and out of a drooling trance. Your head pounding like mad whenever you're at your senses.
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>
 
 

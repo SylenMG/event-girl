@@ -238,6 +238,24 @@ setup.checkClothes = function (requirements, req, player) {
 	//console.log("Pass: " + returnCheck);
 	return returnCheck;
 }
+setup.checkCyberware = function (requirements, req, player) {
+	let foundCheck = false;
+	let returnCheck = false;
+	for (let i = 0; i < player.cybermods.length; i++) {
+		if (requirements[req].id == player.cybermods[i].name) {
+			console.log("Found.");
+			foundCheck = true;
+			if (requirements[req].type == "has-cybermod") {
+				returnCheck = true;
+			}
+			break;
+		}
+	}
+	if (foundCheck == false && requirements[req].type == "no-cybermod") {
+		returnCheck = true;
+	}
+	return returnCheck;
+}
 setup.checkTime = function (requirements, req, player) {
 	let timeCheck = false;
 	let cDay = SugarCube.State.variables.time.currentDay;

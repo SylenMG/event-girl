@@ -1,9 +1,9 @@
 :: Receptionist - Success Check
 <<nobr>>
 <</nobr>>As the day comes to a close, you sigh and once again adjust your skirt creeping up. You spot Brenda in the distance coming towards you.
-<<= setup.speak($characters.brenda, "Sup gurl! I got some good news!", "smile")>><<= setup.speak($player, "Oh really?")>><<= setup.speak($characters.brenda, "Hells yeah... some important CEO slided a good word through to us! Your ass and my ass gettin´ a bonus!", "smile")>>
+<<= setup.speak($characters.brenda, ["Sup gurl! I got some good news!","Hey gurly! Good news coming your way!","Ready for a surprise?! Cause I got one for you!"], "smile")>><<= setup.speak($player, ["Oh really?","What is it?","Really? Spill it."])>><<= setup.speak($characters.brenda, ["Hells yeah... some important CEO slided a good word through to us! Your ass and my ass gettin´ a bonus!","You and me, we gonna get a big fat bonus! We deserve it!","Yeah man, we gonna get some extra units for our hard work."], "smile")>>
 Her warmth embraces you as she swoops in for a hug. Her tits pushing against yours.
-<<= setup.speak($characters.brenda, "Just what I needed.")>>
+<<= setup.speak($characters.brenda, ["Just what I needed.","Finally... about time!","Filling me with units, hells yeah."])>>
 You´re taken a bit back at her sudden approach, but unsure of how to react.
 
 :: Receptionist - Success Check Standard 1
@@ -11,44 +11,45 @@ You´re taken a bit back at her sudden approach, but unsure of how to react.
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>
 <</nobr>>You clear your throat.
-<<= setup.speak($player, "Woah, getting a little close there.", "smile")>>
+<<= setup.speak($player, ["Woah, getting a little close there.","Hey-hey now, not so close now.","Ah, social distance Brenda, come on."], "smile")>>
 She giggles and lets go.
-<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>
+<<= setup.speak($characters.brenda, ["Oh? Sorry! I got carried away!","Oh, I´m sorry honey, I´m just so happy!","What? Can´t take a little touch?"], "smile")>><<= setup.speak($characters.brenda, ["And there it is! Awesome!","Hells yeah baby! Ka-ching! There´s the bonus!","Fuck yeah! There´s the bonus!"])>>
 You both check your E-Pals as they register the bonus.
-<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>
 :: Receptionist - Success Check Standard 2
 <<nobr>>
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>
 <</nobr>>You both giggle before letting go.
-<<= setup.speak($player, "What kind of bonus?")>>
-<<= setup.speak($characters.brenda, "The good kind! Raw units baby!", "smile")>>
+<<= setup.speak($player, ["What kind of bonus?","Oh really? What kinda?","Hoping it´s the good kind then."])>>
+<<= setup.speak($characters.brenda, ["The good kind! Raw units baby!","Units! Raining units baby!"], "smile")>><<= setup.speak($characters.brenda, ["And there it is! Awesome!","Hells yeah baby! Ka-ching! There´s the bonus!","Fuck yeah! There´s the bonus!"])>>
 You both check your E-Pals as they register the bonus.
-<<= setup.speak($characters.brenda, "And there it is! Awesome!")>>
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>
 :: Receptionist - Success Check No Cock
 <<nobr>>
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>
 <</nobr>>You feel your cock harden as she presses her tits against you.
-<<= setup.speak($player, "Damn girl control those honkers")>>
+<<= setup.speak($player, ["Damn girl control those honkers","Wowie girl, those tits are everywhere. Watch em.","No need to press your tits against me."])>>
 She giggles and lets go.
-<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>
+<<= setup.speak($characters.brenda, ["Oh? Sorry! I got carried away!","Oh, I´m sorry honey, I´m just so happy!","What? Can´t take a little touch?"], "smile")>>
 You both check your E-Pals as they register the bonus.
-<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>
+<<= setup.speak($characters.brenda, ["And there it is! Awesome!","Hells yeah baby! Ka-ching! There´s the bonus!","Fuck yeah! There´s the bonus!"])>>
 You quickly dig your hand underneath your skirt, you swear... you could have felt something grow... almost as if you still had your cock.
-<<= setup.speak($characters.brenda, "Uuuuh... what are you doing?")>><<= setup.speak($player, "Nothing, just had to check something.")>><<= setup.speak($characters.brenda, "Like... what?")>><<= setup.speak($player, "Don´t worry about it.")>><<= setup.speak($characters.brenda, "Uhu...")>>
+<<= setup.speak($characters.brenda, ["Uuuuh... what are you doing?","Looking for something there?","Missing something there?"])>><<= setup.speak($player, ["Nothing, just had to check something.","Oh... uuuh, nothing. Was just checking."])>><<= setup.speak($characters.brenda, ["Like... what?","Checking what?","To check what?"])>><<= setup.speak($player, ["Don´t worry about it.","Nothing, I swear.","Really... nothing. Just a... quick check. You know."])>><<= setup.speak($characters.brenda, ["Uhu...","Right...","Alrighty I guess."])>>
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>
 :: Receptionist - Success Check Have Cock
 <<nobr>>
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>
 <</nobr>>You feel your cock harden as she presses her tits against you.
-<<= setup.speak($player, "Damn girl control those honkers")>>
+<<= setup.speak($player, ["Damn girl control those honkers","Wowie girl, those tits are everywhere. Watch em.","No need to press your tits against me."])>>
 She giggles and lets go.
-<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>
+<<= setup.speak($characters.brenda, ["Oh? Sorry! I got carried away!","Oh, I´m sorry honey, I´m just so happy!","What? Can´t take a little touch?"], "smile")>><<= setup.speak($characters.brenda, ["And there it is! Awesome!","Hells yeah baby! Ka-ching! There´s the bonus!","Fuck yeah! There´s the bonus!"])>>
 You both check your E-Pals as they register the bonus.
-<<= setup.speak($characters.brenda, "And there it is! Awesome!")>>
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>
 

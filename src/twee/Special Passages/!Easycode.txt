@@ -11,9 +11,11 @@
 
 //Event Notes
 <<run setup.bonus($player, 50, "Social")>>
+<<run setup.addUnits($player, "Sold Panties", 100)>>
 
 //Player Skill Notes
 Blowjob
+Slapping
 
 //Story Notes
 Vernon Venere - President of Gloria Gals

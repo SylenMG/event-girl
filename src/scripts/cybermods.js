@@ -6,14 +6,14 @@
 setup.loadCybermods = function () {
 	let returnCybermods = [
 		{
-		name: "Nyxline Meta-Implant",
-		description: "The Nyxline Meta-Implant is a neuromod that modulates and interfaces with other neuromods, serving as the mainframe for everything to work together flawlessly.",
-		textDescription: "Your brain has been fitted with the Nyxline Meta-Implant, which modulates and interfaces with other neuromods.",
-		details: "Nyxline Meta-Implant<br><br>The Nyxline Meta-Implant is a neuromod that modulates and interfaces with other neuromods, serving as the mainframe for everything to work together flawlessly." + 
-		"<br><br>Cost: 2000",
-		typeAdd: "none",
-		valueAdd: 0,
-		cost: 2000
+			name: "Nyxline Meta-Implant",
+			description: "The Nyxline Meta-Implant is a neuromod that modulates and interfaces with other neuromods, serving as the mainframe for everything to work together flawlessly.",
+			textDescription: "Your brain has been fitted with the Nyxline Meta-Implant, which modulates and interfaces with other neuromods.",
+			details: "Nyxline Meta-Implant<br><br>The Nyxline Meta-Implant is a neuromod that modulates and interfaces with other neuromods, serving as the mainframe for everything to work together flawlessly." + 
+			"<br><br>Cost: 2000",
+			typeAdd: "none",
+			valueAdd: 0,
+			cost: 2000
 		},
 		{
 			name: "Cado-Uplink 004",

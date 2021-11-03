@@ -1,18 +1,42 @@
 :: Receptionist - Guidance
 <<nobr>>
-<</nobr>>As the day goes by the lobby empties out giving you a much needed break. Leaning over the desk, a couple of guys show up approaching you.
-<<= setup.speak($npc.adults[0], "Hey there honey, can ya point us towards the nearest Strip Club?", "smile")>><<= setup.eventText("The other guy turns around, his eyes landing on your chest.")>><<if $player.body.tits.size <= 2>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, you flat as all hell girl!", "angry")>><<= setup.speak($player, "Oh really? That´s rich, why don´t you just piss off bro?!", "angry")>>
-You look down towards your bee-stings... He´s right though...<<elseif $player.body.tits.size == 3>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, she barely makes the cut!", "angry")>><<= setup.speak($player, "Oh really? That´s rich, why don´t you just piss off bro?!", "angry")>>
-You look down towards your tits... Even though they´re there, maybe they could be bigger?<<else>><<= setup.speak($npc.executives[0], "Holy shit! Look at the tits on this one bro!", "surprised")>><<= setup.speak($npc.adults[1], "Oh my! Mammarinas! You gonna work at the Strip Club honey? How much for a lap-dance on my cock?", "surprised")>><<= setup.speak($player, "I´m not for sale bro! What the fuck is wrong with you?!", "angry")>>
-You look down towards your massive tits... Are they too big? You look like a fucking bimbo.<</if>>
-<<= setup.speak($npc.executives[0], "Maaaan! Whatever, just point us towards the Strip Club.", "smile")>><<= setup.speak($npc.adults[0], "Yeah, the Strip Club man, need myself some tits in my face, come on baby!", "smile")>>
+<</nobr>>As the day goes by the lobby empties out giving you a much needed break. With most of your upper body leaned over the desk, you sigh as a couple of guys approach you with a smirk on their faces.
+<<= setup.speak($npc.adults[0], ["Hey there honey, can ya point us towards the nearest Strip Club?","You there, you know the direction for the free-use booths, right? Will I be seeing you there later?","Hey, help out here! *snap snap* We gotta get to the line and get our dicks wet!", "Me and the boys wanna make a quick stop to the gloryholes. If you could be a sweet lass and point us in the right direction? Would be fantastic."], "smile")>>
+You stand up straight and arch your back slightly. The other guy turns around with a smile forming on his cheeks as his eyes land on your chest almost immediately.
+<<if $player.body.tits.size <= 2>><<= setup.speak($npc.executives[0], ["Man! I thought them Eventia whores we´re gonna have some tits man, you flat as all hell girl!","Shit man, check out bee-stings here. She got no tits and is supposed to be an Eventia girl?! Hahaha!","Look at her?! No tits?! Hahaha! She´s all flat man!"], "smile")>><<= setup.speak($player, ["Oh really? That´s rich, why don´t you just piss off?!","Fuck off man! My tits are none of your business!","You dare belittle me over my tits?! Shut up! Creep!","Small tits you say? They clearly have something in common with your cock then!","That´s rich coming from someone with a micro-penis!","Small dick and even smaller ego! Ouch!","Oh... uuuh, sorry!","Sorry! I´ll make sure to get them bigger!","They will be bigger soon, I promise!"], ["angry","smile","default"])>>
+You look down towards your bee-stings... He´s right though...<<elseif $player.body.tits.size == 3>><<= setup.speak($npc.executives[0], ["Man! I thought them Eventia whores we´re gonna have some tits man, she barely makes the cut!","Shit man, check out average-girl here. She got no tits and is supposed to be an Eventia girl?! Hahaha!","Look at her?! Small-to-average tits! Hahaha! Might as well be all flat then!"], "smile")>><<= setup.speak($player, ["Oh really? That´s rich, why don´t you just piss off?!","Fuck off man! My tits are none of your business!","You dare belittle me over my tits?! Shut up! Creep!","Small tits you say? They clearly have something in common with your cock then!","That´s rich coming from someone with a micro-penis!","Small dick and even smaller ego! Ouch!","Oh... uuuh, sorry!","Sorry! I´ll make sure to get them bigger!","They will be bigger soon, I promise!"], ["angry","smile","default"])>>
+You look down towards your tits... Even though they´re there, maybe they could be bigger?<<else>><<= setup.speak($npc.executives[0], ["Holy shit! Look at the tits on this one bro!","Bazinga! Look at those melons! She got fat titties bro!","Oh man! Look at those globes! LOOK AT EM! They´re huge!"], "surprised")>><<= setup.speak($npc.adults[1], ["Oh my! Mammarinas! You gonna work at the Strip Club honey? How much for a lap-dance on my cock?","Give those milkers to daddy! Please man! They´re so huge and juicy-looking!"], "surprised")>><<= setup.speak($player, ["I´m not for sale bro! What the fuck is wrong with you?!","What?! Stop looking at my tits, creep!","Stay away man! Stop oogling my tits!","Well, take it in whilst you can... creep.","Stare all you want, touching costs extra.","Keep your hands to yourself, pig. You can stare, but no touching the money-makers.","Teehee! Thanks! I love them too!","I love my big tatas! Wanna touch em?!","Yay! You guys love my tits! I do too!"], "angry")>>
+You look down towards your massive tits... Are they too big? You look like a bimbo. Maybe that´s a good thing?<</if>>
+<<= setup.speak($npc.executives[0], ["Damn... Well! Could you still point us in the right direction?","Shiiiet, well, could you point us in the right direction now?","So like, *clears throat*, the place we going, where it at?"], "smile")>><<= setup.speak($npc.adults[0], ["Yeah man we gotta bounce man, let´s go man-... need myself some tits in my face man, come on man.","Time to go man, let´s go. Gotta get my dick wet!","Ahhh! Imma ´boutta burst! Gotta go now! Where it at?!"], "smile")>>
 You think about what to say.
 
 :: Receptionist - Guidance Standard 1
 <<nobr>>
 <<run setup.psyche($player, "Lust", 25, 25)>>
 <<run setup.experience($player, "Social", 5, 5, 2)>>
-<<run setup.rating($player, 2)>>
-<</nobr>>You turn your client screen around showing them a path towards the Adult Strip.
-<<= setup.speak($player, "Gloria Girls is by the Adult Strip, should be just by the corner.")>><<= setup.speak($npc.adults[0], "Thanks babe, you´re still hot though, I´d fuck ya anytime.", "smile")>>
-They both continue towards the Adult Strip, only stopping to stare at other working girls.
+<<run setup.rating($player, 5)>>
+<</nobr>>You turn your client screen around showing them a path towards their destination.
+<<= setup.speak($player, ["It´s not so far from here. Just move along this path here.","Right over there, then take a right, and then a left. Should get you to your destination.","If you go this way, then you´ll see the strip, turning left from there, you should reach it."])>><<= setup.speak($npc.executives[0], ["Ah! So that´s the way! We passed that place like five times!","Oh right! Silly me! That´s right down that way! Thanks!","Oh really? So I just take a left over there and then a right there?! Wow! Amazing!"], "surprised")>><<= setup.speak($npc.adults[0], ["Thanks babe, you´re still hot though, I´d fuck ya anytime.","Yeah man, thanks, I´ll let ya suck me cock some day as a thank you! Ciao!","Let´s bounce! It´s close by! Thanks!"], "smile")>>
+They both continue towards their destination, only stopping to stare at other working girls.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Guidance Standard 2
+<<nobr>>
+<<run setup.experience($player, "Cool", 5, 5)>>
+<<run setup.rating($player, -5)>>
+<</nobr>>You cross your arms, staring at the both of them with clear dissatisfaction. A mischievous idea forms in your head as you smirk at them.
+<<= setup.speak($player, ["It´s not so far from here. Just move along this path here.","Right over there, then take a right, and then a left. Should get you to your destination.","If you go this way, then you´ll see the strip, turning left from there, you should reach it."])>><<= setup.speak($npc.executives[0], ["Ah! So that´s the way! We passed that place like five times!","Oh right! Silly me! That´s right down that way! Thanks!","Oh really? So I just take a left over there and then a right there?! Wow! Amazing!"], "surprised")>><<= setup.speak($npc.adults[0], ["Thanks babe, you´re still hot though, I´d fuck ya anytime.","Yeah man, thanks, I´ll let ya suck me cock some day as a thank you! Ciao!","Let´s bounce! It´s close by! Thanks!"], "smile")>>
+They both continue towards their supposed destination, only stopping to stare at other working girls. Although, you know that they´re walking in the complete opposite direction. You straighten yourself out with a smile and a chuckle.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
+:: Receptionist - Guidance Cool Check
+<<nobr>>
+<<run setup.experience($player, "Cool", 5, 5)>>
+<<run setup.rating($player, -5)>>
+<</nobr>>You smirk at the both of them, snapping your finger.
+<<= setup.speak($player, ["Sure, I´ll tell ya, for a rating boost.","Aight, here´s the deal. You give me good ratings, and I give you good directions.","No ratings, no directions. Come on then, I wanna see that thing go up!"], "smile")>><<= setup.speak($npc.adults[0], ["Ah, alright then. Guess it cannot do any harm.","Pfft, sure babe, here ya go!","Sure, I´ll rate that ass of yours!"], "smile")>>
+A bing and a vibration tells you that your rating has gone up. With a chuckle you begin to give them directions.
+<<= setup.speak($player, ["It´s not so far from here. Just move along this path here.","Right over there, then take a right, and then a left. Should get you to your destination.","If you go this way, then you´ll see the strip, turning left from there, you should reach it."])>><<= setup.speak($npc.executives[0], ["Ah! So that´s the way! We passed that place like five times!","Oh right! Silly me! That´s right down that way! Thanks!","Oh really? So I just take a left over there and then a right there?! Wow! Amazing!"], "surprised")>><<= setup.speak($npc.adults[0], ["Thanks babe, you´re still hot though, I´d fuck ya anytime.","Yeah man, thanks, I´ll let ya suck me cock some day as a thank you! Ciao!","Let´s bounce! It´s close by! Thanks!"], "smile")>>
+They both continue towards their destination, only stopping to stare at other working girls.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>
