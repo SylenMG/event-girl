@@ -7,7 +7,7 @@ Trailing your finger along the desk, you drag a form for the visitor to fill out
 <<= setup.speak($player, ["Got one right here. Knock yourself out.","Sure, just fill this out.","Right here buddy."])>><<= setup.speak($npc.adults[0], ["Thanks, let me just fill this out.","Aight, got it.","That´s what I´m talking about."])>>
 He nods and begins to fill it out.
 
-:: Receptionist - Event Schedule Standard 1
+:: Receptionist - Event Schedule Continue
 <<nobr>>
 <<run setup.psyche($player, "Lust", 5, 5)>>
 <<run setup.psyche($player, "Social", 1, 4)>>
@@ -15,3 +15,4 @@ He nods and begins to fill it out.
 <<= setup.speak($player, ["That should be it.","Right.","That´s it, we´ll see if we can find what you need."], "smile")>><<= setup.speak($npc.adults[0], ["Thanks, have a nice day.","Great stuff.","Thank you. Have a great day!"])>>
 With a smile on his chin, he turns to leave.
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>

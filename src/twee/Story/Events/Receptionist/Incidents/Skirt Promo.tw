@@ -6,7 +6,7 @@ She hands you a comically short micro-skirt.
 <<= setup.speak($player, ["You can´t be serious?! This is outragous!","Wait what?! That bare covers anything at all!","No way! That´s waaaay too short!","Oh? Is that it? Hmph...","Oh my, that surely is short. How naughty.","For real? That sure is short.","Yaaaay!","Mhmmm, just my size! SO tired of wearing long skirts!","Teehee, finally!"], ["angry","default","smile"])>><<= setup.speak($characters.brenda, ["This will finally help me pay down some of that debt.","Finally gonna kick that debt in the bucket.","A little extra on the side never hurt nobody."])>><<= setup.speak($player, ["How am I supposed to pick anything up?! I would flash everything with this on!","But-... I can´t even bend over with this thing on!","You gotta be kidding me!","Whatever.","I guess it´ll be fun.","This is gonna attract so many creeps.","*giggles*","*drools*","Gonna do my best! Teehee~"], ["surprised","smile","pleasure"])>> 
 You stand there contemplating what to do.
 
-:: Receptionist - Skirt Promo Standard 1
+:: Receptionist - Skirt Promo Accept
 <<nobr>>
 <<run setup.psyche($player, "Lust", 50, 25)>> 
 <<run setup.psyche($player, "Slut", 5, 5, 2)>> 
@@ -22,7 +22,7 @@ You receive copious amounts of stares and even a few perverts trying to hike a p
 You breathe lightly as the shift comes to an end with nothing else, but a few lewd remarks and extra attention.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Skirt Promo Cool 1
+:: Receptionist - Skirt Promo Cool
 <<nobr>>
 <<run setup.psyche($player, "Lust", 50, 25)>> 
 <<run setup.psyche($player, "Cool", 5, 5)>> 
@@ -38,7 +38,7 @@ You receive copious amounts of stares and even a few perverts trying to hike a p
 You breathe lightly as the shift comes to an end with nothing else, but a few lewd remarks and extra attention.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Skirt Promo Bimbo 1
+:: Receptionist - Skirt Promo Bimbo
 <<nobr>>
 <<run setup.psyche($player, "Lust", 50, 25)>> 
 <<run setup.psyche($player, "Bimbo", 5, 5)>> 
@@ -54,7 +54,7 @@ You receive copious amounts of stares and even a few perverts trying to hike a p
 You spend the rest of the day in a giggling bliss of hungry and horny stares as you do your part as a slutty receptionist.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Skirt Promo Standard 2
+:: Receptionist - Skirt Promo Decline
 <<nobr>>
 <<run setup.psyche($player, "Feminine", -5, -5)>> 
 <<run setup.psyche($player, "Slut", -5, -5)>>

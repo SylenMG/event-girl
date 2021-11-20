@@ -10,7 +10,7 @@ You feel a rough *SMACK* connect with your cheek. Then another and another...
 <<= setup.speak($player, ["Hehehe-...","Oooooh....!","Ouchie..."], "pleasure")>>
 Was that a penis? Where are you even? Is this the real world?
 
-:: Receptionist - Mind Check Standard 1
+:: Receptionist - Mind Check Continue
 <<nobr>>
 <<run setup.psyche($player, "Lust", 10, 25)>>
 <<run setup.rating($player, -100)>>

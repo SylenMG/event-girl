@@ -168,6 +168,16 @@ setup.perspective = function (perspective) {
 					name: ["Wrap your legs around <<= setup.hisher($sex.gE)>> back.","Lie on your back.","Get pressed like a bitch."],
 					passage: "<<include 'Vaginal - Sex - Press'>>",
 					requirements: []
+					},
+					{
+					name: ["Vaginal Special - Vista Dynamo-Hips."],
+					passage: "<<include 'Vaginal Special - Zyto Eso-Throat Compressors'>>",
+					requirements: [{id: 'Vista Dynamo-Hips', type: 'has-cybermod', level: 0}]
+					},
+					{
+					name: ["Vaginal Special - Electra Cyber-Doll Skin."],
+					passage: "<<include 'Vaginal Special - Electra Cyber-Doll Skin'>>",
+					requirements: [{id: 'Electra Cyber-Doll Skin', type: 'has-cybermod', level: 0}]
 					}
 				],
 				climax: [
@@ -258,16 +268,6 @@ setup.perspective = function (perspective) {
 					name: ["Press <<= setup.himher($sex.rE)>> down on their back.","Time for mating press.","Press that bitch."],
 					passage: "<<include 'Penis - Sex - Press'>>",
 					requirements: []
-					},
-					{
-					name: ["Vaginal Special - Vista Dynamo-Hips."],
-					passage: "<<include 'Vaginal Special - Zyto Eso-Throat Compressors'>>",
-					requirements: [{id: 'Vista Dynamo-Hips', type: 'has-cybermod', level: 0}]
-					},
-					{
-					name: ["Vaginal Special - Electra Cyber-Doll Skin."],
-					passage: "<<include 'Vaginal Special - Electra Cyber-Doll Skin'>>",
-					requirements: [{id: 'Electra Cyber-Doll Skin', type: 'has-cybermod', level: 0}]
 					}
 				],
 				climax: [

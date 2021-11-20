@@ -6,7 +6,7 @@ He snaps his fingers and waves his hand for you to follow.
 <<= setup.speak($player, ["Excuse me... WHAT?!","Hey you can´t talk to me like that!","What in the hell?!","Uuuh, what? Repeat that?","I didn´t catch that, what?","Come again? You went a little fast there boy.","*drools*... what?","Teehee... okay! Uhm... but what did you just say?","*giggles* I didn´t hear any of that at all!"], ["angry","default","pleasure"])>><<= setup.speak($npc.executives[0], ["Did I stutter? Move that ass, come on puppet.",""])>>
 You clench your fist and grind your teeth.")>>
 
-:: Receptionist - Executive Meeting Check Standard 1
+:: Receptionist - Executive Meeting Freak Out
 <<nobr>>
 <<run setup.psyche($player, "Feminine", -1, -4)>>
 <<run setup.rating($player, -5)>>
@@ -19,7 +19,7 @@ The executives all look visibly shaken, grasping for words as Brenda frantically
 She sends you a stern view of judgement before disappearing around the corner, escorting the suits to their conference room.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Executive Meeting Check Standard 2
+:: Receptionist - Executive Meeting Endure
 <<nobr>>
 <<run setup.rating($player, 5)>>
 <</nobr>>You put down your coffee and move towards the conference rooms.

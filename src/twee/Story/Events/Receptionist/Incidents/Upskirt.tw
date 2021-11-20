@@ -9,7 +9,7 @@ He sees that you´ve noticed him, but keeps on snapping a few more pics, making 
 <<= setup.speak($player, ["Ugh... I can´t see anything...","Wha-... what?!","W-wait... Ugh. It´s too bright!"], "surprised")>>
 The photographer seems careless to your immediate reaction.
 
-:: Receptionist - Mind-Blank Upskirt
+:: Receptionist - Upskirt Mind
 <<nobr>>
 <</nobr>>The flashes trigger again and again. A sudden pain spikes through your skull as a headache spreads along the temples of your head. 
 <<= setup.speak($player, ["Ugh...","W-wha....?","A-a-aaaawww..."])>>
@@ -18,7 +18,7 @@ Standing in the foyer, you mind is off to wonderland as you´re suddenly startle
 The flashes come closer, with no ending in sight. At times it even seems there´s more than one. However, eventually it ends, and you snap back to reality shortly afterwards.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Upskirt Chase 1
+:: Receptionist - Upskirt Chase Failure
 <<nobr>>
 <<run setup.experience($player, "High Heels", 5, 5)>>
 <</nobr>>You quickly forget that you´re wearing heels and in no shape to actually run. You stumble almost immediately and fall face first unto the foyer floor.
@@ -32,7 +32,7 @@ What he spotted was nothing else than Brenda coming to the rescue, trying to cha
 The both of you return to the receptionist desk.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Upskirt Chase 1.1
+:: Receptionist - Upskirt Chase Success
 <<nobr>>
 <<run setup.experience($player, "High Heels", 15, 15)>>
 <</nobr>>You run after the guy, trying to chase him down, but are at an obvious disadvantage. There´s just no way you´re going to be able to catch him whilst being handicapped by your high heels.
@@ -42,7 +42,7 @@ You clench your fist in rage over having your privacy violated like this, but ev
 Turning around you return to the receptionist desk.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Upskirt Standard 2
+:: Receptionist - Upskirt Ignore
 <<nobr>>
 <<run setup.psyche($player, "Feminine", 5, 5)>>
 <</nobr>>You let the guy do his thing, trying your best to just ignore him. The flashes continue for at least fifteen minutes, with a few onlookers even commenting on it, and your apparent attempt to ignore it.
@@ -50,7 +50,7 @@ Turning around you return to the receptionist desk.
 Eventually, the flashes stop and the photographer moves on to his next target.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Upskirt Slutty 1
+:: Receptionist - Upskirt Slutty
 <<nobr>>
 <<run setup.experience($player, "Social", 5, 5)>>
 <<run setup.rating($player, 5)>>
@@ -65,7 +65,7 @@ Your notice a distinct beep as your E-Rating increases.
 Sighing you simply walk back to the receptionist desk.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Upskirt Bimbo 1
+:: Receptionist - Upskirt Bimbo
 <<nobr>>
 <<run setup.rating($player, 20)>>
 <</nobr>>You bite your lip as your natural instincts take over.
@@ -79,7 +79,7 @@ Your notice a distinct beep as your E-Rating increases.
 Smiling and giggling to yourself, you simply walk back to the receptionist desk.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Upskirt Cool 1
+:: Receptionist - Upskirt Cool
 <<nobr>>
 <<run setup.bonus($player, 50, "Cool")>>
 <</nobr>>You eventually get used to the barrage of flashes and slowly walk towards the photographer.

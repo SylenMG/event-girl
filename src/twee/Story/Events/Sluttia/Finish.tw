@@ -8,6 +8,7 @@ Your hips are slightly worn from the copious amounts of hands that have been res
 <<= setup.speak($player, "*yawn* I need a long nights rest...", "smile")>>
 As you enter your pod you immediately crash unto your bed, almost forgetting to lock it.
 
+<<= setup.button("Continue.","Pod - Main")>>
 
 
 

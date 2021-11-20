@@ -11,3 +11,4 @@ You move towards the door whilst rubbing your cheeks, only stopping to swipe you
 
 As you move out you hear your E-Pal make the familiar soft ding as it updates.
 
+<<= setup.button("Continue.","Pod - Main")>>

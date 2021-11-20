@@ -1,4 +1,4 @@
-:: Receptionist - Success Check
+:: Receptionist - Great Job (Social)
 <<nobr>>
 <</nobr>>As the day comes to a close, you sigh and once again adjust your skirt creeping up. You spot Brenda in the distance coming towards you.
 <<= setup.speak($characters.brenda, ["Sup gurl! I got some good news!","Hey gurly! Good news coming your way!","Ready for a surprise?! Cause I got one for you!"], "smile")>><<= setup.speak($player, ["Oh really?","What is it?","Really? Spill it."])>><<= setup.speak($characters.brenda, ["Hells yeah... some important CEO slided a good word through to us! Your ass and my ass gettin´ a bonus!","You and me, we gonna get a big fat bonus! We deserve it!","Yeah man, we gonna get some extra units for our hard work."], "smile")>>
@@ -6,7 +6,7 @@ Her warmth embraces you as she swoops in for a hug. Her tits pushing against you
 <<= setup.speak($characters.brenda, ["Just what I needed.","Finally... about time!","Filling me with units, hells yeah."])>>
 You´re taken a bit back at her sudden approach, but unsure of how to react.
 
-:: Receptionist - Success Check Standard 1
+:: Receptionist - Great Job (Social) Distance
 <<nobr>>
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>
@@ -17,7 +17,7 @@ She giggles and lets go.
 You both check your E-Pals as they register the bonus.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Success Check Standard 2
+:: Receptionist - Great Job (Social) Laugh
 <<nobr>>
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>
@@ -27,7 +27,7 @@ You both check your E-Pals as they register the bonus.
 You both check your E-Pals as they register the bonus.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Success Check No Cock
+:: Receptionist - Great Job (Social) No Cock
 <<nobr>>
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>
@@ -41,7 +41,7 @@ You quickly dig your hand underneath your skirt, you swear... you could have fel
 <<= setup.speak($characters.brenda, ["Uuuuh... what are you doing?","Looking for something there?","Missing something there?"])>><<= setup.speak($player, ["Nothing, just had to check something.","Oh... uuuh, nothing. Was just checking."])>><<= setup.speak($characters.brenda, ["Like... what?","Checking what?","To check what?"])>><<= setup.speak($player, ["Don´t worry about it.","Nothing, I swear.","Really... nothing. Just a... quick check. You know."])>><<= setup.speak($characters.brenda, ["Uhu...","Right...","Alrighty I guess."])>>
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Success Check Have Cock
+:: Receptionist - Great Job (Social) Have Cock
 <<nobr>>
 <<run setup.bonus($player, 250, "Social")>>
 <<run setup.rating($player, 50)>>

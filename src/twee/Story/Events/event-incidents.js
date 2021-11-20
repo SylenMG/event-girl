@@ -14,70 +14,6 @@ setup.loadEvents = function () {
 	//goth = setup.getInteractables("Goth");
 	//eventgirls = setup.getInteractables("Event Girls");
 	
-	let receptionistStart = '<<include "Receptionist - Start">>';
-	let maidStart = '<<= setup.eventText("You approach Brenda sitting by the receptionist desk.")>>' + 
-	'<<= setup.speak($characters.brenda, "Another day of cleaning I suppose?")>>' + 
-	'<<= setup.eventText("You nod and pass her going into the backroom, where you find your maid outfit and promptly wear it. ")>>' + 
-	'<<= setup.eventText("Strutting back out you prepare for another day as the face of eVentia, cleaning client hotel rooms.")>>' + 
-	'<<run setup.equipOutfit($player, "maid", "stash")>>'; 
-		
-	let carshowStart = '<<= setup.eventText("You walk down towards the venue preparing yourself for another day of leaning against vibrating holo-bikes and holo-cars, strutting your ass infront of onlookers and spectators.")>>' + 
-	'<<= setup.speak($characters.hotstripesrep, "I zee-a zexy familiar face to compliment my linez of vehicles! Welcome back!", "smile")>>' + 
-	'<<= setup.eventText("When you enter the backroom, you put on the wet look top and leggings. The top clenches and pronounces your tips obscenely and the leggings tightening your ass giving it a near-lewd globular shape.")>>' + 
-	'<<run setup.equipOutfit($player, "carshow", "stash")>>'; 
-		
-	let girlfriendStart = '<<= setup.eventText("You show up ready and waiting at the entrance to Dynamo Dating. The interior of the bar is sleek and simplistic in design, black and white with neon lights.' + 
-	' The air is heavy with incense and makes your loins heat up.")>>' + 
-	'<<= setup.speak($characters.housespeaker, "Are you here to sign up for a date?", "smile")>>' + 
-	'<<= setup.speak($player, "Yeah. Where do I go and whose the lucky guy?", "smile")>>' + 
-	'<<= setup.speak($characters.housespeaker, "Let me check sister, hmmm, ah. The details should be attached to your E-Pal! Have fun!")>>' + 
-	'<<= setup.eventText("You check your E-Pal and prepare yourself for the worst.")>>';
-
-	let sluttiaStart = '<<= setup.eventText("You enter the expo already wearing your skimpy cosplay costume. The straps tightening the fabric gripping around your tits make them jiggle as you strut past the leering convention goers.")>>' + 
-	'<<= setup.speak($characters.executive1, "Ah! I see my Sluttia stand-in has arrived.", "smile")>>' + 
-	'<<= setup.speak($player, "That´s me alright.", "smile")>>' + 
-	'<<= setup.speak($characters.executive1, "Well, booths over here, trust you know what to do by now.")>>' + 
-	'<<= setup.speak($player, "No worries.")>>' + 
-	'<<= setup.eventText("You stand by the booth and a line of hungry convention-goers quickly form at your booth. All of them ready to meet Sluttia, the busty barbarina.")>>' + 
-	'<<run setup.equipOutfit($player, "sluttia", "stash")>>';
-
-	let stripperStart = '<<= setup.eventText("You walk towards the corner in the adult strip and reach the Gloria Girls strip club. As you approach you´re greeted by the manager standing by the entrance chatting with the bouncer.")>>' + 
-	'<<= setup.speak($characters.manager, "Ah! My new favorite girl! Please! Come on right in!", "smile")>>' + 
-	'<<= setup.eventText("You strut past him and walk inside. As you move past the sound-proof barrier you´re welcomed by the seductive thumping of the electronic bass music and lush atmosphere.")>>' + 
-	'<<= setup.eventText("When you enter the backroom, you put on your regular school girl costume and prepare for another night as a lusty stripper.")>>' + 
-	'<<run setup.equipOutfit($player, "stripper", "stash")>>';
-
-	let gloryholeStart = '<<= setup.eventText("The bright neon lights of Gloria Girls rests on your shoulders as you walk towards the booths. Your gaze meets several patrons smirking at you, eating you whole as you make your way through the bar.")>>' + 
-	'<<= setup.eventText("Some turn to get a glance from behind, and some just outright rest their hand on the bulge in their pants.")>>' + 
-	'<<= setup.eventText("You reach the booths, seeing as only a few are occupied at the moment. You know that you will have to get busy the moment you enter.")>>' + 
-	'<<= setup.eventText("Looking over your shoulder, you see that at least several of the patrons are already preparing to make a line. You sigh as you lift your E-Pal over one of the booth entrances. A soft ding follows and the door slides open.")>>' + 
-	'<<= setup.eventText("The door quickly slides shut behind you, as you enter the booth. The claustrophobic interior heavily graffitied with base slurs and demeaning remarks. You get comfortable on your knees, resting them on the lycra-pillows infront of the cockhole.")>>';		
-
-	let gangbangStart = '<<= setup.eventText("Your hips sway lightly as you strut down the entertainment center´s main hall. The gaze of several patrons explore your body as head towards the Gloria Hall.")>>' + 
-	'<<= setup.eventText("As you near, you spot Vernon chatting with some of his friends, all of them waiting for you. As you close in on them, your ears are filled with their wolf-whistles.")>>' + 
-	'<<= setup.eventText("A gentle tug on your ass pulls you, as their hot hands explore your body, making your loins quiver with need.")>>' + 
-	'<<= setup.speak($characters.vernon, "Well then, shall we get this party started?", "smile")>>' + 
-	'<<= setup.eventText("A firm grip on your wrist drags you inside. Your loose underboob leaves no defense for their hands, as their rough hands press and squeeze your nipples.")>>' + 
-	'<<= setup.eventText("A soft moan escapes you, they got you right where they want you.")>>' + 
-	'<<run setup.equipOutfit($player, "gangbang", "stash")>>';
-
-	let cindanarStart = '<<= setup.eventText("You admire your naked body in the mirror, currently using the sorry excuse for a changing room that they gave you.")>>' + 
-	'<<= setup.eventText("The pink sportswear fights your physique, clinging tightly around your curves, displaying them in an almost obscene way.' + 
-	' How this could be sportswear or be the most practical thing that they could come up with, is a mystery to you.")>>' + 
-	'<<= setup.eventText("You take one last look in the mirror. The sportsbra does little to contain any jiggle, in fact, you suspect it only enhances it.")>>' + 
-	'<<= setup.speak($characters.secret, "Are you ready in there? They are opening the venue soon!")>>' + 
-	'<<= setup.eventText("You sigh, letting yourself unto the forces at play, and exit unto the venue.")>>' + 
-	'<<run setup.equipOutfit($player, "cindanar", "stash")>>';
-
-	let stainsStart = '<<= setup.eventText("You admire your naked body in the mirror, currently using the sorry excuse for a changing room that they gave you.")>>' + 
-	'<<= setup.eventText("The micro top practically resting your tits, giving you only the most tenous of coverage. At this point, it would probably have been better to just be naked.' + 
-	' The panties that they called, micropants, are obscene, even if they were just panties. Your full ass is on display, and the micro is giving you a small cameltoe.")>>' + 
-	'<<= setup.eventText("You take one last look in the mirror. The top could easily be lifted and the panties burst at any moment. You suspect that is the point though, letting out a small sigh.")>>' + 
-	'<<= setup.speak($characters.secret, "Are you ready in there? They are opening the venue soon!")>>' + 
-	'<<= setup.eventText("You exit unto the venue.")>>' + 
-	'<<run setup.equipOutfit($player, "stains", "stash")>>';
-
-	
 	let receptionistIntro = [
 		{
 			passageText: '<<= setup.eventText("You take note of the service number and walk over to Brenda sitting by the eventia desk.")>>' + 
@@ -346,914 +282,8 @@ setup.loadEvents = function () {
 			next: '1'
 		}
 	];
+
 	
-	let recGroping = {
-		name: 'Groping (Old Man)',
-		passageText: '<<= setup.eventText("Right after showing a couple the location of the fashion strip, an old man approaches you.")>>' + 
-		'<<= setup.speak($npc.elderly[0], "Excuse me miss... Can you help an old man in need?", "smile")>>' + 
-		'<<= setup.speak($player, "Of course, what do you need help with?")>>' + 
-		'<<= setup.eventText("He moves closer to you and you feel his hand rest on your hip, grabbing you for support.")>>' + 
-		'<<= setup.speak($npc.elderly[0], "It´s been a long day and i´m lost, I need someone to help me towards the gloria hotel entrance.")>>' + 
-		'<<= setup.eventText("You feel him grasp your hip.")>>' + 
-		'<<run setup.count("receivedGroping")>>',
-		requirements: [],
-		options: [
-		{
-			buttonText: 'Tell him to fuck off',
-			resultText: '<<= setup.speak($player, "The fuck is wrong with you, old pervert! FUCK OFF!", "angry")>>' + 
-			'<<= setup.eventText("You slap his hand away, expecting him to fall, but he easily regroups. At first he looks shocked, but his expression quickly changes.")>>' + 
-			'<<= setup.speak($npc.elderly[0], "What the hell?! No respect for the elderly?! Fucking eventia whores, you lot! Youth today!", "angry")>>' + 
-			'<<= setup.eventText("He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.")>>' + 
-			'<<run setup.rating($player, -10)>><<run setup.psyche($player, "Slut", -5, -5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Feminine', type: 'psyche-min', level: 3},{id: 'Mind', type: 'psyche-max', level: 3}]
-		},
-		{
-			buttonText: 'Endure and lead him towards the hotel',
-			resultText: '<<= setup.speak($player, "Right this way! Let me lead you sir.", "smile")>>' + 
-			'<<= setup.eventText("You put a hand around his shoulder for support and lead him towards the Gloria elevators. As you´re halfway there, you feel how his hand gently slips down, landing on your ass.")>>' + 
-			'<<= setup.eventText("At least a few other visitors notice his hand resting on your pert ass.")>>' + 
-			'<<= setup.speak($player, "Alright, this is it, the Gloria elevators. Have a nice evening, and thank you for staying with eVentia!", "smile")>>' + 
-			'<<= setup.speak($npc.elderly[0], "Yes-yes thank you too, sweet thing.", "smile")>>' + 
-			'<<= setup.eventText("A shiver runs down your spine as that old man pinches your ass before heading towards the elevators.")>>' + 
-			'<<run setup.psyche($player, "Feminine", 1, 2, 3)>>' + 
-			'<<run setup.rating($player, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Mind', type: 'psyche-max', level: 3}]
-		},
-		{
-			buttonText: 'Hey! Not a miss here! Back off!',
-			resultText: '<<= setup.speak($player, "Hey! Get your hands off! I´m not some kinda miss or lady!", "angry")>>' + 
-			'<<= setup.eventText("You slap his hand away, expecting him to fall, but he easily regroups. At first he looks shocked, but his expression quickly changes.")>>' + 
-			'<<= setup.speak($npc.elderly[0], "What the hell?! No respect for the elderly?! Fucking eventia whores, you lot! Youth today!", "angry")>>' + 
-			'<<= setup.eventText("He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.")>>' + 
-			'<<run setup.rating($player, -10)>><<run setup.psyche($player, "Feminine", -5, -5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Feminine', type: 'psyche-max', level: 2}]
-		},
-		{
-			buttonText: 'Oooh my! Need suck now? I sucky!',
-			resultText: '<<= setup.speak($player, "Oooh my! You need sucky now? Me very good suck!", "smile")>>' + 
-			'<<= setup.eventText("You put out your tongue like a wanton whore begging to suck his cock.")>>' + 
-			'<<= setup.speak($npc.elderly[0], "Uuuh, I uuuh, god damn it... I´m getting too old for this shit.... Alright then, I´ll give you the privilege to suck this old man.")>>' + 
-			'<<= setup.eventText("You take him towards a secluded corner in the hall.")>>' + 
-			'<<run setup.psyche($player, "Slut", 10, 20)>>' + 
-			'<<run setup.rating($player, 10)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<goto "New Sex">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.elderly[0], $sex.modifier = "sensual", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><</button>></span>',
-			requirements: [{id: 'Bimbo', type: 'psyche-min', level: 3},{id: 'Mind', type: 'psyche-min', level: 3}]
-		},
-		{
-			buttonText: '*drool*.......',
-			resultText: '<<= setup.speak($player, "Ehehe..*drools*.....", "smile")>>' + 
-			'<<= setup.eventText("You stand there with blank eyes, your mind having overloaded some time ago making you wander off to some faraway happyland.")>>' + 
-			'<<= setup.speak($npc.elderly[0], "You there young one? Hello?... Errh... Youth today....")>>' + 
-			'<<= setup.eventText("He takes a closer look at your ass, eyeing you up and down inspecting you before leaving you. You simply stand there mumbling to yourself, not even realizing someone needed your attention.")>>' + 
-			'<<run setup.rating($player, -10)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Mind', type: 'psyche-min', level: 4}]
-		}]
-	}
-	let recHarassment = {
-		name: 'Harassment (Two Guys)',
-		passageText: '<<= setup.eventText("You stand around the receptionists desk, waiting for any visitors to come by asking for help. ")>>' + 
-		'<<= setup.speak($npc.adults[0], "Hey there beautiful, up to no good huh?", "smile")>>' + 
-		'<<= setup.speak($npc.adults[1], "Holy shit! These babes really are as hot as they say!", "smile")>>' + 
-		'<<= setup.speak($player, "Hey! Don´t get too close!")>>' + 
-		'<<= setup.eventText("They both move closer to sandwiching you right infront of the desk, not listening to you at all. The bigger one grabs your hips, pressing your plush ass towards his crotch. You feel his bursting erection between your cheeks, the thin fabric concealing almost nothing.")>>' + 
-		'<<= setup.eventText("The other guy presses himself towards your front, fondling your tits.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Hot damn, these are some quality goods.")>>' + 
-		'<<run setup.count("receivedHarassment")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 2},{id: 'Slut', type: 'psyche-max', level: 2}],
-		options: [
-		{
-			buttonText: 'Scream for help',
-			resultText: '<<= setup.eventText("You were just about to scream for help at the top of your lungs when you´re swiftly deafened by a roar coming from behind.")>>' + 
-			'<<= setup.speak($characters.brenda, "What the hell you boys doing to mah gurl?! GET OFF HER!", "angry")>>' + 
-			'<<= setup.eventText("You see Brenda charging towards the two men with full speed, but before she could reach them they both let go.")>>' + 
-			'<<= setup.speak($npc.adults[1], "Ah shit, funs over!", "surprised")>>' + 
-			'<<= setup.eventText("They both dash towards the fashion strip, leaving you behind with Brenda.")>>' + 
-			'<<= setup.speak($characters.brenda, "You okay gurl? I know, I know, they can get all handsy sometimes, gotta pack an attitude you know. Or better yet, avoid them entirely.")>>' + 
-			'<<= setup.speak($player, "Yes, I´m fine, they just came out of nowhere.")>>' + 
-			'<<= setup.eventText("You can´t help but feel a little turned on by how they manhandled your body. Your tits tingling from being massaged so roughly and your pussy wet and ready. Gritting your teeth you continue your day.")>>' + 
-			'<<run setup.psyche($player, "Lust", 5, 5)>>' + 
-			'<<run setup.psyche($player, "Feminine", 1, 2, 3)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Stay silent',
-			resultText: '<<= setup.eventText("Their fondling gets rougher and more couragous, as they notice you´re not struggling at all. One of them also sliding a hand between your skirt. He firmly presses on the wet fabric covering your pussy.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Holy shit, this bitch is ready to go!", "smile")>>' + 
-			'<<= setup.eventText("Feeling your panties slid aside, something fat and thick is clumsily inserted. You yelp and moan at the intrusion as a burning need overwhelms you. He grunts as he fingerfucks you, further inspecting your ' + setup.pickNoun(vagina) + '.")>>' + 
-			'<<run setup.psyche($player, "Lust", 25, 25)>>' + 
-			'<<= setup.eventText("However, the rough texturous member leaves your ' + setup.pickNoun(vagina) + ' as you spot Brenda charging towards you with full speed.")>>' + 
-			'<<= setup.speak($characters.brenda, "What the hell you boys doing to mah gurl?! GET OFF HER!", "angry")>>' + 
-			'<<= setup.speak($npc.adults[1], "Ah shit, funs over!", "surprised")>>' + 
-			'<<= setup.eventText("They both dash towards the fashion strip, leaving you behind with Brenda.")>>' + 
-			'<<= setup.speak($characters.brenda, "You okay gurl? I leave you alone for five minutes and some random ass dude gots his entire fucking hand up your behind! Gotta pack an attitude to avoid that you know. Or better yet, avoid them entirely.")>>' + 
-			'<<= setup.speak($player, "Yes, I´m fine, they just came out of nowhere.")>>' + 
-			'<<= setup.eventText("You can´t help but feel a little turned on by how they manhandled your body. You readjust your panties and brush off the odd look from the folk around you.")>>' + 
-			'<<run setup.psyche($player, "Slut", 3, 3, 2)>>' + 
-			'<<run setup.rating($player, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
-		}]
-	}
-	let recBlowjob1 = {
-		name: 'Blowjob Offer (One Guy, non-slutty)',
-		passageText: '<<= setup.eventText("Standing around the desk you yawn as the day is rather slow. With Brenda gone to manage some Event Planning you´re all alone, although, not that it´s a problem.")>>' + 
-		'<<= setup.eventText("A rather sleek-looking guy approaches you briskly, he eyes you up and down with a smug grin scratching his chin.")>>' + 
-		'<<= setup.speak($npc.executives[0], "Hey... You know I´m gettin´ waaay too pent up waiting for that meeting. I was wondering if you could do somethin´ about that kitty-kat.", "smile")>>' + 
-		'<<= setup.speak($player, "Kitty-kat? Really?... Ugh...", "angry")>>' + 
-		'<<= setup.speak($npc.executives[0], "What?... I see a kitty-kat I call it a kitty-kat, doll... Haha!", "smile")>>' + 
-		'<<= setup.eventText("Gathering every ounce of self-control that you possess you crack the most forced smile ever and blurt out the standard response.")>>' + 
-		'<<= setup.speak($player, "...Whatever...Bro-...Sir, Eventia offers many delights by the Café and Restaurants.", "smile")>>' + 
-		'<<= setup.speak($npc.executives[0], "Not what I meant sweet-cheeks, I need a quick suck, and-you eventia girls do anything for the right price right? I got fat stacks and a big load to-unload, if ya know what I mean! Haha!", "smile")>>' + 
-		'<<= setup.speak($player, "WHAT?! YOU WANT ME-... TO WHAT?!.... Really?!", "angry")>>' + 
-		'<<= setup.eventText("You clench your first in furious anger, almost forgetting your current predicament.")>>' + 
-		'<<= setup.speak($npc.executives[0], "So what do ya-say eh? I pay good, you suck even better. Win-win eh?", "smile")>>', 
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 2},{id: 'Slut', type: 'psyche-max', level: 2}],
-		options: [
-		{
-			buttonText: 'Accept the offer',
-			resultText: '<<= setup.eventText("You grit your teeth, perfectly aware of the fact that you need the money more than ever. Clenching your fist, you almost can´t believe the words escaping your mouth.")>>' + 
-			'<<= setup.speak($player, "A-alright...")>>' + 
-			'<<= setup.eventText("Snapping his fingers you see his grin turn into a wide perverted smile as he realizes he won you over.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Well then kitty-kat, come along to my suite...", "smile")>>' + 
-			'<<= setup.eventText("You follow him towards the Gloria Hotel, and after entering the elevator you feel a warm grip on your hips.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Man look at these hips, if I had time for more I´d smash that puss too you know.", "smile")>>' + 
-			'<<= setup.speak($player, "H-hands off! We only agreed to a blowjob!", "surprised")>>' + 
-			'<<= setup.eventText("You exit the elevator and arrive at his room.")>>' + 
-			'<<run setup.psyche($player, "Lust", 50, 25)>>' + 
-			'<<run setup.psyche($player, "Slut", 5, 5, 3)>>' + 
-			'<<run setup.rating($player, 10)>><<run setup.bonus($player, 350, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
-			requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
-		},
-		{
-			buttonText: 'Decline the offer',
-			resultText: '<<= setup.eventText("Maintaining your composure, you eloquently tell him off.")>>' + 
-			'<<= setup.speak($player, "Sorry, but I will have to decline that offer, sir.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Pfft! Whatever, stuck up whore.", "angry")>>' + 
-			'<<= setup.eventText("He turns around, seemingly returning to wait for whatever meeting he was waiting for.")>>' + 
-			'<<run setup.psyche($player, "Lust", 5, 5)>>' + 
-			'<<run setup.psyche($player, "Feminine", 2, 3, 2)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Freak out',
-			resultText: '<<= setup.eventText("You clench your fist, fueled by rage and almost on the verge of attacking him.")>>' + 
-			'<<= setup.speak($player, "Definitely NOT sucking your digusting cock bro! NOW FUCK OFF!", "angry")>>' + 
-			'<<= setup.speak($npc.executives[0], "Holy shit?! WHAT THE HELL? Fucking eventia whores acting up again?!", "angry")>>' + 
-			'<<= setup.eventText("Looking visibly upset and rejected he turns around spitting on the floor marching away.")>>' + 
-			'<<run setup.rating($player, -10)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Feminine', type: 'psyche-max', level: 2}]
-		}]
-	}
-	let recBlowjob2 = {
-		name: 'Blowjob Offer (One Guy, feminine)',
-		passageText: '<<= setup.eventText("Standing around the desk you yawn as the day is rather slow. With Brenda gone to manage some Event Planning you´re all alone, although, not that it´s a problem.")>>' + 
-		'<<= setup.eventText("A rather sleek-looking guy approaches you briskly, he eyes you up and down with a smug grin scratching his chin.")>>' + 
-		'<<= setup.speak($npc.executives[0], "Hey... You know I´m gettin´ waaay too pent up waiting for that meeting. I was wondering if you could do somethin´ about that kitty-kat.", "smile")>>' + 
-		'<<= setup.speak($player, "Not a kitty-kat, but alright.")>>' + 
-		'<<= setup.speak($npc.executives[0], "What?... I see a kitty-kat I call it a kitty-kat, doll... Haha!", "smile")>>' + 
-		'<<= setup.eventText("Gathering every ounce of self-control that you possess you crack the most forced smile ever and blurt out the standard response.")>>' + 
-		'<<= setup.speak($player, "Eventia offers many delights by the Café and Restaurants.", "smile")>>' + 
-		'<<= setup.speak($npc.executives[0], "Not what I meant sweet-cheeks, I need a quick suck, and-you eventia girls do anything for the right price right? I got fat stacks and a big load to-unload, if ya know what I mean! Haha!", "smile")>>' + 
-		'<<= setup.speak($player, "Are you for real? You´re... Ugh... You better be paying good units for that you know.")>>' + 
-		'<<= setup.eventText("You sigh as you await his response.")>>' + 
-		'<<= setup.speak($npc.executives[0], "Well that depends on how well you put those cock pillows to use. Eh? What do ya say pussy?", "smile")>>',
-		requirements: [{id: 'Slut', type: 'psyche-min', level: 2},{id: 'Slut', type: 'psyche-max', level: 4}],
-		options: [
-		{
-			buttonText: 'Accept the offer',
-			resultText: '<<= setup.eventText("Getting yourself into the right mindset, you smile.")>>' + 
-			'<<= setup.speak($player, "Well alright then, you better be worth it though.")>>' + 
-			'<<= setup.eventText("Snapping his fingers you see his grin turn into a wide perverted smile as he realizes he won you over.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Hot dang kitty-kat, that´s the right attitude. Knew you were the right whore for the job the moment I set my eyes on ya!", "smile")>>' + 
-			'<<= setup.eventText("You sigh at his perverted remarks as you follow him towards the Gloria Hotel, and after entering the elevator you feel a warm grip on your hips.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Man look at these hips, if I had time for more I´d smash that puss too you know.", "smile")>>' + 
-			'<<= setup.speak($player, "Neither you or me have time for that, so hands off the goods!", "surprised")>>' + 
-			'<<= setup.eventText("You exit the elevator and arrive at his room.")>>' + 
-			'<<run setup.psyche($player, "Lust", 50, 25)>>' + 
-			'<<run setup.psyche($player, "Slut", 5, 5)>>' + 
-			'<<run setup.rating($player, 15)>><<run setup.bonus($player, 350, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Decline the offer',
-			resultText: '<<= setup.eventText("Maintaining your composure, you eloquently tell him off.")>>' + 
-			'<<= setup.speak($player, "Sorry, but I will have to decline that offer, sir.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Pfft! Whatever, stuck up whore.", "angry")>>' + 
-			'<<= setup.eventText("He turns around, seemingly returning to wait for whatever meeting he was waiting for.")>>' + 
-			'<<run setup.psyche($player, "Lust", 5, 5)>>' + 
-			'<<run setup.psyche($player, "Feminine", 2, 3, 2)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recBlowjob3 = {
-		name: 'Blowjob Offer (One Guy, slutty)',
-		passageText: '<<= setup.eventText("Standing around the desk you yawn as the day is rather slow. With Brenda gone to manage some Event Planning you´re all alone, although, not that it´s a problem.")>>' + 
-		'<<= setup.eventText("A rather sleek-looking guy approaches you briskly, he eyes you up and down with a smug grin scratching his chin.")>>' + 
-		'<<= setup.speak($npc.executives[0], "Hey... You know I´m gettin´ waaay too pent up waiting for that meeting. I was wondering if you could do somethin´ about that kitty-kat.", "smile")>>' + 
-		'<<= setup.speak($player, "Uhh? Need something handsome?", "smile")>>' + 
-		'<<= setup.speak($npc.executives[0], "What?... I see a kitty-kat I call it a kitty-kat, doll... Haha!", "smile")>>' + 
-		'<<= setup.eventText("You smile at his flirtacious remarks and give him the regular run down.")>>' + 
-		'<<= setup.speak($player, "Sure sir, Eventia offers many delights by the Café and Restaurants.", "smile")>>' + 
-		'<<= setup.speak($npc.executives[0], "Not what I meant sweet-cheeks, I need a quick suck, and-you eventia girls do anything for the right price right? I got fat stacks and a big load to-unload, if ya know what I mean! Haha!", "smile")>>' + 
-		'<<= setup.speak($player, "I guess we could sort something out, as long as you pay.", "smile")>>' + 
-		'<<= setup.eventText("You lick your lips as you await his response.")>>' + 
-		'<<= setup.speak($npc.executives[0], "Well that depends on how well you put those cock pillows to use. Eh? What do ya say pussy?", "smile")>>',
-		requirements: [{id: 'Slut', type: 'psyche-min', level: 4}],
-		options: [
-		{
-			buttonText: 'Accept the offer',
-			resultText: '<<= setup.eventText("Moaning lightly as your panties moisten, you give a lush sigh...")>>' + 
-			'<<= setup.speak($player, "I need a short break anyway, so let´s do it.")>>' + 
-			'<<= setup.eventText("Snapping his fingers you see his grin turn into a wide perverted smile as he realizes he won you over.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Hot dang kitty-kat, that´s the right attitude. Knew you were the right whore for the job the moment I set my eyes on ya!", "smile")>>' + 
-			'<<= setup.eventText("You smile at his perverted remarks as you strut and follow him towards the Gloria Hotel, and after entering the elevator you feel a warm grip on your hips.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Man look at these hips, if I had time for more I´d smash that puss too you know.", "smile")>>' + 
-			'<<= setup.speak($player, "Mmmmh, that could be nice, but maybe another time?", "smile")>>' + 
-			'<<= setup.eventText("You exit the elevator and arrive at his room.")>>' + 
-			'<<run setup.psyche($player, "Lust", 75, 75)>>' + 
-			'<<run setup.psyche($player, "Slut", 5, 5)>>' + 
-			'<<run setup.rating($player, 20)>><<run setup.bonus($player, 350, "Blowjob")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<set $sex.current = "blowjob", $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.modifier = "sensual", $sex.stage = "intro", $sex.passage = "Event - Finish", $event.current = "Receptionist", $event.return = "Pod - Main">><<goto "New Sex">><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Decline the offer',
-			resultText: '<<= setup.eventText("Maintaining your composure, you shake your head..")>>' + 
-			'<<= setup.speak($player, "Sorry, but I will have to decline that offer, sir.")>>' + 
-			'<<= setup.speak($npc.executives[0], "Pfft! Whatever, stuck up whore.", "angry")>>' + 
-			'<<= setup.eventText("He turns around, seemingly returning to wait for whatever meeting he was waiting for.")>>' + 
-			'<<run setup.psyche($player, "Lust", 25, 25)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recBlowbangES = {
-		name: 'Blowbang Event Scheduling',
-		passageText: '<<= setup.eventText("The day starts off fairly hectic as event after event has to be scheduled and taken care off. One tech giant event reserving the north venue for a tech demonstration ordering as many showgirls as possible to present their product.")>>' + 
-		'<<= setup.eventText("Which would be fine if not only another company, some aero-something taking the southern venue and requesting the exact same thing.")>>' + 
-		'<<= setup.speak($characters.brenda, "Not every day we run into a shortage, my lord in heaven!")>>' + 
-		'<<= setup.eventText("You both seem to manage with the Receptionists as the events go on however.")>>' + 
-		'<<= setup.eventText("A young skimpy-clad woman walks up to you and begins to file in a new event.")>>' + 
-		'<<= setup.speak($characters.subject17A, "Hey there, I´m looking to file in a new event-so-like this one is going to be real special.")>>' + 
-		'<<= setup.speak($player, "Okay, name and type of the Event? And pay? We also have a form if you´re familiar with the procedure?")>>' + 
-		'<<= setup.speak($characters.subject17A, "Uuuuh no, this one gonna cost to participate, we´re having a blowbang in suite-6 at the Gloria Hotel! I´m gonna suck so many cocks!", "smile")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
-		options: [
-		{
-			buttonText: 'Continue',
-			resultText: '<<= setup.eventText("You´re slightly taken aback by her abrupt statement.")>>' + 
-			'<<= setup.speak($player, "I´m sorry... What? That´s not really how it works...", "smile")>>' + 
-			'<<= setup.eventText("You´re both quickly interrupted by Dr. Linus running towards the both of you, completely out of breath.")>>' + 
-			'<<= setup.speak($characters.drlinus, "Ah! There you are! Sorry about this mess! One of my younger test-su-... Clients ran off-")>>' + 
-			'<<= setup.speak($characters.subject17A, "I´m trying to suck so many cocks! Like you told me to! I love cock! Mmmh~!")>>' + 
-			'<<= setup.speak($characters.drlinus, "Yes-no! Just follow me now, back to the la-errr... The office, yes. Let´s just go back, come along now.", "smile")>>' + 
-			'<<= setup.speak($characters.subject17A, "Daddy Linus commands! I obey!", "smile")>>' + 
-			'<<= setup.speak($characters.drlinus, "Don-... Whatever, just follow me!", "angry")>>' + 
-			'<<= setup.eventText("You stand there in awe as Linus escorts his companion back to his clinic.")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recUpskirt1 = {
-		name: 'Upskirt Photo (non-slutty)',
-		passageText: '<<= setup.eventText("Walking across the foyer you´re suddenly startled by a bright flash coming from somewhere. At first you think nothing of it, but looking around after a few more bright flashes you spot some guy kneeling not far from you with a camera of some sort.")>>' + 
-		'<<= setup.eventText("At first you don´t pay much attention to it, until it suddenly hits you.")>>' + 
-		'<<= setup.speak($player, "Wait... Is this guy trying to get a fucking upskirt pic?!", "angry")>>' + 
-		'<<= setup.eventText("He sees that you´ve noticed him, but keeps on snapping a few more pics, making you instinctively shield your face with your hand.")>>' + 
-		'<<= setup.speak($player, "What the hell do you think you´re doing?!", "angry")>>' + 
-		'<<= setup.eventText("He stops and immediately darts off towards the adult strip, leaving you puzzled.")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-max', level: 3}],
-		options: [
-		{
-			buttonText: 'Chase the guy down',
-			resultText: '<<= setup.eventText("You quickly forget that you´re wearing heels and in no shape to actually run. You stumble almost immediately and fall face first unto the foyer floor.")>>' + 
-			'<<= setup.speak($player, "Ow! God damn it! Stupid fucking heels!", "angry")>>' + 
-			'<<= setup.eventText("The guy that took the pictures notice and come back, taking advantage of your humiliating situation. The bright flashes continues as you try to regain your composure, your skirt having hiked up exposing your panties and your top almost coming off, you´re giving the guy everything he wants.")>>' + 
-			'<<= setup.speak($player, "Stop taking pictures you idiot!", "angry")>>' + 
-			'<<= setup.eventText("He quickly stops however, seemingly having spotted something in the distance he once again darts off.")>>' + 
-			'<<= setup.speak($characters.brenda, "Yeah! You better run fool! RUN!", "angry")>>' + 
-			'<<= setup.eventText("What he spotted was nothing else than Brenda coming to the rescue, trying to chase the guy down. After a while she comes back and helps you up.")>>' + 
-			'<<= setup.speak($characters.brenda, "I tried, but couldn´t catch him darling...")>>' + 
-			'<<= setup.speak($player, "It\s alright... You tried...")>>' + 
-			'<<run setup.experience($player, "High Heels", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'High Heels', type: 'skill-max', level: 2}]
-		},
-		{
-			buttonText: 'Chase the guy down',
-			resultText: '<<= setup.eventText("You run after the guy, trying to chase him down, but are at an obvious disadvantage. There´s just no way you´re going to be able to catch him whilst being handicapped by your high heels.")>>' + 
-			'<<= setup.speak($player, "God damn it!", "angry")>>' + 
-			'<<= setup.eventText("You give up after losing sight of him, biting your lip in defeat.")>>' + 
-			'<<= setup.speak($player, "Who knows what that pervert will do with those pictures...")>>' + 
-			'<<run setup.experience($player, "High Heels", 15, 15)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'High Heels', type: 'skill-min', level: 2}]
-		},
-		{
-			buttonText: 'Let it go',
-			resultText: '<<= setup.eventText("The guy is rather fast and already out of sight.")>>' + 
-			'<<= setup.speak($player, "If only I could run in these damned heels!", "angry")>>' + 
-			'<<= setup.eventText("You clench your fist in rage over having your privacy violated like this, but eventually sigh and decide that it´s more trouble than what it´s worth to chase him down.")>>' + 
-			'<<= setup.speak($player, "Who knows what that pervert will do with those pictures...")>>' + 
-			'<<run setup.psyche($player, "Feminine", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recUpskirt2 = {
-		name: 'Upskirt Photo (slutty)',
-		passageText: '<<= setup.eventText("Walking across the foyer you´re suddenly startled by a bright flash coming from somewhere. At first you think nothing of it, but looking around after a few more bright flashes you spot some guy kneeling not far from you with a camera of some sort.")>>' + 
-		'<<= setup.eventText("At first you don´t pay much attention to it, until it suddenly hits you.")>>' + 
-		'<<= setup.speak($player, "Wait... Is this guy trying to get an upskirt pic?")>>' + 
-		'<<= setup.eventText("He sees that you´ve noticed him, but keeps on snapping a few more pics")>>' + 
-		'<<= setup.speak($player, "Hmmm... What should I do?")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-min', level: 3}],
-		options: [
-		{
-			buttonText: 'Give the guy a show',
-			resultText: '<<= setup.eventText("You bite your lip as a devious idea infests your mind...")>>' + 
-			'<<= setup.speak($player, "Why not give him his money´s worth?", "smile")>>' + 
-			'<<= setup.eventText("You confidently place your legs apart and hike your skirt up slowly, giving him a seductive glance. He begins to furiously snap away as you give him plain view of your panties.")>>' + 
-			'<<= setup.speak($player, "Like what you see?", "smile")>>' + 
-			'<<= setup.eventText("Looking around you notice a few onlookers and decide to get back to work, the lewd photographer also having gotten what he wanted.")>>' + 
-			'<<= setup.eventText("Your notice a distinct beep as your E-Rating increases.")>>' + 
-			'<<run setup.rating($player, 5)>><<run setup.bonus($player, 50, "Social")>>' + 
-			'<<= setup.speak($player, "He knew who I was?... Oh....", "smile")>>' + 
-			'<<run setup.experience($player, "Social", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Approach him (ask for money)',
-			resultText: '<<= setup.eventText("You try to walk towards him.")>>' + 
-			'<<= setup.speak($player, "No way he´s going to take pictures without paying first!", "angry")>>' + 
-			'<<= setup.eventText("However, as you do so he quickly darts off, leaving you there.")>>' + 
-			'<<= setup.speak($player, "Pfft! Typical!")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Let it go',
-			resultText: '<<= setup.eventText("You let the guy do his thing, trying your best to just ignore him.")>>' + 
-			'<<= setup.speak($player, "Just more weirdos and perverts... Nothing unusual.")>>' + 
-			'<<run setup.psyche($player, "Feminine", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recUpskirt3 = {
-		name: 'Upskirt Photo (mindbroken)',
-		passageText: '<<= setup.eventText("Standing in the foyer, you mind is off to wonderland as you´re suddenly startled by a bright flash coming from somewhere.")>>' + 
-		'<<= setup.eventText("Not really paying much attention to anything you just stand there... mumbling about cocks and cum...")>>' + 
-		'<<= setup.speak($player, "Mmmmh... cockies and cummies...", "smile")>>' + 
-		'<<= setup.eventText("The flashes come closer, and you look down, seeing some guy with what supposedly looks like a camera pointing directly up your skirt.")>>',
-		requirements: [{id: 'Mind', type: 'psyche-min', level: 3}],
-		options: [
-		{
-			buttonText: '*drool*...',
-			resultText: '<<= setup.eventText("You simply drool as he continues to expand his personal portfolio with your pantyshots.")>>' + 
-			'<<= setup.speak($player, "Hehe... bright flashes... Mmmmgh...")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recSkirtPromo1 = {
-		name: 'Skirt Promo (non-slutty)',
-		passageText: '<<= setup.eventText("As you near the exit however, Brenda barges into the backroom.")>>' + 
-		'<<= setup.speak($characters.brenda, "Hey gurl... So, I just talked to the manager! And guess what? We gonna have a short skirt promo today!", "smile")>>' + 
-		'<<= setup.speak($player, "Wait what? What does that fucking mean?")>>' + 
-		'<<= setup.speak($characters.brenda, "Bonus pay! And all yo ass gotta do is put on this!", "smile")>>' + 
-		'<<= setup.eventText("She hands you a comically short micro-skirt.")>>' + 
-		'<<= setup.speak($player, "You can´t be serious?! This is outragous!")>>' + 
-		'<<= setup.speak($characters.brenda, "Not at all gurl! Just think of it as a little excitement!", "smile")>>' + 
-		'<<= setup.speak($player, "How am I supposed to pick anything up?! I would flash everything with this on!")>>' + 
-		'<<= setup.eventText("You stand there contemplating what to do.")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-max', level: 3}],
-		options: [
-		{
-			buttonText: 'Put on the short skirt',
-			resultText: '<<= setup.speak($player, "Alright whatever, let´s do this.")>>' + 
-			'<<= setup.eventText("You slip on the extremely short micro-skirt.")>>' + 
-			'<<= setup.speak($characters.brenda, "Looking like a real money-making slut there gurl! Ahaha!", "smile")>>' + 
-			'<<= setup.eventText("You both laugh it off as you enter the foyer, the micro-skirt forcing you to strut more to avoid it creeping up exposing your g-string.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Holy shit dude, check it out! Them eVentia girls slutting it up! Hell yeah!", "surprised")>>' + 
-			'<<= setup.speak($npc.executives[0], "Nice bro!", "smile")>>' + 
-			'<<= setup.eventText("You receive copious amounts of stares and even a few perverts trying to hike a peek under your skirt.")>>' + 
-			'<<= setup.speak($player, "This really does give you some attention, huh?")>>' + 
-			'<<= setup.speak($characters.brenda, "Well, you a good looking gal, no doubt!", "smile")>>' + 
-			'<<= setup.eventText("You breathe lightly as the shift comes to an end with nothing else, but a few lewd remarks and extra attention.")>>' + 
-			'<<run setup.psyche($player, "Lust", 50, 25)>>' + 
-			'<<run setup.psyche($player, "Slut", 5, 5, 2)>>' + 
-			'<<run setup.rating($player, 10)>><<run setup.bonus($player, 200, "Social")>><<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
-		},
-		{
-			buttonText: 'Refuse to put on the skirt',
-			resultText: '<<= setup.speak($player, "Yeah I think I´m gonna pass on this one.")>>' + 
-			'<<= setup.eventText("Brenda chuckles as she puts on her micro-skirt.")>>' + 
-			'<<= setup.speak($characters.brenda, "Suit yerself gurl, this ass here gonna shake that money-maker!", "smile")>>' + 
-			'<<= setup.eventText("As the day goes on it quickly becomes apparent that you´re one of if not the only eVentia Receptionist not doing the promo.")>>' + 
-			'<<= setup.speak($player, "Tsk... Whatever.")>>' + 
-			'<<= setup.eventText("The day goes by normally otherwise.")>>' + 
-			'<<run setup.psyche($player, "Feminine", 3, 2, 1)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recSkirtPromo2 = {
-		name: 'Skirt Promo (slutty)',
-		passageText: '<<= setup.eventText("As you near the exit however, Brenda barges into the backroom.")>>' + 
-		'<<= setup.speak($characters.brenda, "Hey gurl... So, I just talked to the manager! And guess what? We gonna have a short skirt promo today!", "smile")>>' + 
-		'<<= setup.speak($player, "Hell yeah! Time to make some money!", "smile")>>' + 
-		'<<= setup.speak($characters.brenda, "Bonus pay! And all yo ass gotta do is put on this! Easy!", "smile")>>' + 
-		'<<= setup.eventText("She hands you a comically short micro-skirt.")>>' + 
-		'<<= setup.speak($player, "That´s it? Easy indeed!", "smile")>>' + 
-		'<<= setup.eventText("You quickly put on the micro-skirt")>><<run setup.equipOutfit($player, "sluttyreceptionist", "nostash")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-min', level: 3}],
-		options: [
-		{
-			buttonText: 'Continue',
-			resultText: '<<= setup.speak($characters.brenda, "Looking like a real money-making slut there gurl! Ahaha!", "smile")>>' + 
-			'<<= setup.eventText("You both laugh it off as you enter the foyer, the micro-skirt forcing you to strut more to avoid it creeping up exposing your g-string. However, you eventually stop caring and just let it happen.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Holy shit dude, check it out! Them eVentia girls slutting it up! Hell yeah!", "surprised")>>' + 
-			'<<= setup.speak($npc.executives[0], "Nice bro!", "smile")>>' + 
-			'<<= setup.eventText("You receive copious amounts of stares and even a few perverts trying to hike a peek under your skirt. Which only makes you more wet and enjoy yourself.")>>' + 
-			'<<= setup.speak($player, "This really does give you some attention, huh?")>>' + 
-			'<<= setup.speak($characters.brenda, "Well, you a good looking gal, no doubt!", "smile")>>' + 
-			'<<= setup.eventText("The day comes to an end having received copious amounts of cat-calls, stares and lewd remarks.")>>' + 
-			'<<run setup.psyche($player, "Lust", 50, 100)>>' + 
-			'<<run setup.rating($player, 10)>><<run setup.bonus($player, 200, "Social")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recComicCon = {
-		name: 'Comic Convention',
-		passageText: '<<= setup.eventText("As you head towards Brenda in the lobby, your ears are filled with busy chatter and loud commotion of visitors.")>>' + 
-		'<<= setup.speak($player, "Any reason for all the people?")>>' + 
-		'<<= setup.speak($characters.brenda, "Yep, a comic convention is going on, you and me have been called in to oversee some of the booths, so strap up gurl! Should be a small bonus in it for us too!")>>' + 
-		'<<= setup.eventText("You both move down to the venue in question and reach your assigned booth, selling some form of drive with a light-comic featuring a renowned heroine. You take a quick peek and realize it´s bordering on softcore porn.")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-min', level: 3}],
-		options: [
-		{
-			buttonText: 'Continue',
-			resultText: '<<= setup.eventText("You arrive with Brenda at your supposedly assigned booth. You pick up an issue of the light comics and immediately lay your eyes on some bimbo heroine in an obscene leotard, her tits spilling out and hips putting pressure on the integrity of the comics shape.")>>' + 
-			'<<= setup.speak($player, "Honestly not surprised....")>>' + 
-			'<<= setup.eventText("Putting the comic down you´re greeted by the near-splitting image of said heroine. Not nearly as busty as drawn, but close, her blonde her spilling out, but doing nothing to cover her lewd cleavage. ")>>' + 
-			'<<= setup.speak($characters.subject17A, "Hey there! Your body model for the fan shoots is here! Let´ts get to it?", "smile")>>' + 
-			'<<= setup.speak($player, "Right sure... of course...")>>' + 
-			'<<= setup.speak($npc.adults[0], "Hey look everyone! It´s Sexia-Supreme!", "surprised")>>' + 
-			'<<= setup.eventText("The commotion of the venue is suddenly directed towards your booth as a line forms. Brenda almost instinctly flips out a camera and directs it at the eager fans surrounding their wet dream. You notice that at least a dusin of them are extremely handsy and almost outright grabbing her ass and feeling her up.")>>' + 
-			'<<= setup.speak($characters.subject17A, "Mmmh! Sexia has time for all of her fans! Haha!")>>' + 
-			'<<run setup.psyche($player, "Lust", 25, 25)>>' + 
-			'<<run setup.experience($player, "Social", 5, 15)>>' + 
-			'<<run setup.rating($player, 2)>><<run setup.bonus($player, 150, "Social")>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recStripClub1 = {
-		name: 'Strip Club Guidance (non-feminine)',
-		passageText: '<<= setup.eventText("As the day goes by the lobby empties out giving you a much needed break. Leaning over the desk, a couple of guys show up approaching you.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Hey there honey, can ya point us towards the nearest Strip Club?", "smile")>>' + 
-		'<<= setup.eventText("The other guy turns around, his eyes landing on your chest.")>>' + 
-		'<<if $player.body.tits.size <= 2>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, you flat as all hell girl!", "angry")>>' + 
-		'<<= setup.speak($player, "Oh really? That´s rich, why don´t you just piss off bro?!", "angry")>>' + 
-		'<<= setup.eventText("You look down towards your bee-stings... He´s right though...")>>' + 
-		'<<elseif $player.body.tits.size == 3>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, she barely makes the cut!", "angry")>>' + 
-		'<<= setup.speak($player, "Oh really? That´s rich, why don´t you just piss off bro?!", "angry")>>' + 
-		'<<= setup.eventText("You look down towards your tits... Even though they´re there, maybe they could be bigger?")>>' + 
-		'<<else>><<= setup.speak($npc.executives[0], "Holy shit! Look at the tits on this one bro!", "surprised")>>' + 
-		'<<= setup.speak($npc.adults[1], "Oh my! Mammarinas! You gonna work at the Strip Club honey? How much for a lap-dance on my cock?", "surprised")>>' + 
-		'<<= setup.speak($player, "I´m not for sale bro! What the fuck is wrong with you?!", "angry")>>' + 
-		'<<= setup.eventText("You look down towards your massive tits... Are they too big? You look like a fucking bimbo.")>>' + 
-		'<</if>>' + 
-		'<<= setup.speak($npc.executives[0], "Maaaan! Whatever, just point us towards the Strip Club.", "smile")>>' + 
-		'<<= setup.speak($npc.adults[0], "Yeah, the Strip Club man, need myself some tits in my face, come on baby!", "smile")>>', 
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-max', level: 2}],
-		options: [
-		{
-			buttonText: 'Give them directions',
-			resultText: '<<= setup.eventText("You turn your client screen around showing them a path towards the Adult Strip.")>>' + 
-			'<<= setup.speak($player, "Gloria Girls is by the Adult Strip, should be just by the corner.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Thanks babe, you´re still hot though, I´d fuck ya anytime.", "smile")>>' + 
-			'<<= setup.eventText("They both continue towards the Adult Strip, only stopping to stare at other working girls.")>>' + 
-			'<<run setup.psyche($player, "Lust", 25, 25)>>' + 
-			'<<run setup.experience($player, "Social", 5, 5, 2)>>' + 
-			'<<run setup.rating($player, 2)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recStripClub2 = {
-		name: 'Strip Club Guidance (feminine)',
-		passageText: '<<= setup.eventText("As the day goes by the lobby empties out giving you a much needed break. Leaning over the desk, a couple of guys show up approaching you.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Hey there honey, can ya point us towards the nearest Strip Club?", "smile")>>' + 
-		'<<= setup.eventText("The other guy turns around, his eyes landing on your chest.")>>' + 
-		'<<if $player.body.tits.size <= 2>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, you flat as all hell girl!", "angry")>>' + 
-		'<<= setup.speak($player, "I´m not some kind of sex object you know! I´m a woman!", "angry")>>' + 
-		'<<= setup.eventText("You look down towards your bee-stings... He´s right though...")>>' + 
-		'<<elseif $player.body.tits.size == 3>><<= setup.speak($npc.executives[0], "Man! I thought them eVentia whores we´re gonna have some tits man, she barely makes the cut!", "angry")>>' + 
-		'<<= setup.speak($player, "I´m not some kind of sex object you know! I´m a woman!", "angry")>>' + 
-		'<<= setup.eventText("You look down towards your tits... Even though they´re there, maybe they could be bigger?")>>' + 
-		'<<else>><<= setup.speak($npc.executives[0], "Holy shit! Look at the tits on this one bro!", "surprised")>>' + 
-		'<<= setup.speak($npc.adults[1], "Oh my! Mammarinas! You gonna work at the Strip Club honey? How much for a lap-dance on my cock?", "surprised")>>' + 
-		'<<= setup.speak($player, "What the hell?! I´m not a whore!", "angry")>>' + 
-		'<<= setup.eventText("You look down towards your massive tits... Are they too big? You look like a fucking bimbo.")>>' + 
-		'<</if>>' + 
-		'<<= setup.speak($npc.executives[0], "Maaaan! Whatever, just point us towards the Strip Club.", "smile")>>' + 
-		'<<= setup.speak($npc.adults[0], "Yeah, the Strip Club man, need myself some tits in my face, come on baby!", "smile")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Feminine', type: 'psyche-min', level: 2}],
-		options: [
-		{
-			buttonText: 'Give them directions',
-			resultText: '<<= setup.eventText("You turn your client screen around showing them a path towards the Adult Strip.")>>' + 
-			'<<= setup.speak($player, "Gloria Girls is by the Adult Strip, should be just by the corner.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Thanks babe, you´re still hot though, I´d fuck ya anytime.", "smile")>>' + 
-			'<<= setup.eventText("They both continue towards the Adult Strip, only stopping to stare at other working girls.")>>' + 
-			'<<run setup.psyche($player, "Lust", 25, 25)>>' + 
-			'<<run setup.experience($player, "Social", 5, 5, 2)>>' + 
-			'<<run setup.rating($player, 2)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recDrool = {
-		name: 'Mindbroken',
-		passageText: '<<= setup.eventText("You power through the fog, catching yourself drooling at times, you try to do your best just standing by the desk.")>>' + 
-		'<<= setup.eventText("Every now and then, you realize someone is groping you, for how long? Could you even make them stop if you wanted to?")>>' + 
-		'<<= setup.eventText("Mmmmmh... What´s even going on?")>>' + 
-		'<<= setup.eventText("You feel a rough *SMACK* connect with your cheek.")>>',
-		requirements: [{id: 'Mind', type: 'psyche-min', level: 3}],
-		options: [
-		{
-			buttonText: 'Ow!',
-			resultText: '<<= setup.speak($characters.brenda, "Uuuuh you awake? Geez, this is kinda bad.")>>' + 
-			'<<= setup.speak($player, "*drools*........")>>' + 
-			'<<= setup.speak($characters.brenda, "I don´t think I can cover you on this one gurl....")>>' + 
-			'<<run setup.psyche($player, "Lust", 10, 25)>>' + 
-			'<<run setup.rating($player, -100)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recPantiePurchase1 = {
-		name: 'Pantie Purchase (non-slutty)',
-		passageText: '<<= setup.eventText("As you finish showing a young couple the direction to the adult strip, you´re approached by a new figure.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Hey... uuuh, how much for yer panties?")>>' + 
-		'<<= setup.speak($player, "Excuse me? Could you repeat that?")>>' + 
-		'<<= setup.speak($npc.adults[0], "Your panties... I uuuh, I want to purchase them.", "smile")>>' + 
-		'<<= setup.speak($player, "MY WHAT?!", "angry")>>' + 
-		'<<= setup.eventText("You grit your teeth and clench your fist, almost raising your fist to attack him. Yet, you´re quickly reminded of your current predicament.")>>' + 
-		'<<= setup.speak($player, "Ahem... they are obviously not for sale.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Come on baby-girl, just name yer price!", "smile")>>' + 
-		'<<= setup.eventText("You think about it for a second.")>>',
-		requirements: [{id: 'Slut', type: 'psyche-max', level: 2}],
-		options: [
-		{
-			buttonText: 'Hell no',
-			resultText: '<<= setup.speak($player, "Hell no! Piss off already!", "angry")>>' + 
-			'<<= setup.speak($npc.adults[0], "Geez, whatever... Fucking whore.", "angry")>>' + 
-			'<<= setup.eventText("You quickly make your way back to the receptionist desk, avoiding any visitor that looks like a creep along the way. As you approach the desk, you spot Brenda.")>>' + 
-			'<<= setup.speak($characters.brenda, "Your ass looking awfully flustered, gurl. Something wrong?")>>' + 
-			'<<= setup.speak($player, "Some creep wanted to buy my damn panties!", "angry")>>' + 
-			'<<= setup.speak($characters.brenda, "Ya didn´t sell em? What a loss. Buying spares are cheap you know. You can easily make a lot just selling them nice and wet ones to them creeps I tell ya.")>>' + 
-			'<<= setup.eventText("You cringe a little on the inside.")>>' + 
-			'<<= setup.speak($player, "Really?")>>' + 
-			'<<= setup.speak($characters.brenda, "Ya, of course gurl!", "smile")>>' + 
-			'<<= setup.eventText("You think about the incident. Maybe you could have made a lot of units after all?")>>' + 
-			'<<run setup.psyche($player, "Lust", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: '100 Units.',
-			resultText: '<<= setup.speak($player, "Alright... 100 units and they´re yours.", "smile")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sold baby! Haha! Jackpot!", "smile")>>' + 
-			'<<= setup.eventText("You look around the foyer for a small place you can go to to take off your panties. You spot a column that looks hidden well enough.")>>' + 
-			'<<= setup.speak($player, "One moment, let me just get them off.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure.")>>' + 
-			'<<= setup.eventText("Heading towards the column, you hide behind it. Your heart pounding madly, you slip up your skirt and flick the string underneath you thumb. Clumsily you let your g-string trail along your soft loins.")>>' + 
-			'<<run setup.psyche($player, "Lust", 75, 50)>>' + 
-			'<<= setup.eventText("Picking up the g-string you feel the moist damp panties in your hand. You return to the man and give him the thin fabric soaked in your juices.")>>' + 
-			'<<= setup.speak($player, "And my pay?")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure, hera ya go.", "smile")>>' + 
-			'<<= setup.eventText("You feel your E-Pal vibrate as it registers the units going in.")>>' + 
-			'<<run setup.rating($player, 25)>>' + 
-			'<<run setup.bonus($player, 100, "Hard")>><<= setup.logEPal("Sold Panties", 100, 0)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
-		},
-		{
-			buttonText: '500 Units.',
-			resultText: '<<= setup.speak($player, "Alright... 500 units and they´re yours.", "smile")>>' + 
-			'<<= setup.speak($npc.adults[0], "A bit expensive! But alright.", "smile")>>' + 
-			'<<= setup.eventText("You look around the foyer for a small place you can go to to take off your panties. You spot a column that looks hidden well enough.")>>' + 
-			'<<= setup.speak($player, "One moment, let me just get them off.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure.")>>' + 
-			'<<= setup.eventText("Heading towards the column, you hide behind it. Your heart pounding madly, you slip up your skirt and flick the string underneath you thumb. Clumsily you let your g-string trail along your soft loins.")>>' + 
-			'<<run setup.psyche($player, "Lust", 75, 50)>>' + 
-			'<<= setup.eventText("Picking up the g-string you feel the moist damp panties in your hand. You return to the man and give him the thin fabric soaked in your juices.")>>' + 
-			'<<= setup.speak($player, "And my pay?")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure, hera ya go.", "smile")>>' + 
-			'<<= setup.eventText("You feel your E-Pal vibrate as it registers the units going in.")>>' + 
-			'<<run setup.bonus($player, 500, "Hard")>><<= setup.logEPal("Sold Panties", 500, 0)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
-		},
-		{
-			buttonText: '1000 Units.',
-			resultText: '<<= setup.speak($player, "Alright... 1000 units and they´re yours.", "smile")>>' + 
-			'<<= setup.speak($npc.adults[0], "Ugh! Another whore with an inflated idea of her worth!", "angry")>>' + 
-			'<<= setup.speak($player, "Fuck you too!", "angry")>>' + 
-			'<<= setup.eventText("You quickly make your way back to the receptionist desk, avoiding any visitor that looks like a creep along the way. As you approach the desk, you spot Brenda.")>>' + 
-			'<<= setup.speak($characters.brenda, "Your ass looking awfully flustered, gurl. Something wrong?")>>' + 
-			'<<= setup.speak($player, "Some creep wanted to buy my damn panties!", "angry")>>' + 
-			'<<= setup.speak($characters.brenda, "Ya didn´t sell em? What a loss. Buying spares are cheap you know. You can easily make a lot just selling them nice and wet ones to them creeps I tell ya.")>>' + 
-			'<<= setup.eventText("You cringe a little on the inside.")>>' + 
-			'<<= setup.speak($player, "I already tried selling them for 1000 units.")>>' + 
-			'<<= setup.speak($characters.brenda, "WOW! That is a little on the steep side gurl. I´d part with mine at 300. Maybe try a little lower?", "smile")>>' + 
-			'<<= setup.eventText("You think about the incident. Maybe you should try a little lower the next time?")>>' + 
-			'<<run setup.psyche($player, "Lust", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
-		}]
-	}
-	let recPantiePurchase2 = {
-		name: 'Pantie Purchase (slutty)',
-		passageText: '<<= setup.eventText("As you finish showing a young couple the direction to the adult strip, you´re approached by a new figure.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Hey... uuuh, how much for yer panties?")>>' + 
-		'<<= setup.speak($player, "You want to get your hands on this ladies panties? It´s gonna cost you.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Sure-sure, just... Mention a price girly.", "smile")>>' + 
-		'<<= setup.eventText("You think about it for a moment.")>>',
-		requirements: [{id: 'Slut', type: 'psyche-min', level: 2}],
-		options: [
-		{
-			buttonText: '100 Units.',
-			resultText: '<<= setup.speak($player, "Alright... 100 units and they´re yours.", "smile")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sold baby! Haha! Jackpot!", "smile")>>' + 
-			'<<= setup.eventText("You look around the foyer for a small place you can go to to take off your panties. You spot a column that looks hidden well enough.")>>' + 
-			'<<= setup.speak($player, "One moment, let me just get them off.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure.")>>' + 
-			'<<= setup.eventText("Heading towards the column, you hide behind it. Your heart pounding madly, you slip up your skirt and flick the string underneath you thumb. Clumsily you let your g-string trail along your soft loins.")>>' + 
-			'<<run setup.psyche($player, "Lust", 75, 50)>>' + 
-			'<<= setup.eventText("Picking up the g-string you feel the moist damp panties in your hand. You return to the man and give him the thin fabric soaked in your juices.")>>' + 
-			'<<= setup.speak($player, "And my pay?")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure, hera ya go.", "smile")>>' + 
-			'<<= setup.eventText("You feel your E-Pal vibrate as it registers the units going in.")>>' + 
-			'<<run setup.rating($player, 25)>>' + 
-			'<<run setup.bonus($player, 100, "Hard")>><<= setup.logEPal("Sold Panties", 100, 0)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: '500 Units.',
-			resultText: '<<= setup.speak($player, "Alright... 500 units and they´re yours.", "smile")>>' + 
-			'<<= setup.speak($npc.adults[0], "A bit expensive! But alright.", "smile")>>' + 
-			'<<= setup.eventText("You look around the foyer for a small place you can go to to take off your panties. You spot a column that looks hidden well enough.")>>' + 
-			'<<= setup.speak($player, "One moment, let me just get them off.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure.")>>' + 
-			'<<= setup.eventText("Heading towards the column, you hide behind it. Your heart pounding madly, you slip up your skirt and flick the string underneath you thumb. Clumsily you let your g-string trail along your soft loins.")>>' + 
-			'<<run setup.psyche($player, "Lust", 75, 50)>>' + 
-			'<<= setup.eventText("Picking up the g-string you feel the moist damp panties in your hand. You return to the man and give him the thin fabric soaked in your juices.")>>' + 
-			'<<= setup.speak($player, "And my pay?")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure, hera ya go.", "smile")>>' + 
-			'<<= setup.eventText("You feel your E-Pal vibrate as it registers the units going in.")>>' + 
-			'<<run setup.bonus($player, 500, "Hard")>><<run setup.logEPal("Sold Panties", 500, 0)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: '1000 Units.',
-			resultText: '<<= setup.speak($player, "Alright... 1000 units and they´re yours.", "smile")>>' + 
-			'<<= setup.speak($npc.adults[0], "Ugh! Another whore with an inflated idea of her worth!", "angry")>>' + 
-			'<<= setup.speak($player, "Fuck you too!", "angry")>>' + 
-			'<<= setup.eventText("You quickly make your way back to the receptionist desk, avoiding any visitor that looks like a creep along the way. As you approach the desk, you spot Brenda.")>>' + 
-			'<<= setup.speak($characters.brenda, "Your ass looking awfully flustered, gurl. Something wrong?")>>' + 
-			'<<= setup.speak($player, "Some creep wanted to buy my damn panties!", "angry")>>' + 
-			'<<= setup.speak($characters.brenda, "Ya didn´t sell em? What a loss. Buying spares are cheap you know. You can easily make a lot just selling them nice and wet ones to them creeps I tell ya.")>>' + 
-			'<<= setup.eventText("You cringe a little on the inside.")>>' + 
-			'<<= setup.speak($player, "I already tried selling them for 1000 units.")>>' + 
-			'<<= setup.speak($characters.brenda, "WOW! That is a little on the steep side gurl. I´d part with mine at 300. Maybe try a little lower?", "smile")>>' + 
-			'<<= setup.eventText("You think about the incident. Maybe you should try a little lower the next time?")>>' + 
-			'<<run setup.psyche($player, "Lust", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Free for a great rating.',
-			resultText: '<<= setup.speak($player, "You know what stud? They´re free for the taking if you give me a good rating.", "smile")>>' + 
-			'<<= setup.speak($npc.adults[0], "Oh shit, really? Deal!", "smile")>>' + 
-			'<<= setup.speak($player, "I want that rating to be sparkling though! The best you have ever given.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Sure-sure, of course!", "smile")>>' + 
-			'<<= setup.eventText("You look around the foyer for a small place you can go to to take off your panties. You spot a column that looks hidden well enough.")>>' + 
-			'<<= setup.speak($player, "One moment, let me just get them off.")>>' + 
-			'<<= setup.speak($npc.adults[0], "Alright, I´ll just stand here then.")>>' + 
-			'<<= setup.eventText("Heading towards the column, you hide behind it. Your heart pounding madly, you slip up your skirt and flick the string underneath you thumb. Clumsily you let your g-string trail along your soft loins.")>>' + 
-			'<<run setup.psyche($player, "Lust", 75, 50)>>' + 
-			'<<= setup.eventText("Picking up the g-string you feel the moist damp panties in your hand. You return to the man and give him the thin fabric soaked in your juices.")>>' + 
-			'<<= setup.speak($player, "Don´t forget the rating now!")>>' + 
-			'<<= setup.speak($npc.adults[0], "Of course.", "smile")>>' + 
-			'<<run setup.rating($player, 100)>>' + 
-			'<<run setup.psyche($player, "Lust", 5, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recBimboDream = {
-		name: 'Bimbo Dream',
-		passageText: '<<= setup.eventText("Standing around the foyer, you feel your loins moisten and your nipples harden. The day has been long and dull, with no cocks-... or err, men to guide around the entertainment center.")>>' + 
-		'<<= setup.speak($player, "Oooh fuck. This is too boring.")>>' + 
-		'<<= setup.eventText("You absent-mindedly begin to feel yourself up, your hand hiking up along your short skirt.")>>' + 
-		'<<= setup.speak($player, "Mmmh.. fuck, I need a cock inside me soon.", "smile")>>' +
-		'<<= setup.eventText("Suddenly you feel a hand placed on your ass and some hot guys getting real close and handsy.")>>' + 
-		'<<= setup.speak($npc.adults[0], "Holy shit, this bitch is ready to go boys!", "smile")>>' + 
-		'<<= setup.speak($player, "Oh my! Are you guys going to fuck me?! Here for everyone to watch?!", "surprised")>>' + 
-		'<<= setup.speak($npc.executives[0], "Hell yeah bitch, get on your knees! Suck me.", "smile")>>' + 
-		'<<= setup.speak($player, "Yummy!", "smile")>>' + 
-		'<<= setup.eventText("You get on your knees, the group of men quickly becoming a small gang. You hear zippers being undone all around you as you´re promptly shoved into someones crotch. The musk of cock quickly fills your nostrils.")>>' + 
-		'<<= setup.speak($npc.adults[1], "Don´t forget me too, bitch!", "smile")>>' + 
-		'<<= setup.eventText("Before you know it, you have a cock shoved down your throat, as well as one in each hand. Several onlookers begin to take out their phones filming your whorish act in the middle of the foyer.")>>' + 
-		'<<= setup.speak($player, "*gluck*..*gluck*..*cough*...mmmh fuck my throa-..*gluck*", "pleasure")>>' + 
-		'<<= setup.speak($npc.adults[1], "Damn this bitch is goo-...oooh!", "pleasure")>>' + 
-		'<<= setup.eventText("*SLAP*")>>',
-		requirements: [{id: 'Bimbo', type: 'psyche-min', level: 3}],
-		options: [
-		{
-			buttonText: 'Continue',
-			resultText: '<<= setup.speak($characters.brenda, "You awake gurl?! Dang gurl! Your ass can´t be sleepin´ on the job! Your rating is gonna tank!")>>' + 
-			'<<= setup.speak($player, "Uuuh... Cocks... mmmh...WHAT?! Where was I?!", "surprised")>>' + 
-			'<<= setup.speak($characters.brenda, "Cocks... Really? You sit here day-dreaming about cocks?")>>' + 
-			'<<= setup.speak($player, "Sorry-sorry! It was just a dream!", "surprised")>>' + 
-			'<<= setup.eventText("Brenda chuckles at your flustered reaction.")>>' + 
-			'<<= setup.speak($characters.brenda, "Sure gurl, just-.. stay awake now. Can´t have you slippin´ back into your little cock dreams again on the job now can we?", "smile")>>' + 
-			'<<= setup.eventText("You get a sudden feeling that Brenda will never live that down from now on.")>>' + 
-			'<<run setup.psyche($player, "Lust", 10, 25)>>' + 
-			'<<run setup.psyche($player, "Bimbo", 1, 4)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recExecutiveMeeting1 = {
-		name: 'Executive Meeting (non-slutty)',
-		passageText: '<<= setup.eventText("Your chat and coffee break with Brenda is suddenly interrupted as three men in sleek neon business suits present themselves at the desk.")>>' + 
-		'<<= setup.speak($player, "Welcome to eVentia! How-")>>' + 
-		'<<= setup.speak($characters.executive1, "Save it puppy. Conference Room 076. Escort us, would you doll?")>>' + 
-		'<<= setup.eventText("He snaps his fingers and waves his hand for you to follow.")>>' + 
-		'<<= setup.speak($player, "Excuse me... WHAT?!", "angry")>>' + 
-		'<<= setup.speak($characters.executive1, "Did I stutter? Conference Room 076. Move that ass, come on puppet.")>>' + 
-		'<<= setup.eventText("You clench your fist and grind your teeth.")>>',
-		requirements: [{id: 'Slutty', type: 'psyche-max', level: 2}],
-		options: [
-		{
-			buttonText: 'Fuck you bro!',
-			resultText: '<<= setup.speak($player, "Fuck you bro! I´m not your fucking puppet!", "angry")>>' + 
-			'<<= setup.eventText("Brenda almost chokes on her coffee as all three executives just stand there, mouths dropped and frozen in shock.")>>' + 
-			'<<= setup.speak($characters.brenda, "Oh shi-*cough*! Uh! Sorry! She did NOT mean that! Let me take you there now!", "surprised")>>' + 
-			'<<= setup.eventText("The executives all look visibly shaken, grasping for words as Brenda frantically drag them away from the desk.")>>' + 
-			'<<= setup.speak($characters.brenda, "Come now, this way!", "smile")>>' + 
-			'<<= setup.eventText("She sends you a stern view of judgement before dissapearing around the corner, escorting the suits to their conference room.")>>' + 
-			'<<run setup.psyche($player, "Feminine", -1, -4)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Feminine', type: 'psyche-max', level: 2}]
-		},
-		{
-			buttonText: 'Sure, whatever.',
-			resultText: '<<= setup.speak($player, "Ugh, sure, whatever. Follow me then...")>>' + 
-			'<<= setup.eventText("You put down your coffee and move towards the conference rooms.")>>' + 
-			'<<= setup.speak($characters.executive1, "That would be sir, mind you.", "smile")>>' + 
-			'<<= setup.speak($player, "Of course... Sirs... This way.")>>' + 
-			'<<= setup.eventText("They follow you towards the conference rooms, an uncomfortable silence quickly taking hold. You arrive shortly after.")>>' + 
-			'<<= setup.speak($player, "Well... here it is... Sir.", "smile")>>' + 
-			'<<= setup.eventText("He flicks at his wrist, which makes your E-Pal vibrate slightly.")>>' + 
-			'<<= setup.speak($characters.executive1, "What a dreadful performance girl. Barely merits the point.", "smile")>>' + 
-			'<<= setup.speak($characters.executive1, "Next time learn how to work those hips so me and the boys have something to take our minds off your insulting attitude.", "smile")>>' + 
-			'<<= setup.speak($player, "W-what?!", "angry")>>' + 
-			'<<= setup.eventText("The three of them quickly enter the conference room, hanging you out to dry.")>>' + 
-			'<<run setup.psyche($player, "Feminine", 1, 4)>>' + 
-			'<<run setup.rating($player, 1)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recExecutiveMeeting2 = {
-		name: 'Executive Meeting (slutty)',
-		passageText: '<<= setup.eventText("Your chat and coffee break with Brenda is suddenly interrupted as three men in sleek neon business suits present themselves at the desk.")>>' + 
-		'<<= setup.speak($player, "Welcome to eVentia! How-")>>' + 
-		'<<= setup.speak($characters.executive1, "Save it puppy. Conference Room 076. Escort us, would you doll?")>>' + 
-		'<<= setup.eventText("He snaps his fingers and waives his hand for you to follow.")>>' + 
-		'<<= setup.speak($player, "Of course sir...", "default")>>' + 
-		'<<= setup.speak($characters.executive1, "Alright then, let´s get a move on. Tight on time.")>>' + 
-		'<<= setup.eventText("You put down your coffee and quickly move towards the conference rooms, the executives following close behind you.")>>',
-		requirements: [{id: 'Slutty', type: 'psyche-min', level: 3}],
-		options: [
-		{
-			buttonText: 'Sway your booty.',
-			resultText: '<<= setup.eventText("You sway your booty with every step, putting on a show. The flicking of the heels turning louder as they connect with the floor.")>>' + 
-			'<<= setup.eventText("Even a few clients turn around on the way there.")>>' + 
-			'<<= setup.speak($player, "Here we are, sirs. Anything else~?", "smile")>>' + 
-			'<<= setup.eventText("A short silence follows as all three of them are taken out of your spell as you turn to face them.")>>' + 
-			'<<= setup.speak($characters.executive1, "Right... Right! Uuuuh, here? Oh it´s here... And on time. Excellent.", "smile")>>' + 
-			'<<= setup.speak($player, "Anything else?", "smile")>>' + 
-			'<<= setup.speak($characters.executive1, "No... That would be all.")>>' + 
-			'<<= setup.eventText("The three of them slowly enter the conference room, all of them getting one last look all over your figure. Your E-Pal vibrates shortly after.")>>' + 
-			'<<run setup.rating($player, 50)>>' + 
-			'<<run setup.psyche($player, "Slut", 1, 4)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Keep things professional.',
-			resultText: '<<= setup.eventText("They follow you towards the conference rooms and you arrive shortly after.")>>' + 
-			'<<= setup.speak($player, "We have arrived, sir.", "smile")>>' + 
-			'<<= setup.eventText("He flicks at his wrist, which makes your E-Pal vibrate slightly.")>>' + 
-			'<<= setup.speak($characters.executive1, "Very well then, you should be on your way then doll.")>>' + 
-			'<<= setup.speak($characters.executive1, "That fine piece of ass is probably needed elsewhere.", "smile")>>' + 
-			'<<= setup.speak($player, "O-of course, sir, thank you.", "smile")>>' + 
-			'<<= setup.eventText("The three of them quickly enter the conference room.")>>' + 
-			'<<run setup.rating($player, 5)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
-	let recGreatJob = {
-		name: 'Great Job (Social)',
-		passageText: '<<= setup.eventText("As the day comes to a close, you sigh and once again adjust your skirt creeping up. You spot Brenda in the distance coming towards you.")>>' + 
-		'<<= setup.speak($characters.brenda, "Sup gurl! I got some good news!", "smile")>>' + 
-		'<<= setup.speak($player, "Oh really?")>>' + 
-		'<<= setup.speak($characters.brenda, "Hells yeah... some important CEO slided a good word through to us! Your ass and my ass gettin´ a bonus!", "smile")>>' + 
-		'<<= setup.eventText("Her warmth embraces you as she swoops in for a hug. Her tits pushing against yours.")>>' + 
-		'<<= setup.speak($characters.brenda, "Just what I needed.")>>',
-		requirements: [{id: 'Mind', type: 'psyche-max', level: 1}],
-		options: [
-		{
-			buttonText: 'Getting a little too close.',
-			resultText: '<<= setup.speak($player, "Woah, getting a little close there.")>>' + 
-			'<<= setup.eventText("She giggles and lets go.")>>' + 
-			'<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>' + 
-			'<<= setup.eventText("You both check your E-Pals as they register the bonus.")>>' +
-			'<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>' + 
-			'<<run setup.bonus($player, 250, "Social")>>' + 
-			'<<run setup.rating($player, 50)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		},
-		{
-			buttonText: 'Damn girl control those honkers.',
-			resultText: '<<= setup.eventText("You feel your cock harden as she presses her tits against you.")>>' + 
-			'<<= setup.speak($player, "Damn girl control those honkers")>>' + 
-			'<<= setup.eventText("She giggles and lets go.")>>' + 
-			'<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>' + 
-			'<<= setup.eventText("You both check your E-Pals as they register the bonus.")>>' +
-			'<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>' + 
-			'<<= setup.eventText("You quickly dig your hand underneath your skirt, you swear... you could have felt something grow... almost as if you still had your cock.")>>' +
-			'<<= setup.speak($characters.brenda, "Uuuuh... what are you doing?")>>' + 
-			'<<= setup.speak($player, "Nothing, just had to check something.")>>' + 
-			'<<= setup.speak($characters.brenda, "Like... what?")>>' + 
-			'<<= setup.speak($player, "Don´t worry about it.")>>' + 
-			'<<= setup.speak($characters.brenda, "Uhu...")>>' + 
-			'<<run setup.bonus($player, 250, "Social")>>' + 
-			'<<run setup.rating($player, 50)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'Feminine', type: 'psyche-max', level: 3},{id: 'penis-size', type: 'stat-max', level: 1}]
-		},
-		{
-			buttonText: 'Damn girl control those honkers.',
-			resultText: '<<= setup.eventText("You feel your cock harden as she presses her tits against you.")>>' + 
-			'<<= setup.speak($player, "Damn girl control those honkers")>>' + 
-			'<<= setup.eventText("She giggles and lets go.")>>' + 
-			'<<= setup.speak($characters.brenda, "Oh? Sorry! I got carried away!", "smile")>>' + 
-			'<<= setup.eventText("You both check your E-Pals as they register the bonus.")>>' +
-			'<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>' + 
-			'<<run setup.bonus($player, 250, "Social")>>' + 
-			'<<run setup.rating($player, 50)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: [{id: 'penis-size', type: 'stat-min', level: 1}]
-		},
-		{
-			buttonText: 'Laugh it off.',
-			resultText: '<<= setup.eventText("You both giggle before letting go.")>>' + 
-			'<<= setup.speak($player, "What kind of bonus?")>>' + 
-			'<<= setup.speak($characters.brenda, "The good kind! Raw units baby!", "smile")>>' + 
-			'<<= setup.eventText("You both check your E-Pals as they register the bonus.")>>' +
-			'<<= setup.speak($characters.brenda, "And there it is! Awsome!")>>' + 
-			'<<run setup.bonus($player, 250, "Social")>>' + 
-			'<<run setup.rating($player, 50)>>' + 
-			'<br><span class="lbb"><<button "Continue">><<replace "#event-main">><<= setup.eventFinish("Receptionist", "Pod - Main")>><</replace>><</button>></span>',
-			requirements: []
-		}]
-	}
 
 	let maidDirtyRoom1 = {
 		name: 'Dirty Room (One Guy, non-slutty)',
@@ -3822,8 +2852,7 @@ setup.loadEvents = function () {
 			requirements: [{id: 'Cool', type: 'psyche-min', level: 1}]
 		}]
 	}
-	
-	let receptionistIncidents = [recGroping,recHarassment,recBlowjob1,recBlowjob2,recBlowjob3,recBlowbangES,recUpskirt1,recUpskirt2,recUpskirt3,recSkirtPromo1,recSkirtPromo2,recComicCon,recStripClub1,recStripClub2,recDrool,recPantiePurchase1,recPantiePurchase2,recBimboDream,recExecutiveMeeting1,recExecutiveMeeting2,recGreatJob];
+
 	let maidIncidents = [maidDirtyRoom1,maidDirtyRoom2,maidAfterparty,maidHallway,maidVoyeur,maidSpanking,maidPantiePromo,maidCinema,maidDrool,maidSex1,maidSex2,maidBimbo,maidCollectionRoom1,maidCollectionRoom2,maidBoardRoom,maidLuxurySuite,maidGreatJob];
 	let stripperIncidents = [stripperShowfloor,stripperPrivateDance,stripperBlowjob,stripperSex,stripperAnal,stripperChampagne,stripperToplessBig,stripperToplessSmall,stripperGreatJob,stripperMindCheck,stripperStealthHandjob];
 	let carshowIncidents = [carshowLineWork,carshowPhotoshoot,carshowGridGirl,carshowPhotoGrope,carshowManagerSex1,carshowManagerSex2,carshowGreatJob];
@@ -3836,92 +2865,368 @@ setup.loadEvents = function () {
 	let punishmentIncidents = [punishGloryhole1,punishGloryhole2,punishFreeUse1,punishFreeUse2,punishEXBunny,punishVizLizMannequin];
 	let storyIncidents = [storyHypernetAccess1,storyHypernetAccess2,storyMaidVernonEncounter1,storyMaidBugMission];
 	
-	let receptionistFinish = '<<= setup.eventText("After a long day of dealing with confused clients, answering questions about eventia, their venues, event girls and other lucrative offers. You sigh as it reaches it conclusion.")>>' + 
-	'<<= setup.eventText("Your feet are sore from strutting around in heels all day and your skin slightly tender from the tight attire.")>><<run setup.experience($player, "High Heels", 5, 5)>>' + 
-	'<<= setup.speak($characters.brenda, "Alright gurl, think we can call it a day. Shift should arrive soon!")>>' + 
-	'<<= setup.eventText("Surely enough, two other Event Girls shortly arrive to replace you at your desk.")>>' + 
-	'<<= setup.eventText("You check your E-Pal and sign off which promptly processes your earnings and reliability rating.")>>' + 
-	'<<= setup.speak($characters.brenda, "See ya around gurl, I gon´ hit the showers!", "smile")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<= setup.speak($player, "See ya.")>><<run setup.experience($player, "Social", 5, 5, 2)>>' + 
-	'<<run setup.earningsEvent("Receptionist", $player)>>';
-	let maidFinish = '<<= setup.eventText("After a long day of cleaning, making beds and taking out trash from various hallways, client hotel rooms and whatever else needed cleaning.")>>' + 
-	'<<= setup.eventText("Your feet sore from strutting around in heels all day whilst doing heavy-duty maid cleaning.")>><<run setup.experience($player, "High Heels", 5, 5)>>' + 
-	'<<= setup.speak($characters.lily, "Alright, I think it´s time to finally clean the last thing for today, me.")>>' + 
-	'<<= setup.eventText("You both sign off with your E-Pals which promptly processes your earnings and E-Rating.")>>' + 
-	'<<= setup.speak($characters.brenda, "See ya next time newbie.", "smile")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<= setup.speak($player, "Alright, see ya.")>><<run setup.experience($player, "Cleaning", 5, 5)>>' + 
-	'<<run setup.earningsEvent("Maid", $player)>>';
-	let stripperFinish = '<<= setup.eventText("You put on your clothes again and head for the exit. As you enter the show floor again, you spot the manager standing by the bar chatting with the bartender.")>>' + 
-	'<<= setup.eventText("Your feet sore from strutting around in heels all day whilst working the floor.")>><<run setup.experience($player, "High Heels", 5, 5)>>' + 
-	'<<= setup.eventText("He notices you as you approach him and smiles.")>>' + 
-	'<<= setup.speak($characters.manager, "It was a pleasure to have you miss. Your pay has already been forwarded.", "smile")>>' + 
-	'<<= setup.eventText("You sign off with your E-Pal which promptly processes your earnings and E-Rating.")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<= setup.speak($player, "Alright, then I´ll be going then.")>><<run setup.experience($player, "Dancing", 5, 5)>>' + 
-	'<<run setup.earningsEvent("Stripper", $player)>>';
-	let carshowFinish = '<<= setup.eventText("After a long sweaty day of leaning against various holo-vehicles and being the face and body of all manners of racing magazines. You retreat to the backroom and put on your clothes again. Entering the backroom you´re greeted by the Hot-Stripes Representative.")>>' + 
-	'<<= setup.eventText("Your feet sore from strutting around in heels all day slicking it on cars and working the venue.")>><<run setup.experience($player, "High Heels", 5, 5)>>' + 
-	'<<= setup.speak($characters.hotstripesrep, "Great performance, you really know how to zell-a zat ass of yourz! Hah!", "smile")>>' + 
-	'<<= setup.eventText("He gives you a thumbs up and leaves the backroom before you even get a chance to respond. Shortly after, you hear your E-Pal make a soft familiar ding as it updates.")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<run setup.experience($player, "Social", 5, 5)>>' + 
-	'<<run setup.earningsEvent("Car Show Girl", $player)>>';
-	let girlfriendFinish = '<<= setup.eventText("You enter your pod, sigh and crash unto your bed.")>>' + 
-	'<<= setup.speak($player, "Well... I guess that wasn´t too bad. Being courted like that and all.", "smile")>>' + 
-	'<<= setup.eventText("With the day still young you wonder what else you can get up to. Even though you feel a little spent from being so social and putting on a bit of a poker face.")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<run setup.experience($player, "Social", 15, 5)>>' + 
-	'<<run setup.earningsEvent("Girlfriend", $player)>>';
-	let sluttiaFinish = '<<= setup.eventText("With your feet sore from standing all day you slowly drag yourself back towards your pod.")>>' + 
-	'<<= setup.eventText("Your hips are slightly worn from the copious amounts of hands that have been resting on it, and some even just outright grabbing it.' + 
-	' Even your ass is a little red and sore from some of the more daring convention-goers that have slapped it and maybe taken things a little too far.")>>' + 
-	'<<= setup.speak($player, "*yawn* I need a long nights rest...", "smile")>>' + 
-	'<<= setup.eventText("As you enter your pod you immediately crash unto your bed, almost forgetting to lock it.")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<run setup.experience($player, "Social", 15, 5)>>' + 
-	'<<run setup.earningsEvent("Sluttia", $player)>>';
-	let gloryholeFinish = '<<= setup.eventText("With your jaw aching, a slight hoarseness to your voice and a worn out tongue. You finally stand up, sighing as you gently rub your sore knees. The padding in front of the cockhole having given you only little protection.")>>' + 
-	'<<= setup.eventText("You move towards the door whilst rubbing your cheeks, only stopping to swipe your E-Pal against the lockpad. The booth door slides open, blinding your eyes slightly as you once again move out into the open.")>>' + 
-	'<<= setup.eventText("As you moveout you hear your E-Pal make the familiar soft ding as it updates.")>>' + 
-	'<<run setup.psyche($player, "Feminine", 5, 5)>><<run setup.psyche($player, "Slut", 20, 15)>><<run setup.experience($player, "Blowjob", 15, 5)>><<run setup.experience($player, "Handjob", 5, 5)>>' + 
-	'<<run setup.earningsEvent("Gloryhole", $player)>>';
-	let gangbangFinish = '<<= setup.eventText("With your loins aching, your jaw, pussy and ass sore. It finally seems to come to an end. The last stops, only to tremble a little as your cunt is stuffed for the last time.")>>' + 
-	'<<= setup.speak($characters.vernon, "My god, what a star! A splendid performance! I-I´ll get right to it, making arrangements for another! Ahahaha!", "smile")>>' + 
-	'<<= setup.speak($player, "Wa-..I-i need to rest...")>>' + 
-	'<<= setup.eventText("You slump unto the floor, the salty taste of cum lingering on your tongue, you rest for a while.")>>' + 
-	'<<= setup.eventText("The soft familiar ding of your E-Pal wakes you up once again.")>>' + 
-	'<<= setup.speak($characters.vernon, "Ah, awake? I thought I would let ya rest a little.", "smile")>>' + 
-	'<<= setup.speak($player, "Right... I better get back.")>>' + 
-	'<<= setup.speak($characters.vernon, "Off you go then.", "smile")>>' + 
-	'<<= setup.eventText("You head back towards your pod.")>>' + 
-	'<<run setup.psyche($player, "Feminine", 50, 50)>><<run setup.psyche($player, "Slut", 50, 50)>><<run setup.experience($player, "Blowjob", 25, 25)>><<run setup.experience($player, "Handjob", 25, 25)>>' + 
-	'<<run setup.experience($player, "New Sex", 25, 25)>><<run setup.experience($player, "Anal", 25, 25)>>' + '<<run setup.psycheHard($player, "Lust", 0)>>' + 
-	'<<run setup.earningsEvent("Gangbang", $player)>>';
-	let cindanarFinish = '<<= setup.eventText("With your feet sore from standing all day you slowly drag yourself back towards your pod.")>>' + 
-	'<<= setup.eventText("Your hips are slightly worn from the copious amounts of hands that have been resting on it, and some even just outright grabbing it.' + 
-	' Even your ass is a little red and sore from some of the more daring venue-goers that have slapped it and maybe taken things a little too far.")>>' + 
-	'<<= setup.speak($player, "*yawn* I need a long nights rest...", "smile")>>' + 
-	'<<= setup.eventText("As you enter your pod the soft fabrics of your bed immediately embrace you, making you almost forgetting to lock your pod.")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<run setup.experience($player, "Social", 15, 5)>>' + 
-	'<<run setup.earningsEvent("Cindanar Booth Babe", $player)>>';
-	let stainsFinish = '<<= setup.eventText("With your feet sore from standing all day you slowly drag yourself back towards your pod.")>>' + 
-	'<<= setup.eventText("Your hips are slightly worn from the copious amounts of hands that have been resting on it, and some even just outright grabbing it.' + 
-	' Even your ass is a little red and sore from some of the more daring venue-goers that have slapped it and maybe taken things a little too far.")>>' + 
-	'<<= setup.speak($player, "*yawn* I need a long nights rest...", "smile")>>' + 
-	'<<= setup.eventText("As you enter your pod the soft fabrics of your bed immediately embrace you, making you almost forgetting to lock your pod.")>>' + 
-	'<<run setup.equipOutfit($player, "stashedOutfit")>>' + 
-	'<<run setup.experience($player, "Social", 15, 5)>>' + 
-	'<<run setup.earningsEvent("Stains Booth Babe", $player)>>';
-	
 	let eventReceptionist = {
 		name: "Receptionist",
 		outfit: "receptionist",
 		start: "<<include 'Receptionist - Start'>>",
 		intro: receptionistIntro,
-		incidents: receptionistIncidents,
+		incidents: [
+			{
+				name: 'Bimbo Check',
+				passageText: '<<include "Receptionist - Bimbo Check">>',
+				requirements: [{id: 'Bimbo', type: 'psyche-min', level: 3}],
+				options: [
+				{
+					buttonText: 'Continue',
+					resultText: '<<include "Receptionist - Bimbo Check Continue">>',
+					requirements: []
+				}]
+			},
+			{
+				name: 'Mind Check',
+				passageText: '<<include "Receptionist - Mind Check">>',
+				requirements: [{id: 'Mind', type: 'psyche-min', level: 3}],
+				options: [
+				{
+					buttonText: 'Ow!',
+					resultText: '<<include "Receptionist - Mind Check Continue">>',
+					requirements: []
+				}]
+			},
+			{
+				name: 'Great Job (Social)',
+				passageText: '<<include "Receptionist - Great Job (Social)">>',
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 2}],
+				options: [
+				{
+					buttonText: 'Getting a little too close.',
+					resultText: '<<include "Receptionist - Great Job (Social) Distance">>',
+					requirements: []
+				},
+				{
+					buttonText: 'Damn girl control those honkers.',
+					resultText: '<<include "Receptionist - Great Job (Social) No Cock">>',
+					requirements: [{id: 'Feminine', type: 'psyche-max', level: 3},{id: 'penis-size', type: 'stat-max', level: 1}]
+				},
+				{
+					buttonText: 'Damn girl control those honkers.',
+					resultText: '<<include "Receptionist - Great Job (Social) Have Cock">>',
+					requirements: [{id: 'penis-size', type: 'stat-min', level: 1}]
+				},
+				{
+					buttonText: 'Laugh it off.',
+					resultText: '<<include "Receptionist - Great Job (Social) Laugh">>',
+					requirements: []
+				}]
+			},
+			{
+				name: 'Groping',
+				passageText: '<<include "Receptionist - Groping">>',
+				requirements: [],
+				options: [
+				{
+					buttonText: 'Tell him to fuck off.',
+					resultText: '<<include "Receptionist - Groping Fuck Off">>',
+					requirements: [{id: 'Feminine', type: 'psyche-min', level: 3},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Endure and lead him towards the hotel.',
+					resultText: '<<include "Receptionist - Groping Endure">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Hey! Not a miss here! Back off!',
+					resultText: '<<include "Receptionist - Groping Masculine">>',
+					requirements: [{id: 'Feminine', type: 'psyche-max', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Suggest you suck him off.',
+					resultText: '<<include "Receptionist - Groping Slut">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Oooh my! Need suck now? I sucky!',
+					resultText: '<<include "Receptionist - Groping Bimbo">>',
+					requirements: [{id: 'Bimbo', type: 'psyche-min', level: 3},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Handle it professionally.',
+					resultText: '<<include "Receptionist - Groping Social">>',
+					requirements: [{id: 'Social', type: 'skill-min', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Be cool about it.',
+					resultText: '<<include "Receptionist - Groping Cool">>',
+					requirements: [{id: 'Cool', type: 'psyche-min', level: 1},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: '*drool*.......',
+					resultText: '<<include "Receptionist - Groping Mind">>',
+					requirements: [{id: 'Mind', type: 'psyche-min', level: 4}]
+				}]
+			},
+			{
+				name: 'Harassment',
+				passageText: '<<include "Receptionist - Harassment">>',
+				requirements: [],
+				options: [
+				{
+					buttonText: 'Scream for help.',
+					resultText: '<<include "Receptionist - Harassment Scream">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Stay silent.',
+					resultText: '<<include "Receptionist - Harassment Silent">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 1},{id: 'Slut', type: 'psyche-max', level: 3},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Go with it.',
+					resultText: '<<include "Receptionist - Harassment Slut">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 3},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Let go.',
+					resultText: '<<include "Receptionist - Harassment Bimbo">>',
+					requirements: [{id: 'Bimbo', type: 'psyche-min', level: 3},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Uhm?',
+					resultText: '<<include "Receptionist - Harassment Mind">>',
+					requirements: [{id: 'Mind', type: 'psyche-min', level: 4}]
+				},
+				{
+					buttonText: 'Attack them.',
+					resultText: '<<include "Receptionist - Harassment Masculine">>',
+					requirements: [{id: 'Feminine', type: 'psyche-max', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				}]
+			},
+			{
+				name: 'Blowjob Offer',
+				passageText: '<<include "Receptionist - Blowjob">>', 
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
+				options: [
+				{
+					buttonText: 'Accept the offer',
+					resultText: '<<include "Receptionist - Blowjob Accept Offer">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 2}]
+				},
+				{
+					buttonText: 'Decline the offer',
+					resultText: '<<include "Receptionist - Blowjob Decline Offer">>',
+					requirements: []
+				},
+				{
+					buttonText: 'Freak out',
+					resultText: '<<include "Receptionist - Blowjob Freak Out">>',
+					requirements: [{id: 'Slut', type: 'psyche-max', level: 2}]
+				}]
+			},
+			{
+				name: 'Blowbang Event Scheduling',
+				passageText: '<<include "Receptionist - Blowbang Schedule">>',
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
+				options: [
+				{
+					buttonText: 'Continue.',
+					resultText: '<<include "Receptionist - Blowbang Schedule Continue">>',
+					requirements: []
+				}]
+			},
+			{
+				name: 'Standard Event Scheduling',
+				passageText: '<<include "Receptionist - Event Schedule">>',
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
+				options: [
+				{
+					buttonText: 'Continue.',
+					resultText: '<<include "Receptionist - Event Schedule Continue">>',
+					requirements: []
+				}]
+			},
+			{
+				name: 'Linus Event Scheduling',
+				passageText: '<<include "Receptionist - Linus Schedule">>',
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
+				options: [
+				{
+					buttonText: 'Continue.',
+					resultText: '<<include "Receptionist - Linus Schedule Continue">>',
+					requirements: []
+				}]
+			},
+			{
+				name: 'Upskirt Photo',
+				passageText: '<<include "Receptionist - Upskirt">>',
+				requirements: [],
+				options: [
+				{
+					buttonText: 'Chase the guy down.',
+					resultText: '<<include "Receptionist - Upskirt Chase Failure">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'High Heels', type: 'skill-max', level: 2}]
+				},
+				{
+					buttonText: 'Chase the guy down.',
+					resultText: '<<include "Receptionist - Upskirt Success">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'High Heels', type: 'skill-min', level: 3}]
+				},
+				{
+					buttonText: 'Ignore it.',
+					resultText: '<<include "Receptionist - Upskirt Chase Ignore">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Lead him on.',
+					resultText: '<<include "Receptionist - Upskirt Slutty">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Slut', type: 'psyche-min', level: 2}]
+				},
+				{
+					buttonText: 'Entertain him.',
+					resultText: '<<include "Receptionist - Upskirt Bimbo">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Bimbo', type: 'psyche-min', level: 2}]
+				},
+				{
+					buttonText: 'Make them an offer.',
+					resultText: '<<include "Receptionist - Upskirt Cool">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Cool', type: 'psyche-min', level: 2}]
+				},
+				{
+					buttonText: 'It all becomes blank.',
+					resultText: '<<include "Receptionist - Upskirt Mind">>',
+					requirements: [{id: 'Mind', type: 'psyche-min', level: 4}]
+				}]
+			},
+			{
+				name: 'Skirt Promo',
+				passageText: '<<include "Receptionist - Skirt Promo">>',
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
+				options: [
+				{
+					buttonText: 'Put on the short skirt.',
+					resultText: '<<include "Receptionist - Skirt Promo Accept">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 1}]
+				},
+				{
+					buttonText: 'Have some fun with it.',
+					resultText: '<<include "Receptionist - Skirt Promo Cool">>',
+					requirements: [{id: 'Cool', type: 'psyche-min', level: 1}]
+				},
+				{
+					buttonText: 'Teehee!',
+					resultText: '<<include "Receptionist - Skirt Promo Bimbo">>',
+					requirements: [{id: 'Bimbo', type: 'psyche-min', level: 2}]
+				},
+				{
+					buttonText: 'Refuse to put on the skirt.',
+					resultText: '<<include "Receptionist - Skirt Promo Decline">>',
+					requirements: [{id: 'Slut', type: 'psyche-max', level: 3}]
+				}]
+			},
+			{
+				name: 'Comic Convention',
+				passageText: '<<include "Receptionist - Comic Convention">>',
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
+				options: [
+				{
+					buttonText: 'Continue.',
+					resultText: '<<include "Receptionist - Comic Convention Standard">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Continue.',
+					resultText: '<<include "Receptionist - Comic Convention Standard">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Continue.',
+					resultText: '<<include "Receptionist - Comic Convention Standard">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Continue.',
+					resultText: '<<include "Receptionist - Comic Convention Mind">>',
+					requirements: [{id: 'Mind', type: 'psyche-min', level: 4}]
+				}]
+			},
+			{
+				name: 'Guidance',
+				passageText: '<<include "Receptionist - Guidance">>', 
+				requirements: [{id: 'Mind', type: 'psyche-max', level: 3}],
+				options: [
+				{
+					buttonText: 'Give them directions.',
+					resultText: '<<include "Receptionist - Guidance Guide">>',
+					requirements: []
+				},
+				{
+					buttonText: 'Have some fun with them.',
+					resultText: '<<include "Receptionist - Guidance Misguide">>',
+					requirements: []
+				},
+				{
+					buttonText: 'Milk them for ratings.',
+					resultText: '<<include "Receptionist - Guidance Cool">>',
+					requirements: [{id: 'Cool', type: 'psyche-min', level: 2}]
+				}]
+			},
+			{
+				name: 'Pantie Purchase',
+				passageText: '<<include "Receptionist - Pantie Purchase">>',
+				requirements: [],
+				options: [
+				{
+					buttonText: 'Hell no.',
+					resultText: '<<include "Receptionist - Pantie Purchase Decline">>',
+					requirements: [{id: 'Mind', type: 'psyche-max', level: 3},{id: 'Bimbo', type: 'psyche-max', level: 2}]
+				},
+				{
+					buttonText: '100 Units.',
+					resultText: '<<include "Receptionist - Pantie Purchase 100 Units">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 3},{id: 'Bimbo', type: 'psyche-max', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: '500 Units.',
+					resultText: '<<include "Receptionist - Pantie Purchase 500 Units">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 2},{id: 'Bimbo', type: 'psyche-max', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: '1000 Units.',
+					resultText: '<<include "Receptionist - Pantie Purchase 1000 Units">>',
+					requirements: [{id: 'Slut', type: 'psyche-min', level: 1},{id: 'Bimbo', type: 'psyche-max', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Give them to him for free.',
+					resultText: '<<include "Receptionist - Pantie Purchase Bimbo">>',
+					requirements: [{id: 'Bimbo', type: 'psyche-min', level: 3},{id: 'Bimbo', type: 'psyche-max', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'Do a sales pitch.',
+					resultText: '<<include "Receptionist - Pantie Purchase Cool">>',
+					requirements: [{id: 'Cool', type: 'psyche-min', level: 1},{id: 'Bimbo', type: 'psyche-max', level: 2},{id: 'Mind', type: 'psyche-max', level: 3}]
+				},
+				{
+					buttonText: 'UUUUUUUUUUUUUUUUUUUUUUUUH?',
+					resultText: '<<include "Receptionist - Pantie Purchase Mind">>',
+					requirements: [{id: 'Mind', type: 'psyche-min', level: 4}]
+				}]
+			},
+			{
+				name: 'Executive Meeting',
+				passageText: '<<include "Receptionist - Executive Meeting">>',
+				requirements: [],
+				options: [
+				{
+					buttonText: 'Fuck you bro!',
+					resultText: '<<include "Receptionist - Executive Meeting Freak Out">>',
+					requirements: [{id: 'Feminine', type: 'psyche-max', level: 2}]
+				},
+				{
+					buttonText: 'Sure, whatever.',
+					resultText: '<<include "Receptionist - Executive Meeting Endure">>',
+					requirements: []
+				}]
+			}
+		],
 		finish: "<<include 'Receptionist - Finish'>>"
 	}
 	let eventMaid = {
@@ -3935,66 +3240,66 @@ setup.loadEvents = function () {
 	let eventStripper = {
 		name: "Stripper",
 		outfit: "stripper",
-		start: stripperStart,
+		start: "<<include 'Stripper - Start'>>",
 		intro: stripperIntro,
 		incidents: stripperIncidents,
-		finish: stripperFinish
+		finish: "<<include 'Stripper - Finish'>>"
 	}
 	let eventCarshow = {
 		name: "Car Show Girl",
 		outfit: "carshow",
-		start: carshowStart,
+		start: "<<include 'Car Show - Start'>>",
 		intro: carshowIntro,
 		incidents: carshowIncidents,
-		finish: carshowFinish
+		finish: "<<include 'Car Show - Finish'>>"
 	}
 	let eventGloryhole = {
 		name: "Gloryhole",
 		outfit: "none",
-		start: gloryholeStart,
+		start: "<<include 'Gloryhole - Start'>>",
 		intro: gloryholeIntro,
 		incidents: gloryholeIncidents,
-		finish: gloryholeFinish
+		finish: "<<include 'Gloryhole - Finish'>>"
 	}
 	let eventGirlfriend = {
 		name: "Girlfriend",
 		outfit: "none",
-		start: girlfriendStart,
+		start: "<<include 'Girlfriend - Start'>>",
 		intro: girlfriendIntro,
 		incidents: girlfriendIncidents,
-		finish: girlfriendFinish
+		finish: "<<include 'Girlfriend - Finish'>>"
 	}
 	let eventSluttia = {
 		name: "Sluttia",
 		outfit: "none",
-		start: sluttiaStart,
+		start: "<<include 'Sluttia - Start'>>",
 		intro: sluttiaIntro,
 		incidents: sluttiaIncidents,
-		finish: sluttiaFinish
+		finish: "<<include 'Sluttia - Finish'>>"
 	}
 	let eventGangbang = {
 		name: "Gangbang",
 		outfit: "gangbang",
-		start: gangbangStart,
+		start: "<<include 'Gangbang - Start'>>",
 		intro: gangbangIntro,
 		incidents: gangbangIncidents,
-		finish: gangbangFinish
+		finish: "<<include 'Gangbang - Finish'>>"
 	}
 	let eventCindanar = {
 		name: "Cindanar Booth Babe",
 		outfit: "cindanar",
-		start: cindanarStart,
+		start: "<<include 'Cindanar - Start'>>",
 		intro: cindanarIntro,
 		incidents: boothbabeIncidents,
-		finish: cindanarFinish
+		finish: "<<include 'Cindanar - Finish'>>"
 	}
 	let eventStains = {
 		name: "Stains Booth Babe",
 		outfit: "stains",
-		start: stainsStart,
+		start: "<<include 'Stains - Start'>>",
 		intro: stainsIntro,
 		incidents: boothbabeIncidents,
-		finish: stainsFinish
+		finish: "<<include 'Stains - Finish'>>"
 	}
 	let eventeHooking = {
 		name: "E-Hooking",

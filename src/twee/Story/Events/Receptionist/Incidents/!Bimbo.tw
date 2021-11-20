@@ -10,9 +10,9 @@ You get on your knees, the group of men quickly becoming a small gang. You hear 
 <<= setup.speak($npc.adults[1], ["Don´t forget me too, bitch!","Look over here you dirty whore. Suck me too.","Fuck me, don´t forget me man, I need my cock cleaned too!"], "smile")>>
 Before you know it, you have a cock shoved down your throat, as well as one in each hand. Several onlookers begin to take out their phones filming your whorish act in the middle of the foyer.
 <<= setup.speak($player, "*gluck*..*gluck*..*cough*...mmmh fuck my throa-..*gluck*", "pleasure")>><<= setup.speak($npc.adults[1], ["Damn this bitch is goo-...oooh!","OOOOOOOOOOOOOH!","AAAAAAAH! FUCK ME!"], "pleasure")>>
-*SLAP*
+@.bold;SLAP@@
 
-:: Receptionist - Bimbo Check Standard 1
+:: Receptionist - Bimbo Check Continue
 <<nobr>>
 <<run setup.psyche($player, "Lust", 10, 25)>>
 <<run setup.psyche($player, "Bimbo", 1, 4)>>
@@ -21,3 +21,5 @@ Before you know it, you have a cock shoved down your throat, as well as one in e
 Brenda chuckles at your flustered reaction.
 <<= setup.speak($characters.brenda, "Sure gurl, just-.. stay awake now. Can´t have you slippin´ back into your little cock dreams again on the job now can we?", "smile")>>
 You get a sudden feeling that Brenda will never live that down from now on.
+
+<<= setup.button("Continue.", "Receptionist - Finish")>>

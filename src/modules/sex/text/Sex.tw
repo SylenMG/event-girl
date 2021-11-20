@@ -1,4 +1,4 @@
 :: Sex
-<<goto "New Sex">>
+<<= setup.sex($sex)>>
 
 

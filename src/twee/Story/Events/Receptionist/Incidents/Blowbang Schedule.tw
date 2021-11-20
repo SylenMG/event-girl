@@ -7,7 +7,7 @@ You both seem to just manage, juggling event girls from one event to the other. 
 <<= setup.speak($characters.subject17A, ["Hey there, I´m looking to file in a new event-so-like this one is going to be real special.","It´s time for me to go blow-blow, so-like, gonna need to file this event!","Hey! I need to file an event. Help me!"])>><<= setup.speak($player, "Okay, name and type of the Event? And pay? We also have a form if you´re familiar with the procedure?")>><<= setup.speak($characters.subject17A, ["Uuuuh no, this one gonna cost to participate, we´re having a blowbang in suite-6 at the Gloria Hotel! I´m gonna suck so many cocks!","No-no! You don´t get it. It´s gonna be an all-out gangbang with me in the center! It´s gonna be soooo good! You should come too!","I just want an Anal Event to be set up! Lots of cock in my ass! Gloria Hotel, suite-56."], "smile")>>
 You blink in surprise, not really sure how to react.
 
-:: Receptionist - Blowbang Schedule Standard 1
+:: Receptionist - Blowbang Schedule Continue
 <<nobr>>
 <<run setup.psyche($player, "Lust", 5, 5)>>
 <<run setup.psyche($player, "Feminine", 1, 2, 3)>>

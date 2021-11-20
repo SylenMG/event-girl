@@ -8,9 +8,13 @@ setup.sex = function (sex) {
 	if (sex.count == 0) {
         intro = sObject.intros[0].passage + "<br><br>";
         for (let i = 0; i < sObject.scenes.length; i++) {
-            let nameArr = sObject.scenes[i].name.length;
-            let randomName = setup.random(nameArr);
-			returnSex = returnSex + "<span class='lbb'><<button '" + sObject.scenes[i].name[randomName] + "'>><<set $sex.count += 1>><<replace '#scene-" + sex.count + "'>>" + sObject.scenes[i].passage + "<br><br><<= setup.newSex($sex)>><</replace>><</button>></span>";
+			let req = sObject.scenes[i].requirements;
+			let check = setup.checkReq(req, sex.gE);
+			if (check == true) {
+				let nameArr = sObject.scenes[i].name.length;
+				let randomName = setup.random(nameArr);
+				returnSex = returnSex + "<span class='lbb'><<button '" + sObject.scenes[i].name[randomName] + "'>><<set $sex.count += 1>><<replace '#scene-" + sex.count + "'>>" + sObject.scenes[i].passage + "<br><br><<= setup.sex($sex)>><</replace>><</button>></span>";
+			}
 		}
 	} else if (sex.count < 2) {
 		for (let i = 0; i < sObject.scenes.length; i++) {
@@ -19,7 +23,7 @@ setup.sex = function (sex) {
 			if (check == true) {
 				let nameArr = sObject.scenes[i].name.length;
 				let randomName = setup.random(nameArr);
-				returnSex = returnSex + "<span class='lbb'><<button '" + sObject.scenes[i].name[randomName] + "'>><<set $sex.count += 1>><<replace '#scene-" + sex.count + "'>>" + sObject.scenes[i].passage + "<br><br><<= setup.newSex($sex)>><</replace>><</button>></span>";
+				returnSex = returnSex + "<span class='lbb'><<button '" + sObject.scenes[i].name[randomName] + "'>><<set $sex.count += 1>><<replace '#scene-" + sex.count + "'>>" + sObject.scenes[i].passage + "<br><br><<= setup.sex($sex)>><</replace>><</button>></span>";
 			}
 		}
 	} else {

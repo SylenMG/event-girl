@@ -6,6 +6,8 @@ setup.speechBubble = function (speaker, message, expression) {
 	//Check for defined expression portrait
 	if (expression == undefined) {
 		expression = "default";
+	} else if (Array.isArray(expression) == true) {
+		expression = expression[setup.random(expression.length)];
 	}
 	if (speaker.modifiers.includes("player")) {
 		if (speaker.gender == "female") {
@@ -39,7 +41,8 @@ setup.speak = function (speaker, message, expression, nobreak) {
 	speech.speechArray = Array.isArray(speech.message);
 	//Check if speech is varied (multiple outcomes) or not
 	if (speech.speechArray == true) {
-        //console.log("speechArray: " + speech.speechArray);
+		speech.messageInt = message.length;
+        console.log("speechArray: " + speech.speechArray);
         if (speaker.modifiers.includes("player")) {
 			if (speech.message.length == 8) {
 				let slutLevel = setup.getPsyche(speaker, "Slut");
@@ -62,11 +65,11 @@ setup.speak = function (speaker, message, expression, nobreak) {
 				}
 				speech.speechText = speech.message[speech.messageInt];
 			} else {
-				speech.messageInt = setup.random(speech.messageInt.length - 1);
+				speech.messageInt = setup.random(speech.messageInt);
 				speech.speechText = speech.message[speech.messageInt];
 			}
         } else {
-            speech.messageInt = setup.random(speech.messageInt.length - 1);
+            speech.messageInt = setup.random(speech.messageInt);
 			speech.speechText = speech.message[speech.messageInt];
         }
 	} else {

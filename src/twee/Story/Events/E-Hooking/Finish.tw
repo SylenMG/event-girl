@@ -8,3 +8,5 @@
 Entering the pod halls, you enter the baths for a quick clean up, tossing your heels off and stretching out under the cold, but refreshing stream of water.
 
 After the shower, you beeline for your pod and sigh in relief as you throw yourself unto your pod bed.
+
+<<= setup.button("Continue.","Pod - Main")>>

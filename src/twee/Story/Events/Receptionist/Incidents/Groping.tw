@@ -7,7 +7,7 @@ He moves closer to you and you feel his hand rest on your hip, grabbing you for 
 <<= setup.speak($npc.elderly[0], ["It´s been a long day and i´m lost, I need someone to help me towards the gloria hotel entrance.","My nephew... he´s gone missing! He´s probably at the adult strip. If you could take me there, then it would help a lot.","I need to find the psyche clinic and pick up my daughter. Can you lead me there?","I want to attend the auctions... If you could lead me to the Auction House, then that would be great!","I need new diapers. Where is the fashion strip? Can you take me there?","I just want to go home...I don´t know where the exit is. Can you take me there?"], "smile")>>
 His grasp on your hip grows tighter.
 
-:: Receptionist - Groping Standard 1
+:: Receptionist - Groping Fuck Off
 <<nobr>>
 <<run setup.rating($player, -10)>>
 <<run setup.psyche($player, "Slut", -5, -5)>>
@@ -18,7 +18,7 @@ At first he looks shocked, but his expression quickly changes.
 He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Groping Standard 2
+:: Receptionist - Groping Endure
 <<nobr>>
 <<run setup.psyche($player, "Feminine", 1, 2, 3)>>
 <<run setup.rating($player, 5)>>
@@ -30,7 +30,7 @@ As you move along the entertainment center. His grip grows tighter and slowly sl
 You almost yelp and jump as the old man pinches your ass before heading towards his destination.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Groping Masculine 1
+:: Receptionist - Groping Masculine
 <<nobr>>
 <<run setup.rating($player, -10)>>
 <<run setup.psyche($player, "Feminine", -5, -5)>>
@@ -41,7 +41,7 @@ At first he looks shocked, but his expression quickly changes.
 He quickly turns around brazenly walking away whilst gritting his teeth in anger. You sigh, knowing that your e-rating will take a hit.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Groping Bimbo 1
+:: Receptionist - Groping Bimbo
 <<nobr>>
 <<run setup.psyche($player, "Slut", 10, 20)>>
 <<run setup.rating($player, 10)>>
@@ -50,7 +50,7 @@ He quickly turns around brazenly walking away whilst gritting his teeth in anger
 You take him towards a secluded corner in the hall.
 
 <<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.gE = $player, $sex.rE = $npc.elderly[0], $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
-:: Receptionist - Groping Slut 1
+:: Receptionist - Groping Slut
 <<nobr>>
 <<run setup.psyche($player, "Slut", 5, 5)>>
 <<run setup.rating($player, 10)>>
@@ -62,7 +62,7 @@ You jerk your closed fist back and forth next to your mouth, whilst pushing your
 You take him towards a secluded corner in the hall.
 
 <<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.gE = $player, $sex.rE = $npc.elderly[0], $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
-:: Receptionist - Groping Social 1
+:: Receptionist - Groping Social
 <<nobr>>
 <<run setup.rating($player, 5)>>
 <<run setup.bonus($player, 25, "Social")>>
@@ -73,7 +73,7 @@ You place your hand around his shoulder, leading him on. His grip grows tighter 
 The old man smiles and waves at you, before you turn around and move back to the receptionist desk.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Groping Cool 1
+:: Receptionist - Groping Cool
 <<nobr>>
 <<run setup.psyche($player, "Cool", 1, 4)>>
 <<run setup.rating($player, -15)>>
@@ -84,7 +84,7 @@ You grab his hand and brazenly begin to walk towards the old man's destination, 
 The old man´s complains drown out behind you as you walk back to the receptionist desk with a fat smile on your face.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Groping Mind 1
+:: Receptionist - Groping Mind
 <<nobr>>
 <<run setup.rating($player, -10)>>
 <</nobr>>A sudden cloudy haze overtakes you and robs you off your mind. You stand there with blank eyes, as your mind having overloaded some time ago making you wander off to some faraway happyland.

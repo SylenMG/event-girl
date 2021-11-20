@@ -1,4 +1,4 @@
-:: Receptionist - Blowjob (Executive)
+:: Receptionist - Blowjob
 <<nobr>>
 <</nobr>>Standing around the desk you yawn as the day is rather slow. With Brenda gone to manage some Event Planning you´re all alone, although, not that it´s a problem. A rather sleek-looking guy approaches you briskly, he eyes you up and down with a smug grin scratching his chin
 <<= setup.speak($npc.executives[0], ["Hey... You know I´m gettin´ waaay too pent up waiting for that meeting. I was wondering if you could do somethin´ about that kitty-kat.", "Hey girl, I´m running a tight schedule, but can squeeze in a quick blowie. Come with me.","Alright girl, here´s the deal. I need ya to wrap those sweet lips around my cock, got it? I´ll pay, ya, come with me."], "smile")>>
@@ -6,7 +6,7 @@ You quickly realize that he´s addressing you, making you turn him as you answer
 <<= setup.speak($player, ["What?! Really?... Ugh...","Wait, are you for real?!","WHAT?! What the hell is wrong with?!","You want me to suck your cock? Hmph?","Now that´s what I call aggressive.","Oh yeah? You want that I bet.","Ooooh, you talking to me? *giggles*","Teehee~!","*drools*... what?"], ["angry","smile","pleasure"])>><<= setup.speak($npc.executives[0], ["Yeah-yeah, whatever, come on then. Don´t got all the time in the world.","Your lips, my dick. It´s not a complex equation. Let´s go.","Doll, I´m about to burst. Come one then."], "smile")>>
 You bite your lip as your think about the offer.
 
-:: Receptionist - Blowjob (Executive) Standard 1
+:: Receptionist - Blowjob Accept Offer
 <<nobr>>
 <<run setup.psyche($player, "Lust", 50, 25)>>
 <<run setup.psyche($player, "Slut", 5, 5, 3)>>
@@ -23,7 +23,7 @@ You follow him towards the Gloria Hotel and after entering the elevator you feel
 You exit the elevator and arrive at his room
 
 <<= setup.button("Continue.", "Sex", "<<set $sex.current = 'blowjob', $sex.gE = $player, $sex.rE = $npc.executives[0], $sex.modifier = 'sensual', $sex.passage = 'Event - Finish', $event.current = 'Receptionist', $event.return = 'Pod - Main'>>")>>
-:: Receptionist - Blowjob (Executive) Standard 2
+:: Receptionist - Blowjob Decline Offer
 <<nobr>>
 <<run setup.psyche($player, "Lust", 10, 5)>>
 <<run setup.psyche($player, "Slut", -5, -5)>>
@@ -35,7 +35,7 @@ Maintaining your composure, you eloquently tell him off.
 He turns around, seemingly returning to wait for whatever meeting he was waiting for.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Blowjob (Executive) Standard 3
+:: Receptionist - Blowjob Freak Out
 <<nobr>>
 <<run setup.psyche($player, "Lust", 10, 5)>>
 <<run setup.psyche($player, "Slut", -5, -5)>>

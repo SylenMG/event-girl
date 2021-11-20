@@ -4,7 +4,7 @@
 <<= setup.speak($player, ["Any reason for all the people?","That´s a lot of people roaming around, what´s the reason for that?","Wow! So many people running around!"])>><<= setup.speak($characters.brenda, "Yep, a comic convention is going on, you and me have been called in to oversee some of the booths, so strap up gurl! Should be a small bonus in it for us too!")>>
 You both move down to the venue in question and reach your assigned booth, selling some form of drive with a light-comic featuring a renowned heroine. You take a quick peek and realize it´s bordering on soft-core porn.
 
-:: Receptionist - Comic Convention Standard 1
+:: Receptionist - Comic Convention Standard
 <<nobr>>
 <<run setup.psyche($player, "Lust", 25, 25)>>
 <<run setup.experience($player, "Social", 5, 15)>>
@@ -19,7 +19,7 @@ The commotion of the venue is suddenly directed towards your booth as a line for
 You notice that at least a dozen of them are extremely handsy and almost outright grabbing her ass and feeling her up.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Comic Convention Cool Check
+:: Receptionist - Comic Convention Cool
 <<nobr>>
 <<run setup.psyche($player, "Lust", 25, 25)>>
 <<run setup.experience($player, "Cool", 5, 15)>>
@@ -34,7 +34,7 @@ The commotion of the venue is suddenly directed towards your booth as a line for
 You notice that at least a dozen of them are extremely handsy and almost outright grabbing her ass and feeling her up.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Comic Convention Slut Check
+:: Receptionist - Comic Convention Slut
 <<nobr>>
 <<run setup.psyche($player, "Lust", 25, 25)>>
 <<run setup.experience($player, "Slut", 5, 15)>>
@@ -49,7 +49,7 @@ The commotion of the venue is suddenly directed towards your booth as a line for
 You notice that at least a dozen of them are extremely handsy and almost outright grabbing her ass and feeling her up.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Comic Convention Mind Check
+:: Receptionist - Comic Convention Mind
 <<nobr>>
 <<run setup.psyche($player, "Lust", 75, 75)>>
 <<run setup.rating($player, -25)>>

@@ -61,7 +61,7 @@ The man shakes his head with a frown.
 You cross your arms in defiance as the man simply turns around and leaves.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Pantie Purchase Bimbo Check
+:: Receptionist - Pantie Purchase Bimbo
 <<nobr>>
 <<run setup.rating($player, 50)>>
 <<run setup.psyche($player, "Lust", 50, 50)>>
@@ -72,7 +72,7 @@ The man clasps them greedily as you hand them to him for free.
 You smile as you continue the day with no panties.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Pantie Purchase Cool Check
+:: Receptionist - Pantie Purchase Cool
 <<nobr>>
 <<run setup.psyche($player, "Lust", 75, 50)>>
 <<run setup.psyche($player, "Cool", 5, 5)>>
@@ -88,7 +88,7 @@ The moist damp panties squish against the palm of your hand as you pick it up. Y
 Your E-Pal vibrates as it registers the units going in.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Pantie Purchase Mind Check
+:: Receptionist - Pantie Purchase Mind
 <<nobr>>
 <<run setup.rating($player, 50)>>
 <<run setup.psyche($player, "Lust", 50, 50)>>

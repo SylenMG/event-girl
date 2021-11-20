@@ -314,6 +314,9 @@ setup.checkReq = function (requirements, player) {
 			returnCheck = setup.checkStory(requirements, req, player);
 		} else if (requirements[req].id == "Time") {
 			returnCheck = setup.checkTime(requirements, req, player);
+		} else if (requirements[req].type == "has-cybermod" || requirements[req].type == "no-cybermod") {
+			console.log("Doing cybercheck...");
+			returnCheck = setup.checkCyberware(requirements, req, player);
 		}
 	}
 	if (requirements.length == 0) {

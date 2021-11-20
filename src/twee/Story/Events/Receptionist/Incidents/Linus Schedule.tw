@@ -7,7 +7,7 @@ Trailing your finger along the desk, you drag a form for Linus to fill out.
 <<= setup.speak($player, ["Here you go. I expect you know how to sign this?","You know how to sign this, don´t ya?"])>><<= setup.speak($characters.drlinus, ["Oh, but I sure do!","You got it.","Of course I do."])>>
 He nods and begins to fill it out.
 
-:: Receptionist - Linus Schedule Standard 1
+:: Receptionist - Linus Schedule Continue
 <<nobr>>
 <<run setup.psyche($player, "Lust", 5, 5)>>
 <<run setup.psyche($player, "Social", 1, 4)>>
@@ -15,3 +15,4 @@ He nods and begins to fill it out.
 <<= setup.speak($player, ["That should be it.","Right.","That´s it, we´ll see if we can find what you need."], "smile")>><<= setup.speak($characters.drlinus, ["Ah! Thanks! See you at the clinic sometime!","Good stuff, see you around, hopefully at the clinic!"])>>
 With a smile on his chin, he turns to leave.
 
+<<= setup.button("Continue.", "Receptionist - Finish")>>

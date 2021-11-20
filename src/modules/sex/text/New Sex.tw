@@ -1,4 +1,4 @@
 :: New Sex
-<<= setup.newSex($sex)>>
+<<= setup.sex($sex)>>
 
 

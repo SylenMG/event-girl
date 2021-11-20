@@ -10,7 +10,7 @@ You look down towards your massive tits... Are they too big? You look like a bim
 <<= setup.speak($npc.executives[0], ["Damn... Well! Could you still point us in the right direction?","Shiiiet, well, could you point us in the right direction now?","So like, *clears throat*, the place we going, where it at?"], "smile")>><<= setup.speak($npc.adults[0], ["Yeah man we gotta bounce man, let´s go man-... need myself some tits in my face man, come on man.","Time to go man, let´s go. Gotta get my dick wet!","Ahhh! Imma ´boutta burst! Gotta go now! Where it at?!"], "smile")>>
 You think about what to say.
 
-:: Receptionist - Guidance Standard 1
+:: Receptionist - Guidance Guide
 <<nobr>>
 <<run setup.psyche($player, "Lust", 25, 25)>>
 <<run setup.experience($player, "Social", 5, 5, 2)>>
@@ -20,7 +20,7 @@ You think about what to say.
 They both continue towards their destination, only stopping to stare at other working girls.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Guidance Standard 2
+:: Receptionist - Guidance Misguide
 <<nobr>>
 <<run setup.experience($player, "Cool", 5, 5)>>
 <<run setup.rating($player, -5)>>
@@ -29,7 +29,7 @@ They both continue towards their destination, only stopping to stare at other wo
 They both continue towards their supposed destination, only stopping to stare at other working girls. Although, you know that they´re walking in the complete opposite direction. You straighten yourself out with a smile and a chuckle.
 
 <<= setup.button("Continue.", "Receptionist - Finish")>>
-:: Receptionist - Guidance Cool Check
+:: Receptionist - Guidance Cool
 <<nobr>>
 <<run setup.experience($player, "Cool", 5, 5)>>
 <<run setup.rating($player, -5)>>
