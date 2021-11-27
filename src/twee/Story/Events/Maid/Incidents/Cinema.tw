@@ -1,0 +1,19 @@
+:: Maid - Cinema
+<<nobr>>
+<</nobr>>The sign of the 'Deep Lip Cinema' towers over you, as you stand outside the entrance, clutching your hover trolley. You scoff as several customers leave, with more than a few of them sending you slick stares followed by mocking grins.
+<<= setup.speak($player, ["Tsch, what an upstanding place...","How friendly of them...","Ugh..."])>>
+You sigh as you enter and begin your cleanup routine, picking up popcorn, litter and trash left over by the cinema goers. Reaching over to grab an empty popcorn box you put your hand down on one of the seats, but quickly jerk it back as it touches something slimy. 
+<<= setup.speak($player, ["Ugh...! Really?!","F-for real?!","W-what the hell?!","Tsch... typical.","Really...","Figures.","Whoops!","Teehee~!","*Giggles*"], ["angry","surprised","pleasure"])>>
+You yelp loudly as you realize you just touched a used up condom.
+
+:: Maid - Cinema Clean
+<<nobr>>
+<<run setup.psyche($player, "Slut", 3, 2, 3)>> 
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.rating($player, 10)>>
+<<run setup.bonus($player, 250, "Cleaning")>>
+<</nobr>>You put on at least two layers of sanitary gloves as you remove it from the seat, only to realize that it´s not the only one lying around.
+<<= setup.speak($player, ["What kind of cinema is this?!","A ciname with condoms lying about?! What the hell?!","Ugh! Disgusting!","Pfft!","This should give me a bonus. For real though.","No trash cans for condoms?","Oh my! Condoms!","I am become, the condom collector! Teehee~!","Wowzers, there´s so many! Yummies!"], ["angry","smile","smile"])>> 
+Your eyes dart towards your UV-light... But you quickly decide to spare yourself the truth of what revelation that would bring upon you. You swallow your pride and collect the remaining cum-filled condoms.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

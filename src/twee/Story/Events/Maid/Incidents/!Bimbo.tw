@@ -1,0 +1,24 @@
+:: Maid - Bimbo Check
+<<nobr>>
+<<run setup.psyche($player, "Lust", 75, 75)>>
+<</nobr>>With a seductive strut you enter the next room that needs cleaning. You tightly grip your duster and let out a wanton moan. The living room soaks you in and you flick and swish the duster wherever it´s needed.
+<<= setup.speak($player, ["Mmmmh, here too.","A little bit there, and a little bit here! Teehee~!","*giggles*... no dust escapes me!"], "smile")>>
+You lightly bend over, legs stretched making your frilly skirt expose everything beneath it from behind.
+<<= setup.speak($player, ["And here, and here. Oh my and there!","Oh look! So much dust there!","Mhmmm! And over there! Hehe! Swish swish!"], "surprised")>>
+Your womanly juices trail along your inner thigh as your panties fight to contain your wet cunt. Entering the bedroom you grab the sheets and quickly change them. Until a lecherous idea catches your mind. Your fingers slowly reaching for your crotch.
+<<= setup.speak($player, ["Mmmh.. surely no one will catch me having a bit of fun here?","Uhmmm... gonna... have to let go!","Oh... my... I have to get it out!"], "smile")>>
+Rubbing your clit through the soft fabric, you moan like a wanton bimbo whore in heat.
+
+:: Maid - Bimbo Check Continue
+<<nobr>>
+<<run setup.psyche($player, "Lust", 75, 75)>>
+<<run setup.psyche($player, "Bimbo", 1, 4)>>
+<</nobr>>You flick your panties to the side in frustration, rubbing your soaking slit with desperate need. Eventually you almost rip them off, needing full access to properly finger-fuck yourself.
+<<= setup.speak($player, ["Aaaah! Fuck! If only I had a real cock right now!","Mmmmh.... FUCK!","Aaaaah! Aaaaah! *giggles* Aaaah!"], "pleasure")>>
+With lecherous frustration, you pick up the pace. Your moans turning louder and almost ending in wild passionate screams. A ripple of pleasure shoots up through your stomach and down your legs ending in your toes. The lust taking complete hold of you as you squirt and wet the sheets meant to replace the old.
+<<= setup.speak($player, ["Ooooh fuck!","AAAAAAAAAAAAAAAAAH!","OOOOOOOOOOOOOH!"], "pleasure")>>	
+The last waves of pleasure make their way through your body and you quickly regain your senses. Finishing putting on the sheets you completely forget that they´re soaked in your juices.
+<<= setup.speak($player, ["Shit shit shit! Getting behind on schedule!","Oh-oh my! Gotta hurry up now!"], "surprised")>>	
+A tingling sensation of pleasurable need forms once more as your hungering need returns. You don´t even notice that there was something else that you forgot as you move unto the next room.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

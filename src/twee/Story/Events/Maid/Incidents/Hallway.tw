@@ -1,0 +1,39 @@
+:: Maid - Hallway
+<<nobr>>
+<</nobr>>Turning down unto a new hallway you bump into a trail of litter and spilled drink.
+<<= setup.speak($player, ["Seriously...?! Really? In the hallway?!","Ugh! Really?! Don´t anyone around here use the heckin´ trash cans?!","Just my day! Why are people like this?!"], "angry")>>
+With a defeated sigh, you begin to dust, clean and remove the trash. You shake your head as you try to be as subtle as possible and not flash your panties in the short dress as people move about.
+<<= setup.speak($npc.adults[0], ["Mhmgm...hehe-..*hic*.. Check out that behind...","Oh boy! *hic*...beautiful woman!","Ahahaha... look at her. Is my new wifey! *hic*"], "smile")>>
+The touch of a course masculine hand makes you yelp as it slides up along your inner thigh, grazing your panties.
+<<= setup.speak($player, ["O-oh! What the hell?!","Yikes!","Aaaah! What are you-?!","Mhm... H-hey!","Oh-... s-stop that!","H-hey! Touching costs extra!","Mhmmmm... hehe...","Ooooh~... that feels nice...","Oh my~"], ["surprised","smile","pleasure"])>>
+You almost shriek as the man pushes himself against you. His breath dropping onto your neck, clearly drunk and filled with lust.
+<<= setup.speak($player, ["What the hell do you think you´re doing?!","Hey! Get off me!","Stop that!","No way you sick freak! Get off!","Ugh! What´re you doing?! Pervert!","Can you not?! Get off me you slithery fuck!","Mhmmm... getting touchy are we?","Oooooh... hehe...","Mhmmmm... need sucky?"], ["surprised","angry","smile"])>><<= setup.speak($npc.adults[0], ["Oooh-ooh a sweet angel has come for me!","Aaaahaha... touchy time...*hic*","Mhm... so soft... I need... it..."], "smile")>>
+The grasp on your butt cheek tightens as he rubs himself against you.
+
+:: Maid - Hallway Give in
+<<nobr>>
+<<run setup.psyche($player, "Lust", 50, 50)>>
+<<run setup.psyche($player, "Slut", 3, 2, 3)>>
+<</nobr>>The man quickly overwhelms you and goes in for a kiss, but you swiftly dodge only letting him smother your neck instead.
+<<= setup.speak($player, ["Ahhh shit, come on now...","Not so fast...","Ugh, not like that!"])>><<= setup.speak($npc.adults[0], ["Ahhh yes... Come on you... Hehe!","Mhmmm, love me baby. Love me long time.","Ahhhhh, so soft and pliable."], "smile")>>
+Putting your hand on his stomach to ease him off, you lightly grace something...
+<<= setup.speak($player, ["Dude! Really?! You have your fucking cock ou-!","I-is that?! IS THAT YOUR LIMB PENIS?!","Oh... OH!?","Alright, that´s a cock. Time´s up. I´m not dealing with this shit.","Really? You got your limb penis out? Let me guess, it was a succulent meal as well?","Get that back in, you pervert.","Oh? Is that a cockies I feel?","Aha! Penis!","Does it need suckies?"], ["surprised","smile","pleasure"])>><<= setup.speak($npc.adults[0], ["Mmmh sweet love! Hahaa-ha!","My new angel...","Oh girly~... Take me!"], "smile")>>
+Trying to endure his advances you spot Lily in the distance. You grimace at her, as she simply observes your struggles with a smirk on her lips.
+<<= setup.speak($characters.lily, "Really newbie? You just started and you´re already about to choke on some guy´s cock?", "smile")>><<= setup.speak($player, ["Come on! Get him off me!","Stop standing there! Help me!","A little help please?!","Enjoying the show?","Having fun?","What a great partner you are... just standing there.","Is just doing my job!","Mhm... time to suck!","Is just a penis!"], ["angry","smile","smile"])>><<= setup.speak($characters.lily, ["Sure... Whatever.","No ones got time for this shit.","I figured as much."])>>
+She moves closer and swiftly places her hand on his neck. The full weight of his body comes down on you as he passes out.
+<<= setup.speak($characters.lily, "Done. Now... If you will excuse me, I have actual real work to continue. See ya around... Cock-sucker.", "smile")>><<= setup.speak($player, ["God damn it!","Ugh... really?!","Thanks.... NOT!"], "angry")>>
+You just manage to wiggle yourself free, only to continue cleaning up the litter.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Hallway Fight back
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<</nobr>>You place the palms of your hands on the man´s chest and push with all of your might.
+<<= setup.speak($player, ["Fucking! Get off of me!","Get away from me you creep!","That´s enough! Playtimes over!"], "angry")>>
+The man reaches out in the air as he trips and falls on his ass.
+<<= setup.speak($npc.adults[0], ["Oooow!","Aaaaaaaaah!","H-hey! My a-a-angel!"], "surprised")>>
+After which you turn around, your gaze meeting Lily's, making you realize that she was taking in the display all along.
+<<= setup.speak($characters.lily, ["Not bad newbie... Looks like you´re a real asset on the menu around here.","Pfft... handling drunkards now? Not too bad. But you could have done better."], "smile")>><<= setup.speak($player, ["Really? You could have helped!","Thanks for the help!","Enjoyed the show? Did we?!"], "angry")>>
+A cackle follows behind her as she spins, only to strut away. Taking another glance at the man, whom now appears to have passed out. You decide to finally go about finishing cleaning up the litter.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

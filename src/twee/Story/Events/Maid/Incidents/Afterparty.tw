@@ -1,0 +1,33 @@
+:: Maid - Afterparty
+<<nobr>>
+<</nobr>>As you move on to the next room, you notice that the door is slightly ajar.
+<<= setup.speak($player, ["Guess I´ll just... Let myself in then.","Hmph... this could be the intro to a bad horror movie.","Alrighty then, what´s the worst that can happen, right?"])>>
+You slowly creak the door open, moving inside. The scene of endless litter immediately meets you. Trash, empty bottles and what you can only describe as at least two used condoms lying on the table, as well as many other things simply lying about.
+<<= setup.speak($player, ["Ugh, they really don´t fancy cleaning up after themselves, do they?","This has got to be a joke...","At least use the bin, until it´s full or something..."])>>
+You count three grown men and one woman sleeping all around the room. Two of them in the bed and the other two hugging each other on the floor. The rank stench of over-the-night alcohol, sex and sweat stinks up the room.
+<<= setup.speak($player, ["Looks like someone had a party...","Kinky, wait, what am I saying?","Ugh, tramp.","Hope she got paid well.","Three on one. One for each hole. Hehe...","What a pickle. One in front, two in the behind. At least one of them is going to be a daddy... hehe...","Wow, if only they had invited me!","She must be proud of herself! Teehee~!","*giggles*"], ["smile","smile","pleasure"])>>
+The strong odor takes you back, making you scratch your head as you think about what to do.
+
+:: Maid - Afterparty Fuck that
+<<nobr>>
+<<run setup.psyche($player, "Cool", 5, 5)>>
+<<run setup.rating($player, -5)>>
+<</nobr>>With a clenched fist and gritting teeth, you sneak towards the door.
+<<= setup.speak($player, ["Honestly... Fuck this.","Yeah, I´m not cleaning this filth up.","This is above my pay-grade."])>>
+Slowly creaking the door open once more, you slip past it and move on to the next room.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Afterparty Get to work
+<<nobr>>
+<<run setup.experience($player, "Cleaning", 5, 5)>>
+<<run setup.psyche($player, "Lust", 10, 25)>>
+<<run setup.rating($player, 10)>>
+<</nobr>>You begin your stealthy clean up, by picking up the empty bottles. The rankness of the room slowly subsiding, you smoothly restore the room to pristine condition whilst also skillfully avoiding the living obstacles around you.
+<<= setup.speak($player, ["That there... and this.","Oh... one was hiding beneath.","I-is... that... inside his ass?"], "smile")>>
+The greatest challenge being to stomach the manual removal of two spunk-filled condoms, not questioning the presence of three men with one woman and only two condoms. Only your imagination to play with on the location of the third... If even existing.
+<<= setup.speak($player, ["Ugh... the load... how much do they cum?!","Tsch... disgusting!","Ugh... think I might throw up..."], "surprised")>>
+With the room now at least decently clean, you sneak out once more and move on to the next.
+<<= setup.speak($player, ["All done, time to make a stealthy retreat.","Aced that one. That´s for sure.","Now be sneaky..."], "smile")>>
+Surely the guests will appreciate waking up to a completely clean room.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

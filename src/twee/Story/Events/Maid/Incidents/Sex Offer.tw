@@ -1,0 +1,44 @@
+:: Maid - Sex Offer
+<<nobr>>
+<</nobr>>You approach the next room that needs the duster and park your hover trolley just by the door. Knocking twice on the door, you clear you throat as you make your announcement.
+<<= setup.speak($player, ["Here to clean, anyone home?","Anyone there? It´s time for me to clean!","Housekeeping! Or something...."])>>
+A scuffle can be heard coming from inside as someone moves towards the door.
+<<= setup.speak($characters.secret, ["About damn time, my balls are aching.","Aaaah yes! Was about to bust this nut alone!","Mhm-mhm, just as ordered!"])>>
+The door is jerked open and your vision blinded by a pair of crown jewels dangling in the open. With nothing else than an open bathrobe to wear the man is practically naked.
+<<= setup.speak($npc.adults[0], ["Hmph, this some kinda promo? Why are you wearing a french maid costume? Anyway, get in here and suck my balls already.","Ohoho! They send me a maid this! Gonna enjoy you!","Wauw! You´re hot! Exactly as I ordered! Will be using you nicely! Ahaha!"], "surprised")>>
+Quickly pulling yourself to your senses you cry out.
+<<= setup.speak($player, ["Uuuh, sorry! Big misunderstanding! Just here to clean the room!","Uuuuuh what?! What are you talking about? Think there´s a mistake here!","Wait what? No-no, wait a minute! This has got to be a misunderstanding!","If you want to fuck me, you gotta pay jimbo.","No pay, no fucking. Got it?","Okay... I see where this is going. You gonna pay for it though?","Okaaaay! You want to fuck me? Teehee?","*giggles* alright!", "Oh? You want me for fuckings? We can do this!"], ["surprised","smile","pleasure"])>>
+<<= setup.speak($npc.adults[0], ["Get in here and do your damn job, whore!","Come on come one. I need to fuck you already!","Don´t got all day, get in here already!"], "smile")>>
+You tilt your head as you weigh your options.
+
+:: Maid - Sex Offer Masculine Rejection
+<<nobr>>
+<<run setup.rating($player, -2)>>
+<<run setup.psyche($player, "Cool", 1, 4)>>
+<<run setup.psyche($player, "Feminine", -1, -4)>>
+<</nobr>>You plant your heels in the hotel hallway, clenching your fist at the man.
+<<= setup.speak($player, ["Hey! I´m not a whore!","Fuck you! I´m not fucking you!","Hell no! Back off!"], "angry")>><<= setup.speak($npc.adults[0], ["What? Really? Don´t make me laugh now!","Pfft! Who do you think you are?","Tsk! Get in here NOW!"], "angry")>><<= setup.speak($player, ["Fuck you! Clean your own damn room then!","Clean your own room you pervert! Stay back!","No way I´m entering your ghoul lair!"] "angry")>><<= setup.speak($npc.adults[0], ["God damn whore!","How dare you!","Did you just say what I think you said?!"], "angry")>>
+You turn around, grabbing your trolley you begin to leave.")>>
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Sex Offer Feminine Rejection
+<<nobr>>
+<<run setup.psyche($player, "Lust", 1, 9)>>
+<</nobr>>With a sigh, you shake your head at the man.
+<<= setup.speak($player, ["Sorry sir, there´s been a misunderstanding of some sort, I really am just here to clean the room.","It appears that there have been some kind of misunderstanding. I am not here to satisfy you sexually.","Will not be doing this. I´m a maid. I´m here to clean."])>><<= setup.speak($npc.adults[0], ["I already told ya! I don´t care! Now suck my damn cock!","Who cares?! Get on your damn knees!","Did anyone ask?! Now suck it!"], "angry")>><<= setup.speak($player, "I don´t think so. You want me to clean the room or not?")>><<= setup.speak($npc.adults[0], "If ya ain´t here to clean my cock, then you better turn that prissy ass around and leave, right damn now!", "angry")>>
+You turn around, grabbing your trolley you begin to leave.
+<<= setup.speak($npc.adults[0], ["God damn whore!","How dare you!","Get back here!"], "angry")>><<= setup.speak($player, ["Whatever.","Pfft...","Tsk."])>>
+After having made a reasonable distance, you continue your maidly duties.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Sex Offer Accept
+<<nobr>>
+<<run setup.psyche($player, "Lust", 75, 75)>>
+<<run setup.psyche($player, "Slut", 10, 15)>>
+<<run setup.rating($player, 25)>>
+<<run setup.bonus($player, 500, "Blowjob")>>
+<</nobr>>Licking your lips you enter the room.
+<<= setup.speak($player, ["Right away mister!","Alrighty! Time to sucky! Teehee~!","Cock for me! Finally!"], "smile")>><<= setup.speak($npc.adults[0], ["God damn whore!","Get here you sick bitch!","Mhm, finally! Know your place now you dirty slut?"], "angry")>>
+As you enter the room, you find yourself pushed unto the bed.
+
+<<= setup.button("Continue.", "New Sex", "<<set $sex.current = 'vaginal-sex', $sex.rE = $player, $sex.gE = $npc.adults[0], $sex.passage = 'Event - Finish', $event.current = 'Maid', $event.return = 'Pod - Main'>>")>>

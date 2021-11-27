@@ -1,0 +1,17 @@
+:: Maid - Mind Check
+<<nobr>>
+<</nobr>>You power through the fog, catching yourself drooling at times. Caught within a daze, you do your best cleaning as many rooms as possible.
+<<= setup.speak($player, ["Ugh...","When will this headache end...","My damn head...."])>>
+Every now and then, you realize someone is groping you, for how long? Could you even make them stop if you wanted to?
+<<= setup.speak($characters.secret, ["Nice ass.","Phew, tight.","Is her panties... gone?"])>>
+Mmmmmh... What´s even going on? You feel a rough *SMACK* connect with your cheek.
+
+:: Maid - Mind Check Continue
+<<nobr>>
+<<run setup.psyche($player, "Lust", 10, 25)>>
+<<run setup.rating($player, -100)>>
+<</nobr>>Suddenly jerked awake to the incessant snapping of fingers, you look up to meet Lily's condescending frown.
+<<= setup.speak($characters.lily, ["Wake up! Newbie! Are you even there?!","Wakey-wakey!","Anyone home? Drool-face?"], "angry")>><<= setup.speak($player, ["Uuuuuuh? Candy? *drools*........","W-what? Who are you?","Hehe... what? Where am I?"], "pleasure")>><<= setup.speak($characters.lily, ["Unbelievable! This is going in your log!","Tsch, sleeping on the job? Gonna have to punish you for that!"], "angry")>>
+Saliva stains your maid dress as you stand there... completely gone. With a shake or two, you finally snap out of it, but only to finish the day with nearly no work done.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

@@ -1,0 +1,33 @@
+:: Maid - Voyeur
+<<nobr>>
+<</nobr>>You finish one hallway of rooms and are about to move on to the next one when you hear a muffled moan and a familiar voice. A schlicking sound coming from around the end corner of the hallway.
+<<= setup.speak($player, ["Huh?","Is someone...?","Is that what I think it is?"])>>
+You sneak towards the corner, only to peak around it. What welcomes you is the sight of Lily pushed  against the wall on her knees, with some guy´s fat cock jammed down her throat. Moving a hand towards your mouth to contain yourself and your gasp, you quickly hide behind your little corner.
+<<= setup.speak($npc.adults[0], ["Oooh fuck. Go on, work that tongue you whore.","Aaah... fuck... that´s it you blonde slut!","Fuuuck, your lips worth the units!"], "pleasure")>>
+She mumbles something unintelligable and continues to bob her head back forth.
+<<= setup.speak($npc.adults[0], ["That´s it!","Ooooooh, take it you dirty maid whore!","Aaaah-shit-shit! You maids are insane!"], "smile")>>
+You press your back against your little corner, still containing your gasp. Not really sure about what to do you...
+
+:: Maid - Voyeur Peek
+<<nobr>>
+<<run setup.psyche($player, "Lust", 50, 25)>>
+<<run setup.psyche($player, "Slut", 3, 2, 4)>>
+<</nobr>>The hallway is filled with Lily's choking as she pushes her throat unto the man´s cock. He grabs her head forcing her down, but she quickly slaps away his hand and flips him off.
+<<= setup.speak($npc.adults[0], ["Yeah-yeah... Your way and all that. Fuck!","Ugh... stuck up bitch.","Tsch, go on then, have it you-ooooh! Way!"], "smile")>>
+With the naughty sight before you, a heat spreads through your loins making you touch yourself a little absent-mindedly. He seems to be getting closer as he rocks his hips towards her.
+<<= setup.speak($npc.adults[0], ["Ahhh! Fuck yeah! About to cum you stupid bitch!","Ooooh, that´s it! My load is coming!","Aaaaaaah! Shit shit! Gonna cum soon you whore!"], "surprised")>>
+Taking out his cock he spurts and covers her face in his thick juices.
+<<= setup.speak($characters.lily, ["Ugh! I TOLD YOU! I swallow, don´t cover me! I´m working!","Argh! On my face?! Again?! You said soon! Not now!","WHY?! I´m working you idiot!"], "angry")>>
+She gets up and frantically grabs some wet wipes to clean herself.
+<<= setup.speak($npc.adults[0], ["Ah shit, I´m sorry...","Well... suck a little less aggressively then?","Can´t be helped with you being so thirsty, darling."])>><<= setup.speak($characters.lily, ["Whatever. Just pay up and get lost already.","Tsch. Same time and pay next week. Let your friends now, yada-yada.","Ugh, you´re all the same. Just give it here, and show up on time next time."])>>
+With the action over you quickly retreat.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Voyeur Leave
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<</nobr>>Even though the scene is really hot you decide that this is none of your business.
+<<= setup.speak($player, ["Lily of all people... Did not expect that.","So much for being an upstanding bitch...","I would say that I was surprised. But I´m not."], "smile")>>
+You think to yourself condescendingly as you continue moving unto the next hall.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

@@ -1,0 +1,23 @@
+:: Maid - Board Room
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<</nobr>>The elevator door opens and you haul your trolley towards the next room on the list. The hallway is neatly decorated with sculptures of supposedly important figures. All of them stacked nicely against the red and golden wall. You reach the silver-inlaid double-doors of which you push open with little effort.
+<<= setup.speak($player, ["Well... here we are.","Finally... that was a stroll.","Ugh. They really love long hallways."])>>
+The room already looks neatly cleaned and maintained, only the odd coffee-mug stain and crumbs lying around. Sighing in relief, you get to work anyway. Arming yourself with your trusty duster and cleaning utensils you begin to scrub and dust.
+<<= setup.speak($npc.executives[0], ["Who are you?","Uhhh, what are you doing here?","Don´t recall ordering a line girl for this meeting."])>>
+You almost drop your duster in shock as you turn around.
+<<= setup.speak($player, ["W-what?! Oh god! S-sorry! The room was supposed to be empty!","Oh shit! Sorry! E-pal told me-","Ah! Oh no.... uhm! Was supposed to just clean!","Uuuuh what? I´m just doing what I´m paid to do...","Here to clean. Done deal. Mind?","Oh?","Here for cleanies! Needs cleanies?","Oooooh! Hot-hot! But just here to clean!", "I dust cause I must! Need my cleanies?!"], ["surprised","smile","pleasure"])>>
+<<= setup.speak($npc.executives[0], "Next board meeting will begin in five minutes... But no matter. You continue if you wish. I´m sure the gentlemen won´t mind such a fine piece of ass around.", "smile")>>
+He trails around towards the end of the table and begins to prepare some kind of presentation.
+
+:: Maid - Board Room Quick Finish
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 15)>>
+<<run setup.rating($player, 5)>>
+<</nobr>>You make a quick scan of the whole board room, locating all of the worst spots most needing your attention.
+<<= setup.speak($player, ["This is doable, should not be long.","Let´s make it a quick one then.","Alright, turbo-mode activated."], "smile")>>
+You quickly grab the trashcan, making one sweep filling it with the little trash lying around and scooping the crumbs into it. Grabbing your wet cloth you make a speedy wipe of the table, getting the few stains.
+<<= setup.speak($player, ["There we go!","Done deal!","Turbo-mode deactivated.", "smile"])>><<= setup.speak($npc.executives[0], "Oh really? Hmph, didn´t have to be that quick about it doll.","Already? That was fast. Wouldn´t have minded keeping you around.", "smile")>>
+You grab your things, and just as you head for the door, it opens as four-five men in neon business suits enter. Clutching your duster and your things you move through. At least one of them turned around to check your behind and another whistled as you strutted down the hallway towards the elevator.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

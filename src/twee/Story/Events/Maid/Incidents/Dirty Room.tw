@@ -1,0 +1,50 @@
+:: Maid - Dirty Room
+<<nobr>>
+<</nobr>>After completing a client room you move on to the next, but notice that it´s still occupied. Placing your fist on the door, you give it two knocks.
+<<= setup.speak($player, ["Uuuh, here to clean your room.","Time for me to clean your room.","Anyone there? Gotta clean the room."])>>
+You hear something shuffle and rummage behind the door, coming closer towards it. As whatever it was slowly opens the door, a towering half-naked figure stands before you. He scratches his chiseled chin as he eyes you up and down with a smirk on his lips.
+<<= setup.speak($npc.adults[1], ["Ah, they´re sending the cute ones now eh? Come on in then.","Well... lookie here! That´s got to be the sexiest maid in a long time! Come on then.","Phew... You´re fit, if I say so myself. Get in, there´s lots for your to swing that little duster for!"], "smile")>>
+He opens the door just enough for you to slither through.
+<<= setup.speak($player, ["Right.","Tsk... really?","Ugh...","Don´t get ahead of yourself, pal.","No touching. No being creepy, got it?","Ugh... here we go again.","Oh wow! Thanks mister!","Mhm...! Time to dusty!","Yay!"], ["default","smile","smile"])>>
+You grab your duster and move past him, gracing his abs. What welcomes you is a surprise, a relatively clean room. The man trails around you, only to settle down in his armchair.
+<<= setup.speak($npc.adults[1], ["Go on then, I love to watch you lovelies work.","Ah... nothing like a good show in the morning. Swing your duster now. For me.","Give it a good wirl baby. Make it cleaner."])>>
+He chuckles lightly, scratching his groin as he waits for you to begin.
+
+:: Maid - Dirty Room Walk Out
+<<nobr>>
+<<run setup.rating($player, -10)>>
+<<run setup.psyche($player, "Feminine", -1, -2, -3)>>
+<</nobr>>Without too much thought to it, you clench your duster and move towards the door.
+<<= setup.speak($player, ["Yeah I´m not some sort of entertainment, fuck this!","Looks clean enough to me. Jobs done!","That´s not how this works! Good day to you, sir!"], "angry")>>
+He gets up from the chair flinging curses at you as you exit the room.
+<<= setup.speak($npc.adults[1], ["Hey wait! Come on now! Do your fucking job!","Wait now! You can´t just leave like that you dumb whore!","That´s not fair! Clean my room you bitch!"], "angry")>>
+You plant your heels with a confident strut as you move towards the next room, ignoring his enforcing pleas.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Dirty Room Clean it
+<<nobr>>
+<<run setup.psyche($player, "Feminine", 1, 2, 3)>>
+<<run setup.psyche($player, "Lust", 50, 25)>>
+<<run setup.rating($player, 5)>>
+<</nobr>>You just smile awkwardly as you get on with the cleaning, using your duster and making sure everything looks all nice and dandy.
+<<= setup.speak($player, ["This better pay well.","Just ignore him...ugh...","Just another days work...","Swish and flick!","Dust is dust, just don´t get too comfortable there.","No dust gets to escape me...ugh...","Here I go!","Time to clean!","Enjoy the show!"], ["default","smile","smile"])>>
+You look towards him and notice him touching himself, which only makes you feel extra exposed in your short-skirted maid outfit. At the least the room is relatively clean, so you quickly finish dusting it.
+<<= setup.speak($player, ["That´s the last of that, I´ll be going then.","All done. Time for me to move on!","And there it is, one extra clean room, as ordered."], "smile")>><<= setup.speak($npc.adults[1], ["A pleasure to have that tight ass prancing around here cleaning up, come again any time missy.","Damn! That was hot! Don´t mind me coming around here again! I´ll be waiting for you!","Hopefully not the last time! Ahaha!"], "smile")>>
+You let out a sigh as he clutches his groin. With a strut to your walk, you quickly leave his room and move on to the next.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Dirty Room Take time
+<<nobr>>
+<<run setup.psyche($player, "Slut", 1, 2, 3)>>
+<<run setup.psyche($player, "Lust", 100, 50)>>
+<<run setup.rating($player, 10)>>
+<<run setup.bonus($player, 50, "Cleaning")>>
+<</nobr>>You do your best impression of a french maid, prancing around dusting the room in an almost comical way. Every now and then you bow down, flashing a bit of your slim thong.
+<<= setup.speak($player, "A-ahem, oui-oui, monsieur?", "smile")>><<= setup.speak($npc.adults[1], ["Uuuuh? What?","Whats that supposed to mean?","I uuuh, don´t understand..."])>><<= setup.speak($player, ["Oh... Nevermind! Need a little dusting?","Don´t think about it too hard..."])>>
+You move closer to him, only to swing your duster around his chair. A strong grasp takes hold of your right butt cheek, followed by a squeeze that makes you wince.
+<<= setup.speak($player, ["O-oh my! Don´t get too handsy now! I think im done dusting now anyway!","H-hey now, no need to touch! Done anyway!","Oh! Hey! No touching! Also, I´m done dusting now.","Sheesh! Who told you, you could touch?! Guess I´m done here now then.","Oh, hey-hey! You can´t just touch! No more dusting for you!","Oui! Keep your filthy hands to yourself! That costs extra! I´m done here.","Oh my? Touching, huh? Too bad! I´m already done!","Mhmmm... oh my... too bad I´m already done Mr. Hands!","Ooooh... touching me in all the right places. If only I weren´t already done!"], ["surprised","smile","pleasure"])>><<= setup.speak($npc.adults[1], ["Sure you little minx!","Pfft! Have it you´re way, you slutty maid!","If you say so miss duster! Ahaha!"], "smile")>>
+The tight grasp leaves your ass, only to be followed by a sharp pain as he slaps your bare behind underneath the short maid skirt.
+<<= setup.speak($player, ["OOOOH!","Aaaah!","Oh! H-heeey!!!"], "surprised")>><<= setup.speak($npc.adults[1], ["Come again anytime. Haha! Take a tip whilst you´re at it!","That wasn´t too bad! Here, take a little reward.","Not bad at all my little maid. Here, for your troubles!"], "smile")>>
+You quickly leave his room and move on to the next.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

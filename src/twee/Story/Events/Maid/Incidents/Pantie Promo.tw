@@ -1,0 +1,33 @@
+:: Maid - Pantie Promo
+<<nobr>>
+<</nobr>>As you put together your hover trolley for cleaning, the otherwise nice peace and quiet is disturbed as Lily barges into the maid room.
+<<= setup.speak($characters.lily, ["You...! Are you wearing panties?! Give me your damn panties!","Alright newbie, cough up those panties! Take em off!","There you are! Your panties! Give them to me!"], "angry")>><<= setup.speak($player, ["What?! What the fuck is wrong with you!","Wait, what?! What are you doing?!","What the hell is wrong with you?! Chill!","Uuuuuh, what now? Calm down!","You want my what?!","Right, what´re you gonna pay for them? Hmph?!","*giggles*.... what? Did you say something?","Teehee~! Come and take them!","Want my panties? Why? Mhmmmmm!"], ["angry","surprised","smile"])>><<= setup.speak($characters.lily, "They´re having another panty promo, but we only get our bonus if all the maids go along with it! So give it here, NOW!", "angry")>> 
+Her gaze looks you up and down with a sinister glint as she demandingly extends her hand.
+
+:: Maid - Pantie Promo Accept
+<<nobr>>
+<<run setup.psyche($player, "Slut", 3, 2, 3)>> 
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.rating($player, 10)>>
+<<run setup.bonus($player, 250, "Cleaning")>>
+<</nobr>>You gently close your legs together and drop the black frilly panties under her leering gaze.
+<<= setup.speak($player, ["Calm down... Geez... Here, don´t go sniffing them now.","Shit... Alright. Just calm down.","Alright-alright. Here take them.","Better pay well.","Alright. If it gives a bonus, then I guess you can have them.","Got it. Bonus for panties off. Mission Accomplished.","Alrighty! You can have Miss Panties!","Ooooh! They´re a little wet! Careful now! *giggles*","*drools*.... Okay!"], ["default","smile","pleasure"])>><<= setup.speak($characters.lily, ["Good, this should give us a nice bonus.","Finally, been wait for this opportunity for a long time.","Nice. I´ll add it to the others."])>> 
+She snickers as you hand over your damp panties. With a greedy smirk on her lips, she grabs and adds them to her growing collection amongst your peers panties. 
+<<= setup.speak($player, ["Sooo-... I´m gonna get those back right?","How long is this thing going to take then?","You wont keep them though, right?"])>> 
+She grunts as the door slams on her way out, seemingly to collect the rest.
+<<= setup.speak($player, ["Whatever pays I suppose.","Oh well...","At least I make some extra then."])>>
+A sigh escapes you as you begin the long day ahead... without any panties that is.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Pantie Promo Refuse
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<<run setup.psyche($player, "Cool", 5, 5)>>
+<<run setup.psyche($player, "Slut", -1, -4)>>
+<</nobr>>You plant your heels on the floor as you shake your head to her demands.
+<<= setup.speak($player, ["Yeah that´s not gonna happen.","No way.","Not my panties you don´t."])>><<= setup.speak($characters.lily, "WHAT?! You´re going to fuck over the rest of us just because you´re some uppity high bitch?!", "angry")>><<= setup.speak($player, "Fuck you! Who the fuck just asks about panties like that?!", "angry")>> 
+A shiver runs down your spine as you watch her boil over and for a second clenching her fist in a building fit of fury. You expected her to attack you, though, she suddenly seems to calm down a bit.
+<<= setup.speak($characters.lily, "UGH! Whatever. You´re not better than us! Don´t you think that for a second, newbie!", "disgust")>> 
+A loud clang is heard as her heel connects with the trash bin on her way out, the door to the maidroom slamming shut.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

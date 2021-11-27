@@ -1,0 +1,24 @@
+:: Maid - Luxury Suite
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<</nobr>>You knock on the door to the single luxury suite at the Gloria Hotels, also known as the obsidian penthouse. With a nervous gulp you clutch your trolly of which you had to drag up eighty-floors in an elevator blasting synth-wave. The obsidian door towers over you as you wait to see if the room is vacant or not.
+<<= setup.speak($player, ["Hmph, no answer. Guess the coast is clear.","No one answering? That´s my queue then.","Alright, time to enter."])>>
+You swipe your E-Pal giving yourself access. With a strut you push your trolly inside only to gasp at the black volcanic-tiled suite. The hallway the size of a regular suite and the bedroom twice the size, housing an absolute massive quadro-bed that could easily contain eight bodies. You sigh knowing full well what is in store for you. It will take at least an hour to just change the sheets and the army of pillows. Nevertheless, you begin to tirelessly work.
+<<= setup.speak($npc.executives[0], ["Woah!!!","Heey!!!","Aaaah!"], "surprised")>><<= setup.speak($player, ["Oh shit!","AAAAAAAAH!","S-sorry! Aaaah!","Geez! My ears!","Gah! Not so loud!","Ugh! Get a hold of yourself!","*giggles*.... Teehee~!","Surprise-cleanies!","*drools*... uuuuuh? Hello?"], "surprised")>>
+With a spin you gasp at the naked image before you. The man startled man clutching nothing more, but a towel, desperately trying to conceal his privates.
+<<= setup.speak($player, ["I thought the suite was empty!","Oh geez Sorry!","Agh! So so so sorry! I thought you were gone!","Ugh... not again...","Are you... you know this is going to cost extra, right?","Great. Another naked person...","Oh look! A cock!","Ahahahahaha! You´re naked!","Wow! Are you showing me your cock?! Cleanies?"], ["surprised","surprised","pleasure"])>><<= setup.speak($npc.executives[0], "W-well...! Agh gah!. No matter. You do what you need to do. Let me just change real quick.")>>
+The guy walks towards the wall and slides out a wardrobe. Carelessly dropping his towel and flashing his junk as he prepares a neon business suit.
+
+:: Maid - Luxury Suite Clean up
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 15)>>
+<<run setup.rating($player, 5)>>
+<</nobr>>You continue changing the sheets, trying your best to ignore the otherwise naked man taking his time to select his underwear for the day.
+<<= setup.speak($npc.executives[0], ["Black or blue boxers?","So, what do you think? Pink or purple?","Red, yellow or black... hmmmmm, what do you think?"], "smile")>><<= setup.speak($player, ["Uuuh? what?","Hmph? Said something?","Uhm?"])>><<= setup.speak($npc.executives[0], "Underwear. Which color would you rather see before getting fucked by a stud like me?")>>
+You turn around to see him once again flashing his junk holding a pair of neon underwear in different colors.
+<<= setup.speak($player, ["U-uhm. Not sure... whatever I guess?","I guess that doesn´t really matter right?"])>><<= setup.speak($npc.executives[0], ["Ah well... gonna go with these then.","Insightful advice. These will be my choice then!","Aha! Could also just go without I guess!"], "smile")>>
+The guy quickly jumps into his neon business suit, grunting a few times.
+<<= setup.speak($npc.executives[0], "Well then! That´s me being off! Keep up the good work doll!", "smile")>><<= setup.speak($player, ["Ugh!","AAAAAAAAAH!","OOOOOOOOOH!"], "surprised")>>
+You yelp as you feel a sudden sharp pain in your left butt cheek followed by a loud slap. You turn around, but he seems to have left in a hurry.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

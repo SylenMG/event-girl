@@ -1,7 +1,7 @@
 //Debug
 //v1.0
 //By Sylen
-/*
+
 var debug = [
 	{
 		id: "Main",
@@ -144,8 +144,6 @@ setup.debugSetShow = function (id, value) {
 		}
 	}
 }
-
-*/
 
 
 

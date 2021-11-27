@@ -1,0 +1,43 @@
+:: Maid - Spanking
+<<nobr>>
+<<run setup.count($player, "receivedHarassment")>>
+<</nobr>>After finishing cleaning a particularly dirty and unkempt room you barely get to leave it before you almost bump into someone blocking the doorway.
+<<= setup.speak($npc.adults[0], ["What in the hell do you think you´re doing in here?!","Huh?! A thief?! An intruder?! Is that a maid´s outfit?!","What are you doing in here?! Did you get permission to enter?!"], "angry")>><<= setup.speak($player, ["Uhm? Just cleaning the-","Doing my jo-?","Is all cleane-...!"])>><<= setup.speak($npc.adults[0], ["My damned cock is all you get to clean you dirty girl!","Oh yeah? How about cleaning you instead, you dirty little maid!","Think you´re smarter than me huh?! I´ll show you!"], "angry")>>
+Before you can react, as grasp takes hold of your wrist and behind. With a startled yelp, you´re shoved towards the bed where he flips you over his knee.
+<<= setup.speak($player, ["What the fuck are-?!","AAAAAAAAAH!","H-hey, w-what are you d-doing?!","Oh-! HEY! That costs extra!","What are you doing pervert?!","Oui! Let´s talk about this first!","Weeeeeeeeeee!","Oh no! I´m in trouble now!","Teehee~!"], ["angry","surprised","pleasure"])>>
+@@.boldtext;SMACK!@@
+
+A stinging pain spreads on your right naked butt cheek as the flat palm of his hand connects with it... And then another!
+
+@@.boldtext;SMACK!@@
+<<= setup.speak($npc.adults[0], ["Be quiet you...! Naughty girl!","Take this you little slut!","Daddy is gonna give it to ya now!"], "angry")>>
+You writhe in his arms, folded over his knees, you need to make a quick decision...
+
+:: Maid - Spanking Resist
+<<nobr>>
+<<run setup.psyche($player, "Feminine", 3, 2, 1)>>
+<<run setup.rating($player, -2)>>
+<</nobr>>You wiggle your way out of his hold, only to shove your hand into his face.
+<<= setup.speak($player, ["YOU CAN´T JUST SPANK ME! CRAZY PIECE OF SHIT!","WHAT THE FUCK IS WRONG WITH YOU?!","WHO THE HELL DO YOU THINK YOU ARE?!"], "angry")>>
+With gritting teeth, you observe his dazed demeanor as he soaks in your response. You take the opportunity to make a dash for the exit.
+<<= setup.speak($npc.adults[0], ["Where do you think you´re going?! Cleaning my sacred safe space without my approval! YOU WENCH!","UGH! Don´t just run you whore! WE ARE NOT DONE HERE YET!","NO! YOU CANT JUST RUN FROM YOUR DADDY! GET BACK HERE! NOW!!!"], "angry")>>
+You manage to make a run for it and escape, resuming your maidly duties later till the end of the shift.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Spanking Submit
+<<nobr>>
+<<run setup.psyche($player, "Lust", 25, 25)>>
+<<run setup.psyche($player, "Slut", 3, 2, 3)>>
+<</nobr>>Biting your lip, you take it the best way you can.
+<<= setup.speak($player, ["Not so hard!","Hey! Go easy on me!","No-no! Hold back a little!","Ugh! You better pay well!","This is gonna cost a-lot-extra!","Calm down! Not so hard!","Oooooh! That one hurt! Teehee~!","27! 28! 29!....whoops, how many was that again?","Mhmmmmmmmmmmmmmmm!"], ["surprised","angry","pleasure"])>>
+@@.boldtext;SMACK! SMACK! SMACK!@@
+<<= setup.speak($npc.adults[0], ["You´re going to take it you stupid wench!","Another one!","Take this one too! Ugh! You slut!"], "angry")>>
+@@.boldtext;SMACK! SMACK! SMACK!@@
+<<= setup.speak($npc.adults[0], ["Cleaning my sacred safe space without my approval! YOU WENCH!","The only thing you will be cleaning for the rest of your life is my cock!","You whore!"], "angry")>>
+@@.boldtext;SMACK! SMACK! SMACK!@@
+<<= setup.speak($player, ["I´m sorry, I really am! Just let me go!","L-let me go, please!","I wont come back, please, just let me go!","A-alright, forget it! No extra, just let me go!","Listen, alright, let me go and I wont clean your room ever again!","S-stop already!","Wooooooh! Hehe! *drools*","Mhmmmmmm... harder daddy!","Ugh! My cheekies reddies! *giggles*"], ["surprised","surprised","pleasure"])>>
+Your cheeks burning bright red and with a sore behind from the ruthless spanking, he finally lets you go.
+<<= setup.speak($npc.adults[0], ["Go on then, leave, but if I catch that whore-ass in my room again, it´s another spanking!","You´re lucky im in a terrifice mood! Now git!","Get out then! Before I change my mind!"], "smile")>>
+You quickly grab your things and stumble out whilst caressing your aching butt cheeks.
+
+<<= setup.button("Continue.", "Maid - Finish")>>

@@ -1,0 +1,37 @@
+:: Maid - Collection Room
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 5)>>
+<</nobr>>You reach the bottom floor and enter the hotel foyer, next on the list... the Collection Room. Approaching the designated location from your E-Pal, you reach a gate-like door, almost medieval in appearance. Placing your hands on the wooden and golden-inlaid door and push, almost flicking your heels.
+<<= setup.speak($player, ["God damn it... What the hell is something like this doing here?","Really! Couldn´t they make it open on itself?!","Sesame!","Uuuuggh! Come on!","Better pay me e-extra for this!","AAAAAAAAAAAAAAAAAAAH!","....*giggles nervously*.....","O-ooooooh! C-come on candy!","T-t-teehee~!"], ["angry","surprised","pleasure"])>>
+As you finally get it open enough to slip through, you pull your trolley into the room. What meets your eye is a massive room, almost church-like in its interior design with a painted gothic-like ceiling.
+<<= setup.speak($player, ["Well this is quite something...","Wow!","Hmph...! Not bad!"], "smile")>>
+Around the room are all manners of bizarre statues, idols and paintings. All of them strangely erotic in nature, ranging from phallus-shaped golden figurines to full on painted pornography.
+<<= setup.speak($player, ["Great... Well, let´s get to it then.","Time to get started then, I guess.","Not here to slack. Let´s begin!","Better pay me well for dusting all of this.","So much to clean.... gah!","Really? I´m here to clean cocks again...*facepalms*","Ooooooh! *licks lips* so much to clean!","Yay! *drools*... cocks!","Mhm.... time to eat!"], ["smile","surprised","pleasure"])>>
+Tightening your stockings, you strut forwards to do your duty.
+
+:: Maid - Collection Room Continue
+<<nobr>>
+<<run setup.rating($player, 5)>>
+<</nobr>>You whip out your duster and begin to dust the strange statues and figurines, letting your duster rub up and down along the many sized shafts and cock-shaped furniture.
+<<= setup.speak($player, ["This place is just getting weirder and weirder...","Pfft... that´s waaaay too big!","Not really realistic that size."])>>
+At least an hour later having run your duster along almost any kind of erotic shape in existence, you finally bring out the mop, when something in particular catches your eye.
+<<= setup.speak($player, ["Wait... hmmmm is that?","L-linus?!... really?","What in the-!"])>>
+A metallic-like container with darkened glasses. On it is written ´Property of Dr. Linus´, only sparking your curiosity even more.
+<<= setup.speak($player, "I wonder what Dr. Linus could be hiding in here... hmph...")>>
+You finish mopping the floor and end the day on a high note, having done some extra work.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+
+:: Maid - Collection Room Bimbo
+<<nobr>>
+<<run setup.rating($player, 5)>>
+<<run setup.psyche($player, "Lust", 25, 75)>>
+<</nobr>>You whip out your duster and strut around dusting the strange statues and figurines, letting your floof slowly rub up and down along the many sized shafts and cock-shaped furniture.
+<<= setup.speak($player, ["Mmmmh so many cocks needing cleansies!","I could use my mouth instead! Hehe! *drools*","Mhmmmm..... teehee~!"], "smile")>>
+You fight it at least until you bring out the mop, when something truly catches your eye. A completely realistic looking cock, veiny, balls and all that yummy stuff.
+<<= setup.speak($player, ["Just a little taste?","Ugh.... j-just... one suckies? Please?","I-i... I must suck!"], "pleasure")>>
+With drool hitting your tits forming a trail of juices on the marble floor, you move closer. Placing your lips on the tip, you lick it slowly... When suddenly the cock bursts and paints your face with cum.
+<<= setup.speak($player, ["Oooooh!","Ahaha! Cummies!","Wow! Yummies!"], "pleasure")>>
+The cum soaks your clothes and hair as well, making you look like a used up french maid. The musky smell almost overwhelming your muddled mind, forcing you to fight your own wanton urges.
+<<= setup.speak($player, ["Oh-nono! I gotta finish! I´m supposed to be a good maid!","AAAAAAAAAH! I need to get back to cleaning!"], "surprised")>>
+You quickly get back to it bringing out the mop to clean the floor, completely forgetting your cum-blasted state.

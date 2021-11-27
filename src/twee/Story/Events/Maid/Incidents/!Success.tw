@@ -1,0 +1,28 @@
+:: Maid - Great Job (Cleaning)
+<<nobr>>
+<<run setup.bonus($player, 250, "Cleaning")>>
+<<run setup.rating($player, 50)>>
+<</nobr>>After a long day of cleaning numerous dirty hotel rooms, you drag your trolley towards the maids office. You let out a yelp opening the door, as you almost bump into Lily
+<<= setup.speak($player, ["Shit! Sorry!","Oh no! Did not see you there!","Aaaaaah! Sorry sorry!"], "surprised")>><<= setup.speak($characters.lily, ["Watch it! Ugh... Newbie.","Ugh! Really?! Watch where you´re going!","Oooooh! Damn it! Almost ran into me!"], "surprised")>>
+Before she disappears she turns around and calls your name.
+<<= setup.speak($characters.lily, ["Hey! $player.femaleName! I was supposed to tell you that management was surprised at how fast you cleaned those room! Lucky you huh?","Hey! $player.femaleName! Management was surprised at your eval! Enjoy it!","Hey! $player.femaleName! The boss thought you look cute! Guess your luck is pretty good!"], "smile")>><<= setup.speak($player, ["Thanks, but- What do you mean?","Uuuuuh? What?","Hey! What do you mean? I don´t understand!"])>><<= setup.speak($characters.lily, "The bonus not ticked in yet? Should be there any minute now!", "smile")>>
+Your E-Pal suddenly vibrates as your bonus registers.
+
+:: Maid - Great Job (Cleaning) Masculine
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 95)>>
+<</nobr>>You look down with a smirk, only to clench your fist in victory.
+<<= setup.speak($player, ["Good shit, being some dumb maid ain´t so bad after all, huh?","Fuck yeah! Units!","Damn! Should have known being a maid paid this well!"], "smile")>><<= setup.speak($characters.lily, ["True shit, keep it up!","Hell yeah baby!","Enjoy that! Does not always happen!"], "smile")>>
+She turns around and your eyes immediately fixate on her swaying ass as she struts out of sight.
+<<= setup.speak($player, ["Fuck me... If only...","Hngh... would stick my... so far up...","God that ass..."], "smile")>>
+You almost instinctively reach for your crotch only to quickly be reminded by a certain absence of something...
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Great Job (Cleaning) Feminine
+<<nobr>>
+<<run setup.psyche($player, "Lust", 10, 25)>>
+<</nobr>>You look down with a smirk, only to chuckle in delight.
+<<= setup.speak($player, ["Yes! Haha! Jackpot!","Hell yeah!","Wow! Units!"], "smile")>><<= setup.speak($characters.lily, ["Don´t get too cocky now.","Hell yeah baby!","Enjoy that! Does not always happen!"])>><<= setup.speak($player, ["Pfft, you´re just jealous someone actually does well.","Yeah right... one of many this is. Heh."])>>
+You whisper to yourself as she turns around, leaving you to revel over your bonus.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
