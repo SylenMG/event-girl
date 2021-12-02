@@ -5,4 +5,4 @@ The white office is dry and carries a stark artisté feeling to it.
 
 <<= setup.social("amanda office", "Gloria Lane - Amanda´s Office")>>
 
-<<= setup.button("Exit to Waller Gardens.", "Gloria Lane - Waller Gardens")>>
+<<= setup.button("Exit to Amoura Gardens.", "Gloria Lane - Amoura Gardens")>>

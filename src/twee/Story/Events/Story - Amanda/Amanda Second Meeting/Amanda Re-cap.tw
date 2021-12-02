@@ -29,4 +29,4 @@ Amanda sighs, her piercing gaze penetrating you completely, almost as if she is 
 <<= setup.speak($characters.amanda, "If that is how you want it. Going at it alone. I won´t be in your way. Come crawling back, anytime though.")>>
 You get up from the chair and head towards the exit.
 
-<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>
+<<= setup.button("Continue.", "Gloria Lane - Amoura Gardens")>>

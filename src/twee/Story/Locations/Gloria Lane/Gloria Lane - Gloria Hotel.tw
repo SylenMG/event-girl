@@ -6,8 +6,8 @@ You find yourself at the Gloria Hotel. The floors are carpeted in red, and the w
 !!!Black elevator
 -------------------------------------
 An elevator with black-marble doors stands indiscriminately in the lobby, seemingly leading to the more luxuriously suites.
-<<if not hasVisited("Gloria Lane - Waller Gardens")>>
-<<= setup.button("Enter Elevator (Amanda Waller).", "Gloria Lane - Waller Gardens")>><</if>>
+<<if not hasVisited("Gloria Lane - Amoura Gardens")>>
+<<= setup.button("Enter Elevator (Amanda Amoura).", "Gloria Lane - Amoura Gardens")>><</if>>
 
 !!!Gloria Lounge
 -------------------------------------

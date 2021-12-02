@@ -32,7 +32,7 @@ You clutch the six devices and turn to leave.
 <<= setup.speak($player, "I´ll let you know when it´s done.")>><<= setup.speak($characters.amanda, "I´m counting on it.", "smile")>>
 Leaving Amanda´s office you enter the gardens.
 
-<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>
+<<= setup.button("Continue.", "Gloria Lane - Amoura Gardens")>>
 :: Storyline - Bugging Rooms
 <<run setup.story("Amanda-Quest-00", "complete")>><<run setup.story("Amanda-Meeting-02", "start")>>Entering the Gloria Hotel, you take the elevator to the conference rooms. Pushing your trolley along the red-carpeted hallway, you cross the first room labeled E-001.
 <<= setup.speak($player, "This gotta be it.")>>
@@ -85,4 +85,4 @@ Your E-Pal vibrates as you see 5000 units being logged into it.
 <<= setup.speak($player, "Units? That´s not what we agreed to.")>><<= setup.speak($characters.amanda, "I know. Like I said. A bonus. You´re an accomplice now, and at the bottom of the pecking order. I´ll have more use for you later.", "smile")>><<= setup.speak($player, "So you´re going to fuck me, is that it?","angry")>><<= setup.speak($characters.amanda, "No. I made a promise. I intend to keep it. But for now we wait, as you helped yourself even. The ones I intend to spy on are also the ones we might need to remove from the equation. Don´t be stupid now.")>><<= setup.speak($player, "Sure, we´ll see about that.","angry")>><<= setup.speak($characters.amanda, "Stay in touch now.", "smile")>>
 You groan as you turn around to leave her office.
 
-<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>
+<<= setup.button("Continue.", "Gloria Lane - Amoura Gardens")>>

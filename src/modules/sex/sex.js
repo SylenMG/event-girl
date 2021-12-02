@@ -1,6 +1,7 @@
 
 
 setup.sex = function (sex) {
+	sex.player = SugarCube.State.variables.player;
 	let returnSex = "";
 	let perspective = setup.checkPerspective(sex);
 	let sObject = setup.perspective(perspective);
@@ -9,7 +10,7 @@ setup.sex = function (sex) {
         intro = sObject.intros[0].passage + "<br><br>";
         for (let i = 0; i < sObject.scenes.length; i++) {
 			let req = sObject.scenes[i].requirements;
-			let check = setup.checkReq(req, sex.gE);
+			let check = setup.checkReq(req, sex.player);
 			if (check == true) {
 				let nameArr = sObject.scenes[i].name.length;
 				let randomName = setup.random(nameArr);
@@ -19,7 +20,7 @@ setup.sex = function (sex) {
 	} else if (sex.count < 2) {
 		for (let i = 0; i < sObject.scenes.length; i++) {
 			let req = sObject.scenes[i].requirements;
-			let check = setup.checkReq(req, sex.gE);
+			let check = setup.checkReq(req, sex.player);
 			if (check == true) {
 				let nameArr = sObject.scenes[i].name.length;
 				let randomName = setup.random(nameArr);
@@ -29,7 +30,7 @@ setup.sex = function (sex) {
 	} else {
 		for (let i = 0; i < sObject.climax.length; i++) {
 			let req = sObject.scenes[i].requirements;
-			let check = setup.checkReq(req, sex.gE);
+			let check = setup.checkReq(req, sex.player);
 			if (check == true) {
 				let nameArr = sObject.climax[i].name.length;
 				let randomName = setup.random(nameArr);

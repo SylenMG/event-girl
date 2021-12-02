@@ -87,15 +87,17 @@ setup.loadCharacters = function () {
 		},
 		amanda: {
 			name: "Amanda",
+			fullName: "Amanda Amoura",
+			examine: "With a piercing stare and a smirk of mischief, the woman before you nods as you approach her. Wearing black tight-fitting clothes, she emanates authority unlike any other figure you have ever met before. Her body language subtle, she gives off an analytical demeanor. You know her as Amanda Amoura, the current Vice President of Eventia and owner of Hot Stripes, Viz Liz Lingerie and several other business ventures.",
 			portraitName: "amanda",
 			modifiers: [],
 			gender: "female",
 			bodyRef: {
 				penis: 0,
 				vagina: 2,
-				tits: 4,
-				ass: 3,
-				asshole: 2
+				tits: 2,
+				ass: 2,
+				asshole: 4
 			},
 			worldLocation: [
 				/*{

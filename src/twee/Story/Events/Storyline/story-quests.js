@@ -123,21 +123,21 @@ let introEntries = [
 		{
 			id: "Amanda-Meeting-01",
 			entryName: "The Re-Introduction.",
-			entryInfo: "Return to the Gloria Hotel and visit Amanda Waller.",
+			entryInfo: "Return to the Gloria Hotel and visit Amanda Amoura.",
 			trigger: false,
 			passages: []
 		},
 		{
 			id: "Amanda-Meeting-02",
 			entryName: "Bugs Planted.",
-			entryInfo: "Talk to Amanda Waller.",
+			entryInfo: "Talk to Amanda Amoura.",
 			trigger: false,
 			passages: []
 		},
 		{
 			id: "Amanda-Meeting-03",
 			entryName: "Ex-Affairs.",
-			entryInfo: "Talk to Amanda Waller about another job.",
+			entryInfo: "Talk to Amanda Amoura about another job.",
 			trigger: false,
 			passages: []
 		},

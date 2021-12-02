@@ -10,12 +10,17 @@ setup.perspective = function (perspective) {
 				],
 				scenes: [
 					{
-					name: ["Suck <<= setup.hisher($sex.rE)>> cock.","Take <<= setup.hisher($sex.rE)>> shaft inside your mouth.","Use your lips on <<= setup.hisher($sex.rE)>> cock."],
+					name: ["Suck <<= setup.hisher($sex.rE)>> cock.","Take <<= setup.hisher($sex.rE)>> shaft inside your mouth.","Use your lips on <<= setup.hisher($sex.rE)>> cock.","Suck it bitch.","Suckle on that cock.","Become a sucker.","Stop waiting around and suck it!","Slutty-suck!"],
 					passage: "<<include 'Blowjob - Giving - Suck'>>",
 					requirements: []
 					},
 					{
-					name: ["Lick the tip of <<= setup.hisher($sex.rE)>> cock."],
+					name: ["Lick the tip of <<= setup.hisher($sex.rE)>> cock.","Time to lick.","Lick the tip.","Just lick it.","Lickers!","Lick it bitch."],
+					passage: "<<include 'Blowjob - Giving - Lick'>>",
+					requirements: []
+					},
+					{
+					name: ["Take it all the way.","Deepthroat it.","Throat it.","Distend your throat.","Go full whore-mode.","Fuck your shit up.","Deeper!"],
 					passage: "<<include 'Blowjob - Giving - Lick'>>",
 					requirements: []
 					},
@@ -32,12 +37,12 @@ setup.perspective = function (perspective) {
 				],
 				climax: [
 					{
-					name: ["Swallow <<= setup.hisher($sex.rE)>> cum.", "Gulp down <<= setup.hisher($sex.rE)>> seed."],
+					name: ["Swallow <<= setup.hisher($sex.rE)>> cum.", "Gulp down <<= setup.hisher($sex.rE)>> seed.","Swallow your reward!","Time for a refill!","Swallow it all.","Be a good girl, and swallow.","All yours."],
 					passage: "<<include 'Blowjob - Giving - Swallow'>>",
 					requirements: []
 					},
 					{
-					name: ["Take <<= setup.hisher($sex.rE)>> load all over your face.", "Wear <<= setup.hisher($sex.rE)>> cum as make-up."],
+					name: ["Take <<= setup.hisher($sex.rE)>> load all over your face.", "Wear <<= setup.hisher($sex.rE)>> cum as make-up.","Paint your face.","Turn your face into a masterpiece.","Become a painter.","Become an art sculpture.","Wear it like a badge of honor.","Facials! You love it!","Wear your reward."],
 					passage: "<<include 'Blowjob - Giving - Facial'>>",
 					requirements: []
 					}
@@ -170,12 +175,12 @@ setup.perspective = function (perspective) {
 					requirements: []
 					},
 					{
-					name: ["Vaginal Special - Vista Dynamo-Hips."],
-					passage: "<<include 'Vaginal Special - Zyto Eso-Throat Compressors'>>",
+					name: ["Activate Vista Dynamo-Hips."],
+					passage: "<<include 'Vaginal Special - Vista Dynamo-Hips'>>",
 					requirements: [{id: 'Vista Dynamo-Hips', type: 'has-cybermod', level: 0}]
 					},
 					{
-					name: ["Vaginal Special - Electra Cyber-Doll Skin."],
+					name: ["Activate Electra Cyber-Doll Skin."],
 					passage: "<<include 'Vaginal Special - Electra Cyber-Doll Skin'>>",
 					requirements: [{id: 'Electra Cyber-Doll Skin', type: 'has-cybermod', level: 0}]
 					}

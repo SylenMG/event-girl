@@ -241,6 +241,8 @@ setup.checkClothes = function (requirements, req, player) {
 setup.checkCyberware = function (requirements, req, player) {
 	let foundCheck = false;
 	let returnCheck = false;
+	console.log("Cyber Requirement Found id(" + requirements[req].id + "), Type(" + requirements[req].type + ").");
+	console.log(player.name)
 	for (let i = 0; i < player.cybermods.length; i++) {
 		if (requirements[req].id == player.cybermods[i].name) {
 			console.log("Found.");

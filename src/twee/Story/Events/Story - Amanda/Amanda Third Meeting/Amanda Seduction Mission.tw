@@ -19,7 +19,7 @@ Letting out a sigh, you sit back into your chair.
 <<= setup.speak($player, "Alright then. Let´s do it.")>><<= setup.speak($characters.amanda, "Good. I´ll upload the virus to you now. Get yourself into a nice dress, and meet with me in the evening.", "smile")>>
 You get up and turn for the exit, thinking about what to wear for the event.
 
-<<= setup.button("Continue.", "Gloria Lane - Waller Gardens")>>
+<<= setup.button("Continue.", "Gloria Lane - Amoura Gardens")>>
 :: Storyline - Amanda Seduction Party Begin
 Standing there in the mirror that you've extended outside your pod. Your eyes trail you from top to bottom.
 <<= setup.speak($player, "I hope this will do...")>>
@@ -114,7 +114,7 @@ The voice cuts out, prompting you to move to pad 27 and take the ride home.
 
 <<= setup.button("Continue.", "Amanda Seduction Party (Completion)")>>
 :: Storyline - Amanda Seduction Party (Completion)
-The vehicle suddenly descended and at the top of eVentia, just beside what you could only assume was Amanda's ride. Stepping outside, you felt the biting cold wind rip at your hair. The tropical embrace soothed and warmed you once again, as you entered the Waller Gardens from the helipad. As you entered the white office, you were met by a satisfied smile from Amanda herself.
+The vehicle suddenly descended and at the top of eVentia, just beside what you could only assume was Amanda's ride. Stepping outside, you felt the biting cold wind rip at your hair. The tropical embrace soothed and warmed you once again, as you entered the Amoura Gardens from the helipad. As you entered the white office, you were met by a satisfied smile from Amanda herself.
 <<= setup.speak($characters.amanda, "Well done. Well done indeed. So you managed to upload it. I can now see everything.")>><<= setup.speak($player, "Great... It just struck. Who is this guy again? Why is he important to bug?")>><<= setup.speak($characters.amanda, "Oh this guy? Not anyone important. Just my ex-husband. I need some dirt on him. That´s it.", "smile")>>
 You hold up a finger, as if about to protest, but quickly lower it again. Gritting your teeth, you not to Amanda and turn to leave.
 <<= setup.speak($player, "Let me know when it´s time for you to keep up your end...")>><<= setup.speak($characters.amanda, "Oh I will! Don´t you worry darling! Thanks again!")>>

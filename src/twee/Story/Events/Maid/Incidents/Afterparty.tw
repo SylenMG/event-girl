@@ -12,7 +12,7 @@ The strong odor takes you back, making you scratch your head as you think about 
 <<nobr>>
 <<run setup.psyche($player, "Cool", 5, 5)>>
 <<run setup.rating($player, -5)>>
-<</nobr>>With a clenched fist and gritting teeth, you sneak towards the door.
+<</nobr>>With a clenched fist and gritting your teeth, you sneak towards the door.
 <<= setup.speak($player, ["Honestly... Fuck this.","Yeah, I´m not cleaning this filth up.","This is above my pay-grade."])>>
 Slowly creaking the door open once more, you slip past it and move on to the next room.
 

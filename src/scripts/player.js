@@ -316,6 +316,12 @@ setup.loadPlayer = function () {
 		inventory: inventory,
 		psyche: psyche,
 		skills: skills,
+		affections: [
+			{
+				name: "amanda",
+				affection: 0
+			}
+		],
 		units: 0,
 		debt: 0,
 		interest: 0.025,

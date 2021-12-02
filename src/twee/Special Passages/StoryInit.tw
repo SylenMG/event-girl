@@ -1,8 +1,8 @@
 :: StoryInit {"position":"50,47","size":"100,100"}
 <<set $settings = {
 	gameVersion: 21,
-	patreonVersion: false,
-	debugMode: false,
+	patreonVersion: true,
+	debugMode: true,
 	mapMode: true,
 	introMode: true,
 	zoomMode: true,
@@ -64,6 +64,7 @@
 	receivingEntity: "",
 	gE: "",
 	rE: "",
+	player: "",
 	count: 0,
 	current: "",
 	stage: "",

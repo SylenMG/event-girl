@@ -21,3 +21,19 @@ You quickly grab the trashcan, making one sweep filling it with the little trash
 You grab your things, and just as you head for the door, it opens as four-five men in neon business suits enter. Clutching your duster and your things you move through. At least one of them turned around to check your behind and another whistled as you strutted down the hallway towards the elevator.
 
 <<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Board Room Masculine
+<<nobr>>
+<<run setup.psyche($player, "Lust", 5, 15)>>
+<<run setup.rating($player, 5)>>
+<</nobr>>You make a quick scan of the whole board room, locating all of the worst spots most needing your attention.
+<<= setup.speak($player, ["This is doable, should not be long.","Let´s make it a quick one then.","Alright, turbo-mode activated."], "smile")>>
+You quickly grab the trashcan, making one sweep filling it with the little trash lying around and scooping the crumbs into it. Grabbing your wet cloth you make a speedy wipe of the table, getting the few stains.
+<<= setup.speak($player, ["There we go!","Done deal!","Turbo-mode deactivated.", "smile"])>><<= setup.speak($npc.executives[0], "Oh really? Hmph, didn´t have to be that quick about it doll.","Already? That was fast. Wouldn´t have minded keeping you around.", "smile")>>
+You grab your things, and just as you head for the door, it opens as four-five men in neon business suits enter. Clutching your duster and your things you move through. At least one of them turned around to check your behind and another whistled as you strutted down the hallway towards the elevator.
+
+<<= setup.button("Continue.", "Maid - Finish")>>
+:: Maid - Board Room Cool
+
+:: Maid - Board Room Slutty
+
+:: Maid - Board Room Bimbo

@@ -7,6 +7,8 @@ However, an unfortunate accident on the field trip has unknowingly left you in p
 
 The world of the future now lies before your new feminine self. 
 
+<<= setup.cWindow($player, $characters.amanda)>>
+
 You must now become an Event Girl.
 
 @@.red;Warning!@@ - The game contains photosensitive content, flashing images, suggestive content and mind-altering content that some may be susceptible, vulnerable or otherwise discouraged by. You can turn off photosensitive content in the settings, though this @@.bold;still@@ does not guarantee it won't show due to error/bugs/me forgetting to disable it.
